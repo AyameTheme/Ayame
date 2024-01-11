@@ -7,6 +7,8 @@ $Ayame = Get-Content '.\ayame-colors.json' -Raw | ConvertFrom-Json
 
 $CSSVariablesPath = '..\out\ayame-variables.css'
 $IconsPath = '..\out\icon'
+$ReadmePath = '..\README.md'
+$ReadmeTemplatePath = '.\readme-template.md'
 
 # --( out/ayame-variables.css )-------------------------------------------------
 
@@ -64,5 +66,28 @@ foreach ($Color in $Ayame.colors) {
 "@
     New-Item -Path $SVGPath -Value $SVGContent
 }
+
+# --( README.md ) --------------------------------------------------------------
+
+$AyameTableRows = [string[]]::new($Ayame.colors.Count)
+$IconURL = 'https://raw.githubusercontent.com/Nurdoidz/Ayame/master/out/icon/'
+
+for ($ColorIdx = 0; $ColorIdx -lt $Ayame.colors.Count; $ColorIdx++) {
+    $ThisColor = $Ayame.colors[$ColorIdx]
+    $AyameTableRows[$ColorIdx] = "| ![]($($IconURL)$($ThisColor.name).svg) ``$($ThisColor.hex)`` |"
+    
+    $TheseNames = [string[]]::new($ThisColor.aliases.Count + 1)
+    $TheseNames[0] = "``$($ThisColor.name)``"
+    for ($i = 1; $i -le $ThisColor.aliases.Count; $i++) {
+        $TheseNames[$i] = "``$($ThisColor.aliases[$i - 1])``"
+    }
+
+    $AyameTableRows[$ColorIdx] += " $($TheseNames -Join ", ") |"
+    $AyameTableRows[$ColorIdx] += " $($ThisColor.uses -Join ", ") |"
+}
+
+$AyamePaletteTable = ($AyameTableRows -Join "`n")
+
+(Get-Content $ReadmeTemplatePath).Replace('@-ayame-palette-table', $AyamePaletteTable) | Set-Content $ReadmePath
 
 Set-Location $PrevCWD
