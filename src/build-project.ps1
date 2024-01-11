@@ -5,9 +5,9 @@ $Ayame = Get-Content '.\ayame-colors.json' -Raw | ConvertFrom-Json
 
 # --( Path Variables )----------------------------------------------------------
 
-$CSSVariablesPath = '..\css\ayame-variables.css'
+$CSSVariablesPath = '..\out\ayame-variables.css'
 
-# --( css/ayame-variables.css )-------------------------------------------------
+# --( out/ayame-variables.css )-------------------------------------------------
 
 $AliasesCount = 0
 foreach ($Color in $Ayame.colors) {
