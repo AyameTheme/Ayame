@@ -6,6 +6,7 @@ $Ayame = Get-Content '.\ayame-colors.json' -Raw | ConvertFrom-Json
 # --( Path Variables )----------------------------------------------------------
 
 $CSSVariablesPath = '..\out\ayame-variables.css'
+$IconsPath = '..\out\icon'
 
 # --( out/ayame-variables.css )-------------------------------------------------
 
@@ -44,5 +45,24 @@ $($CSSVariables -Join "`n")
 $($CSSAliases -Join "`n")
 }
 "@
+
+# --( out/icon/*.svg ) ---------------------------------------------------------
+
+if (Test-Path $IconsPath) {
+    Get-ChildItem $IconsPath | ForEach-Object { Remove-Item $_ -Recurse }
+}
+else {
+    New-Item -ItemType Directory -Path $IconsPath -Force
+}
+
+foreach ($Color in $Ayame.colors) {
+    $SVGPath = Join-Path -Path $IconsPath -ChildPath "$($Color.name).svg" 
+    $SVGContent = @"
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="8" cy="8" r="8" fill="$($Color.hex)" />
+</svg>
+"@
+    New-Item -Path $SVGPath -Value $SVGContent
+}
 
 Set-Location $PrevCWD
