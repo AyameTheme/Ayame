@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build-stylus": "stylus src --out out && stylus src/usercss --out out/usercss",
+    "build": "pwsh ./src/build-project.ps1 -NoProfile -ExecutionPolicy Unrestricted && npm run build-stylus"
+  },
+  "dependencies": {
+    "stylus": "^0.62.0"
+  }
+}
