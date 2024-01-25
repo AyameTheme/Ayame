@@ -1,0 +1,170 @@
+/* ==UserStyle==
+@name           Ayame Terminal for Optifine.net
+@namespace      Nurdoidz
+@version        1.0.0
+@description    Ayame Terminal theme for Optifine.net
+@author         Nurdoidz (https://github.com/Nurdoidz)
+@homepageURL    https://github.com/Nurdoidz/Ayame
+@supportURL     https://github.com/Nurdoidz/Ayame/issues
+@license        MIT
+@var text       user-font       "Font"      "'Victor Mono Medium'"
+==/UserStyle== */
+@-moz-document domain("optifine.net")
+    @import "../ayame-variables"
+    
+    body
+        background aya-black
+        color aya-white
+        font-family var(--user-font), Menlo, Consolas, Monaco, 'Liberation Mono', 'Lucida Console', monospace
+        font-size 16px
+        line-height 1.5em
+        
+    a
+        color aya-blue
+        
+    h2,
+    h3
+        font-size inherit
+        font-weight 700
+        
+    #text
+        white-space 
+
+    .tableRoot
+        background none
+        box-shadow none
+        border none
+        width 60em
+        
+    .header
+        background aya-header
+        padding 0.2em 0
+            
+    .headerTitle
+        font-style italic
+        font-family var(--user-font), 'Oswald', arial, helvetica, sans-serif
+        font-size 100%
+        padding 0
+        font-weight normal
+
+        a
+            color aya-black
+            padding 0.2em 0.5em
+            background aya-purple
+
+        a:hover
+            background-color aya-blue
+                    
+    .headerNav
+        background none
+        
+        a
+            color aya-blue
+            padding 0.2em 0.5em
+            
+        a:hover
+            background aya-blue
+            color aya-black
+            transition 0s
+            
+    .content
+        padding 0
+        margin 0
+        
+        a:hover
+            color aya-pink
+            
+    .downloadTable
+        line-height inherit
+        width 100%
+        tr:hover
+            background aya-thisrow
+    
+    .downloadLinePreview
+        background none
+
+    .downloadLineMain:first-child
+        background none
+        .colDownload
+            a
+                background aya-blue
+                color aya-black
+                border 0
+            a:hover
+                background aya-pink
+                transition 0s
+    
+    .downloadLine:nth-child(odd)
+        background aya-modal
+    .downloadLine:nth-child(odd):hover
+        background aya-thisrow
+    
+    .downloadLine:nth-child(even)
+        background aya-altrow
+    .downloadLine:nth-child(even):hover
+        background aya-thisrow
+    
+    .downloadLine.downloadLineMore:nth-child(odd)
+        background aya-altrow
+    .downloadLine.downloadLineMore:nth-child(odd):hover
+        background aya-thisrow
+    
+    .downloadLine.downloadLineMore:nth-child(even)
+        background aya-modal
+    .downloadLine.downloadLineMore:nth-child(even):hover
+        background aya-thisrow
+    
+    .downloadLine.downloadLinePreview:nth-child(odd)
+        background aya-altrow
+    .downloadLine.downloadLinePreview:nth-child(odd):hover
+        background aya-thisrow
+    
+    .downloadLine.downloadLinePreview:nth-child(even)
+        background aya-modal
+    .downloadLine.downloadLinePreview:nth-child(even):hover
+        background aya-thisrow
+
+    .downloadLine
+        width 100%
+        .colFile
+            padding-left 0.5em
+            width 13em
+        
+        .colDownload
+            width auto
+            a
+                padding 0.2em 0.5em
+                background aya-blue
+                color aya-black
+                border 0
+            a:hover
+                background aya-pink
+            
+        .colMirror
+            width auto
+
+        .colChangelog
+            width auto
+
+        .colForge
+            width 9em
+            
+    .tableBanners
+        IMG
+            border 0.2em solid aya-gutter
+        IMG:hover
+            border-color aya-pink
+    
+    .footer
+        font-size inherit
+        background aya-header
+        padding 0.2em 0
+    
+    .footerText
+        a
+            padding 0.2em 0.5em
+            color aya-blue
+        a:hover
+            background aya-blue
+            color aya-black
+            transition 0s

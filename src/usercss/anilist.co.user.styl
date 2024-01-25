@@ -1,0 +1,81 @@
+/* ==UserStyle==
+@name           Ayame for AniList
+@namespace      Nurdoidz
+@version        1.0.0
+@description    Ayame theme for AniList.co
+@author         Nurdoidz (https://github.com/Nurdoidz)
+@homepageURL    https://github.com/Nurdoidz/Ayame
+@supportURL     https://github.com/Nurdoidz/Ayame/issues
+@license        MIT
+==/UserStyle== */
+@-moz-document domain("anilist.co")
+    @import "../ayame-variables"
+    @import "../ayame-hex"
+    
+    body
+        font-family "Lato", "Overpass", sans-serif !important
+
+    .site-theme-dark
+        // 255, 0, 228
+        --color-background red(ayahex-background), green(ayahex-background), blue(ayahex-background)
+        --color-foreground red(ayahex-modal), green(ayahex-modal), blue(ayahex-modal)
+        --color-foreground-blue red(ayahex-tabline), green(ayahex-tabline), blue(ayahex-tabline)
+        --color-text red(ayahex-foreground), green(ayahex-foreground), blue(ayahex-foreground)
+        --color-text-light red(ayahex-foreground), green(ayahex-foreground), blue(ayahex-foreground)
+        --color-text-lighter red(ayahex-terminator), green(ayahex-terminator), blue(ayahex-terminator)
+        // --color-background-1200 255, 0, 228
+        // --color-background-1100 255, 0, 228
+        // --color-background-1000 255, 0, 228
+        // --color-background-900 255, 0, 228
+        // --color-background-800 255, 0, 228
+        // --color-background-700 255, 0, 228
+        // --color-background-600 255, 0, 228
+        // --color-background-500 255, 0, 228
+        // --color-background-400 255, 0, 228
+        // --color-background-300 255, 0, 228
+        --color-background-100 red(ayahex-modal), green(ayahex-modal), blue(ayahex-modal)
+        --color-background-200 red(ayahex-background), green(ayahex-background), blue(ayahex-background)
+        // --color-gray-1200 255, 0, 228
+        // --color-gray-1100 255, 0, 228
+        // --color-gray-1000 255, 0, 228
+        // --color-gray-900 255, 0, 228
+        --color-gray-800 red(ayahex-cursor), green(ayahex-cursor), blue(ayahex-cursor)
+        --color-gray-700 red(ayahex-terminator), green(ayahex-terminator), blue(ayahex-terminator)
+        --color-gray-600 red(ayahex-terminator), green(ayahex-terminator), blue(ayahex-terminator)
+        // --color-gray-500 255, 0, 228
+        // --color-gray-400 255, 0, 228
+        // --color-gray-300 255, 0, 228
+        --color-gray-100 red(ayahex-modal), green(ayahex-modal), blue(ayahex-modal)
+        // --color-gray-200 255, 0, 228
+        // --color-background-blue-dark 255, 0, 228
+        --color-overlay red(ayahex-highlight), green(ayahex-highlight), blue(ayahex-highlight)
+        // --color-shadow 255, 0, 228
+        --color-shadow-dark red(ayahex-header), green(ayahex-header), blue(ayahex-header)
+        --color-text-bright red(ayahex-foreground), green(ayahex-foreground), blue(ayahex-foreground)
+        --color-blue red(ayahex-blue), green(ayahex-blue), blue(ayahex-blue)
+        --color-blue-dim red(ayahex-bracket), green(ayahex-bracket), blue(ayahex-bracket)
+        --color-red red(ayahex-red), green(ayahex-red), blue(ayahex-red)
+        // --color-peach 255, 0, 228
+        --color-orange red(ayahex-orange), green(ayahex-orange), blue(ayahex-orange)
+        --color-yellow red(ayahex-yellow), green(ayahex-yellow), blue(ayahex-yellow)
+        --color-green red(ayahex-green), green(ayahex-green), blue(ayahex-green)
+        
+        .nav-unscoped
+            color aya-foreground
+            background aya-header
+            
+        a.category
+            color aya-background
+        a[href="/forum/recent?category=1"].category
+            background-color aya-blue !important
+        a[href="/forum/recent?category=16"].category
+            background-color aya-orange !important
+        a[href="/forum/recent?category=7"].category
+            background-color aya-cyan !important
+        a[href="/forum/recent?category=2"].category
+            background-color aya-green !important
+        a[href="/forum/recent?category=5"].category
+            background-color aya-purple !important
+        a[href="/forum/recent?category=13"].category
+            background-color aya-pink !important
+        // TODO: Add other categories
