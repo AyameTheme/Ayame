@@ -1,59 +1,73 @@
-a-black = --ayame-black
-a-white = --ayame-white
-a-red = --ayame-red
-a-orange = --ayame-orange
-a-yellow = --ayame-yellow
-a-green = --ayame-green
-a-teal = --ayame-teal
-a-cyan = --ayame-cyan
-a-blue = --ayame-blue
-a-purple = --ayame-purple
-a-pink = --ayame-pink
-a-comment = --ayame-comment
-a-highlight = --ayame-highlight
-a-gutter = --ayame-gutter
-a-cursor = --ayame-cursor
-a-terminator = --ayame-terminator
-a-bracket = --ayame-bracket
-a-header = --ayame-header
-a-tabline = --ayame-tabline
-a-modal = --ayame-modal
-a-altrow = --ayame-altrow
-a-thisrow = --ayame-thisrow
+aya-black = var(--ayame-black) // Editor background
+aya-white = var(--ayame-white) // Editor foreground
+aya-red = var(--ayame-red) // Terminal Red
+aya-orange = var(--ayame-orange)
+aya-yellow = var(--ayame-yellow) // Terminal Yellow
+aya-green = var(--ayame-green) // Terminal Green
+aya-teal = var(--ayame-teal)
+aya-cyan = var(--ayame-cyan) // Terminal Cyan
+aya-blue = var(--ayame-blue) // Terminal Blue
+aya-purple = var(--ayame-purple) // Terminal Magenta
+aya-pink = var(--ayame-pink)
+aya-comment = var(--ayame-comment) // Comments
+aya-highlight = var(--ayame-highlight) // Cursor line highlight
+aya-gutter = var(--ayame-gutter) // Gutter foreground, Line numbers, Terminal Black
+aya-cursor = var(--ayame-cursor) // Terminal cursor, Current line number
+aya-terminator = var(--ayame-terminator) // Terminal White
+aya-bracket = var(--ayame-bracket) // Parentheses, Brackets, Braces
+aya-header = var(--ayame-header)
+aya-tabline = var(--ayame-tabline) // Active tab, Table header
+aya-modal = var(--ayame-modal) // Modal background
+aya-altrow = var(--ayame-altrow) // Alternate row background
+aya-thisrow = var(--ayame-thisrow) // Active row highlight
+aya-background = var(--ayame-background) // Editor background
+aya-foreground = var(--ayame-foreground) // Editor foreground
+aya-error = var(--ayame-error) // Terminal Red
+aya-constant = var(--ayame-constant)
+aya-warning = var(--ayame-warning) // Terminal Yellow
+aya-info = var(--ayame-info) // Terminal Green
+aya-todo = var(--ayame-todo)
+aya-primary = var(--ayame-primary) // Terminal Blue
+aya-secondary = var(--ayame-secondary) // Terminal Magenta
+aya-magenta = var(--ayame-magenta) // Terminal Magenta
+aya-accent = var(--ayame-accent)
+aya-gray = var(--ayame-gray) // Comments
+aya-muted = var(--ayame-muted) // Comments
+aya-light-gray = var(--ayame-light-gray) // Terminal White
 :root
-    --ayame-black #17131e;/* Editor background */
-    --ayame-white #bab4d2;/* Editor foreground */
-    --ayame-red #ea5279;/* Terminal Red */
+    --ayame-black #17131e; /* Editor background */
+    --ayame-white #bab4d2; /* Editor foreground */
+    --ayame-red #ea5279; /* Terminal Red */
     --ayame-orange #e78d5b;
-    --ayame-yellow #f5cb40;/* Terminal Yellow */
-    --ayame-green #79c952;/* Terminal Green */
+    --ayame-yellow #f5cb40; /* Terminal Yellow */
+    --ayame-green #79c952; /* Terminal Green */
     --ayame-teal #5ee59d;
-    --ayame-cyan #52eae8;/* Terminal Cyan */
-    --ayame-blue #52a4ea;/* Terminal Blue */
-    --ayame-purple #8852ea;/* Terminal Magenta */
+    --ayame-cyan #52eae8; /* Terminal Cyan */
+    --ayame-blue #52a4ea; /* Terminal Blue */
+    --ayame-purple #8852ea; /* Terminal Magenta */
     --ayame-pink #cd40c7;
-    --ayame-comment #474383;/* Comments */
-    --ayame-highlight #2d203c;/* Cursor line highlight */
-    --ayame-gutter #37355a;/* Gutter foreground, Line numbers, Terminal Black */
-    --ayame-cursor #8579bc;/* Terminal cursor, Current line number */
-    --ayame-terminator #8a7d9b;/* Terminal White */
-    --ayame-bracket #6c8db3;/* Parentheses, Brackets, Braces */
+    --ayame-comment #474383; /* Comments */
+    --ayame-highlight #2d203c; /* Cursor line highlight */
+    --ayame-gutter #37355a; /* Gutter foreground, Line numbers, Terminal Black */
+    --ayame-cursor #8579bc; /* Terminal cursor, Current line number */
+    --ayame-terminator #8a7d9b; /* Terminal White */
+    --ayame-bracket #6c8db3; /* Parentheses, Brackets, Braces */
     --ayame-header #0b0911;
-    --ayame-tabline #2b284a;/* Active tab, Table header */
-    --ayame-modal #211d2b;/* Modal background */
-    --ayame-altrow #2b253c;/* Alternate row background */
-    --ayame-thisrow #3e2e4c;/* Active row highlight */
-    --ayame-background var(a-black); /* Editor background */
-    --ayame-foreground var(a-white); /* Editor foreground */
-    --ayame-error var(a-red); /* Terminal Red */
-    --ayame-constant var(a-orange);
-    --ayame-warning var(a-yellow); /* Terminal Yellow */
-    --ayame-info var(a-green); /* Terminal Green */
-    --ayame-todo var(a-teal);
-    --ayame-primary var(a-blue); /* Terminal Blue */
-    --ayame-secondary var(a-purple); /* Terminal Magenta */
-    --ayame-magenta var(a-purple); /* Terminal Magenta */
-    --ayame-accent var(a-pink);
-    --ayame-gray var(a-comment); /* Comments */
-    --ayame-muted var(a-comment); /* Comments */
-    --ayame-light-gray var(a-terminator); /* Terminal White */
+    --ayame-tabline #2b284a; /* Active tab, Table header */
+    --ayame-modal #211d2b; /* Modal background */
+    --ayame-altrow #2b253c; /* Alternate row background */
+    --ayame-thisrow #3e2e4c; /* Active row highlight */
+    --ayame-background aya-black; /* Editor background */
+    --ayame-foreground aya-white; /* Editor foreground */
+    --ayame-error aya-red; /* Terminal Red */
+    --ayame-constant aya-orange;
+    --ayame-warning aya-yellow; /* Terminal Yellow */
+    --ayame-info aya-green; /* Terminal Green */
+    --ayame-todo aya-teal;
+    --ayame-primary aya-blue; /* Terminal Blue */
+    --ayame-secondary aya-purple; /* Terminal Magenta */
+    --ayame-magenta aya-purple; /* Terminal Magenta */
+    --ayame-accent aya-pink;
+    --ayame-gray aya-comment; /* Comments */
+    --ayame-muted aya-comment; /* Comments */
+    --ayame-light-gray aya-terminator; /* Terminal White */

@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "build-stylus": "stylus src --out out && stylus src/usercss --out out/usercss",
-    "build": "pwsh ./src/build-project.ps1 -NoProfile -ExecutionPolicy Unrestricted && npm run build-stylus"
+    "usercss": "stylus src/usercss --out out/usercss",
+    "usercss-watch": "stylus src/usercss --out out/usercss --watch",
+    "build": "pwsh ./src/build-project.ps1 -NoProfile -ExecutionPolicy Unrestricted"
   },
   "dependencies": {
     "stylus": "^0.62.0"

@@ -6,6 +6,9 @@ $Ayame = Get-Content '.\ayame-colors.json' -Raw | ConvertFrom-Json
 # --( Path Variables )----------------------------------------------------------
 
 $AyameVariablesPath = 'ayame-variables.styl'
+$AyameHexPath = 'ayame-hex.styl'
+$AyameRGBPath = 'ayame-rgb.styl'
+$AyameHSLPath = 'ayame-hsl.styl'
 $IconsPath = '..\out\icon'
 $ReadmePath = '..\README.md'
 $ReadmeTemplatePath = '.\readme-template.md'
@@ -15,12 +18,28 @@ $ReadmeTemplatePath = '.\readme-template.md'
 $Prefix = '--ayame-'
 
 Set-Content -Path $AyameVariablesPath -Value @"
-$(($Ayame.colors | ForEach-Object { "a-$($_.name) = $($Prefix)$($_.name)" }) -Join "`n")
+$(($Ayame.colors | ForEach-Object {
+    $Comment = ''
+    if ($_.uses -gt 0) {
+        $Comment = " // $($_.uses -Join ', ')"
+    }
+    "aya-$($_.name) = var($Prefix$($_.name))$Comment"
+}) -Join "`n")
+$(($Ayame.colors | Where-Object { $_.aliases } | ForEach-Object {
+    $ThisColor = $_
+    ($_.aliases | ForEach-Object {
+        $Comment = ''
+        if ($ThisColor.uses -gt 0) {
+            $Comment = " // $($ThisColor.uses -Join ', ')"
+        }
+        "aya-$_ = var($Prefix$_)$Comment"
+    }) -Join "`n"
+}) -Join "`n")
 :root
 $(($Ayame.colors | ForEach-Object {
     $Comment = ''
     if ($_.uses -gt 0) {
-        $Comment = "/* $($_.uses -Join ', ') */"
+        $Comment = " /* $($_.uses -Join ', ') */"
     }
     "    $($Prefix)$($_.name) $($_.hex);$Comment"
 }) -Join "`n")
@@ -31,7 +50,73 @@ $(($Ayame.colors | Where-Object { $_.aliases } | ForEach-Object {
         if ($ThisColor.uses -gt 0) {
             $Comment = " /* $($ThisColor.uses -Join ', ') */"
         }
-        "    $($Prefix)$_ var(a-$($ThisColor.name));$Comment"
+        "    $($Prefix)$_ aya-$($ThisColor.name);$Comment"
+    }) -Join "`n"
+}) -Join "`n")
+"@
+
+# --( ayame-hex.styl )----------------------------------------------------------
+
+Set-Content -Path $AyameHexPath -Value @"
+$(($Ayame.colors | ForEach-Object {
+    $Comment = ''
+    if ($_.uses -gt 0) {
+        $Comment = " // $($_.uses -Join ', ')"
+    }
+    "ayahex-$($_.name) = $($_.hex)$Comment"
+}) -Join "`n")
+$(($Ayame.colors | Where-Object { $_.aliases } | ForEach-Object {
+    $ThisColor = $_
+    ($_.aliases | ForEach-Object {
+        $Comment = ''
+        if ($ThisColor.uses -gt 0) {
+            $Comment = " // $($ThisColor.uses -Join ', ')"
+        }
+        "ayahex-$_ = $($ThisColor.hex)$Comment"
+    }) -Join "`n"
+}) -Join "`n")
+"@
+
+# --( ayame-rgb.styl )----------------------------------------------------------
+
+Set-Content -Path $AyameRGBPath -Value @"
+$(($Ayame.colors | ForEach-Object {
+    $Comment = ''
+    if ($_.uses -gt 0) {
+        $Comment = " // $($_.uses -Join ', ')"
+    }
+    "ayargb-$($_.name) = $($_.rgb)$Comment"
+}) -Join "`n")
+$(($Ayame.colors | Where-Object { $_.aliases } | ForEach-Object {
+    $ThisColor = $_
+    ($_.aliases | ForEach-Object {
+        $Comment = ''
+        if ($ThisColor.uses -gt 0) {
+            $Comment = " // $($ThisColor.uses -Join ', ')"
+        }
+        "ayargb-$_ = $($ThisColor.rgb)$Comment"
+    }) -Join "`n"
+}) -Join "`n")
+"@
+
+# --( ayame-hsl.styl )----------------------------------------------------------
+
+Set-Content -Path $AyameHSLPath -Value @"
+$(($Ayame.colors | ForEach-Object {
+    $Comment = ''
+    if ($_.uses -gt 0) {
+        $Comment = " // $($_.uses -Join ', ')"
+    }
+    "ayahsl-$($_.name) = $($_.hsl)$Comment"
+}) -Join "`n")
+$(($Ayame.colors | Where-Object { $_.aliases } | ForEach-Object {
+    $ThisColor = $_
+    ($_.aliases | ForEach-Object {
+        $Comment = ''
+        if ($ThisColor.uses -gt 0) {
+            $Comment = " // $($ThisColor.uses -Join ', ')"
+        }
+        "ayahsl-$_ = $($ThisColor.hsl)$Comment"
     }) -Join "`n"
 }) -Join "`n")
 "@
@@ -77,3 +162,8 @@ $AyamePaletteTable = ($Ayame.colors | ForEach-Object {
 (Get-Content $ReadmeTemplatePath).Replace('@-ayame-palette-table', $AyamePaletteTable) | Set-Content $ReadmePath
 
 Set-Location $PrevCWD
+
+# --( Stylus ) -----------------------------------------------------------------
+
+npx stylus src/ayame-variables.styl
+npx stylus src/usercss --out out/usercss
