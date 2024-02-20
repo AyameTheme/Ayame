@@ -1,17 +1,17 @@
 $PrevCWD = (Get-Item .).FullName
 Set-Location $PSScriptRoot
 
-$Ayame = Get-Content '.\ayame-colors.json' -Raw | ConvertFrom-Json
+$Ayame = Get-Content '.\src\ayame-colors.json' -Raw | ConvertFrom-Json
 
 # --( Path Variables )----------------------------------------------------------
 
-$AyameVariablesPath = 'ayame-variables.styl'
-$AyameHexPath = 'ayame-hex.styl'
-$AyameRGBPath = 'ayame-rgb.styl'
-$AyameHSLPath = 'ayame-hsl.styl'
-$IconsPath = '..\out\icon'
-$ReadmePath = '..\README.md'
-$ReadmeTemplatePath = '.\readme-template.md'
+$AyameVariablesPath = '.\src\ayame-variables.styl'
+$AyameHexPath = '.\src\ayame-hex.styl'
+$AyameRGBPath = '.\src\ayame-rgb.styl'
+$AyameHSLPath = '.\src\ayame-hsl.styl'
+$IconsPath = '.\build\out\icon'
+$ReadmePath = '.\README.md'
+$ReadmeTemplatePath = '.\src\readme-template.md'
 
 # --( ayame-variables.styl )----------------------------------------------------
 
@@ -142,7 +142,7 @@ foreach ($Color in $Ayame.colors) {
 
 # --( README.md ) --------------------------------------------------------------
 
-$IconURL = 'https://raw.githubusercontent.com/Nurdoidz/Ayame/master/out/icon/'
+$IconURL = 'https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/icon/'
 
 # Don’t waste three hours of your life like me and just accept the assignment
 $Backtick = "``"
@@ -166,4 +166,4 @@ Set-Location $PrevCWD
 # --( Stylus ) -----------------------------------------------------------------
 
 npx stylus src/ayame-variables.styl
-npx stylus src/usercss --out out/usercss
+npx stylus src/usercss --out build/out/usercss

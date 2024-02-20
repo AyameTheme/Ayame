@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "usercss": "stylus src/usercss --out out/usercss",
-    "usercss-watch": "stylus src/usercss --out out/usercss --watch",
-    "build": "pwsh ./src/build-project.ps1 -NoProfile -ExecutionPolicy Unrestricted"
+    "usercss": "stylus src/usercss --out build/out/usercss",
+    "usercss-watch": "stylus src/usercss --out build/out/usercss --watch",
+    "build": "pwsh ./build.ps1 -NoProfile -ExecutionPolicy Unrestricted"
   },
   "dependencies": {
     "stylus": "^0.62.0"
