@@ -1,262 +1,262 @@
 {
-    "colors": [
-        {
-            "name": "black",
-            "aliases": [
-                "background"
-            ],
-            "hex": "#17131e",
-            "rgb": "rgb(23, 19, 30)",
-            "hsl": "hsl(262, 22%, 10%)",
-            "uses": [
-                "Editor background"
-            ]
-        },
-        {
-            "name": "white",
-            "aliases": [
-                "foreground"
-            ],
-            "hex": "#bab4d2",
-            "rgb": "rgb(186, 180, 210)",
-            "hsl": "hsl(252, 25%, 76%)",
-            "uses": [
-                "Editor foreground"
-            ]
-        },
-        {
-            "name": "red",
-            "aliases": [
-                "error"
-            ],
-            "hex": "#ea5279",
-            "rgb": "rgb(234, 82, 121)",
-            "hsl": "hsl(345, 78%, 62%)",
-            "uses": [
-                "Terminal Red"
-            ]
-        },
-        {
-            "name": "orange",
-            "aliases": [
-                "constant"
-            ],
-            "hex": "#e78d5b",
-            "rgb": "rgb(231, 141, 91)",
-            "hsl": "hsl(21, 74%, 63%)",
-            "uses": [
-            ]
-        },
-        {
-            "name": "yellow",
-            "aliases": [
-                "warning"
-            ],
-            "hex": "#f5cb40",
-            "rgb": "rgb(245, 203, 64)",
-            "hsl": "hsl(35, 79%, 67%)",
-            "uses": [
-                "Terminal Yellow"
-            ]
-        },
-        {
-            "name": "green",
-            "aliases": [
-                "info"
-            ],
-            "hex": "#79c952",
-            "rgb": "rgb(125, 208, 107)",
-            "hsl": "hsl(109, 52%, 62%)",
-            "uses": [
-                "Terminal Green"
-            ]
-        },
-        {
-            "name": "teal",
-            "aliases": [
-                "todo"
-            ],
-            "hex": "#5ee59d",
-            "rgb": "rgb(94, 229, 157)",
-            "hsl": "hsl(148, 72%, 63%)",
-            "uses": [
-            ]
-        },
-        {
-            "name": "cyan",
-            "aliases": [
-            ],
-            "hex": "#52eae8",
-            "rgb": "rgb(82, 234, 232)",
-            "hsl": "hsl(179, 78%, 62%)",
-            "uses": [
-                "Terminal Cyan"
-            ]
-        },
-        {
-            "name": "blue",
-            "aliases": [
-                "primary"
-            ],
-            "hex": "#52a4ea",
-            "rgb": "rgb(82, 164, 234)",
-            "hsl": "hsl(208, 78%, 62%)",
-            "uses": [
-                "Terminal Blue"
-            ]
-        },
-        {
-            "name": "purple",
-            "aliases": [
-                "secondary",
-                "magenta"
-            ],
-            "hex": "#8852ea",
-            "rgb": "rgb(136, 82, 234)",
-            "hsl": "hsl(261, 78%, 62%)",
-            "uses": [
-                "Terminal Magenta"
-            ]
-        },
-        {
-            "name": "pink",
-            "aliases": [
-                "accent"
-            ],
-            "hex": "#cd40c7",
-            "rgb": "rgb(205, 64, 199)",
-            "hsl": "hsl(303, 59%, 53%)",
-            "uses": [
-            ]
-        },
-        {
-            "name": "comment",
-            "aliases": [
-                "gray",
-                "muted"
-            ],
-            "hex": "#474383",
-            "rgb": "rgb(71, 67, 131)",
-            "hsl": "hsl(244, 32%, 39%)",
-            "uses": [
-                "Comments"
-            ]
-        },
-        {
-            "name": "highlight",
-            "aliases": [
-            ],
-            "hex": "#2d203c",
-            "rgb": "rgb(45, 32, 60)",
-            "hsl": "hsl(268, 30%, 18%)",
-            "uses": [
-                "Cursor line highlight"
-            ]
-        },
-        {
-            "name": "gutter",
-            "aliases": [
-            ],
-            "hex": "#37355a",
-            "rgb": "rgb(55, 53, 90)",
-            "hsl": "hsl(243, 26%, 28%)",
-            "uses": [
-                "Gutter foreground",
-                "Line numbers",
-                "Terminal Black"
-            ]
-        },
-        {
-            "name": "cursor",
-            "aliases": [
-            ],
-            "hex": "#8579bc",
-            "rgb": "rgb(133, 121, 188)",
-            "hsl": "hsl(251, 33%, 61%)",
-            "uses": [
-                "Terminal cursor",
-                "Current line number"
-            ]
-        },
-        {
-            "name": "terminator",
-            "aliases": [
-                "light-gray"
-            ],
-            "hex": "#8a7d9b",
-            "rgb": "rgb(138, 125, 155)",
-            "hsl": "hsl(266, 13%, 55%)",
-            "uses": [
-                "Terminal White"
-            ]
-        },
-        {
-            "name": "bracket",
-            "aliases": [
-            ],
-            "hex": "#6c8db3",
-            "rgb": "rgb(108, 141, 179)",
-            "hsl": "hsl(212, 32%, 56%)",
-            "uses": [
-                "Parentheses",
-                "Brackets",
-                "Braces"
-            ]
-        },
-        {
-            "name": "header",
-            "aliases": [
-            ],
-            "hex": "#0b0911",
-            "rgb": "rgb(11, 9, 17)",
-            "hsl": "hsl(255, 31%, 5%)",
-            "uses": [
-            ]
-        },
-        {
-            "name": "tabline",
-            "aliases": [
-            ],
-            "hex": "#2b284a",
-            "rgb": "rgb(43, 40, 74)",
-            "hsl": "hsl(245, 30%, 22%)",
-            "uses": [
-                "Active tab",
-                "Table header"
-            ]
-        },
-        {
-            "name": "modal",
-            "aliases": [
-            ],
-            "hex": "#211d2b",
-            "rgb": "rgb(33, 29, 43)",
-            "hsl": "hsl(257, 19%, 14%)",
-            "uses": [
-                "Modal background"
-            ]
-        },
-        {
-            "name": "altrow",
-            "aliases": [
-            ],
-            "hex": "#2b253c",
-            "rgb": "rgb(43, 37, 60)",
-            "hsl": "hsl(256, 24%, 19%)",
-            "uses": [
-                "Alternate row background"
-            ]
-        },
-        {
-            "name": "thisrow",
-            "aliases": [
-            ],
-            "hex": "#3e2e4c",
-            "rgb": "rgb(62, 46, 76)",
-            "hsl": "hsl(272, 25%, 24%)",
-            "uses": [
-                "Active row highlight"
-            ]
-        }
-    ]
+  "colors": [
+    {
+      "name": "black",
+      "aliases": [
+        "background"
+      ],
+      "hex": "#17131e",
+      "rgb": "rgb(23, 19, 30)",
+      "hsl": "hsl(262, 22%, 10%)",
+      "uses": [
+        "Editor background"
+      ]
+    },
+    {
+      "name": "white",
+      "aliases": [
+        "foreground"
+      ],
+      "hex": "#bab4d2",
+      "rgb": "rgb(186, 180, 210)",
+      "hsl": "hsl(252, 25%, 76%)",
+      "uses": [
+        "Editor foreground"
+      ]
+    },
+    {
+      "name": "red",
+      "aliases": [
+        "error"
+      ],
+      "hex": "#ea5279",
+      "rgb": "rgb(234, 82, 121)",
+      "hsl": "hsl(345, 78%, 62%)",
+      "uses": [
+        "Terminal Red"
+      ]
+    },
+    {
+      "name": "orange",
+      "aliases": [
+        "constant"
+      ],
+      "hex": "#e78d5b",
+      "rgb": "rgb(231, 141, 91)",
+      "hsl": "hsl(21, 74%, 63%)",
+      "uses": [
+      ]
+    },
+    {
+      "name": "yellow",
+      "aliases": [
+        "warning"
+      ],
+      "hex": "#f5cb40",
+      "rgb": "rgb(245, 203, 64)",
+      "hsl": "hsl(35, 79%, 67%)",
+      "uses": [
+        "Terminal Yellow"
+      ]
+    },
+    {
+      "name": "green",
+      "aliases": [
+        "info"
+      ],
+      "hex": "#79c952",
+      "rgb": "rgb(125, 208, 107)",
+      "hsl": "hsl(109, 52%, 62%)",
+      "uses": [
+        "Terminal Green"
+      ]
+    },
+    {
+      "name": "teal",
+      "aliases": [
+        "todo"
+      ],
+      "hex": "#5ee59d",
+      "rgb": "rgb(94, 229, 157)",
+      "hsl": "hsl(148, 72%, 63%)",
+      "uses": [
+      ]
+    },
+    {
+      "name": "cyan",
+      "aliases": [
+      ],
+      "hex": "#52eae8",
+      "rgb": "rgb(82, 234, 232)",
+      "hsl": "hsl(179, 78%, 62%)",
+      "uses": [
+        "Terminal Cyan"
+      ]
+    },
+    {
+      "name": "blue",
+      "aliases": [
+        "primary"
+      ],
+      "hex": "#52a4ea",
+      "rgb": "rgb(82, 164, 234)",
+      "hsl": "hsl(208, 78%, 62%)",
+      "uses": [
+        "Terminal Blue"
+      ]
+    },
+    {
+      "name": "purple",
+      "aliases": [
+        "secondary",
+        "magenta"
+      ],
+      "hex": "#8852ea",
+      "rgb": "rgb(136, 82, 234)",
+      "hsl": "hsl(261, 78%, 62%)",
+      "uses": [
+        "Terminal Magenta"
+      ]
+    },
+    {
+      "name": "pink",
+      "aliases": [
+        "accent"
+      ],
+      "hex": "#cd40c7",
+      "rgb": "rgb(205, 64, 199)",
+      "hsl": "hsl(303, 59%, 53%)",
+      "uses": [
+      ]
+    },
+    {
+      "name": "comment",
+      "aliases": [
+        "gray",
+        "muted"
+      ],
+      "hex": "#474383",
+      "rgb": "rgb(71, 67, 131)",
+      "hsl": "hsl(244, 32%, 39%)",
+      "uses": [
+        "Comments"
+      ]
+    },
+    {
+      "name": "highlight",
+      "aliases": [
+      ],
+      "hex": "#2d203c",
+      "rgb": "rgb(45, 32, 60)",
+      "hsl": "hsl(268, 30%, 18%)",
+      "uses": [
+        "Cursor line highlight"
+      ]
+    },
+    {
+      "name": "gutter",
+      "aliases": [
+      ],
+      "hex": "#37355a",
+      "rgb": "rgb(55, 53, 90)",
+      "hsl": "hsl(243, 26%, 28%)",
+      "uses": [
+        "Gutter foreground",
+        "Line numbers",
+        "Terminal Black"
+      ]
+    },
+    {
+      "name": "cursor",
+      "aliases": [
+      ],
+      "hex": "#8579bc",
+      "rgb": "rgb(133, 121, 188)",
+      "hsl": "hsl(251, 33%, 61%)",
+      "uses": [
+        "Terminal cursor",
+        "Current line number"
+      ]
+    },
+    {
+      "name": "terminator",
+      "aliases": [
+        "light-gray"
+      ],
+      "hex": "#8a7d9b",
+      "rgb": "rgb(138, 125, 155)",
+      "hsl": "hsl(266, 13%, 55%)",
+      "uses": [
+        "Terminal White"
+      ]
+    },
+    {
+      "name": "bracket",
+      "aliases": [
+      ],
+      "hex": "#6c8db3",
+      "rgb": "rgb(108, 141, 179)",
+      "hsl": "hsl(212, 32%, 56%)",
+      "uses": [
+        "Parentheses",
+        "Brackets",
+        "Braces"
+      ]
+    },
+    {
+      "name": "header",
+      "aliases": [
+      ],
+      "hex": "#0b0911",
+      "rgb": "rgb(11, 9, 17)",
+      "hsl": "hsl(255, 31%, 5%)",
+      "uses": [
+      ]
+    },
+    {
+      "name": "tabline",
+      "aliases": [
+      ],
+      "hex": "#2b284a",
+      "rgb": "rgb(43, 40, 74)",
+      "hsl": "hsl(245, 30%, 22%)",
+      "uses": [
+        "Active tab",
+        "Table header"
+      ]
+    },
+    {
+      "name": "modal",
+      "aliases": [
+      ],
+      "hex": "#211d2b",
+      "rgb": "rgb(33, 29, 43)",
+      "hsl": "hsl(257, 19%, 14%)",
+      "uses": [
+        "Modal background"
+      ]
+    },
+    {
+      "name": "altrow",
+      "aliases": [
+      ],
+      "hex": "#2b253c",
+      "rgb": "rgb(43, 37, 60)",
+      "hsl": "hsl(256, 24%, 19%)",
+      "uses": [
+        "Alternate row background"
+      ]
+    },
+    {
+      "name": "thisrow",
+      "aliases": [
+      ],
+      "hex": "#3e2e4c",
+      "rgb": "rgb(62, 46, 76)",
+      "hsl": "hsl(272, 25%, 24%)",
+      "uses": [
+        "Active row highlight"
+      ]
+    }
+  ]
 }
