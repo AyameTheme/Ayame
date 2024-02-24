@@ -6,7 +6,7 @@ Ayame is a theme made for the terminal, IDE, and app GUI. It does not look like 
 
 ## Color Palette
 
-| <div style="width:90px">Hex</div> | ID | Uses |
+| Hex ____________ | ID | Uses |
 | --- | --- | --- |
 | ![](https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/icon/background.svg) `#17131e` | `background`, `bg` | Background |
 | ![](https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/icon/foreground.svg) `#bab4d2` | `foreground`, `fg` | Foreground |

@@ -6,6 +6,6 @@ Ayame is a theme made for the terminal, IDE, and app GUI. It does not look like 
 
 ## Color Palette
 
-| <div style="width:90px">Hex</div> | ID | Uses |
+| Hex ____________ | ID | Uses |
 | --- | --- | --- |
 @-ayame-palette-table
