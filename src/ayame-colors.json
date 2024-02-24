@@ -1,239 +1,290 @@
 {
   "colors": [
     {
-      "name": "black",
+      "name": "background",
       "aliases": [
-        "background"
+        "bg"
       ],
       "hex": "#17131e",
-      "rgb": "rgb(23, 19, 30)",
-      "hsl": "hsl(262, 22%, 10%)",
       "uses": [
-        "Editor background"
+        "Background"
       ]
     },
     {
-      "name": "white",
+      "name": "foreground",
       "aliases": [
-        "foreground"
+        "fg"
       ],
       "hex": "#bab4d2",
-      "rgb": "rgb(186, 180, 210)",
-      "hsl": "hsl(252, 25%, 76%)",
       "uses": [
-        "Editor foreground"
+        "Foreground"
       ]
     },
     {
       "name": "red",
       "aliases": [
-        "error"
+        "deleted",
+        "breakpoint",
+        "stop",
+        "this",
+        "bold"
       ],
-      "hex": "#ea5279",
-      "rgb": "rgb(234, 82, 121)",
-      "hsl": "hsl(345, 78%, 62%)",
+      "hex": "#ff6394",
       "uses": [
-        "Terminal Red"
+        "Terminal Bright Red",
+        "Git deleted",
+        "Breakpoints",
+        "Stop",
+        "Language variables",
+        "Markdown bold"
       ]
     },
     {
-      "name": "orange",
+      "name": "darkred",
       "aliases": [
-        "constant"
+        "error",
+        "invalid"
       ],
-      "hex": "#e78d5b",
-      "rgb": "rgb(231, 141, 91)",
-      "hsl": "hsl(21, 74%, 63%)",
+      "hex": "#d74368",
       "uses": [
+        "Terminal Red",
+        "Error",
+        "Invalid"
       ]
     },
     {
       "name": "yellow",
       "aliases": [
-        "warning"
       ],
       "hex": "#f5cb40",
-      "rgb": "rgb(245, 203, 64)",
-      "hsl": "hsl(35, 79%, 67%)",
       "uses": [
-        "Terminal Yellow"
+        "Terminal Bright Yellow",
+        "HTML attributes",
+        "CSS classes",
+        "Markdown alt text",
+        "Markdown link anchors"
+      ]
+    },
+    {
+      "name": "orange",
+      "aliases": [
+        "darkyellow",
+        "warning",
+        "constant"
+      ],
+      "hex": "#e78d5b",
+      "uses": [
+        "Terminal Yellow",
+        "Warnings",
+        "Constants"
       ]
     },
     {
       "name": "green",
       "aliases": [
-        "info"
+        "added",
+        "debug",
+        "string"
       ],
-      "hex": "#79c952",
-      "rgb": "rgb(125, 208, 107)",
-      "hsl": "hsl(109, 52%, 62%)",
+      "hex": "#98d57e",
       "uses": [
-        "Terminal Green"
+        "Terminal Bright Green",
+        "Git added",
+        "Debug",
+        "Strings"
       ]
     },
     {
-      "name": "teal",
+      "name": "darkgreen",
       "aliases": [
-        "todo"
+        "info"
       ],
-      "hex": "#5ee59d",
-      "rgb": "rgb(94, 229, 157)",
-      "hsl": "hsl(148, 72%, 63%)",
+      "hex": "#63ae5d",
       "uses": [
+        "Terminal Green",
+        "Info",
+        "String quotation marks"
       ]
     },
     {
       "name": "cyan",
       "aliases": [
+        "match",
+        "control",
+        "regex",
+        "escape",
+        "italics"
       ],
-      "hex": "#52eae8",
-      "rgb": "rgb(82, 234, 232)",
-      "hsl": "hsl(179, 78%, 62%)",
+      "hex": "#63dcea",
       "uses": [
-        "Terminal Cyan"
+        "Terminal Bright Cyan",
+        "Find matches",
+        "Hyperlink hover",
+        "Control keywords",
+        "RegEx literals",
+        "Escape characters",
+        "Markdown italics"
+      ]
+    },
+    {
+      "name": "darkcyan",
+      "aliases": [
+        "class"
+      ],
+      "hex": "#64a9cc",
+      "uses": [
+        "Terminal Cyan",
+        "Classes"
       ]
     },
     {
       "name": "blue",
       "aliases": [
-        "primary"
+        "primary",
+        "progress",
+        "modified",
+        "hyperlink",
+        "keyword"
       ],
-      "hex": "#52a4ea",
-      "rgb": "rgb(82, 164, 234)",
-      "hsl": "hsl(208, 78%, 62%)",
+      "hex": "#51a2e8",
       "uses": [
-        "Terminal Blue"
+        "Terminal Bright Blue",
+        "Progress bars",
+        "Git modified",
+        "Hyperlinks",
+        "Keywords"
       ]
     },
     {
-      "name": "purple",
+      "name": "darkblue",
       "aliases": [
-        "secondary",
-        "magenta"
+        "bookmark"
       ],
-      "hex": "#8852ea",
-      "rgb": "rgb(136, 82, 234)",
-      "hsl": "hsl(261, 78%, 62%)",
+      "hex": "#5984e7",
       "uses": [
-        "Terminal Magenta"
+        "Terminal Blue",
+        "Bookmarks"
       ]
     },
     {
       "name": "pink",
       "aliases": [
-        "accent"
+        "magenta",
+        "tertiary",
+        "focus",
+        "operator"
       ],
-      "hex": "#cd40c7",
-      "rgb": "rgb(205, 64, 199)",
-      "hsl": "hsl(303, 59%, 53%)",
+      "hex": "#eb68e5",
       "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords"
       ]
     },
     {
-      "name": "comment",
+      "name": "purple",
       "aliases": [
-        "gray",
-        "muted"
+        "darkmagenta",
+        "secondary",
+        "function",
+        "attribute",
+        "code"
       ],
-      "hex": "#474383",
-      "rgb": "rgb(71, 67, 131)",
-      "hsl": "hsl(244, 32%, 39%)",
+      "hex": "#966cec",
       "uses": [
-        "Comments"
+        "Terminal Magenta",
+        "Debug token keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks"
       ]
     },
     {
-      "name": "highlight",
+      "name": "white",
       "aliases": [
+        "object"
       ],
-      "hex": "#2d203c",
-      "rgb": "rgb(45, 32, 60)",
-      "hsl": "hsl(268, 30%, 18%)",
+      "hex": "#d1c9f4",
       "uses": [
-        "Cursor line highlight"
+        "Terminal Bright White",
+        "Objects"
       ]
     },
     {
-      "name": "gutter",
+      "name": "lightgray",
       "aliases": [
-      ],
-      "hex": "#37355a",
-      "rgb": "rgb(55, 53, 90)",
-      "hsl": "hsl(243, 26%, 28%)",
-      "uses": [
-        "Gutter foreground",
-        "Line numbers",
-        "Terminal Black"
-      ]
-    },
-    {
-      "name": "cursor",
-      "aliases": [
-      ],
-      "hex": "#8579bc",
-      "rgb": "rgb(133, 121, 188)",
-      "hsl": "hsl(251, 33%, 61%)",
-      "uses": [
-        "Terminal cursor",
-        "Current line number"
-      ]
-    },
-    {
-      "name": "terminator",
-      "aliases": [
-        "light-gray"
+        "darkwhite",
+        "muted",
+        "punctuation",
+        "terminator"
       ],
       "hex": "#8a7d9b",
-      "rgb": "rgb(138, 125, 155)",
-      "hsl": "hsl(266, 13%, 55%)",
       "uses": [
-        "Terminal White"
+        "Terminal White",
+        "Muted text",
+        "Punctuation"
       ]
     },
     {
-      "name": "bracket",
+      "name": "gray",
       "aliases": [
+        "gutter",
+        "border",
+        "rule",
+        "button"
       ],
-      "hex": "#6c8db3",
-      "rgb": "rgb(108, 141, 179)",
-      "hsl": "hsl(212, 32%, 56%)",
+      "hex": "#37355a",
       "uses": [
-        "Parentheses",
-        "Brackets",
-        "Braces"
+        "Terminal Bright Black",
+        "Buttons",
+        "Borders",
+        "Rules and guides",
+        "Line numbers"
       ]
     },
     {
-      "name": "header",
+      "name": "black",
       "aliases": [
-      ],
-      "hex": "#0b0911",
-      "rgb": "rgb(11, 9, 17)",
-      "hsl": "hsl(255, 31%, 5%)",
-      "uses": [
-      ]
-    },
-    {
-      "name": "tabline",
-      "aliases": [
+        "subheader",
+        "tabline"
       ],
       "hex": "#2b284a",
-      "rgb": "rgb(43, 40, 74)",
-      "hsl": "hsl(245, 30%, 22%)",
       "uses": [
-        "Active tab",
-        "Table header"
+        "Terminal Black",
+        "Subheader background"
+      ]
+    },
+    {
+      "name": "border2",
+      "aliases": [
+        "header"
+      ],
+      "hex": "#0b0911",
+      "uses": [
+        "Secondary borders"
       ]
     },
     {
       "name": "modal",
       "aliases": [
+        "menu",
+        "toolbar"
       ],
       "hex": "#211d2b",
-      "rgb": "rgb(33, 29, 43)",
-      "hsl": "hsl(257, 19%, 14%)",
       "uses": [
         "Modal background"
+      ]
+    },
+    {
+      "name": "hover",
+      "aliases": [
+        "highlight"
+      ],
+      "hex": "#2d203c",
+      "uses": [
+        "Line highlight",
+        "UI hover highlight"
       ]
     },
     {
@@ -241,21 +292,129 @@
       "aliases": [
       ],
       "hex": "#2b253c",
-      "rgb": "rgb(43, 37, 60)",
-      "hsl": "hsl(256, 24%, 19%)",
       "uses": [
-        "Alternate row background"
+        "Alternate row background",
+        "Alternate modal background"
       ]
     },
     {
-      "name": "thisrow",
+      "name": "focusborder",
       "aliases": [
+        "highlightborder"
+      ],
+      "hex": "#3d2a54",
+      "uses": [
+        "Highlight and focus border"
+      ]
+    },
+    {
+      "name": "modalhighlight",
+      "aliases": [
+        "highlight2"
       ],
       "hex": "#3e2e4c",
-      "rgb": "rgb(62, 46, 76)",
-      "hsl": "hsl(272, 25%, 24%)",
       "uses": [
-        "Active row highlight"
+        "Highlights in UI and modals"
+      ]
+    },
+    {
+      "name": "selection",
+      "aliases": [
+      ],
+      "hex": "#3c376f",
+      "uses": [
+        "Selection background"
+      ]
+    },
+    {
+      "name": "comment",
+      "aliases": [
+      ],
+      "hex": "#5953a7",
+      "uses": [
+        "Comments",
+        "Markdown block quotes",
+        "Folded code blocks"
+      ]
+    },
+    {
+      "name": "cursor",
+      "aliases": [
+      ],
+      "hex": "#857abc",
+      "uses": [
+        "Cursor",
+        "Active line number",
+        "Subheader foreground",
+        "Badge background",
+        "Minimap and scrollbar background",
+        "Markdown table text"
+      ]
+    },
+    {
+      "name": "activitybadge",
+      "aliases": [
+      ],
+      "hex": "#007acc",
+      "uses": [
+        "VS Code activity badge"
+      ]
+    },
+    {
+      "name": "blue2",
+      "aliases": [
+      ],
+      "hex": "#4984e7",
+      "uses": [
+        "Alternate blue"
+      ]
+    },
+    {
+      "name": "bracket",
+      "aliases": [
+      ],
+      "hex": "#6c8db3",
+      "uses": [
+        "Parentheses",
+        "Brackets",
+        "Braces"
+      ]
+    },
+    {
+      "name": "error2",
+      "aliases": [
+      ],
+      "hex": "#6a1d31",
+      "uses": [
+        "Error background"
+      ]
+    },
+    {
+      "name": "tag",
+      "aliases": [
+      ],
+      "hex": "#f07178",
+      "uses": [
+        "Tags"
+      ]
+    },
+    {
+      "name": "foreground2",
+      "aliases": [
+      ],
+      "hex": "#bbbbbb",
+      "uses": [
+        "Alternate foreground"
+      ]
+    },
+    {
+      "name": "purewhite",
+      "aliases": [
+      ],
+      "hex": "#ffffff",
+      "uses": [
+        "Extra white for lighter backgrounds",
+        "Badge foreground"
       ]
     }
   ]

@@ -1,0 +1,153 @@
+/* ==UserStyle==
+@name           Ayame for AniList
+@namespace      Nurdoidz
+@version        1.0.0
+@description    Ayame theme for AniList.co
+@author         Nurdoidz (https://github.com/Nurdoidz)
+@homepageURL    https://github.com/Nurdoidz/Ayame
+@supportURL     https://github.com/Nurdoidz/Ayame/issues
+@license        MIT
+==/UserStyle== */
+@-moz-document domain("anilist.co") {
+  :root {
+    --ayame-background: #17131e; /* Background */
+    --ayame-foreground: #bab4d2; /* Foreground */
+    --ayame-red: #ff6394; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-darkred: #d74368; /* Terminal Red, Error, Invalid */
+    --ayame-yellow: #f5cb40; /* Terminal Bright Yellow, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
+    --ayame-orange: #e78d5b; /* Terminal Yellow, Warnings, Constants */
+    --ayame-green: #98d57e; /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-darkgreen: #63ae5d; /* Terminal Green, Info, String quotation marks */
+    --ayame-cyan: #63dcea; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-darkcyan: #64a9cc; /* Terminal Cyan, Classes */
+    --ayame-blue: #51a2e8; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
+    --ayame-darkblue: #5984e7; /* Terminal Blue, Bookmarks */
+    --ayame-pink: #eb68e5; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-purple: #966cec; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-white: #d1c9f4; /* Terminal Bright White, Objects */
+    --ayame-lightgray: #8a7d9b; /* Terminal White, Muted text, Punctuation */
+    --ayame-gray: #37355a; /* Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers */
+    --ayame-black: #2b284a; /* Terminal Black, Subheader background */
+    --ayame-border2: #0b0911; /* Secondary borders */
+    --ayame-modal: #211d2b; /* Modal background */
+    --ayame-hover: #2d203c; /* Line highlight, UI hover highlight */
+    --ayame-altrow: #2b253c; /* Alternate row background, Alternate modal background */
+    --ayame-focusborder: #3d2a54; /* Highlight and focus border */
+    --ayame-modalhighlight: #3e2e4c; /* Highlights in UI and modals */
+    --ayame-selection: #3c376f; /* Selection background */
+    --ayame-comment: #5953a7; /* Comments, Markdown block quotes, Folded code blocks */
+    --ayame-cursor: #857abc; /* Cursor, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
+    --ayame-activitybadge: #007acc; /* VS Code activity badge */
+    --ayame-blue2: #4984e7; /* Alternate blue */
+    --ayame-bracket: #6c8db3; /* Parentheses, Brackets, Braces */
+    --ayame-error2: #6a1d31; /* Error background */
+    --ayame-tag: #f07178; /* Tags */
+    --ayame-foreground2: #bbb; /* Alternate foreground */
+    --ayame-purewhite: #fff; /* Extra white for lighter backgrounds, Badge foreground */
+    --ayame-bg: var(--ayame-background); /* Background */
+    --ayame-fg: var(--ayame-foreground); /* Foreground */
+    --ayame-deleted: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-breakpoint: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-stop: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-this: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-bold: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-error: var(--ayame-darkred); /* Terminal Red, Error, Invalid */
+    --ayame-invalid: var(--ayame-darkred); /* Terminal Red, Error, Invalid */
+    --ayame-darkyellow: var(--ayame-orange); /* Terminal Yellow, Warnings, Constants */
+    --ayame-warning: var(--ayame-orange); /* Terminal Yellow, Warnings, Constants */
+    --ayame-constant: var(--ayame-orange); /* Terminal Yellow, Warnings, Constants */
+    --ayame-added: var(--ayame-green); /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-debug: var(--ayame-green); /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-string: var(--ayame-green); /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-info: var(--ayame-darkgreen); /* Terminal Green, Info, String quotation marks */
+    --ayame-match: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-control: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-regex: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-escape: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-italics: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-class: var(--ayame-darkcyan); /* Terminal Cyan, Classes */
+    --ayame-primary: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
+    --ayame-progress: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
+    --ayame-modified: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
+    --ayame-hyperlink: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
+    --ayame-keyword: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
+    --ayame-bookmark: var(--ayame-darkblue); /* Terminal Blue, Bookmarks */
+    --ayame-magenta: var(--ayame-pink); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-tertiary: var(--ayame-pink); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-focus: var(--ayame-pink); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-operator: var(--ayame-pink); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-darkmagenta: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-secondary: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-function: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-attribute: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-code: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-object: var(--ayame-white); /* Terminal Bright White, Objects */
+    --ayame-darkwhite: var(--ayame-lightgray); /* Terminal White, Muted text, Punctuation */
+    --ayame-muted: var(--ayame-lightgray); /* Terminal White, Muted text, Punctuation */
+    --ayame-punctuation: var(--ayame-lightgray); /* Terminal White, Muted text, Punctuation */
+    --ayame-terminator: var(--ayame-lightgray); /* Terminal White, Muted text, Punctuation */
+    --ayame-gutter: var(--ayame-gray); /* Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers */
+    --ayame-border: var(--ayame-gray); /* Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers */
+    --ayame-rule: var(--ayame-gray); /* Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers */
+    --ayame-button: var(--ayame-gray); /* Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers */
+    --ayame-subheader: var(--ayame-black); /* Terminal Black, Subheader background */
+    --ayame-tabline: var(--ayame-black); /* Terminal Black, Subheader background */
+    --ayame-header: var(--ayame-border2); /* Secondary borders */
+    --ayame-menu: var(--ayame-modal); /* Modal background */
+    --ayame-toolbar: var(--ayame-modal); /* Modal background */
+    --ayame-highlight: var(--ayame-hover); /* Line highlight, UI hover highlight */
+    --ayame-highlightborder: var(--ayame-focusborder); /* Highlight and focus border */
+    --ayame-highlight2: var(--ayame-modalhighlight); /* Highlights in UI and modals */
+  }
+  body {
+    font-family: "Lato", "Overpass", sans-serif !important;
+  }
+  .site-theme-dark {
+    --color-background: 23, 19, 30;
+    --color-foreground: 33, 29, 43;
+    --color-foreground-blue: 43, 40, 74;
+    --color-text: 186, 180, 210;
+    --color-text-light: 186, 180, 210;
+    --color-text-lighter: 138, 125, 155;
+    --color-background-100: 33, 29, 43;
+    --color-background-200: 23, 19, 30;
+    --color-gray-800: 133, 122, 188;
+    --color-gray-700: 138, 125, 155;
+    --color-gray-600: 138, 125, 155;
+    --color-gray-100: 33, 29, 43;
+    --color-overlay: 45, 32, 60;
+    --color-shadow-dark: 11, 9, 17;
+    --color-text-bright: 186, 180, 210;
+    --color-blue: 81, 162, 232;
+    --color-blue-dim: 108, 141, 179;
+    --color-red: 255, 99, 148;
+    --color-orange: 231, 141, 91;
+    --color-yellow: 245, 203, 64;
+    --color-green: 152, 213, 126;
+  }
+  .site-theme-dark .nav-unscoped {
+    color: var(--ayame-foreground);
+    background: var(--ayame-header);
+  }
+  .site-theme-dark a.category {
+    color: var(--ayame-background);
+  }
+  .site-theme-dark a[href="/forum/recent?category=1"].category {
+    background-color: var(--ayame-blue) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=16"].category {
+    background-color: var(--ayame-orange) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=7"].category {
+    background-color: var(--ayame-cyan) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=2"].category {
+    background-color: var(--ayame-green) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=5"].category {
+    background-color: var(--ayame-purple) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=13"].category {
+    background-color: var(--ayame-pink) !important;
+  }
+}
