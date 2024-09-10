@@ -284,9 +284,18 @@ Get-ChildItem .\src\ -Filter '*.ayame-template*' | ForEach-Object {
     $Content > ".\build\out\$($_.Name)".Replace('.ayame-template', '')
 }
 
-Set-Location $PrevCWD
+# --( ayame-palette-graphic.svg -> png ) ---------------------------------------
+
+if ($null -eq (Get-Command 'inkscape' -ErrorAction SilentlyContinue)) {
+    Write-Error 'inkscape not found in PATH.'
+}
+else {
+    inkscape '.\build\out\ayame-palette-graphic.svg' -o '.\build\out\ayame-palette-graphic.png'
+}
 
 # --( Stylus ) -----------------------------------------------------------------
 
 npx stylus src/ayame-variables.styl
 npx stylus src/usercss --out build/out/usercss
+
+Set-Location $PrevCWD
