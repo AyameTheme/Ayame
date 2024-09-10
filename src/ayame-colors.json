@@ -416,6 +416,16 @@
         "Extra white for lighter backgrounds",
         "Badge foreground"
       ]
+    },
+    {
+      "name": "teal",
+      "aliases": [
+        "todo"
+      ],
+      "hex": "#5ee59d",
+      "uses": [
+        "TODO comments"
+      ]
     }
   ]
 }

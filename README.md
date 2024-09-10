@@ -42,3 +42,4 @@ Ayame is a theme made for the terminal, IDE, and app GUI. It does not look like 
 | ![](https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/icon/tag.svg) `#f07178` | `tag` | Tags |
 | ![](https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/icon/foreground2.svg) `#bbbbbb` | `foreground2` | Alternate foreground |
 | ![](https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/icon/purewhite.svg) `#ffffff` | `purewhite` | Extra white for lighter backgrounds, Badge foreground |
+| ![](https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/icon/teal.svg) `#5ee59d` | `teal`, `todo` | TODO comments |

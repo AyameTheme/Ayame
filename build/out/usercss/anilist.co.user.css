@@ -44,6 +44,7 @@
     --ayame-tag: #f07178; /* Tags */
     --ayame-foreground2: #bbb; /* Alternate foreground */
     --ayame-purewhite: #fff; /* Extra white for lighter backgrounds, Badge foreground */
+    --ayame-teal: #5ee59d; /* TODO comments */
     --ayame-bg: var(--ayame-background); /* Background */
     --ayame-fg: var(--ayame-foreground); /* Foreground */
     --ayame-deleted: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
@@ -98,6 +99,7 @@
     --ayame-highlight: var(--ayame-hover); /* Line highlight, UI hover highlight */
     --ayame-highlightborder: var(--ayame-focusborder); /* Highlight and focus border */
     --ayame-highlight2: var(--ayame-modalhighlight); /* Highlights in UI and modals */
+    --ayame-todo: var(--ayame-teal); /* TODO comments */
   }
   body {
     font-family: "Lato", "Overpass", sans-serif !important;
