@@ -74,6 +74,9 @@ function Convert-HexToRgbHsl {
 
     return [ordered]@{
         hex = "#$HexColor"
+        hex_upper = "#$HexColor".ToUpper()
+        hex_bare = "$HexColor"
+        hex_bare_upper = "$HexColor".ToUpper()
         r = $r
         red = $r
         red_percent = $r_percent
@@ -259,6 +262,22 @@ $AyamePaletteTable = ($Ayame.colors | ForEach-Object {
 
 (Get-Content $ReadmeTemplatePath).Replace('@-ayame-palette-table', $AyamePaletteTable) | Set-Content $ReadmePath
 
+# --( Office Theme ) -----------------------------------------------------------
+
+$OfficeSourcePath = Resolve-Path '.\src\office\thmx'
+New-Item -ItemType Directory -Path .\build\out\office\thmx -Force | Out-Null
+Get-ChildItem -Path $OfficeSourcePath -Recurse | Where-Object {
+    $_.Name -notlike '*.ayame-template*'
+} | ForEach-Object {
+    $Destination = Join-Path -Path '.\build\out\office\thmx' -ChildPath $_.FullName.Substring($OfficeSourcePath.ToString().Length)
+    if ($_.PSIsContainer) {
+        New-Item -ItemType Directory -Path $Destination -Force | Out-Null
+    }
+    else {
+        Copy-Item -LiteralPath $_.FullName -Destination $Destination -Force
+    }
+}
+
 # --( *.ayame-template* ) -----------------------------------------------------
 
 $Values = @{
@@ -267,21 +286,29 @@ $Values = @{
 
 $Pattern = [regex]'\[{2}(ayame):(\w+(?:\.\w+)*)\]{2}'
 
-Get-ChildItem .\src\ -Filter '*.ayame-template*' | ForEach-Object {
-    $Content = Get-Content $_.FullName
-    for ($i = 0; $i -lt $Content.Length; $i++) {
-        $Content[$i] = $Pattern.Replace($Content[$i], {
-            param($Match)
-            $Json = $Match.Groups[1].Value
-            $Key = $Match.Groups[2].Value
-            $Object = $Values.$Json
-            foreach ($SubKey in $Key.Split('.')) {
-                $Object = $Object.$SubKey
-            }
-            $Object
-        })
+$SourcePath = Resolve-Path '.\src'
+Get-ChildItem -Path $SourcePath -Recurse -Filter '*.ayame-template*' | ForEach-Object {
+    $Destination = Join-Path -Path '.\build\out' -ChildPath $_.FullName.Substring($SourcePath.ToString().Length).Replace('.ayame-template', '')
+    if ($_.PSIsContainer) {
+        New-Item -ItemType Directory -Path $Destination -Force | Out-Null
     }
-    $Content > ".\build\out\$($_.Name)".Replace('.ayame-template', '')
+    else {
+        $Content = Get-Content $_.FullName
+        for ($i = 0; $i -lt $Content.Length; $i++) {
+            $Content[$i] = $Pattern.Replace($Content[$i], {
+                param($Match)
+                $Json = $Match.Groups[1].Value
+                $Key = $Match.Groups[2].Value
+                $Object = $Values.$Json
+                foreach ($SubKey in $Key.Split('.')) {
+                    $Object = $Object.$SubKey
+                }
+                $Object
+            })
+        }
+        New-Item -ItemType Directory -Path (Split-Path -Path $Destination -Parent) -Force | Out-Null
+        $Content > $Destination
+    }
 }
 
 # --( ayame-palette-graphic.svg -> png ) ---------------------------------------
@@ -292,6 +319,19 @@ if ($null -eq (Get-Command 'inkscape' -ErrorAction SilentlyContinue)) {
 else {
     inkscape '.\build\out\ayame-palette-graphic.svg' -o '.\build\out\ayame-palette-graphic.png'
 }
+
+# --( Office Theme cont. ) -----------------------------------------------------
+
+if ($null -eq (Get-Command '7z' -ErrorAction SilentlyContinue)) {
+    Write-Error '7z not found in PATH.'
+}
+else {
+    Get-ChildItem -Path .\build\out\office\thmx | ForEach-Object {
+        7z u -tzip Ayame.thmx $_.FullName
+    }
+}
+Move-Item -Path Ayame.thmx -Destination .\build\out\office -Force
+Remove-Item -Path .\build\out\office\thmx -Recurse -Force
 
 # --( Stylus ) -----------------------------------------------------------------
 

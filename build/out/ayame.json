@@ -3,6 +3,9 @@
   "colors": {
     "background": {
       "hex": "#17131e",
+      "hex_upper": "#17131E",
+      "hex_bare": "17131e",
+      "hex_bare_upper": "17131E",
       "r": 23,
       "red": 23,
       "red_percent": 0.09019607843137255,
@@ -23,6 +26,9 @@
     },
     "bg": {
       "hex": "#17131e",
+      "hex_upper": "#17131E",
+      "hex_bare": "17131e",
+      "hex_bare_upper": "17131E",
       "r": 23,
       "red": 23,
       "red_percent": 0.09019607843137255,
@@ -43,6 +49,9 @@
     },
     "foreground": {
       "hex": "#bab4d2",
+      "hex_upper": "#BAB4D2",
+      "hex_bare": "bab4d2",
+      "hex_bare_upper": "BAB4D2",
       "r": 186,
       "red": 186,
       "red_percent": 0.7294117647058823,
@@ -63,6 +72,9 @@
     },
     "fg": {
       "hex": "#bab4d2",
+      "hex_upper": "#BAB4D2",
+      "hex_bare": "bab4d2",
+      "hex_bare_upper": "BAB4D2",
       "r": 186,
       "red": 186,
       "red_percent": 0.7294117647058823,
@@ -83,6 +95,9 @@
     },
     "red": {
       "hex": "#ff6394",
+      "hex_upper": "#FF6394",
+      "hex_bare": "ff6394",
+      "hex_bare_upper": "FF6394",
       "r": 255,
       "red": 255,
       "red_percent": 1,
@@ -103,6 +118,9 @@
     },
     "deleted": {
       "hex": "#ff6394",
+      "hex_upper": "#FF6394",
+      "hex_bare": "ff6394",
+      "hex_bare_upper": "FF6394",
       "r": 255,
       "red": 255,
       "red_percent": 1,
@@ -123,6 +141,9 @@
     },
     "breakpoint": {
       "hex": "#ff6394",
+      "hex_upper": "#FF6394",
+      "hex_bare": "ff6394",
+      "hex_bare_upper": "FF6394",
       "r": 255,
       "red": 255,
       "red_percent": 1,
@@ -143,6 +164,9 @@
     },
     "stop": {
       "hex": "#ff6394",
+      "hex_upper": "#FF6394",
+      "hex_bare": "ff6394",
+      "hex_bare_upper": "FF6394",
       "r": 255,
       "red": 255,
       "red_percent": 1,
@@ -163,6 +187,9 @@
     },
     "this": {
       "hex": "#ff6394",
+      "hex_upper": "#FF6394",
+      "hex_bare": "ff6394",
+      "hex_bare_upper": "FF6394",
       "r": 255,
       "red": 255,
       "red_percent": 1,
@@ -183,6 +210,9 @@
     },
     "bold": {
       "hex": "#ff6394",
+      "hex_upper": "#FF6394",
+      "hex_bare": "ff6394",
+      "hex_bare_upper": "FF6394",
       "r": 255,
       "red": 255,
       "red_percent": 1,
@@ -203,6 +233,9 @@
     },
     "darkred": {
       "hex": "#d74368",
+      "hex_upper": "#D74368",
+      "hex_bare": "d74368",
+      "hex_bare_upper": "D74368",
       "r": 215,
       "red": 215,
       "red_percent": 0.8431372549019608,
@@ -223,6 +256,9 @@
     },
     "error": {
       "hex": "#d74368",
+      "hex_upper": "#D74368",
+      "hex_bare": "d74368",
+      "hex_bare_upper": "D74368",
       "r": 215,
       "red": 215,
       "red_percent": 0.8431372549019608,
@@ -243,6 +279,9 @@
     },
     "invalid": {
       "hex": "#d74368",
+      "hex_upper": "#D74368",
+      "hex_bare": "d74368",
+      "hex_bare_upper": "D74368",
       "r": 215,
       "red": 215,
       "red_percent": 0.8431372549019608,
@@ -263,6 +302,9 @@
     },
     "yellow": {
       "hex": "#f5cb40",
+      "hex_upper": "#F5CB40",
+      "hex_bare": "f5cb40",
+      "hex_bare_upper": "F5CB40",
       "r": 245,
       "red": 245,
       "red_percent": 0.9607843137254902,
@@ -283,6 +325,9 @@
     },
     "orange": {
       "hex": "#e78d5b",
+      "hex_upper": "#E78D5B",
+      "hex_bare": "e78d5b",
+      "hex_bare_upper": "E78D5B",
       "r": 231,
       "red": 231,
       "red_percent": 0.9058823529411765,
@@ -303,6 +348,9 @@
     },
     "darkyellow": {
       "hex": "#e78d5b",
+      "hex_upper": "#E78D5B",
+      "hex_bare": "e78d5b",
+      "hex_bare_upper": "E78D5B",
       "r": 231,
       "red": 231,
       "red_percent": 0.9058823529411765,
@@ -323,6 +371,9 @@
     },
     "warning": {
       "hex": "#e78d5b",
+      "hex_upper": "#E78D5B",
+      "hex_bare": "e78d5b",
+      "hex_bare_upper": "E78D5B",
       "r": 231,
       "red": 231,
       "red_percent": 0.9058823529411765,
@@ -343,6 +394,9 @@
     },
     "constant": {
       "hex": "#e78d5b",
+      "hex_upper": "#E78D5B",
+      "hex_bare": "e78d5b",
+      "hex_bare_upper": "E78D5B",
       "r": 231,
       "red": 231,
       "red_percent": 0.9058823529411765,
@@ -363,6 +417,9 @@
     },
     "green": {
       "hex": "#98d57e",
+      "hex_upper": "#98D57E",
+      "hex_bare": "98d57e",
+      "hex_bare_upper": "98D57E",
       "r": 152,
       "red": 152,
       "red_percent": 0.596078431372549,
@@ -383,6 +440,9 @@
     },
     "added": {
       "hex": "#98d57e",
+      "hex_upper": "#98D57E",
+      "hex_bare": "98d57e",
+      "hex_bare_upper": "98D57E",
       "r": 152,
       "red": 152,
       "red_percent": 0.596078431372549,
@@ -403,6 +463,9 @@
     },
     "debug": {
       "hex": "#98d57e",
+      "hex_upper": "#98D57E",
+      "hex_bare": "98d57e",
+      "hex_bare_upper": "98D57E",
       "r": 152,
       "red": 152,
       "red_percent": 0.596078431372549,
@@ -423,6 +486,9 @@
     },
     "string": {
       "hex": "#98d57e",
+      "hex_upper": "#98D57E",
+      "hex_bare": "98d57e",
+      "hex_bare_upper": "98D57E",
       "r": 152,
       "red": 152,
       "red_percent": 0.596078431372549,
@@ -443,6 +509,9 @@
     },
     "darkgreen": {
       "hex": "#63ae5d",
+      "hex_upper": "#63AE5D",
+      "hex_bare": "63ae5d",
+      "hex_bare_upper": "63AE5D",
       "r": 99,
       "red": 99,
       "red_percent": 0.38823529411764707,
@@ -463,6 +532,9 @@
     },
     "info": {
       "hex": "#63ae5d",
+      "hex_upper": "#63AE5D",
+      "hex_bare": "63ae5d",
+      "hex_bare_upper": "63AE5D",
       "r": 99,
       "red": 99,
       "red_percent": 0.38823529411764707,
@@ -483,6 +555,9 @@
     },
     "cyan": {
       "hex": "#63dcea",
+      "hex_upper": "#63DCEA",
+      "hex_bare": "63dcea",
+      "hex_bare_upper": "63DCEA",
       "r": 99,
       "red": 99,
       "red_percent": 0.38823529411764707,
@@ -503,6 +578,9 @@
     },
     "match": {
       "hex": "#63dcea",
+      "hex_upper": "#63DCEA",
+      "hex_bare": "63dcea",
+      "hex_bare_upper": "63DCEA",
       "r": 99,
       "red": 99,
       "red_percent": 0.38823529411764707,
@@ -523,6 +601,9 @@
     },
     "control": {
       "hex": "#63dcea",
+      "hex_upper": "#63DCEA",
+      "hex_bare": "63dcea",
+      "hex_bare_upper": "63DCEA",
       "r": 99,
       "red": 99,
       "red_percent": 0.38823529411764707,
@@ -543,6 +624,9 @@
     },
     "regex": {
       "hex": "#63dcea",
+      "hex_upper": "#63DCEA",
+      "hex_bare": "63dcea",
+      "hex_bare_upper": "63DCEA",
       "r": 99,
       "red": 99,
       "red_percent": 0.38823529411764707,
@@ -563,6 +647,9 @@
     },
     "escape": {
       "hex": "#63dcea",
+      "hex_upper": "#63DCEA",
+      "hex_bare": "63dcea",
+      "hex_bare_upper": "63DCEA",
       "r": 99,
       "red": 99,
       "red_percent": 0.38823529411764707,
@@ -583,6 +670,9 @@
     },
     "italics": {
       "hex": "#63dcea",
+      "hex_upper": "#63DCEA",
+      "hex_bare": "63dcea",
+      "hex_bare_upper": "63DCEA",
       "r": 99,
       "red": 99,
       "red_percent": 0.38823529411764707,
@@ -603,6 +693,9 @@
     },
     "darkcyan": {
       "hex": "#64a9cc",
+      "hex_upper": "#64A9CC",
+      "hex_bare": "64a9cc",
+      "hex_bare_upper": "64A9CC",
       "r": 100,
       "red": 100,
       "red_percent": 0.39215686274509803,
@@ -623,6 +716,9 @@
     },
     "class": {
       "hex": "#64a9cc",
+      "hex_upper": "#64A9CC",
+      "hex_bare": "64a9cc",
+      "hex_bare_upper": "64A9CC",
       "r": 100,
       "red": 100,
       "red_percent": 0.39215686274509803,
@@ -643,6 +739,9 @@
     },
     "blue": {
       "hex": "#51a2e8",
+      "hex_upper": "#51A2E8",
+      "hex_bare": "51a2e8",
+      "hex_bare_upper": "51A2E8",
       "r": 81,
       "red": 81,
       "red_percent": 0.3176470588235294,
@@ -663,6 +762,9 @@
     },
     "primary": {
       "hex": "#51a2e8",
+      "hex_upper": "#51A2E8",
+      "hex_bare": "51a2e8",
+      "hex_bare_upper": "51A2E8",
       "r": 81,
       "red": 81,
       "red_percent": 0.3176470588235294,
@@ -683,6 +785,9 @@
     },
     "progress": {
       "hex": "#51a2e8",
+      "hex_upper": "#51A2E8",
+      "hex_bare": "51a2e8",
+      "hex_bare_upper": "51A2E8",
       "r": 81,
       "red": 81,
       "red_percent": 0.3176470588235294,
@@ -703,6 +808,9 @@
     },
     "modified": {
       "hex": "#51a2e8",
+      "hex_upper": "#51A2E8",
+      "hex_bare": "51a2e8",
+      "hex_bare_upper": "51A2E8",
       "r": 81,
       "red": 81,
       "red_percent": 0.3176470588235294,
@@ -723,6 +831,9 @@
     },
     "hyperlink": {
       "hex": "#51a2e8",
+      "hex_upper": "#51A2E8",
+      "hex_bare": "51a2e8",
+      "hex_bare_upper": "51A2E8",
       "r": 81,
       "red": 81,
       "red_percent": 0.3176470588235294,
@@ -743,6 +854,9 @@
     },
     "keyword": {
       "hex": "#51a2e8",
+      "hex_upper": "#51A2E8",
+      "hex_bare": "51a2e8",
+      "hex_bare_upper": "51A2E8",
       "r": 81,
       "red": 81,
       "red_percent": 0.3176470588235294,
@@ -763,6 +877,9 @@
     },
     "darkblue": {
       "hex": "#5984e7",
+      "hex_upper": "#5984E7",
+      "hex_bare": "5984e7",
+      "hex_bare_upper": "5984E7",
       "r": 89,
       "red": 89,
       "red_percent": 0.34901960784313724,
@@ -783,6 +900,9 @@
     },
     "bookmark": {
       "hex": "#5984e7",
+      "hex_upper": "#5984E7",
+      "hex_bare": "5984e7",
+      "hex_bare_upper": "5984E7",
       "r": 89,
       "red": 89,
       "red_percent": 0.34901960784313724,
@@ -803,6 +923,9 @@
     },
     "pink": {
       "hex": "#eb68e5",
+      "hex_upper": "#EB68E5",
+      "hex_bare": "eb68e5",
+      "hex_bare_upper": "EB68E5",
       "r": 235,
       "red": 235,
       "red_percent": 0.9215686274509803,
@@ -823,6 +946,9 @@
     },
     "magenta": {
       "hex": "#eb68e5",
+      "hex_upper": "#EB68E5",
+      "hex_bare": "eb68e5",
+      "hex_bare_upper": "EB68E5",
       "r": 235,
       "red": 235,
       "red_percent": 0.9215686274509803,
@@ -843,6 +969,9 @@
     },
     "tertiary": {
       "hex": "#eb68e5",
+      "hex_upper": "#EB68E5",
+      "hex_bare": "eb68e5",
+      "hex_bare_upper": "EB68E5",
       "r": 235,
       "red": 235,
       "red_percent": 0.9215686274509803,
@@ -863,6 +992,9 @@
     },
     "focus": {
       "hex": "#eb68e5",
+      "hex_upper": "#EB68E5",
+      "hex_bare": "eb68e5",
+      "hex_bare_upper": "EB68E5",
       "r": 235,
       "red": 235,
       "red_percent": 0.9215686274509803,
@@ -883,6 +1015,9 @@
     },
     "operator": {
       "hex": "#eb68e5",
+      "hex_upper": "#EB68E5",
+      "hex_bare": "eb68e5",
+      "hex_bare_upper": "EB68E5",
       "r": 235,
       "red": 235,
       "red_percent": 0.9215686274509803,
@@ -903,6 +1038,9 @@
     },
     "purple": {
       "hex": "#966cec",
+      "hex_upper": "#966CEC",
+      "hex_bare": "966cec",
+      "hex_bare_upper": "966CEC",
       "r": 150,
       "red": 150,
       "red_percent": 0.5882352941176471,
@@ -923,6 +1061,9 @@
     },
     "darkmagenta": {
       "hex": "#966cec",
+      "hex_upper": "#966CEC",
+      "hex_bare": "966cec",
+      "hex_bare_upper": "966CEC",
       "r": 150,
       "red": 150,
       "red_percent": 0.5882352941176471,
@@ -943,6 +1084,9 @@
     },
     "secondary": {
       "hex": "#966cec",
+      "hex_upper": "#966CEC",
+      "hex_bare": "966cec",
+      "hex_bare_upper": "966CEC",
       "r": 150,
       "red": 150,
       "red_percent": 0.5882352941176471,
@@ -963,6 +1107,9 @@
     },
     "function": {
       "hex": "#966cec",
+      "hex_upper": "#966CEC",
+      "hex_bare": "966cec",
+      "hex_bare_upper": "966CEC",
       "r": 150,
       "red": 150,
       "red_percent": 0.5882352941176471,
@@ -983,6 +1130,9 @@
     },
     "attribute": {
       "hex": "#966cec",
+      "hex_upper": "#966CEC",
+      "hex_bare": "966cec",
+      "hex_bare_upper": "966CEC",
       "r": 150,
       "red": 150,
       "red_percent": 0.5882352941176471,
@@ -1003,6 +1153,9 @@
     },
     "code": {
       "hex": "#966cec",
+      "hex_upper": "#966CEC",
+      "hex_bare": "966cec",
+      "hex_bare_upper": "966CEC",
       "r": 150,
       "red": 150,
       "red_percent": 0.5882352941176471,
@@ -1023,6 +1176,9 @@
     },
     "white": {
       "hex": "#d1c9f4",
+      "hex_upper": "#D1C9F4",
+      "hex_bare": "d1c9f4",
+      "hex_bare_upper": "D1C9F4",
       "r": 209,
       "red": 209,
       "red_percent": 0.8196078431372549,
@@ -1043,6 +1199,9 @@
     },
     "object": {
       "hex": "#d1c9f4",
+      "hex_upper": "#D1C9F4",
+      "hex_bare": "d1c9f4",
+      "hex_bare_upper": "D1C9F4",
       "r": 209,
       "red": 209,
       "red_percent": 0.8196078431372549,
@@ -1063,6 +1222,9 @@
     },
     "lightgray": {
       "hex": "#8a7d9b",
+      "hex_upper": "#8A7D9B",
+      "hex_bare": "8a7d9b",
+      "hex_bare_upper": "8A7D9B",
       "r": 138,
       "red": 138,
       "red_percent": 0.5411764705882353,
@@ -1083,6 +1245,9 @@
     },
     "darkwhite": {
       "hex": "#8a7d9b",
+      "hex_upper": "#8A7D9B",
+      "hex_bare": "8a7d9b",
+      "hex_bare_upper": "8A7D9B",
       "r": 138,
       "red": 138,
       "red_percent": 0.5411764705882353,
@@ -1103,6 +1268,9 @@
     },
     "muted": {
       "hex": "#8a7d9b",
+      "hex_upper": "#8A7D9B",
+      "hex_bare": "8a7d9b",
+      "hex_bare_upper": "8A7D9B",
       "r": 138,
       "red": 138,
       "red_percent": 0.5411764705882353,
@@ -1123,6 +1291,9 @@
     },
     "punctuation": {
       "hex": "#8a7d9b",
+      "hex_upper": "#8A7D9B",
+      "hex_bare": "8a7d9b",
+      "hex_bare_upper": "8A7D9B",
       "r": 138,
       "red": 138,
       "red_percent": 0.5411764705882353,
@@ -1143,6 +1314,9 @@
     },
     "terminator": {
       "hex": "#8a7d9b",
+      "hex_upper": "#8A7D9B",
+      "hex_bare": "8a7d9b",
+      "hex_bare_upper": "8A7D9B",
       "r": 138,
       "red": 138,
       "red_percent": 0.5411764705882353,
@@ -1163,6 +1337,9 @@
     },
     "gray": {
       "hex": "#37355a",
+      "hex_upper": "#37355A",
+      "hex_bare": "37355a",
+      "hex_bare_upper": "37355A",
       "r": 55,
       "red": 55,
       "red_percent": 0.21568627450980393,
@@ -1183,6 +1360,9 @@
     },
     "gutter": {
       "hex": "#37355a",
+      "hex_upper": "#37355A",
+      "hex_bare": "37355a",
+      "hex_bare_upper": "37355A",
       "r": 55,
       "red": 55,
       "red_percent": 0.21568627450980393,
@@ -1203,6 +1383,9 @@
     },
     "border": {
       "hex": "#37355a",
+      "hex_upper": "#37355A",
+      "hex_bare": "37355a",
+      "hex_bare_upper": "37355A",
       "r": 55,
       "red": 55,
       "red_percent": 0.21568627450980393,
@@ -1223,6 +1406,9 @@
     },
     "rule": {
       "hex": "#37355a",
+      "hex_upper": "#37355A",
+      "hex_bare": "37355a",
+      "hex_bare_upper": "37355A",
       "r": 55,
       "red": 55,
       "red_percent": 0.21568627450980393,
@@ -1243,6 +1429,9 @@
     },
     "button": {
       "hex": "#37355a",
+      "hex_upper": "#37355A",
+      "hex_bare": "37355a",
+      "hex_bare_upper": "37355A",
       "r": 55,
       "red": 55,
       "red_percent": 0.21568627450980393,
@@ -1263,6 +1452,9 @@
     },
     "black": {
       "hex": "#2b284a",
+      "hex_upper": "#2B284A",
+      "hex_bare": "2b284a",
+      "hex_bare_upper": "2B284A",
       "r": 43,
       "red": 43,
       "red_percent": 0.16862745098039217,
@@ -1283,6 +1475,9 @@
     },
     "subheader": {
       "hex": "#2b284a",
+      "hex_upper": "#2B284A",
+      "hex_bare": "2b284a",
+      "hex_bare_upper": "2B284A",
       "r": 43,
       "red": 43,
       "red_percent": 0.16862745098039217,
@@ -1303,6 +1498,9 @@
     },
     "tabline": {
       "hex": "#2b284a",
+      "hex_upper": "#2B284A",
+      "hex_bare": "2b284a",
+      "hex_bare_upper": "2B284A",
       "r": 43,
       "red": 43,
       "red_percent": 0.16862745098039217,
@@ -1323,6 +1521,9 @@
     },
     "border2": {
       "hex": "#0b0911",
+      "hex_upper": "#0B0911",
+      "hex_bare": "0b0911",
+      "hex_bare_upper": "0B0911",
       "r": 11,
       "red": 11,
       "red_percent": 0.043137254901960784,
@@ -1343,6 +1544,9 @@
     },
     "header": {
       "hex": "#0b0911",
+      "hex_upper": "#0B0911",
+      "hex_bare": "0b0911",
+      "hex_bare_upper": "0B0911",
       "r": 11,
       "red": 11,
       "red_percent": 0.043137254901960784,
@@ -1363,6 +1567,9 @@
     },
     "modal": {
       "hex": "#211d2b",
+      "hex_upper": "#211D2B",
+      "hex_bare": "211d2b",
+      "hex_bare_upper": "211D2B",
       "r": 33,
       "red": 33,
       "red_percent": 0.12941176470588237,
@@ -1383,6 +1590,9 @@
     },
     "menu": {
       "hex": "#211d2b",
+      "hex_upper": "#211D2B",
+      "hex_bare": "211d2b",
+      "hex_bare_upper": "211D2B",
       "r": 33,
       "red": 33,
       "red_percent": 0.12941176470588237,
@@ -1403,6 +1613,9 @@
     },
     "toolbar": {
       "hex": "#211d2b",
+      "hex_upper": "#211D2B",
+      "hex_bare": "211d2b",
+      "hex_bare_upper": "211D2B",
       "r": 33,
       "red": 33,
       "red_percent": 0.12941176470588237,
@@ -1423,6 +1636,9 @@
     },
     "hover": {
       "hex": "#2d203c",
+      "hex_upper": "#2D203C",
+      "hex_bare": "2d203c",
+      "hex_bare_upper": "2D203C",
       "r": 45,
       "red": 45,
       "red_percent": 0.17647058823529413,
@@ -1443,6 +1659,9 @@
     },
     "highlight": {
       "hex": "#2d203c",
+      "hex_upper": "#2D203C",
+      "hex_bare": "2d203c",
+      "hex_bare_upper": "2D203C",
       "r": 45,
       "red": 45,
       "red_percent": 0.17647058823529413,
@@ -1463,6 +1682,9 @@
     },
     "altrow": {
       "hex": "#2b253c",
+      "hex_upper": "#2B253C",
+      "hex_bare": "2b253c",
+      "hex_bare_upper": "2B253C",
       "r": 43,
       "red": 43,
       "red_percent": 0.16862745098039217,
@@ -1483,6 +1705,9 @@
     },
     "focusborder": {
       "hex": "#3d2a54",
+      "hex_upper": "#3D2A54",
+      "hex_bare": "3d2a54",
+      "hex_bare_upper": "3D2A54",
       "r": 61,
       "red": 61,
       "red_percent": 0.23921568627450981,
@@ -1503,6 +1728,9 @@
     },
     "highlightborder": {
       "hex": "#3d2a54",
+      "hex_upper": "#3D2A54",
+      "hex_bare": "3d2a54",
+      "hex_bare_upper": "3D2A54",
       "r": 61,
       "red": 61,
       "red_percent": 0.23921568627450981,
@@ -1523,6 +1751,9 @@
     },
     "modalhighlight": {
       "hex": "#3e2e4c",
+      "hex_upper": "#3E2E4C",
+      "hex_bare": "3e2e4c",
+      "hex_bare_upper": "3E2E4C",
       "r": 62,
       "red": 62,
       "red_percent": 0.24313725490196078,
@@ -1543,6 +1774,9 @@
     },
     "highlight2": {
       "hex": "#3e2e4c",
+      "hex_upper": "#3E2E4C",
+      "hex_bare": "3e2e4c",
+      "hex_bare_upper": "3E2E4C",
       "r": 62,
       "red": 62,
       "red_percent": 0.24313725490196078,
@@ -1563,6 +1797,9 @@
     },
     "selection": {
       "hex": "#3c376f",
+      "hex_upper": "#3C376F",
+      "hex_bare": "3c376f",
+      "hex_bare_upper": "3C376F",
       "r": 60,
       "red": 60,
       "red_percent": 0.23529411764705882,
@@ -1583,6 +1820,9 @@
     },
     "comment": {
       "hex": "#5953a7",
+      "hex_upper": "#5953A7",
+      "hex_bare": "5953a7",
+      "hex_bare_upper": "5953A7",
       "r": 89,
       "red": 89,
       "red_percent": 0.34901960784313724,
@@ -1603,6 +1843,9 @@
     },
     "cursor": {
       "hex": "#857abc",
+      "hex_upper": "#857ABC",
+      "hex_bare": "857abc",
+      "hex_bare_upper": "857ABC",
       "r": 133,
       "red": 133,
       "red_percent": 0.5215686274509804,
@@ -1623,6 +1866,9 @@
     },
     "activitybadge": {
       "hex": "#007acc",
+      "hex_upper": "#007ACC",
+      "hex_bare": "007acc",
+      "hex_bare_upper": "007ACC",
       "r": 0,
       "red": 0,
       "red_percent": 0,
@@ -1643,6 +1889,9 @@
     },
     "blue2": {
       "hex": "#4984e7",
+      "hex_upper": "#4984E7",
+      "hex_bare": "4984e7",
+      "hex_bare_upper": "4984E7",
       "r": 73,
       "red": 73,
       "red_percent": 0.28627450980392155,
@@ -1663,6 +1912,9 @@
     },
     "bracket": {
       "hex": "#6c8db3",
+      "hex_upper": "#6C8DB3",
+      "hex_bare": "6c8db3",
+      "hex_bare_upper": "6C8DB3",
       "r": 108,
       "red": 108,
       "red_percent": 0.4235294117647059,
@@ -1683,6 +1935,9 @@
     },
     "error2": {
       "hex": "#6a1d31",
+      "hex_upper": "#6A1D31",
+      "hex_bare": "6a1d31",
+      "hex_bare_upper": "6A1D31",
       "r": 106,
       "red": 106,
       "red_percent": 0.41568627450980394,
@@ -1703,6 +1958,9 @@
     },
     "tag": {
       "hex": "#f07178",
+      "hex_upper": "#F07178",
+      "hex_bare": "f07178",
+      "hex_bare_upper": "F07178",
       "r": 240,
       "red": 240,
       "red_percent": 0.9411764705882353,
@@ -1723,6 +1981,9 @@
     },
     "foreground2": {
       "hex": "#bbbbbb",
+      "hex_upper": "#BBBBBB",
+      "hex_bare": "bbbbbb",
+      "hex_bare_upper": "BBBBBB",
       "r": 187,
       "red": 187,
       "red_percent": 0.7333333333333333,
@@ -1743,6 +2004,9 @@
     },
     "purewhite": {
       "hex": "#ffffff",
+      "hex_upper": "#FFFFFF",
+      "hex_bare": "ffffff",
+      "hex_bare_upper": "FFFFFF",
       "r": 255,
       "red": 255,
       "red_percent": 1,
@@ -1763,6 +2027,9 @@
     },
     "teal": {
       "hex": "#5ee59d",
+      "hex_upper": "#5EE59D",
+      "hex_bare": "5ee59d",
+      "hex_bare_upper": "5EE59D",
       "r": 94,
       "red": 94,
       "red_percent": 0.3686274509803922,
@@ -1783,6 +2050,9 @@
     },
     "todo": {
       "hex": "#5ee59d",
+      "hex_upper": "#5EE59D",
+      "hex_bare": "5ee59d",
+      "hex_bare_upper": "5EE59D",
       "r": 94,
       "red": 94,
       "red_percent": 0.3686274509803922,

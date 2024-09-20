@@ -10,6 +10,13 @@ Ayame is a theme made for the terminal, IDE, and app GUI. It does not look like 
 | --- | --- | --- |
 @-ayame-palette-table
 
+## Deployments
+
+Ayame is available for the following tools:
+
+- [Visual Studio Code](https://github.com/AyameTheme/vscode)
+- [Microsoft Office](build/out/office/README.md)
+
 ## Building
 
 Color definitions are contained in `src/ayame-colors.json`. This file is the main 'editable' file used for modifying the color palette. This file is used to generate `build/out/ayame.json`, which is the main file used to place colors in template files. For example, this is the output definition for "background":
@@ -113,14 +120,14 @@ It finds the following string and recognizes it as a variable to be replaced:
 
 ```json
 {
-  colors: {
+  "colors": {
     "orange": {
       "r": 231,
-      ...
+      // ...
     },
-    ...
+    // ...
   },
-  ...
+  // ...
 }
 ```
 
