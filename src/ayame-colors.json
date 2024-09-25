@@ -107,7 +107,8 @@
         "regex",
         "escape",
         "italics",
-        "cyan500"
+        "cyan500",
+        "linkhover"
       ],
       "hex": "#54e7f8",
       "uses": [
@@ -168,7 +169,8 @@
         "tertiary",
         "focus",
         "operator",
-        "magenta500"
+        "magenta500",
+        "value"
       ],
       "hex": "#f76ef1",
       "uses": [
@@ -450,17 +452,20 @@
       "aliases": [
         "modal",
         "menu",
-        "toolbar"
+        "toolbar",
+        "checkbox",
+        "input"
       ],
       "hex": "#221c35",
       "uses": [
-        "Modal background"
+        "Modal background",
+        "Checkbox background",
+        "Input background"
       ]
     },
     {
       "name": "bg600",
       "aliases": [
-        "black",
         "subheader",
         "tabline",
         "hover",
@@ -468,7 +473,6 @@
       ],
       "hex": "#2b2343",
       "uses": [
-        "Terminal Black",
         "Subheader background",
         "Line highlight",
         "UI hover highlight"
@@ -477,7 +481,7 @@
     {
       "name": "bg500",
       "aliases": [
-        "gray",
+        "black",
         "gutter",
         "border",
         "rule",
@@ -486,7 +490,7 @@
       ],
       "hex": "#342950",
       "uses": [
-        "Terminal Bright Black",
+        "Terminal Black",
         "Buttons",
         "Borders",
         "Rules and guides",
@@ -516,10 +520,15 @@
     {
       "name": "bg100",
       "aliases": [
-        "comment"
+        "gray",
+        "comment",
+        "blockquote",
+        "folded",
+        "darkgray"
       ],
       "hex": "#564585",
       "uses": [
+        "Terminal Bright Black",
         "Comments",
         "Markdown block quotes",
         "Folded code blocks"
@@ -563,18 +572,26 @@
     },
     {
       "name": "fg500",
-      "aliases": [],
+      "aliases": [
+        "underline"
+      ],
       "hex": "#7c52ad",
-      "uses": []
+      "uses": [
+        "Markdown underline"
+      ]
     },
     {
       "name": "fg400",
       "aliases": [
-        "cursor"
+        "cursor",
+        "focus",
+        "activeborder",
+        "active"
       ],
       "hex": "#9675bd",
       "uses": [
         "Cursor",
+        "Active border",
         "Active line number",
         "Subheader foreground",
         "Badge background",

@@ -33,10 +33,10 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](build/out/icon/yellow.svg) `#f5cb40` | `yellow`, `character`, `yellow500` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
 | ![](build/out/icon/green.svg) `#96e474` | `green`, `added`, `debug`, `string`, `green500` | Terminal Bright Green, Git added, Debug, Strings |
 | ![](build/out/icon/teal.svg) `#5df8a6` | `teal`, `todo`, `teal500` | TODO comments |
-| ![](build/out/icon/cyan.svg) `#54e7f8` | `cyan`, `match`, `control`, `regex`, `escape`, `italics`, `cyan500` | Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics |
+| ![](build/out/icon/cyan.svg) `#54e7f8` | `cyan`, `match`, `control`, `regex`, `escape`, `italics`, `cyan500`, `linkhover` | Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics |
 | ![](build/out/icon/blue.svg) `#44a3f5` | `blue`, `primary`, `progress`, `modified`, `hyperlink`, `keyword`, `type`, `blue500` | Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type |
 | ![](build/out/icon/purple.svg) `#9768f8` | `purple`, `darkmagenta`, `secondary`, `function`, `fun`, `attribute`, `code`, `purple500` | Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks |
-| ![](build/out/icon/magenta.svg) `#f76ef1` | `magenta`, `pink`, `tertiary`, `focus`, `operator`, `magenta500` | Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords |
+| ![](build/out/icon/magenta.svg) `#f76ef1` | `magenta`, `pink`, `tertiary`, `focus`, `operator`, `magenta500`, `value` | Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords |
 | ![](build/out/icon/red900.svg) `#662332` | `red900`, `error2` | Error background |
 | ![](build/out/icon/red700.svg) `#cc4665` | `red700`, `darkred`, `error`, `invalid`, `tag` | Terminal Red, Error, Invalid, Tags |
 | ![](build/out/icon/red300.svg) `#ff7998` | `red300` |  |
@@ -74,19 +74,19 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](build/out/icon/magenta300.svg) `#f98bf4` | `magenta300` |  |
 | ![](build/out/icon/magenta100.svg) `#fcc5f9` | `magenta100` |  |
 | ![](build/out/icon/bg800.svg) `#1a1528` | `bg800`, `border2`, `header` | Secondary borders |
-| ![](build/out/icon/bg700.svg) `#221c35` | `bg700`, `modal`, `menu`, `toolbar` | Modal background |
-| ![](build/out/icon/bg600.svg) `#2b2343` | `bg600`, `black`, `subheader`, `tabline`, `hover`, `highlight` | Terminal Black, Subheader background, Line highlight, UI hover highlight |
-| ![](build/out/icon/bg500.svg) `#342950` | `bg500`, `gray`, `gutter`, `border`, `rule`, `button`, `altrow` | Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background |
+| ![](build/out/icon/bg700.svg) `#221c35` | `bg700`, `modal`, `menu`, `toolbar`, `checkbox`, `input` | Modal background, Checkbox background, Input background |
+| ![](build/out/icon/bg600.svg) `#2b2343` | `bg600`, `subheader`, `tabline`, `hover`, `highlight` | Subheader background, Line highlight, UI hover highlight |
+| ![](build/out/icon/bg500.svg) `#342950` | `bg500`, `black`, `gutter`, `border`, `rule`, `button`, `altrow` | Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background |
 | ![](build/out/icon/bg400.svg) `#3c305d` | `bg400` |  |
 | ![](build/out/icon/bg300.svg) `#45376a` | `bg300` |  |
 | ![](build/out/icon/bg200.svg) `#4d3e78` | `bg200` |  |
-| ![](build/out/icon/bg100.svg) `#564585` | `bg100`, `comment` | Comments, Markdown block quotes, Folded code blocks |
+| ![](build/out/icon/bg100.svg) `#564585` | `bg100`, `gray`, `comment`, `blockquote`, `folded`, `darkgray` | Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks |
 | ![](build/out/icon/fg900.svg) `#191023` | `fg900` |  |
 | ![](build/out/icon/fg800.svg) `#322145` | `fg800`, `focusborder`, `highlightborder`, `modalhighlight`, `highlight2` | Highlight and focus border, Highlights in UI and modals |
 | ![](build/out/icon/fg700.svg) `#4a3168` | `fg700`, `selection` | Selection background |
 | ![](build/out/icon/fg600.svg) `#63428a` | `fg600` |  |
-| ![](build/out/icon/fg500.svg) `#7c52ad` | `fg500` |  |
-| ![](build/out/icon/fg400.svg) `#9675bd` | `fg400`, `cursor` | Cursor, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text |
+| ![](build/out/icon/fg500.svg) `#7c52ad` | `fg500`, `underline` | Markdown underline |
+| ![](build/out/icon/fg400.svg) `#9675bd` | `fg400`, `cursor`, `focus`, `activeborder`, `active` | Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text |
 | ![](build/out/icon/fg300.svg) `#b097ce` | `fg300` |  |
 | ![](build/out/icon/fg100.svg) `#e5dcef` | `fg100`, `white`, `object` | Terminal Bright White, Objects |
 | ![](build/out/icon/bracket.svg) `#6c8db3` | `bracket` | Parentheses, Brackets, Braces |

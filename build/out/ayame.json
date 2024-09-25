@@ -1026,6 +1026,38 @@
         "Markdown italics"
       ]
     },
+    "linkhover": {
+      "hex": "#54e7f8",
+      "hex_upper": "#54E7F8",
+      "hex_bare": "54e7f8",
+      "hex_bare_upper": "54E7F8",
+      "r": 84,
+      "red": 84,
+      "red_percent": 0.32941176470588235,
+      "g": 231,
+      "green": 231,
+      "green_percent": 0.9058823529411765,
+      "b": 248,
+      "blue": 248,
+      "blue_percent": 0.9725490196078431,
+      "rgb": "rgb(84, 231, 248)",
+      "h": 186.21951219512195,
+      "hue": 186.21951219512195,
+      "s": 0.9213483146067415,
+      "saturation": 0.9213483146067415,
+      "l": 0.6509803921568628,
+      "lightness": 0.6509803921568628,
+      "hsl": "hsl(186, 92%, 65%)",
+      "uses": [
+        "Terminal Bright Cyan",
+        "Find matches",
+        "Hyperlink hover",
+        "Control keywords",
+        "RegEx literals",
+        "Escape characters",
+        "Markdown italics"
+      ]
+    },
     "blue": {
       "hex": "#44a3f5",
       "hex_upper": "#44A3F5",
@@ -1602,32 +1634,35 @@
       ]
     },
     "focus": {
-      "hex": "#f76ef1",
-      "hex_upper": "#F76EF1",
-      "hex_bare": "f76ef1",
-      "hex_bare_upper": "F76EF1",
-      "r": 247,
-      "red": 247,
-      "red_percent": 0.9686274509803922,
-      "g": 110,
-      "green": 110,
-      "green_percent": 0.43137254901960786,
-      "b": 241,
-      "blue": 241,
-      "blue_percent": 0.9450980392156862,
-      "rgb": "rgb(247, 110, 241)",
-      "h": 302.62773722627736,
-      "hue": 302.62773722627736,
-      "s": 0.895424836601307,
-      "saturation": 0.895424836601307,
-      "l": 0.7,
-      "lightness": 0.7,
-      "hsl": "hsl(303, 90%, 70%)",
+      "hex": "#9675bd",
+      "hex_upper": "#9675BD",
+      "hex_bare": "9675bd",
+      "hex_bare_upper": "9675BD",
+      "r": 150,
+      "red": 150,
+      "red_percent": 0.5882352941176471,
+      "g": 117,
+      "green": 117,
+      "green_percent": 0.4588235294117647,
+      "b": 189,
+      "blue": 189,
+      "blue_percent": 0.7411764705882353,
+      "rgb": "rgb(150, 117, 189)",
+      "h": 267.5,
+      "hue": 267.5,
+      "s": 0.35294117647058826,
+      "saturation": 0.35294117647058826,
+      "l": 0.6,
+      "lightness": 0.6,
+      "hsl": "hsl(268, 35%, 60%)",
       "uses": [
-        "Terminal Bright Magenta",
-        "Debug token values",
-        "Focus accents",
-        "Operator keywords"
+        "Cursor",
+        "Active border",
+        "Active line number",
+        "Subheader foreground",
+        "Badge background",
+        "Minimap and scrollbar background",
+        "Markdown table text"
       ]
     },
     "operator": {
@@ -1660,6 +1695,35 @@
       ]
     },
     "magenta500": {
+      "hex": "#f76ef1",
+      "hex_upper": "#F76EF1",
+      "hex_bare": "f76ef1",
+      "hex_bare_upper": "F76EF1",
+      "r": 247,
+      "red": 247,
+      "red_percent": 0.9686274509803922,
+      "g": 110,
+      "green": 110,
+      "green_percent": 0.43137254901960786,
+      "b": 241,
+      "blue": 241,
+      "blue_percent": 0.9450980392156862,
+      "rgb": "rgb(247, 110, 241)",
+      "h": 302.62773722627736,
+      "hue": 302.62773722627736,
+      "s": 0.895424836601307,
+      "saturation": 0.895424836601307,
+      "l": 0.7,
+      "lightness": 0.7,
+      "hsl": "hsl(303, 90%, 70%)",
+      "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords"
+      ]
+    },
+    "value": {
       "hex": "#f76ef1",
       "hex_upper": "#F76EF1",
       "hex_bare": "f76ef1",
@@ -3099,7 +3163,9 @@
       "lightness": 0.1588235294117647,
       "hsl": "hsl(254, 31%, 16%)",
       "uses": [
-        "Modal background"
+        "Modal background",
+        "Checkbox background",
+        "Input background"
       ]
     },
     "modal": {
@@ -3125,7 +3191,9 @@
       "lightness": 0.1588235294117647,
       "hsl": "hsl(254, 31%, 16%)",
       "uses": [
-        "Modal background"
+        "Modal background",
+        "Checkbox background",
+        "Input background"
       ]
     },
     "menu": {
@@ -3151,7 +3219,9 @@
       "lightness": 0.1588235294117647,
       "hsl": "hsl(254, 31%, 16%)",
       "uses": [
-        "Modal background"
+        "Modal background",
+        "Checkbox background",
+        "Input background"
       ]
     },
     "toolbar": {
@@ -3177,7 +3247,65 @@
       "lightness": 0.1588235294117647,
       "hsl": "hsl(254, 31%, 16%)",
       "uses": [
-        "Modal background"
+        "Modal background",
+        "Checkbox background",
+        "Input background"
+      ]
+    },
+    "checkbox": {
+      "hex": "#221c35",
+      "hex_upper": "#221C35",
+      "hex_bare": "221c35",
+      "hex_bare_upper": "221C35",
+      "r": 34,
+      "red": 34,
+      "red_percent": 0.13333333333333333,
+      "g": 28,
+      "green": 28,
+      "green_percent": 0.10980392156862745,
+      "b": 53,
+      "blue": 53,
+      "blue_percent": 0.20784313725490197,
+      "rgb": "rgb(34, 28, 53)",
+      "h": 254.4,
+      "hue": 254.4,
+      "s": 0.308641975308642,
+      "saturation": 0.308641975308642,
+      "l": 0.1588235294117647,
+      "lightness": 0.1588235294117647,
+      "hsl": "hsl(254, 31%, 16%)",
+      "uses": [
+        "Modal background",
+        "Checkbox background",
+        "Input background"
+      ]
+    },
+    "input": {
+      "hex": "#221c35",
+      "hex_upper": "#221C35",
+      "hex_bare": "221c35",
+      "hex_bare_upper": "221C35",
+      "r": 34,
+      "red": 34,
+      "red_percent": 0.13333333333333333,
+      "g": 28,
+      "green": 28,
+      "green_percent": 0.10980392156862745,
+      "b": 53,
+      "blue": 53,
+      "blue_percent": 0.20784313725490197,
+      "rgb": "rgb(34, 28, 53)",
+      "h": 254.4,
+      "hue": 254.4,
+      "s": 0.308641975308642,
+      "saturation": 0.308641975308642,
+      "l": 0.1588235294117647,
+      "lightness": 0.1588235294117647,
+      "hsl": "hsl(254, 31%, 16%)",
+      "uses": [
+        "Modal background",
+        "Checkbox background",
+        "Input background"
       ]
     },
     "bg600": {
@@ -3203,36 +3331,6 @@
       "lightness": 0.2,
       "hsl": "hsl(255, 31%, 20%)",
       "uses": [
-        "Terminal Black",
-        "Subheader background",
-        "Line highlight",
-        "UI hover highlight"
-      ]
-    },
-    "black": {
-      "hex": "#2b2343",
-      "hex_upper": "#2B2343",
-      "hex_bare": "2b2343",
-      "hex_bare_upper": "2B2343",
-      "r": 43,
-      "red": 43,
-      "red_percent": 0.16862745098039217,
-      "g": 35,
-      "green": 35,
-      "green_percent": 0.13725490196078433,
-      "b": 67,
-      "blue": 67,
-      "blue_percent": 0.2627450980392157,
-      "rgb": "rgb(43, 35, 67)",
-      "h": 255.0,
-      "hue": 255.0,
-      "s": 0.3137254901960784,
-      "saturation": 0.3137254901960784,
-      "l": 0.2,
-      "lightness": 0.2,
-      "hsl": "hsl(255, 31%, 20%)",
-      "uses": [
-        "Terminal Black",
         "Subheader background",
         "Line highlight",
         "UI hover highlight"
@@ -3261,7 +3359,6 @@
       "lightness": 0.2,
       "hsl": "hsl(255, 31%, 20%)",
       "uses": [
-        "Terminal Black",
         "Subheader background",
         "Line highlight",
         "UI hover highlight"
@@ -3290,7 +3387,6 @@
       "lightness": 0.2,
       "hsl": "hsl(255, 31%, 20%)",
       "uses": [
-        "Terminal Black",
         "Subheader background",
         "Line highlight",
         "UI hover highlight"
@@ -3319,7 +3415,6 @@
       "lightness": 0.2,
       "hsl": "hsl(255, 31%, 20%)",
       "uses": [
-        "Terminal Black",
         "Subheader background",
         "Line highlight",
         "UI hover highlight"
@@ -3348,7 +3443,6 @@
       "lightness": 0.2,
       "hsl": "hsl(255, 31%, 20%)",
       "uses": [
-        "Terminal Black",
         "Subheader background",
         "Line highlight",
         "UI hover highlight"
@@ -3377,7 +3471,7 @@
       "lightness": 0.2372549019607843,
       "hsl": "hsl(257, 32%, 24%)",
       "uses": [
-        "Terminal Bright Black",
+        "Terminal Black",
         "Buttons",
         "Borders",
         "Rules and guides",
@@ -3386,7 +3480,7 @@
         "Alternate modal background"
       ]
     },
-    "gray": {
+    "black": {
       "hex": "#342950",
       "hex_upper": "#342950",
       "hex_bare": "342950",
@@ -3409,7 +3503,7 @@
       "lightness": 0.2372549019607843,
       "hsl": "hsl(257, 32%, 24%)",
       "uses": [
-        "Terminal Bright Black",
+        "Terminal Black",
         "Buttons",
         "Borders",
         "Rules and guides",
@@ -3441,7 +3535,7 @@
       "lightness": 0.2372549019607843,
       "hsl": "hsl(257, 32%, 24%)",
       "uses": [
-        "Terminal Bright Black",
+        "Terminal Black",
         "Buttons",
         "Borders",
         "Rules and guides",
@@ -3473,7 +3567,7 @@
       "lightness": 0.2372549019607843,
       "hsl": "hsl(257, 32%, 24%)",
       "uses": [
-        "Terminal Bright Black",
+        "Terminal Black",
         "Buttons",
         "Borders",
         "Rules and guides",
@@ -3505,7 +3599,7 @@
       "lightness": 0.2372549019607843,
       "hsl": "hsl(257, 32%, 24%)",
       "uses": [
-        "Terminal Bright Black",
+        "Terminal Black",
         "Buttons",
         "Borders",
         "Rules and guides",
@@ -3537,7 +3631,7 @@
       "lightness": 0.2372549019607843,
       "hsl": "hsl(257, 32%, 24%)",
       "uses": [
-        "Terminal Bright Black",
+        "Terminal Black",
         "Buttons",
         "Borders",
         "Rules and guides",
@@ -3569,7 +3663,7 @@
       "lightness": 0.2372549019607843,
       "hsl": "hsl(257, 32%, 24%)",
       "uses": [
-        "Terminal Bright Black",
+        "Terminal Black",
         "Buttons",
         "Borders",
         "Rules and guides",
@@ -3673,6 +3767,36 @@
       "lightness": 0.39607843137254906,
       "hsl": "hsl(256, 32%, 40%)",
       "uses": [
+        "Terminal Bright Black",
+        "Comments",
+        "Markdown block quotes",
+        "Folded code blocks"
+      ]
+    },
+    "gray": {
+      "hex": "#564585",
+      "hex_upper": "#564585",
+      "hex_bare": "564585",
+      "hex_bare_upper": "564585",
+      "r": 86,
+      "red": 86,
+      "red_percent": 0.33725490196078434,
+      "g": 69,
+      "green": 69,
+      "green_percent": 0.27058823529411763,
+      "b": 133,
+      "blue": 133,
+      "blue_percent": 0.5215686274509804,
+      "rgb": "rgb(86, 69, 133)",
+      "h": 255.9375,
+      "hue": 255.9375,
+      "s": 0.3168316831683169,
+      "saturation": 0.3168316831683169,
+      "l": 0.39607843137254906,
+      "lightness": 0.39607843137254906,
+      "hsl": "hsl(256, 32%, 40%)",
+      "uses": [
+        "Terminal Bright Black",
         "Comments",
         "Markdown block quotes",
         "Folded code blocks"
@@ -3701,6 +3825,94 @@
       "lightness": 0.39607843137254906,
       "hsl": "hsl(256, 32%, 40%)",
       "uses": [
+        "Terminal Bright Black",
+        "Comments",
+        "Markdown block quotes",
+        "Folded code blocks"
+      ]
+    },
+    "blockquote": {
+      "hex": "#564585",
+      "hex_upper": "#564585",
+      "hex_bare": "564585",
+      "hex_bare_upper": "564585",
+      "r": 86,
+      "red": 86,
+      "red_percent": 0.33725490196078434,
+      "g": 69,
+      "green": 69,
+      "green_percent": 0.27058823529411763,
+      "b": 133,
+      "blue": 133,
+      "blue_percent": 0.5215686274509804,
+      "rgb": "rgb(86, 69, 133)",
+      "h": 255.9375,
+      "hue": 255.9375,
+      "s": 0.3168316831683169,
+      "saturation": 0.3168316831683169,
+      "l": 0.39607843137254906,
+      "lightness": 0.39607843137254906,
+      "hsl": "hsl(256, 32%, 40%)",
+      "uses": [
+        "Terminal Bright Black",
+        "Comments",
+        "Markdown block quotes",
+        "Folded code blocks"
+      ]
+    },
+    "folded": {
+      "hex": "#564585",
+      "hex_upper": "#564585",
+      "hex_bare": "564585",
+      "hex_bare_upper": "564585",
+      "r": 86,
+      "red": 86,
+      "red_percent": 0.33725490196078434,
+      "g": 69,
+      "green": 69,
+      "green_percent": 0.27058823529411763,
+      "b": 133,
+      "blue": 133,
+      "blue_percent": 0.5215686274509804,
+      "rgb": "rgb(86, 69, 133)",
+      "h": 255.9375,
+      "hue": 255.9375,
+      "s": 0.3168316831683169,
+      "saturation": 0.3168316831683169,
+      "l": 0.39607843137254906,
+      "lightness": 0.39607843137254906,
+      "hsl": "hsl(256, 32%, 40%)",
+      "uses": [
+        "Terminal Bright Black",
+        "Comments",
+        "Markdown block quotes",
+        "Folded code blocks"
+      ]
+    },
+    "darkgray": {
+      "hex": "#564585",
+      "hex_upper": "#564585",
+      "hex_bare": "564585",
+      "hex_bare_upper": "564585",
+      "r": 86,
+      "red": 86,
+      "red_percent": 0.33725490196078434,
+      "g": 69,
+      "green": 69,
+      "green_percent": 0.27058823529411763,
+      "b": 133,
+      "blue": 133,
+      "blue_percent": 0.5215686274509804,
+      "rgb": "rgb(86, 69, 133)",
+      "h": 255.9375,
+      "hue": 255.9375,
+      "s": 0.3168316831683169,
+      "saturation": 0.3168316831683169,
+      "l": 0.39607843137254906,
+      "lightness": 0.39607843137254906,
+      "hsl": "hsl(256, 32%, 40%)",
+      "uses": [
+        "Terminal Bright Black",
         "Comments",
         "Markdown block quotes",
         "Folded code blocks"
@@ -3963,7 +4175,35 @@
       "l": 0.5,
       "lightness": 0.5,
       "hsl": "hsl(268, 36%, 50%)",
-      "uses": []
+      "uses": [
+        "Markdown underline"
+      ]
+    },
+    "underline": {
+      "hex": "#7c52ad",
+      "hex_upper": "#7C52AD",
+      "hex_bare": "7c52ad",
+      "hex_bare_upper": "7C52AD",
+      "r": 124,
+      "red": 124,
+      "red_percent": 0.48627450980392156,
+      "g": 82,
+      "green": 82,
+      "green_percent": 0.3215686274509804,
+      "b": 173,
+      "blue": 173,
+      "blue_percent": 0.6784313725490196,
+      "rgb": "rgb(124, 82, 173)",
+      "h": 267.6923076923077,
+      "hue": 267.6923076923077,
+      "s": 0.3568627450980392,
+      "saturation": 0.3568627450980392,
+      "l": 0.5,
+      "lightness": 0.5,
+      "hsl": "hsl(268, 36%, 50%)",
+      "uses": [
+        "Markdown underline"
+      ]
     },
     "fg400": {
       "hex": "#9675bd",
@@ -3989,6 +4229,7 @@
       "hsl": "hsl(268, 35%, 60%)",
       "uses": [
         "Cursor",
+        "Active border",
         "Active line number",
         "Subheader foreground",
         "Badge background",
@@ -4020,6 +4261,71 @@
       "hsl": "hsl(268, 35%, 60%)",
       "uses": [
         "Cursor",
+        "Active border",
+        "Active line number",
+        "Subheader foreground",
+        "Badge background",
+        "Minimap and scrollbar background",
+        "Markdown table text"
+      ]
+    },
+    "activeborder": {
+      "hex": "#9675bd",
+      "hex_upper": "#9675BD",
+      "hex_bare": "9675bd",
+      "hex_bare_upper": "9675BD",
+      "r": 150,
+      "red": 150,
+      "red_percent": 0.5882352941176471,
+      "g": 117,
+      "green": 117,
+      "green_percent": 0.4588235294117647,
+      "b": 189,
+      "blue": 189,
+      "blue_percent": 0.7411764705882353,
+      "rgb": "rgb(150, 117, 189)",
+      "h": 267.5,
+      "hue": 267.5,
+      "s": 0.35294117647058826,
+      "saturation": 0.35294117647058826,
+      "l": 0.6,
+      "lightness": 0.6,
+      "hsl": "hsl(268, 35%, 60%)",
+      "uses": [
+        "Cursor",
+        "Active border",
+        "Active line number",
+        "Subheader foreground",
+        "Badge background",
+        "Minimap and scrollbar background",
+        "Markdown table text"
+      ]
+    },
+    "active": {
+      "hex": "#9675bd",
+      "hex_upper": "#9675BD",
+      "hex_bare": "9675bd",
+      "hex_bare_upper": "9675BD",
+      "r": 150,
+      "red": 150,
+      "red_percent": 0.5882352941176471,
+      "g": 117,
+      "green": 117,
+      "green_percent": 0.4588235294117647,
+      "b": 189,
+      "blue": 189,
+      "blue_percent": 0.7411764705882353,
+      "rgb": "rgb(150, 117, 189)",
+      "h": 267.5,
+      "hue": 267.5,
+      "s": 0.35294117647058826,
+      "saturation": 0.35294117647058826,
+      "l": 0.6,
+      "lightness": 0.6,
+      "hsl": "hsl(268, 35%, 60%)",
+      "uses": [
+        "Cursor",
+        "Active border",
         "Active line number",
         "Subheader foreground",
         "Badge background",
