@@ -158,7 +158,6 @@
   --ayame-selection: var(--ayame-fg700); /* Selection background */
   --ayame-underline: var(--ayame-fg500); /* Markdown underline */
   --ayame-cursor: var(--ayame-fg400); /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
-  --ayame-focus: var(--ayame-fg400); /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
   --ayame-activeborder: var(--ayame-fg400); /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
   --ayame-active: var(--ayame-fg400); /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
   --ayame-white: var(--ayame-fg100); /* Terminal Bright White, Objects */

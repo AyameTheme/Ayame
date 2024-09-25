@@ -584,7 +584,6 @@
       "name": "fg400",
       "aliases": [
         "cursor",
-        "focus",
         "activeborder",
         "active"
       ],

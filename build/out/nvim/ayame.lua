@@ -56,7 +56,7 @@ function M.get()
         magenta         = "#f76ef1", -- Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
         pink            = "#f76ef1", -- Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
         tertiary        = "#f76ef1", -- Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
-        focus           = "#9675bd", -- Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text
+        focus           = "#f76ef1", -- Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
         operator        = "#f76ef1", -- Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
         magenta500      = "#f76ef1", -- Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
         value           = "#f76ef1", -- Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords

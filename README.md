@@ -86,7 +86,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](build/out/icon/fg700.svg) `#4a3168` | `fg700`, `selection` | Selection background |
 | ![](build/out/icon/fg600.svg) `#63428a` | `fg600` |  |
 | ![](build/out/icon/fg500.svg) `#7c52ad` | `fg500`, `underline` | Markdown underline |
-| ![](build/out/icon/fg400.svg) `#9675bd` | `fg400`, `cursor`, `focus`, `activeborder`, `active` | Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text |
+| ![](build/out/icon/fg400.svg) `#9675bd` | `fg400`, `cursor`, `activeborder`, `active` | Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text |
 | ![](build/out/icon/fg300.svg) `#b097ce` | `fg300` |  |
 | ![](build/out/icon/fg100.svg) `#e5dcef` | `fg100`, `white`, `object` | Terminal Bright White, Objects |
 | ![](build/out/icon/bracket.svg) `#6c8db3` | `bracket` | Parentheses, Brackets, Braces |
