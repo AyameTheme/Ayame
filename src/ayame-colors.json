@@ -3,7 +3,8 @@
     {
       "name": "background",
       "aliases": [
-        "bg"
+        "bg",
+        "bg900"
       ],
       "hex": "#17131e",
       "uses": [
@@ -13,9 +14,10 @@
     {
       "name": "foreground",
       "aliases": [
-        "fg"
+        "fg",
+        "fg200"
       ],
-      "hex": "#bab4d2",
+      "hex": "#cbbade",
       "uses": [
         "Foreground"
       ]
@@ -27,9 +29,10 @@
         "breakpoint",
         "stop",
         "this",
-        "bold"
+        "bold",
+        "red500"
       ],
-      "hex": "#ff6394",
+      "hex": "#ff577e",
       "uses": [
         "Terminal Bright Red",
         "Git deleted",
@@ -40,22 +43,24 @@
       ]
     },
     {
-      "name": "darkred",
+      "name": "orange",
       "aliases": [
-        "error",
-        "invalid"
+        "warning",
+        "constant",
+        "orange500"
       ],
-      "hex": "#d74368",
+      "hex": "#ff965c",
       "uses": [
-        "Terminal Red",
-        "Error",
-        "Invalid"
+        "Terminal Yellow",
+        "Warnings",
+        "Constants"
       ]
     },
     {
       "name": "yellow",
       "aliases": [
-        "character"
+        "character",
+        "yellow500"
       ],
       "hex": "#f5cb40",
       "uses": [
@@ -68,27 +73,14 @@
       ]
     },
     {
-      "name": "orange",
-      "aliases": [
-        "darkyellow",
-        "warning",
-        "constant"
-      ],
-      "hex": "#e78d5b",
-      "uses": [
-        "Terminal Yellow",
-        "Warnings",
-        "Constants"
-      ]
-    },
-    {
       "name": "green",
       "aliases": [
         "added",
         "debug",
-        "string"
+        "string",
+        "green500"
       ],
-      "hex": "#98d57e",
+      "hex": "#96e474",
       "uses": [
         "Terminal Bright Green",
         "Git added",
@@ -97,15 +89,14 @@
       ]
     },
     {
-      "name": "darkgreen",
+      "name": "teal",
       "aliases": [
-        "info"
+        "todo",
+        "teal500"
       ],
-      "hex": "#63ae5d",
+      "hex": "#5df8a6",
       "uses": [
-        "Terminal Green",
-        "Info",
-        "String quotation marks"
+        "TODO comments"
       ]
     },
     {
@@ -115,9 +106,10 @@
         "control",
         "regex",
         "escape",
-        "italics"
+        "italics",
+        "cyan500"
       ],
-      "hex": "#63dcea",
+      "hex": "#54e7f8",
       "uses": [
         "Terminal Bright Cyan",
         "Find matches",
@@ -129,21 +121,6 @@
       ]
     },
     {
-      "name": "darkcyan",
-      "aliases": [
-        "class",
-        "identifier",
-        "variable"
-      ],
-      "hex": "#64a9cc",
-      "uses": [
-        "Terminal Cyan",
-        "Classes",
-        "Identifiers",
-        "Variables"
-      ]
-    },
-    {
       "name": "blue",
       "aliases": [
         "primary",
@@ -151,9 +128,10 @@
         "modified",
         "hyperlink",
         "keyword",
-        "type"
+        "type",
+        "blue500"
       ],
-      "hex": "#51a2e8",
+      "hex": "#44a3f5",
       "uses": [
         "Terminal Bright Blue",
         "Progress bars",
@@ -164,33 +142,6 @@
       ]
     },
     {
-      "name": "darkblue",
-      "aliases": [
-        "bookmark"
-      ],
-      "hex": "#5984e7",
-      "uses": [
-        "Terminal Blue",
-        "Bookmarks"
-      ]
-    },
-    {
-      "name": "pink",
-      "aliases": [
-        "magenta",
-        "tertiary",
-        "focus",
-        "operator"
-      ],
-      "hex": "#eb68e5",
-      "uses": [
-        "Terminal Bright Magenta",
-        "Debug token values",
-        "Focus accents",
-        "Operator keywords"
-      ]
-    },
-    {
       "name": "purple",
       "aliases": [
         "darkmagenta",
@@ -198,9 +149,10 @@
         "function",
         "fun",
         "attribute",
-        "code"
+        "code",
+        "purple500"
       ],
-      "hex": "#966cec",
+      "hex": "#9768f8",
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
@@ -210,14 +162,453 @@
       ]
     },
     {
-      "name": "white",
+      "name": "magenta",
       "aliases": [
+        "pink",
+        "tertiary",
+        "focus",
+        "operator",
+        "magenta500"
+      ],
+      "hex": "#f76ef1",
+      "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords"
+      ]
+    },
+    {
+      "name": "red900",
+      "aliases": [
+        "error2"
+      ],
+      "hex": "#662332",
+      "uses": [
+        "Error background"
+      ]
+    },
+    {
+      "name": "red700",
+      "aliases": [
+        "darkred",
+        "error",
+        "invalid",
+        "tag"
+      ],
+      "hex": "#cc4665",
+      "uses": [
+        "Terminal Red",
+        "Error",
+        "Invalid",
+        "Tags"
+      ]
+    },
+    {
+      "name": "red300",
+      "aliases": [],
+      "hex": "#ff7998",
+      "uses": []
+    },
+    {
+      "name": "red100",
+      "aliases": [],
+      "hex": "#ffbccb",
+      "uses": []
+    },
+    {
+      "name": "orange900",
+      "aliases": [],
+      "hex": "#663c25",
+      "uses": []
+    },
+    {
+      "name": "orange700",
+      "aliases": [],
+      "hex": "#cc784a",
+      "uses": []
+    },
+    {
+      "name": "orange300",
+      "aliases": [],
+      "hex": "#ffab7d",
+      "uses": []
+    },
+    {
+      "name": "orange100",
+      "aliases": [],
+      "hex": "#ffd5be",
+      "uses": []
+    },
+    {
+      "name": "yellow900",
+      "aliases": [],
+      "hex": "#62511a",
+      "uses": []
+    },
+    {
+      "name": "yellow700",
+      "aliases": [],
+      "hex": "#c4a233",
+      "uses": []
+    },
+    {
+      "name": "yellow300",
+      "aliases": [],
+      "hex": "#f7d566",
+      "uses": []
+    },
+    {
+      "name": "yellow100",
+      "aliases": [],
+      "hex": "#fbeab3",
+      "uses": []
+    },
+    {
+      "name": "green900",
+      "aliases": [],
+      "hex": "#3c5b2e",
+      "uses": []
+    },
+    {
+      "name": "green700",
+      "aliases": [
+        "darkgreen",
+        "info"
+      ],
+      "hex": "#78b65d",
+      "uses": [
+        "Terminal Green",
+        "Info",
+        "String quotation marks"
+      ]
+    },
+    {
+      "name": "green300",
+      "aliases": [],
+      "hex": "#abe990",
+      "uses": []
+    },
+    {
+      "name": "green100",
+      "aliases": [],
+      "hex": "#d5f4c7",
+      "uses": []
+    },
+    {
+      "name": "teal900",
+      "aliases": [],
+      "hex": "#256342",
+      "uses": []
+    },
+    {
+      "name": "teal700",
+      "aliases": [],
+      "hex": "#4ac685",
+      "uses": []
+    },
+    {
+      "name": "teal300",
+      "aliases": [],
+      "hex": "#7df9b8",
+      "uses": []
+    },
+    {
+      "name": "teal100",
+      "aliases": [],
+      "hex": "#befcdb",
+      "uses": []
+    },
+    {
+      "name": "cyan900",
+      "aliases": [],
+      "hex": "#225c63",
+      "uses": []
+    },
+    {
+      "name": "cyan700",
+      "aliases": [
+        "darkcyan",
+        "class",
+        "identifier",
+        "variable"
+      ],
+      "hex": "#43b9c6",
+      "uses": [
+        "Terminal Cyan",
+        "Classes",
+        "Identifiers",
+        "Variables"
+      ]
+    },
+    {
+      "name": "cyan300",
+      "aliases": [],
+      "hex": "#76ecf9",
+      "uses": []
+    },
+    {
+      "name": "cyan100",
+      "aliases": [],
+      "hex": "#bbf5fc",
+      "uses": []
+    },
+    {
+      "name": "blue900",
+      "aliases": [],
+      "hex": "#1b4162",
+      "uses": []
+    },
+    {
+      "name": "blue700",
+      "aliases": [
+        "darkblue",
+        "activitybadge",
+        "bookmark",
+        "blue2"
+      ],
+      "hex": "#3682c4",
+      "uses": [
+        "Terminal Blue",
+        "Bookmarks",
+        "VS Code activity badge"
+      ]
+    },
+    {
+      "name": "blue300",
+      "aliases": [],
+      "hex": "#69b5f7",
+      "uses": []
+    },
+    {
+      "name": "blue100",
+      "aliases": [],
+      "hex": "#b4dafb",
+      "uses": []
+    },
+    {
+      "name": "purple900",
+      "aliases": [],
+      "hex": "#3c2a63",
+      "uses": []
+    },
+    {
+      "name": "purple700",
+      "aliases": [],
+      "hex": "#7953c6",
+      "uses": []
+    },
+    {
+      "name": "purple300",
+      "aliases": [],
+      "hex": "#ac86f9",
+      "uses": []
+    },
+    {
+      "name": "purple100",
+      "aliases": [],
+      "hex": "#d5c3fc",
+      "uses": []
+    },
+    {
+      "name": "magenta900",
+      "aliases": [],
+      "hex": "#632c60",
+      "uses": []
+    },
+    {
+      "name": "magenta700",
+      "aliases": [],
+      "hex": "#c658c1",
+      "uses": []
+    },
+    {
+      "name": "magenta300",
+      "aliases": [],
+      "hex": "#f98bf4",
+      "uses": []
+    },
+    {
+      "name": "magenta100",
+      "aliases": [],
+      "hex": "#fcc5f9",
+      "uses": []
+    },
+    {
+      "name": "bg800",
+      "aliases": [],
+      "hex": "#1a1528",
+      "uses": []
+    },
+    {
+      "name": "bg700",
+      "aliases": [
+        "modal",
+        "menu",
+        "toolbar"
+      ],
+      "hex": "#221c35",
+      "uses": [
+        "Modal background"
+      ]
+    },
+    {
+      "name": "bg600",
+      "aliases": [
+        "black",
+        "subheader",
+        "tabline",
+        "hover",
+        "highlight"
+      ],
+      "hex": "#2b2343",
+      "uses": [
+        "Terminal Black",
+        "Subheader background",
+        "Line highlight",
+        "UI hover highlight"
+      ]
+    },
+    {
+      "name": "bg500",
+      "aliases": [
+        "gray",
+        "gutter",
+        "border",
+        "rule",
+        "button",
+        "altrow"
+      ],
+      "hex": "#342950",
+      "uses": [
+        "Terminal Bright Black",
+        "Buttons",
+        "Borders",
+        "Rules and guides",
+        "Line numbers",
+        "Alternate row background",
+        "Alternate modal background"
+      ]
+    },
+    {
+      "name": "bg400",
+      "aliases": [],
+      "hex": "#3c305d",
+      "uses": []
+    },
+    {
+      "name": "bg300",
+      "aliases": [],
+      "hex": "#45376a",
+      "uses": []
+    },
+    {
+      "name": "bg200",
+      "aliases": [],
+      "hex": "#4d3e78",
+      "uses": []
+    },
+    {
+      "name": "bg100",
+      "aliases": [
+        "comment"
+      ],
+      "hex": "#564585",
+      "uses": [
+        "Comments",
+        "Markdown block quotes",
+        "Folded code blocks"
+      ]
+    },
+    {
+      "name": "fg900",
+      "aliases": [
+        "border2",
+        "header"
+      ],
+      "hex": "#191023",
+      "uses": [
+        "Secondary borders"
+      ]
+    },
+    {
+      "name": "fg800",
+      "aliases": [
+        "focusborder",
+        "highlightborder",
+        "modalhighlight",
+        "highlight2"
+      ],
+      "hex": "#322145",
+      "uses": [
+        "Highlight and focus border",
+        "Highlights in UI and modals"
+      ]
+    },
+    {
+      "name": "fg700",
+      "aliases": [
+        "selection"
+      ],
+      "hex": "#4a3168",
+      "uses": [
+        "Selection background"
+      ]
+    },
+    {
+      "name": "fg600",
+      "aliases": [],
+      "hex": "#63428a",
+      "uses": []
+    },
+    {
+      "name": "fg500",
+      "aliases": [],
+      "hex": "#7c52ad",
+      "uses": []
+    },
+    {
+      "name": "fg400",
+      "aliases": [
+        "cursor"
+      ],
+      "hex": "#9675bd",
+      "uses": [
+        "Cursor",
+        "Active line number",
+        "Subheader foreground",
+        "Badge background",
+        "Minimap and scrollbar background",
+        "Markdown table text"
+      ]
+    },
+    {
+      "name": "fg300",
+      "aliases": [],
+      "hex": "#b097ce",
+      "uses": []
+    },
+    {
+      "name": "fg100",
+      "aliases": [
+        "white",
         "object"
       ],
-      "hex": "#d1c9f4",
+      "hex": "#e5dcef",
       "uses": [
         "Terminal Bright White",
         "Objects"
+      ]
+    },
+    {
+      "name": "bracket",
+      "aliases": [
+      ],
+      "hex": "#6c8db3",
+      "uses": [
+        "Parentheses",
+        "Brackets",
+        "Braces"
       ]
     },
     {
@@ -233,178 +624,6 @@
         "Terminal White",
         "Muted text",
         "Punctuation"
-      ]
-    },
-    {
-      "name": "gray",
-      "aliases": [
-        "gutter",
-        "border",
-        "rule",
-        "button"
-      ],
-      "hex": "#37355a",
-      "uses": [
-        "Terminal Bright Black",
-        "Buttons",
-        "Borders",
-        "Rules and guides",
-        "Line numbers"
-      ]
-    },
-    {
-      "name": "black",
-      "aliases": [
-        "subheader",
-        "tabline"
-      ],
-      "hex": "#2b284a",
-      "uses": [
-        "Terminal Black",
-        "Subheader background"
-      ]
-    },
-    {
-      "name": "border2",
-      "aliases": [
-        "header"
-      ],
-      "hex": "#0b0911",
-      "uses": [
-        "Secondary borders"
-      ]
-    },
-    {
-      "name": "modal",
-      "aliases": [
-        "menu",
-        "toolbar"
-      ],
-      "hex": "#211d2b",
-      "uses": [
-        "Modal background"
-      ]
-    },
-    {
-      "name": "hover",
-      "aliases": [
-        "highlight"
-      ],
-      "hex": "#2d203c",
-      "uses": [
-        "Line highlight",
-        "UI hover highlight"
-      ]
-    },
-    {
-      "name": "altrow",
-      "aliases": [
-      ],
-      "hex": "#2b253c",
-      "uses": [
-        "Alternate row background",
-        "Alternate modal background"
-      ]
-    },
-    {
-      "name": "focusborder",
-      "aliases": [
-        "highlightborder"
-      ],
-      "hex": "#3d2a54",
-      "uses": [
-        "Highlight and focus border"
-      ]
-    },
-    {
-      "name": "modalhighlight",
-      "aliases": [
-        "highlight2"
-      ],
-      "hex": "#3e2e4c",
-      "uses": [
-        "Highlights in UI and modals"
-      ]
-    },
-    {
-      "name": "selection",
-      "aliases": [
-      ],
-      "hex": "#3c376f",
-      "uses": [
-        "Selection background"
-      ]
-    },
-    {
-      "name": "comment",
-      "aliases": [
-      ],
-      "hex": "#5953a7",
-      "uses": [
-        "Comments",
-        "Markdown block quotes",
-        "Folded code blocks"
-      ]
-    },
-    {
-      "name": "cursor",
-      "aliases": [
-      ],
-      "hex": "#857abc",
-      "uses": [
-        "Cursor",
-        "Active line number",
-        "Subheader foreground",
-        "Badge background",
-        "Minimap and scrollbar background",
-        "Markdown table text"
-      ]
-    },
-    {
-      "name": "activitybadge",
-      "aliases": [
-      ],
-      "hex": "#007acc",
-      "uses": [
-        "VS Code activity badge"
-      ]
-    },
-    {
-      "name": "blue2",
-      "aliases": [
-      ],
-      "hex": "#4984e7",
-      "uses": [
-        "Alternate blue"
-      ]
-    },
-    {
-      "name": "bracket",
-      "aliases": [
-      ],
-      "hex": "#6c8db3",
-      "uses": [
-        "Parentheses",
-        "Brackets",
-        "Braces"
-      ]
-    },
-    {
-      "name": "error2",
-      "aliases": [
-      ],
-      "hex": "#6a1d31",
-      "uses": [
-        "Error background"
-      ]
-    },
-    {
-      "name": "tag",
-      "aliases": [
-      ],
-      "hex": "#f07178",
-      "uses": [
-        "Tags"
       ]
     },
     {
@@ -424,16 +643,6 @@
       "uses": [
         "Extra white for lighter backgrounds",
         "Badge foreground"
-      ]
-    },
-    {
-      "name": "teal",
-      "aliases": [
-        "todo"
-      ],
-      "hex": "#5ee59d",
-      "uses": [
-        "TODO comments"
       ]
     }
   ]

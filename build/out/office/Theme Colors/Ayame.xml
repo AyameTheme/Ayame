@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <a:clrScheme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Ayame">
     <a:dk1>
-        <a:srgbClr val="BAB4D2"/>
+        <a:srgbClr val="CBBADE"/>
     </a:dk1>
     <a:lt1>
-        <a:srgbClr val="0B0911"/>
+        <a:srgbClr val="191023"/>
     </a:lt1>
     <a:dk2>
-        <a:srgbClr val="857ABC"/>
+        <a:srgbClr val="9675BD"/>
     </a:dk2>
     <a:lt2>
         <a:srgbClr val="17131E"/>
     </a:lt2>
     <a:accent1>
-        <a:srgbClr val="51A2E8"/>
+        <a:srgbClr val="44A3F5"/>
     </a:accent1>
     <a:accent2>
-        <a:srgbClr val="966CEC"/>
+        <a:srgbClr val="9768F8"/>
     </a:accent2>
     <a:accent3>
-        <a:srgbClr val="EB68E5"/>
+        <a:srgbClr val="F76EF1"/>
     </a:accent3>
     <a:accent4>
-        <a:srgbClr val="FF6394"/>
+        <a:srgbClr val="FF577E"/>
     </a:accent4>
     <a:accent5>
         <a:srgbClr val="F5CB40"/>
     </a:accent5>
     <a:accent6>
-        <a:srgbClr val="98D57E"/>
+        <a:srgbClr val="96E474"/>
     </a:accent6>
     <a:hlink>
-        <a:srgbClr val="63DCEA"/>
+        <a:srgbClr val="54E7F8"/>
     </a:hlink>
     <a:folHlink>
-        <a:srgbClr val="E78D5B"/>
+        <a:srgbClr val="FF965C"/>
     </a:folHlink>
 </a:clrScheme>
