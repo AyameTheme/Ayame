@@ -73,7 +73,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](build/out/icon/magenta700.svg) `#c658c1` | `magenta700` |  |
 | ![](build/out/icon/magenta300.svg) `#f98bf4` | `magenta300` |  |
 | ![](build/out/icon/magenta100.svg) `#fcc5f9` | `magenta100` |  |
-| ![](build/out/icon/bg800.svg) `#1a1528` | `bg800` |  |
+| ![](build/out/icon/bg800.svg) `#1a1528` | `bg800`, `border2`, `header` | Secondary borders |
 | ![](build/out/icon/bg700.svg) `#221c35` | `bg700`, `modal`, `menu`, `toolbar` | Modal background |
 | ![](build/out/icon/bg600.svg) `#2b2343` | `bg600`, `black`, `subheader`, `tabline`, `hover`, `highlight` | Terminal Black, Subheader background, Line highlight, UI hover highlight |
 | ![](build/out/icon/bg500.svg) `#342950` | `bg500`, `gray`, `gutter`, `border`, `rule`, `button`, `altrow` | Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background |
@@ -81,7 +81,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](build/out/icon/bg300.svg) `#45376a` | `bg300` |  |
 | ![](build/out/icon/bg200.svg) `#4d3e78` | `bg200` |  |
 | ![](build/out/icon/bg100.svg) `#564585` | `bg100`, `comment` | Comments, Markdown block quotes, Folded code blocks |
-| ![](build/out/icon/fg900.svg) `#191023` | `fg900`, `border2`, `header` | Secondary borders |
+| ![](build/out/icon/fg900.svg) `#191023` | `fg900` |  |
 | ![](build/out/icon/fg800.svg) `#322145` | `fg800`, `focusborder`, `highlightborder`, `modalhighlight`, `highlight2` | Highlight and focus border, Highlights in UI and modals |
 | ![](build/out/icon/fg700.svg) `#4a3168` | `fg700`, `selection` | Selection background |
 | ![](build/out/icon/fg600.svg) `#63428a` | `fg600` |  |

@@ -436,9 +436,14 @@
     },
     {
       "name": "bg800",
-      "aliases": [],
+      "aliases": [
+        "border2",
+        "header"
+      ],
       "hex": "#1a1528",
-      "uses": []
+      "uses": [
+        "Secondary borders"
+      ]
     },
     {
       "name": "bg700",
@@ -522,14 +527,9 @@
     },
     {
       "name": "fg900",
-      "aliases": [
-        "border2",
-        "header"
-      ],
+      "aliases": [],
       "hex": "#191023",
-      "uses": [
-        "Secondary borders"
-      ]
+      "uses": []
     },
     {
       "name": "fg800",

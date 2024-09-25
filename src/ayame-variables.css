@@ -46,7 +46,7 @@
   --ayame-magenta700: #c658c1;
   --ayame-magenta300: #f98bf4;
   --ayame-magenta100: #fcc5f9;
-  --ayame-bg800: #1a1528;
+  --ayame-bg800: #1a1528; /* Secondary borders */
   --ayame-bg700: #221c35; /* Modal background */
   --ayame-bg600: #2b2343; /* Terminal Black, Subheader background, Line highlight, UI hover highlight */
   --ayame-bg500: #342950; /* Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
@@ -54,7 +54,7 @@
   --ayame-bg300: #45376a;
   --ayame-bg200: #4d3e78;
   --ayame-bg100: #564585; /* Comments, Markdown block quotes, Folded code blocks */
-  --ayame-fg900: #191023; /* Secondary borders */
+  --ayame-fg900: #191023;
   --ayame-fg800: #322145; /* Highlight and focus border, Highlights in UI and modals */
   --ayame-fg700: #4a3168; /* Selection background */
   --ayame-fg600: #63428a;
@@ -127,6 +127,8 @@
   --ayame-activitybadge: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
   --ayame-bookmark: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
   --ayame-blue2: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
+  --ayame-border2: var(--ayame-bg800); /* Secondary borders */
+  --ayame-header: var(--ayame-bg800); /* Secondary borders */
   --ayame-modal: var(--ayame-bg700); /* Modal background */
   --ayame-menu: var(--ayame-bg700); /* Modal background */
   --ayame-toolbar: var(--ayame-bg700); /* Modal background */
@@ -142,8 +144,6 @@
   --ayame-button: var(--ayame-bg500); /* Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
   --ayame-altrow: var(--ayame-bg500); /* Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
   --ayame-comment: var(--ayame-bg100); /* Comments, Markdown block quotes, Folded code blocks */
-  --ayame-border2: var(--ayame-fg900); /* Secondary borders */
-  --ayame-header: var(--ayame-fg900); /* Secondary borders */
   --ayame-focusborder: var(--ayame-fg800); /* Highlight and focus border, Highlights in UI and modals */
   --ayame-highlightborder: var(--ayame-fg800); /* Highlight and focus border, Highlights in UI and modals */
   --ayame-modalhighlight: var(--ayame-fg800); /* Highlight and focus border, Highlights in UI and modals */

@@ -33,7 +33,7 @@
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#8a7d9b;"/>
     </g>
     <g id="HEADER" transform="matrix(1.35044,0,0,0.408647,1081.56,1474.94)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#191023;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#1a1528;"/>
     </g>
     <g id="ROW" transform="matrix(1.35044,0,0,0.408647,1081.56,1770.22)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
@@ -78,10 +78,10 @@
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
     </g>
     <g id="Table-Header" serif:id="Table Header" transform="matrix(2.76164,0,0,0.408647,-302.842,1534)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#191023;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#1a1528;"/>
     </g>
     <g id="Chart-Header" serif:id="Chart Header" transform="matrix(5.5785,0,0,0.408647,-659.929,2301.71)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#191023;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#1a1528;"/>
     </g>
     <g id="Chart-Body" serif:id="Chart Body" transform="matrix(5.5785,0,0,4.49512,-659.929,692.86)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
@@ -428,12 +428,12 @@
         <text x="1406.33px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">HEADER</text>
         <text x="2009.73px" y="1638.04px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:#9675bd;">TABLINE</text>
         <text x="376.375px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">Favorite Movies</text>
-        <text x="1408.12px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">#191023                 #2b2343</text>
+        <text x="1408.12px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">#1a1528                 #2b2343</text>
         <text x="25.092px" y="1756.12px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:#9675bd;">Rank  Title                           TMDB ID</text>
-        <text x="1304.77px" y="1756.12px" style="font-family:'VictorMono-Regular', 'Victor Mono';font-size:45.833px;fill:#9675bd;">rgb(25, 16, 35)          rgb(43, 35, 67)</text>
+        <text x="1304.77px" y="1756.12px" style="font-family:'VictorMono-Regular', 'Victor Mono';font-size:45.833px;fill:#9675bd;">rgb(26, 21, 40)          rgb(43, 35, 67)</text>
         <text x="75.275px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#1  EEAAO</text>
         <text x="1003.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">545611</text>
-        <text x="1279.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">hsl(268, 37%, 10%)       hsl(255, 31%, 20%)</text>
+        <text x="1279.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">hsl(256, 31%, 12%)       hsl(255, 31%, 20%)</text>
         <text x="75.275px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#2  Puss in Boots: The Last Wish</text>
         <text x="1003.67px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">315162</text>
         <text x="1254.58px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">Italic</text>
@@ -511,7 +511,7 @@
         </g>
         <g transform="matrix(45.8333,0,0,45.8333,2233.16,3232.16)">
         </g>
-        <text x="1806.6px" y="3232.16px" style="font-family:'VictorMono-BoldItalic', 'Victor Mono';font-weight:700;font-style:italic;font-size:45.833px;fill:url(#_Linear4);">Ayame color scheme v2.1</text>
+        <text x="1806.6px" y="3232.16px" style="font-family:'VictorMono-BoldItalic', 'Victor Mono';font-weight:700;font-style:italic;font-size:45.833px;fill:url(#_Linear4);">Ayame color scheme v2.2</text>
         <text x="25.092px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">BORDER: BLUE</text>
         <text x="1555.68px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">https://github.com/Nurdoidz/Ayame</text>
         <text x="25.092px" y="3350.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">LINE: OPERATOR</text>

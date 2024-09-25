@@ -109,7 +109,9 @@ function M.get()
         magenta700      = "#c658c1",
         magenta300      = "#f98bf4",
         magenta100      = "#fcc5f9",
-        bg800           = "#1a1528",
+        bg800           = "#1a1528", -- Secondary borders
+        border2         = "#1a1528", -- Secondary borders
+        header          = "#1a1528", -- Secondary borders
         bg700           = "#221c35", -- Modal background
         modal           = "#221c35", -- Modal background
         menu            = "#221c35", -- Modal background
@@ -132,9 +134,7 @@ function M.get()
         bg200           = "#4d3e78",
         bg100           = "#564585", -- Comments, Markdown block quotes, Folded code blocks
         comment         = "#564585", -- Comments, Markdown block quotes, Folded code blocks
-        fg900           = "#191023", -- Secondary borders
-        border2         = "#191023", -- Secondary borders
-        header          = "#191023", -- Secondary borders
+        fg900           = "#191023",
         fg800           = "#322145", -- Highlight and focus border, Highlights in UI and modals
         focusborder     = "#322145", -- Highlight and focus border, Highlights in UI and modals
         highlightborder = "#322145", -- Highlight and focus border, Highlights in UI and modals
