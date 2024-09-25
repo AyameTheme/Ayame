@@ -1,10 +1,28 @@
+<div align="center">
+
+![](build/out/ayame-128.png)
+
 # Ayame
 
-![](https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/ayame-palette-graphic.png)
+</div>
 
-Ayame is a theme made for the terminal, IDE, and app GUI. It does not look like my cat.
+A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it for your tool](#deployments).
+
+## Contents
+
+- [Ayame](#ayame)
+  - [Contents](#contents)
+  - [Color Palette](#color-palette)
+  - [Deployments](#deployments)
+  - [Building](#building)
+    - [Tools Required](#tools-required)
+    - [Procedure](#procedure)
+  - [Templates](#templates)
+    - [Example](#example)
 
 ## Color Palette
+
+![](build/out/ayame-palette-graphic.png)
 
 | Hex ____________ | ID | Uses |
 | --- | --- | --- |

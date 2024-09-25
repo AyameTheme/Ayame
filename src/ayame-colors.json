@@ -55,10 +55,12 @@
     {
       "name": "yellow",
       "aliases": [
+        "character"
       ],
       "hex": "#f5cb40",
       "uses": [
         "Terminal Bright Yellow",
+        "Characters",
         "HTML attributes",
         "CSS classes",
         "Markdown alt text",
@@ -129,12 +131,16 @@
     {
       "name": "darkcyan",
       "aliases": [
-        "class"
+        "class",
+        "identifier",
+        "variable"
       ],
       "hex": "#64a9cc",
       "uses": [
         "Terminal Cyan",
-        "Classes"
+        "Classes",
+        "Identifiers",
+        "Variables"
       ]
     },
     {
@@ -144,7 +150,8 @@
         "progress",
         "modified",
         "hyperlink",
-        "keyword"
+        "keyword",
+        "type"
       ],
       "hex": "#51a2e8",
       "uses": [
@@ -152,7 +159,8 @@
         "Progress bars",
         "Git modified",
         "Hyperlinks",
-        "Keywords"
+        "Keywords",
+        "Type"
       ]
     },
     {
@@ -188,6 +196,7 @@
         "darkmagenta",
         "secondary",
         "function",
+        "fun",
         "attribute",
         "code"
       ],

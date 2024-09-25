@@ -22,7 +22,10 @@
       "saturation": 0.22448979591836737,
       "l": 0.09607843137254901,
       "lightness": 0.09607843137254901,
-      "hsl": "hsl(262, 22%, 10%)"
+      "hsl": "hsl(262, 22%, 10%)",
+      "uses": [
+        "Background"
+      ]
     },
     "bg": {
       "hex": "#17131e",
@@ -45,7 +48,10 @@
       "saturation": 0.22448979591836737,
       "l": 0.09607843137254901,
       "lightness": 0.09607843137254901,
-      "hsl": "hsl(262, 22%, 10%)"
+      "hsl": "hsl(262, 22%, 10%)",
+      "uses": [
+        "Background"
+      ]
     },
     "foreground": {
       "hex": "#bab4d2",
@@ -68,7 +74,10 @@
       "saturation": 0.24999999999999978,
       "l": 0.7647058823529411,
       "lightness": 0.7647058823529411,
-      "hsl": "hsl(252, 25%, 76%)"
+      "hsl": "hsl(252, 25%, 76%)",
+      "uses": [
+        "Foreground"
+      ]
     },
     "fg": {
       "hex": "#bab4d2",
@@ -91,7 +100,10 @@
       "saturation": 0.24999999999999978,
       "l": 0.7647058823529411,
       "lightness": 0.7647058823529411,
-      "hsl": "hsl(252, 25%, 76%)"
+      "hsl": "hsl(252, 25%, 76%)",
+      "uses": [
+        "Foreground"
+      ]
     },
     "red": {
       "hex": "#ff6394",
@@ -114,7 +126,15 @@
       "saturation": 1.0,
       "l": 0.5,
       "lightness": 0.5,
-      "hsl": "hsl(348, 100%, 50%)"
+      "hsl": "hsl(348, 100%, 50%)",
+      "uses": [
+        "Terminal Bright Red",
+        "Git deleted",
+        "Breakpoints",
+        "Stop",
+        "Language variables",
+        "Markdown bold"
+      ]
     },
     "deleted": {
       "hex": "#ff6394",
@@ -137,7 +157,15 @@
       "saturation": 1.0,
       "l": 0.5,
       "lightness": 0.5,
-      "hsl": "hsl(348, 100%, 50%)"
+      "hsl": "hsl(348, 100%, 50%)",
+      "uses": [
+        "Terminal Bright Red",
+        "Git deleted",
+        "Breakpoints",
+        "Stop",
+        "Language variables",
+        "Markdown bold"
+      ]
     },
     "breakpoint": {
       "hex": "#ff6394",
@@ -160,7 +188,15 @@
       "saturation": 1.0,
       "l": 0.5,
       "lightness": 0.5,
-      "hsl": "hsl(348, 100%, 50%)"
+      "hsl": "hsl(348, 100%, 50%)",
+      "uses": [
+        "Terminal Bright Red",
+        "Git deleted",
+        "Breakpoints",
+        "Stop",
+        "Language variables",
+        "Markdown bold"
+      ]
     },
     "stop": {
       "hex": "#ff6394",
@@ -183,7 +219,15 @@
       "saturation": 1.0,
       "l": 0.5,
       "lightness": 0.5,
-      "hsl": "hsl(348, 100%, 50%)"
+      "hsl": "hsl(348, 100%, 50%)",
+      "uses": [
+        "Terminal Bright Red",
+        "Git deleted",
+        "Breakpoints",
+        "Stop",
+        "Language variables",
+        "Markdown bold"
+      ]
     },
     "this": {
       "hex": "#ff6394",
@@ -206,7 +250,15 @@
       "saturation": 1.0,
       "l": 0.5,
       "lightness": 0.5,
-      "hsl": "hsl(348, 100%, 50%)"
+      "hsl": "hsl(348, 100%, 50%)",
+      "uses": [
+        "Terminal Bright Red",
+        "Git deleted",
+        "Breakpoints",
+        "Stop",
+        "Language variables",
+        "Markdown bold"
+      ]
     },
     "bold": {
       "hex": "#ff6394",
@@ -229,7 +281,15 @@
       "saturation": 1.0,
       "l": 0.5,
       "lightness": 0.5,
-      "hsl": "hsl(348, 100%, 50%)"
+      "hsl": "hsl(348, 100%, 50%)",
+      "uses": [
+        "Terminal Bright Red",
+        "Git deleted",
+        "Breakpoints",
+        "Stop",
+        "Language variables",
+        "Markdown bold"
+      ]
     },
     "darkred": {
       "hex": "#d74368",
@@ -252,7 +312,12 @@
       "saturation": 0.6491228070175439,
       "l": 0.5529411764705883,
       "lightness": 0.5529411764705883,
-      "hsl": "hsl(345, 65%, 55%)"
+      "hsl": "hsl(345, 65%, 55%)",
+      "uses": [
+        "Terminal Red",
+        "Error",
+        "Invalid"
+      ]
     },
     "error": {
       "hex": "#d74368",
@@ -275,7 +340,12 @@
       "saturation": 0.6491228070175439,
       "l": 0.5529411764705883,
       "lightness": 0.5529411764705883,
-      "hsl": "hsl(345, 65%, 55%)"
+      "hsl": "hsl(345, 65%, 55%)",
+      "uses": [
+        "Terminal Red",
+        "Error",
+        "Invalid"
+      ]
     },
     "invalid": {
       "hex": "#d74368",
@@ -298,7 +368,12 @@
       "saturation": 0.6491228070175439,
       "l": 0.5529411764705883,
       "lightness": 0.5529411764705883,
-      "hsl": "hsl(345, 65%, 55%)"
+      "hsl": "hsl(345, 65%, 55%)",
+      "uses": [
+        "Terminal Red",
+        "Error",
+        "Invalid"
+      ]
     },
     "yellow": {
       "hex": "#f5cb40",
@@ -321,7 +396,46 @@
       "saturation": 0.9004975124378112,
       "l": 0.6058823529411765,
       "lightness": 0.6058823529411765,
-      "hsl": "hsl(46, 90%, 61%)"
+      "hsl": "hsl(46, 90%, 61%)",
+      "uses": [
+        "Terminal Bright Yellow",
+        "Characters",
+        "HTML attributes",
+        "CSS classes",
+        "Markdown alt text",
+        "Markdown link anchors"
+      ]
+    },
+    "character": {
+      "hex": "#f5cb40",
+      "hex_upper": "#F5CB40",
+      "hex_bare": "f5cb40",
+      "hex_bare_upper": "F5CB40",
+      "r": 245,
+      "red": 245,
+      "red_percent": 0.9607843137254902,
+      "g": 203,
+      "green": 203,
+      "green_percent": 0.796078431372549,
+      "b": 64,
+      "blue": 64,
+      "blue_percent": 0.25098039215686274,
+      "rgb": "rgb(245, 203, 64)",
+      "h": 46.07734806629834,
+      "hue": 46.07734806629834,
+      "s": 0.9004975124378112,
+      "saturation": 0.9004975124378112,
+      "l": 0.6058823529411765,
+      "lightness": 0.6058823529411765,
+      "hsl": "hsl(46, 90%, 61%)",
+      "uses": [
+        "Terminal Bright Yellow",
+        "Characters",
+        "HTML attributes",
+        "CSS classes",
+        "Markdown alt text",
+        "Markdown link anchors"
+      ]
     },
     "orange": {
       "hex": "#e78d5b",
@@ -344,7 +458,12 @@
       "saturation": 0.7446808510638298,
       "l": 0.6313725490196078,
       "lightness": 0.6313725490196078,
-      "hsl": "hsl(21, 74%, 63%)"
+      "hsl": "hsl(21, 74%, 63%)",
+      "uses": [
+        "Terminal Yellow",
+        "Warnings",
+        "Constants"
+      ]
     },
     "darkyellow": {
       "hex": "#e78d5b",
@@ -367,7 +486,12 @@
       "saturation": 0.7446808510638298,
       "l": 0.6313725490196078,
       "lightness": 0.6313725490196078,
-      "hsl": "hsl(21, 74%, 63%)"
+      "hsl": "hsl(21, 74%, 63%)",
+      "uses": [
+        "Terminal Yellow",
+        "Warnings",
+        "Constants"
+      ]
     },
     "warning": {
       "hex": "#e78d5b",
@@ -390,7 +514,12 @@
       "saturation": 0.7446808510638298,
       "l": 0.6313725490196078,
       "lightness": 0.6313725490196078,
-      "hsl": "hsl(21, 74%, 63%)"
+      "hsl": "hsl(21, 74%, 63%)",
+      "uses": [
+        "Terminal Yellow",
+        "Warnings",
+        "Constants"
+      ]
     },
     "constant": {
       "hex": "#e78d5b",
@@ -413,7 +542,12 @@
       "saturation": 0.7446808510638298,
       "l": 0.6313725490196078,
       "lightness": 0.6313725490196078,
-      "hsl": "hsl(21, 74%, 63%)"
+      "hsl": "hsl(21, 74%, 63%)",
+      "uses": [
+        "Terminal Yellow",
+        "Warnings",
+        "Constants"
+      ]
     },
     "green": {
       "hex": "#98d57e",
@@ -436,7 +570,13 @@
       "saturation": 0.5087719298245615,
       "l": 0.6647058823529413,
       "lightness": 0.6647058823529413,
-      "hsl": "hsl(102, 51%, 66%)"
+      "hsl": "hsl(102, 51%, 66%)",
+      "uses": [
+        "Terminal Bright Green",
+        "Git added",
+        "Debug",
+        "Strings"
+      ]
     },
     "added": {
       "hex": "#98d57e",
@@ -459,7 +599,13 @@
       "saturation": 0.5087719298245615,
       "l": 0.6647058823529413,
       "lightness": 0.6647058823529413,
-      "hsl": "hsl(102, 51%, 66%)"
+      "hsl": "hsl(102, 51%, 66%)",
+      "uses": [
+        "Terminal Bright Green",
+        "Git added",
+        "Debug",
+        "Strings"
+      ]
     },
     "debug": {
       "hex": "#98d57e",
@@ -482,7 +628,13 @@
       "saturation": 0.5087719298245615,
       "l": 0.6647058823529413,
       "lightness": 0.6647058823529413,
-      "hsl": "hsl(102, 51%, 66%)"
+      "hsl": "hsl(102, 51%, 66%)",
+      "uses": [
+        "Terminal Bright Green",
+        "Git added",
+        "Debug",
+        "Strings"
+      ]
     },
     "string": {
       "hex": "#98d57e",
@@ -505,7 +657,13 @@
       "saturation": 0.5087719298245615,
       "l": 0.6647058823529413,
       "lightness": 0.6647058823529413,
-      "hsl": "hsl(102, 51%, 66%)"
+      "hsl": "hsl(102, 51%, 66%)",
+      "uses": [
+        "Terminal Bright Green",
+        "Git added",
+        "Debug",
+        "Strings"
+      ]
     },
     "darkgreen": {
       "hex": "#63ae5d",
@@ -528,7 +686,12 @@
       "saturation": 0.33333333333333337,
       "l": 0.5235294117647059,
       "lightness": 0.5235294117647059,
-      "hsl": "hsl(116, 33%, 52%)"
+      "hsl": "hsl(116, 33%, 52%)",
+      "uses": [
+        "Terminal Green",
+        "Info",
+        "String quotation marks"
+      ]
     },
     "info": {
       "hex": "#63ae5d",
@@ -551,7 +714,12 @@
       "saturation": 0.33333333333333337,
       "l": 0.5235294117647059,
       "lightness": 0.5235294117647059,
-      "hsl": "hsl(116, 33%, 52%)"
+      "hsl": "hsl(116, 33%, 52%)",
+      "uses": [
+        "Terminal Green",
+        "Info",
+        "String quotation marks"
+      ]
     },
     "cyan": {
       "hex": "#63dcea",
@@ -574,7 +742,16 @@
       "saturation": 0.7627118644067795,
       "l": 0.6529411764705882,
       "lightness": 0.6529411764705882,
-      "hsl": "hsl(186, 76%, 65%)"
+      "hsl": "hsl(186, 76%, 65%)",
+      "uses": [
+        "Terminal Bright Cyan",
+        "Find matches",
+        "Hyperlink hover",
+        "Control keywords",
+        "RegEx literals",
+        "Escape characters",
+        "Markdown italics"
+      ]
     },
     "match": {
       "hex": "#63dcea",
@@ -597,7 +774,16 @@
       "saturation": 0.7627118644067795,
       "l": 0.6529411764705882,
       "lightness": 0.6529411764705882,
-      "hsl": "hsl(186, 76%, 65%)"
+      "hsl": "hsl(186, 76%, 65%)",
+      "uses": [
+        "Terminal Bright Cyan",
+        "Find matches",
+        "Hyperlink hover",
+        "Control keywords",
+        "RegEx literals",
+        "Escape characters",
+        "Markdown italics"
+      ]
     },
     "control": {
       "hex": "#63dcea",
@@ -620,7 +806,16 @@
       "saturation": 0.7627118644067795,
       "l": 0.6529411764705882,
       "lightness": 0.6529411764705882,
-      "hsl": "hsl(186, 76%, 65%)"
+      "hsl": "hsl(186, 76%, 65%)",
+      "uses": [
+        "Terminal Bright Cyan",
+        "Find matches",
+        "Hyperlink hover",
+        "Control keywords",
+        "RegEx literals",
+        "Escape characters",
+        "Markdown italics"
+      ]
     },
     "regex": {
       "hex": "#63dcea",
@@ -643,7 +838,16 @@
       "saturation": 0.7627118644067795,
       "l": 0.6529411764705882,
       "lightness": 0.6529411764705882,
-      "hsl": "hsl(186, 76%, 65%)"
+      "hsl": "hsl(186, 76%, 65%)",
+      "uses": [
+        "Terminal Bright Cyan",
+        "Find matches",
+        "Hyperlink hover",
+        "Control keywords",
+        "RegEx literals",
+        "Escape characters",
+        "Markdown italics"
+      ]
     },
     "escape": {
       "hex": "#63dcea",
@@ -666,7 +870,16 @@
       "saturation": 0.7627118644067795,
       "l": 0.6529411764705882,
       "lightness": 0.6529411764705882,
-      "hsl": "hsl(186, 76%, 65%)"
+      "hsl": "hsl(186, 76%, 65%)",
+      "uses": [
+        "Terminal Bright Cyan",
+        "Find matches",
+        "Hyperlink hover",
+        "Control keywords",
+        "RegEx literals",
+        "Escape characters",
+        "Markdown italics"
+      ]
     },
     "italics": {
       "hex": "#63dcea",
@@ -689,7 +902,16 @@
       "saturation": 0.7627118644067795,
       "l": 0.6529411764705882,
       "lightness": 0.6529411764705882,
-      "hsl": "hsl(186, 76%, 65%)"
+      "hsl": "hsl(186, 76%, 65%)",
+      "uses": [
+        "Terminal Bright Cyan",
+        "Find matches",
+        "Hyperlink hover",
+        "Control keywords",
+        "RegEx literals",
+        "Escape characters",
+        "Markdown italics"
+      ]
     },
     "darkcyan": {
       "hex": "#64a9cc",
@@ -712,7 +934,13 @@
       "saturation": 0.5048543689320388,
       "l": 0.596078431372549,
       "lightness": 0.596078431372549,
-      "hsl": "hsl(200, 50%, 60%)"
+      "hsl": "hsl(200, 50%, 60%)",
+      "uses": [
+        "Terminal Cyan",
+        "Classes",
+        "Identifiers",
+        "Variables"
+      ]
     },
     "class": {
       "hex": "#64a9cc",
@@ -735,7 +963,71 @@
       "saturation": 0.5048543689320388,
       "l": 0.596078431372549,
       "lightness": 0.596078431372549,
-      "hsl": "hsl(200, 50%, 60%)"
+      "hsl": "hsl(200, 50%, 60%)",
+      "uses": [
+        "Terminal Cyan",
+        "Classes",
+        "Identifiers",
+        "Variables"
+      ]
+    },
+    "identifier": {
+      "hex": "#64a9cc",
+      "hex_upper": "#64A9CC",
+      "hex_bare": "64a9cc",
+      "hex_bare_upper": "64A9CC",
+      "r": 100,
+      "red": 100,
+      "red_percent": 0.39215686274509803,
+      "g": 169,
+      "green": 169,
+      "green_percent": 0.6627450980392157,
+      "b": 204,
+      "blue": 204,
+      "blue_percent": 0.8,
+      "rgb": "rgb(100, 169, 204)",
+      "h": 200.1923076923077,
+      "hue": 200.1923076923077,
+      "s": 0.5048543689320388,
+      "saturation": 0.5048543689320388,
+      "l": 0.596078431372549,
+      "lightness": 0.596078431372549,
+      "hsl": "hsl(200, 50%, 60%)",
+      "uses": [
+        "Terminal Cyan",
+        "Classes",
+        "Identifiers",
+        "Variables"
+      ]
+    },
+    "variable": {
+      "hex": "#64a9cc",
+      "hex_upper": "#64A9CC",
+      "hex_bare": "64a9cc",
+      "hex_bare_upper": "64A9CC",
+      "r": 100,
+      "red": 100,
+      "red_percent": 0.39215686274509803,
+      "g": 169,
+      "green": 169,
+      "green_percent": 0.6627450980392157,
+      "b": 204,
+      "blue": 204,
+      "blue_percent": 0.8,
+      "rgb": "rgb(100, 169, 204)",
+      "h": 200.1923076923077,
+      "hue": 200.1923076923077,
+      "s": 0.5048543689320388,
+      "saturation": 0.5048543689320388,
+      "l": 0.596078431372549,
+      "lightness": 0.596078431372549,
+      "hsl": "hsl(200, 50%, 60%)",
+      "uses": [
+        "Terminal Cyan",
+        "Classes",
+        "Identifiers",
+        "Variables"
+      ]
     },
     "blue": {
       "hex": "#51a2e8",
@@ -758,7 +1050,15 @@
       "saturation": 0.7664974619289341,
       "l": 0.6137254901960785,
       "lightness": 0.6137254901960785,
-      "hsl": "hsl(208, 77%, 61%)"
+      "hsl": "hsl(208, 77%, 61%)",
+      "uses": [
+        "Terminal Bright Blue",
+        "Progress bars",
+        "Git modified",
+        "Hyperlinks",
+        "Keywords",
+        "Type"
+      ]
     },
     "primary": {
       "hex": "#51a2e8",
@@ -781,7 +1081,15 @@
       "saturation": 0.7664974619289341,
       "l": 0.6137254901960785,
       "lightness": 0.6137254901960785,
-      "hsl": "hsl(208, 77%, 61%)"
+      "hsl": "hsl(208, 77%, 61%)",
+      "uses": [
+        "Terminal Bright Blue",
+        "Progress bars",
+        "Git modified",
+        "Hyperlinks",
+        "Keywords",
+        "Type"
+      ]
     },
     "progress": {
       "hex": "#51a2e8",
@@ -804,7 +1112,15 @@
       "saturation": 0.7664974619289341,
       "l": 0.6137254901960785,
       "lightness": 0.6137254901960785,
-      "hsl": "hsl(208, 77%, 61%)"
+      "hsl": "hsl(208, 77%, 61%)",
+      "uses": [
+        "Terminal Bright Blue",
+        "Progress bars",
+        "Git modified",
+        "Hyperlinks",
+        "Keywords",
+        "Type"
+      ]
     },
     "modified": {
       "hex": "#51a2e8",
@@ -827,7 +1143,15 @@
       "saturation": 0.7664974619289341,
       "l": 0.6137254901960785,
       "lightness": 0.6137254901960785,
-      "hsl": "hsl(208, 77%, 61%)"
+      "hsl": "hsl(208, 77%, 61%)",
+      "uses": [
+        "Terminal Bright Blue",
+        "Progress bars",
+        "Git modified",
+        "Hyperlinks",
+        "Keywords",
+        "Type"
+      ]
     },
     "hyperlink": {
       "hex": "#51a2e8",
@@ -850,7 +1174,15 @@
       "saturation": 0.7664974619289341,
       "l": 0.6137254901960785,
       "lightness": 0.6137254901960785,
-      "hsl": "hsl(208, 77%, 61%)"
+      "hsl": "hsl(208, 77%, 61%)",
+      "uses": [
+        "Terminal Bright Blue",
+        "Progress bars",
+        "Git modified",
+        "Hyperlinks",
+        "Keywords",
+        "Type"
+      ]
     },
     "keyword": {
       "hex": "#51a2e8",
@@ -873,7 +1205,46 @@
       "saturation": 0.7664974619289341,
       "l": 0.6137254901960785,
       "lightness": 0.6137254901960785,
-      "hsl": "hsl(208, 77%, 61%)"
+      "hsl": "hsl(208, 77%, 61%)",
+      "uses": [
+        "Terminal Bright Blue",
+        "Progress bars",
+        "Git modified",
+        "Hyperlinks",
+        "Keywords",
+        "Type"
+      ]
+    },
+    "type": {
+      "hex": "#51a2e8",
+      "hex_upper": "#51A2E8",
+      "hex_bare": "51a2e8",
+      "hex_bare_upper": "51A2E8",
+      "r": 81,
+      "red": 81,
+      "red_percent": 0.3176470588235294,
+      "g": 162,
+      "green": 162,
+      "green_percent": 0.6352941176470588,
+      "b": 232,
+      "blue": 232,
+      "blue_percent": 0.9098039215686274,
+      "rgb": "rgb(81, 162, 232)",
+      "h": 207.81456953642385,
+      "hue": 207.81456953642385,
+      "s": 0.7664974619289341,
+      "saturation": 0.7664974619289341,
+      "l": 0.6137254901960785,
+      "lightness": 0.6137254901960785,
+      "hsl": "hsl(208, 77%, 61%)",
+      "uses": [
+        "Terminal Bright Blue",
+        "Progress bars",
+        "Git modified",
+        "Hyperlinks",
+        "Keywords",
+        "Type"
+      ]
     },
     "darkblue": {
       "hex": "#5984e7",
@@ -896,7 +1267,11 @@
       "saturation": 0.7473684210526316,
       "l": 0.6274509803921569,
       "lightness": 0.6274509803921569,
-      "hsl": "hsl(222, 75%, 63%)"
+      "hsl": "hsl(222, 75%, 63%)",
+      "uses": [
+        "Terminal Blue",
+        "Bookmarks"
+      ]
     },
     "bookmark": {
       "hex": "#5984e7",
@@ -919,7 +1294,11 @@
       "saturation": 0.7473684210526316,
       "l": 0.6274509803921569,
       "lightness": 0.6274509803921569,
-      "hsl": "hsl(222, 75%, 63%)"
+      "hsl": "hsl(222, 75%, 63%)",
+      "uses": [
+        "Terminal Blue",
+        "Bookmarks"
+      ]
     },
     "pink": {
       "hex": "#eb68e5",
@@ -942,7 +1321,13 @@
       "saturation": 0.7660818713450291,
       "l": 0.6647058823529411,
       "lightness": 0.6647058823529411,
-      "hsl": "hsl(303, 77%, 66%)"
+      "hsl": "hsl(303, 77%, 66%)",
+      "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords"
+      ]
     },
     "magenta": {
       "hex": "#eb68e5",
@@ -965,7 +1350,13 @@
       "saturation": 0.7660818713450291,
       "l": 0.6647058823529411,
       "lightness": 0.6647058823529411,
-      "hsl": "hsl(303, 77%, 66%)"
+      "hsl": "hsl(303, 77%, 66%)",
+      "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords"
+      ]
     },
     "tertiary": {
       "hex": "#eb68e5",
@@ -988,7 +1379,13 @@
       "saturation": 0.7660818713450291,
       "l": 0.6647058823529411,
       "lightness": 0.6647058823529411,
-      "hsl": "hsl(303, 77%, 66%)"
+      "hsl": "hsl(303, 77%, 66%)",
+      "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords"
+      ]
     },
     "focus": {
       "hex": "#eb68e5",
@@ -1011,7 +1408,13 @@
       "saturation": 0.7660818713450291,
       "l": 0.6647058823529411,
       "lightness": 0.6647058823529411,
-      "hsl": "hsl(303, 77%, 66%)"
+      "hsl": "hsl(303, 77%, 66%)",
+      "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords"
+      ]
     },
     "operator": {
       "hex": "#eb68e5",
@@ -1034,7 +1437,13 @@
       "saturation": 0.7660818713450291,
       "l": 0.6647058823529411,
       "lightness": 0.6647058823529411,
-      "hsl": "hsl(303, 77%, 66%)"
+      "hsl": "hsl(303, 77%, 66%)",
+      "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords"
+      ]
     },
     "purple": {
       "hex": "#966cec",
@@ -1057,7 +1466,14 @@
       "saturation": 0.7710843373493977,
       "l": 0.6745098039215687,
       "lightness": 0.6745098039215687,
-      "hsl": "hsl(260, 77%, 67%)"
+      "hsl": "hsl(260, 77%, 67%)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks"
+      ]
     },
     "darkmagenta": {
       "hex": "#966cec",
@@ -1080,7 +1496,14 @@
       "saturation": 0.7710843373493977,
       "l": 0.6745098039215687,
       "lightness": 0.6745098039215687,
-      "hsl": "hsl(260, 77%, 67%)"
+      "hsl": "hsl(260, 77%, 67%)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks"
+      ]
     },
     "secondary": {
       "hex": "#966cec",
@@ -1103,7 +1526,14 @@
       "saturation": 0.7710843373493977,
       "l": 0.6745098039215687,
       "lightness": 0.6745098039215687,
-      "hsl": "hsl(260, 77%, 67%)"
+      "hsl": "hsl(260, 77%, 67%)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks"
+      ]
     },
     "function": {
       "hex": "#966cec",
@@ -1126,7 +1556,44 @@
       "saturation": 0.7710843373493977,
       "l": 0.6745098039215687,
       "lightness": 0.6745098039215687,
-      "hsl": "hsl(260, 77%, 67%)"
+      "hsl": "hsl(260, 77%, 67%)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks"
+      ]
+    },
+    "fun": {
+      "hex": "#966cec",
+      "hex_upper": "#966CEC",
+      "hex_bare": "966cec",
+      "hex_bare_upper": "966CEC",
+      "r": 150,
+      "red": 150,
+      "red_percent": 0.5882352941176471,
+      "g": 108,
+      "green": 108,
+      "green_percent": 0.4235294117647059,
+      "b": 236,
+      "blue": 236,
+      "blue_percent": 0.9254901960784314,
+      "rgb": "rgb(150, 108, 236)",
+      "h": 259.6875,
+      "hue": 259.6875,
+      "s": 0.7710843373493977,
+      "saturation": 0.7710843373493977,
+      "l": 0.6745098039215687,
+      "lightness": 0.6745098039215687,
+      "hsl": "hsl(260, 77%, 67%)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks"
+      ]
     },
     "attribute": {
       "hex": "#966cec",
@@ -1149,7 +1616,14 @@
       "saturation": 0.7710843373493977,
       "l": 0.6745098039215687,
       "lightness": 0.6745098039215687,
-      "hsl": "hsl(260, 77%, 67%)"
+      "hsl": "hsl(260, 77%, 67%)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks"
+      ]
     },
     "code": {
       "hex": "#966cec",
@@ -1172,7 +1646,14 @@
       "saturation": 0.7710843373493977,
       "l": 0.6745098039215687,
       "lightness": 0.6745098039215687,
-      "hsl": "hsl(260, 77%, 67%)"
+      "hsl": "hsl(260, 77%, 67%)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks"
+      ]
     },
     "white": {
       "hex": "#d1c9f4",
@@ -1195,7 +1676,11 @@
       "saturation": 0.6615384615384619,
       "l": 0.8725490196078431,
       "lightness": 0.8725490196078431,
-      "hsl": "hsl(251, 66%, 87%)"
+      "hsl": "hsl(251, 66%, 87%)",
+      "uses": [
+        "Terminal Bright White",
+        "Objects"
+      ]
     },
     "object": {
       "hex": "#d1c9f4",
@@ -1218,7 +1703,11 @@
       "saturation": 0.6615384615384619,
       "l": 0.8725490196078431,
       "lightness": 0.8725490196078431,
-      "hsl": "hsl(251, 66%, 87%)"
+      "hsl": "hsl(251, 66%, 87%)",
+      "uses": [
+        "Terminal Bright White",
+        "Objects"
+      ]
     },
     "lightgray": {
       "hex": "#8a7d9b",
@@ -1241,7 +1730,12 @@
       "saturation": 0.1304347826086956,
       "l": 0.5490196078431372,
       "lightness": 0.5490196078431372,
-      "hsl": "hsl(266, 13%, 55%)"
+      "hsl": "hsl(266, 13%, 55%)",
+      "uses": [
+        "Terminal White",
+        "Muted text",
+        "Punctuation"
+      ]
     },
     "darkwhite": {
       "hex": "#8a7d9b",
@@ -1264,7 +1758,12 @@
       "saturation": 0.1304347826086956,
       "l": 0.5490196078431372,
       "lightness": 0.5490196078431372,
-      "hsl": "hsl(266, 13%, 55%)"
+      "hsl": "hsl(266, 13%, 55%)",
+      "uses": [
+        "Terminal White",
+        "Muted text",
+        "Punctuation"
+      ]
     },
     "muted": {
       "hex": "#8a7d9b",
@@ -1287,7 +1786,12 @@
       "saturation": 0.1304347826086956,
       "l": 0.5490196078431372,
       "lightness": 0.5490196078431372,
-      "hsl": "hsl(266, 13%, 55%)"
+      "hsl": "hsl(266, 13%, 55%)",
+      "uses": [
+        "Terminal White",
+        "Muted text",
+        "Punctuation"
+      ]
     },
     "punctuation": {
       "hex": "#8a7d9b",
@@ -1310,7 +1814,12 @@
       "saturation": 0.1304347826086956,
       "l": 0.5490196078431372,
       "lightness": 0.5490196078431372,
-      "hsl": "hsl(266, 13%, 55%)"
+      "hsl": "hsl(266, 13%, 55%)",
+      "uses": [
+        "Terminal White",
+        "Muted text",
+        "Punctuation"
+      ]
     },
     "terminator": {
       "hex": "#8a7d9b",
@@ -1333,7 +1842,12 @@
       "saturation": 0.1304347826086956,
       "l": 0.5490196078431372,
       "lightness": 0.5490196078431372,
-      "hsl": "hsl(266, 13%, 55%)"
+      "hsl": "hsl(266, 13%, 55%)",
+      "uses": [
+        "Terminal White",
+        "Muted text",
+        "Punctuation"
+      ]
     },
     "gray": {
       "hex": "#37355a",
@@ -1356,7 +1870,14 @@
       "saturation": 0.25874125874125875,
       "l": 0.2803921568627451,
       "lightness": 0.2803921568627451,
-      "hsl": "hsl(243, 26%, 28%)"
+      "hsl": "hsl(243, 26%, 28%)",
+      "uses": [
+        "Terminal Bright Black",
+        "Buttons",
+        "Borders",
+        "Rules and guides",
+        "Line numbers"
+      ]
     },
     "gutter": {
       "hex": "#37355a",
@@ -1379,7 +1900,14 @@
       "saturation": 0.25874125874125875,
       "l": 0.2803921568627451,
       "lightness": 0.2803921568627451,
-      "hsl": "hsl(243, 26%, 28%)"
+      "hsl": "hsl(243, 26%, 28%)",
+      "uses": [
+        "Terminal Bright Black",
+        "Buttons",
+        "Borders",
+        "Rules and guides",
+        "Line numbers"
+      ]
     },
     "border": {
       "hex": "#37355a",
@@ -1402,7 +1930,14 @@
       "saturation": 0.25874125874125875,
       "l": 0.2803921568627451,
       "lightness": 0.2803921568627451,
-      "hsl": "hsl(243, 26%, 28%)"
+      "hsl": "hsl(243, 26%, 28%)",
+      "uses": [
+        "Terminal Bright Black",
+        "Buttons",
+        "Borders",
+        "Rules and guides",
+        "Line numbers"
+      ]
     },
     "rule": {
       "hex": "#37355a",
@@ -1425,7 +1960,14 @@
       "saturation": 0.25874125874125875,
       "l": 0.2803921568627451,
       "lightness": 0.2803921568627451,
-      "hsl": "hsl(243, 26%, 28%)"
+      "hsl": "hsl(243, 26%, 28%)",
+      "uses": [
+        "Terminal Bright Black",
+        "Buttons",
+        "Borders",
+        "Rules and guides",
+        "Line numbers"
+      ]
     },
     "button": {
       "hex": "#37355a",
@@ -1448,7 +1990,14 @@
       "saturation": 0.25874125874125875,
       "l": 0.2803921568627451,
       "lightness": 0.2803921568627451,
-      "hsl": "hsl(243, 26%, 28%)"
+      "hsl": "hsl(243, 26%, 28%)",
+      "uses": [
+        "Terminal Bright Black",
+        "Buttons",
+        "Borders",
+        "Rules and guides",
+        "Line numbers"
+      ]
     },
     "black": {
       "hex": "#2b284a",
@@ -1471,7 +2020,11 @@
       "saturation": 0.2982456140350878,
       "l": 0.2235294117647059,
       "lightness": 0.2235294117647059,
-      "hsl": "hsl(245, 30%, 22%)"
+      "hsl": "hsl(245, 30%, 22%)",
+      "uses": [
+        "Terminal Black",
+        "Subheader background"
+      ]
     },
     "subheader": {
       "hex": "#2b284a",
@@ -1494,7 +2047,11 @@
       "saturation": 0.2982456140350878,
       "l": 0.2235294117647059,
       "lightness": 0.2235294117647059,
-      "hsl": "hsl(245, 30%, 22%)"
+      "hsl": "hsl(245, 30%, 22%)",
+      "uses": [
+        "Terminal Black",
+        "Subheader background"
+      ]
     },
     "tabline": {
       "hex": "#2b284a",
@@ -1517,7 +2074,11 @@
       "saturation": 0.2982456140350878,
       "l": 0.2235294117647059,
       "lightness": 0.2235294117647059,
-      "hsl": "hsl(245, 30%, 22%)"
+      "hsl": "hsl(245, 30%, 22%)",
+      "uses": [
+        "Terminal Black",
+        "Subheader background"
+      ]
     },
     "border2": {
       "hex": "#0b0911",
@@ -1540,7 +2101,10 @@
       "saturation": 0.30769230769230776,
       "l": 0.050980392156862744,
       "lightness": 0.050980392156862744,
-      "hsl": "hsl(255, 31%, 5%)"
+      "hsl": "hsl(255, 31%, 5%)",
+      "uses": [
+        "Secondary borders"
+      ]
     },
     "header": {
       "hex": "#0b0911",
@@ -1563,7 +2127,10 @@
       "saturation": 0.30769230769230776,
       "l": 0.050980392156862744,
       "lightness": 0.050980392156862744,
-      "hsl": "hsl(255, 31%, 5%)"
+      "hsl": "hsl(255, 31%, 5%)",
+      "uses": [
+        "Secondary borders"
+      ]
     },
     "modal": {
       "hex": "#211d2b",
@@ -1586,7 +2153,10 @@
       "saturation": 0.1944444444444445,
       "l": 0.1411764705882353,
       "lightness": 0.1411764705882353,
-      "hsl": "hsl(257, 19%, 14%)"
+      "hsl": "hsl(257, 19%, 14%)",
+      "uses": [
+        "Modal background"
+      ]
     },
     "menu": {
       "hex": "#211d2b",
@@ -1609,7 +2179,10 @@
       "saturation": 0.1944444444444445,
       "l": 0.1411764705882353,
       "lightness": 0.1411764705882353,
-      "hsl": "hsl(257, 19%, 14%)"
+      "hsl": "hsl(257, 19%, 14%)",
+      "uses": [
+        "Modal background"
+      ]
     },
     "toolbar": {
       "hex": "#211d2b",
@@ -1632,7 +2205,10 @@
       "saturation": 0.1944444444444445,
       "l": 0.1411764705882353,
       "lightness": 0.1411764705882353,
-      "hsl": "hsl(257, 19%, 14%)"
+      "hsl": "hsl(257, 19%, 14%)",
+      "uses": [
+        "Modal background"
+      ]
     },
     "hover": {
       "hex": "#2d203c",
@@ -1655,7 +2231,11 @@
       "saturation": 0.3043478260869565,
       "l": 0.1803921568627451,
       "lightness": 0.1803921568627451,
-      "hsl": "hsl(268, 30%, 18%)"
+      "hsl": "hsl(268, 30%, 18%)",
+      "uses": [
+        "Line highlight",
+        "UI hover highlight"
+      ]
     },
     "highlight": {
       "hex": "#2d203c",
@@ -1678,7 +2258,11 @@
       "saturation": 0.3043478260869565,
       "l": 0.1803921568627451,
       "lightness": 0.1803921568627451,
-      "hsl": "hsl(268, 30%, 18%)"
+      "hsl": "hsl(268, 30%, 18%)",
+      "uses": [
+        "Line highlight",
+        "UI hover highlight"
+      ]
     },
     "altrow": {
       "hex": "#2b253c",
@@ -1701,7 +2285,11 @@
       "saturation": 0.23711340206185563,
       "l": 0.19019607843137254,
       "lightness": 0.19019607843137254,
-      "hsl": "hsl(256, 24%, 19%)"
+      "hsl": "hsl(256, 24%, 19%)",
+      "uses": [
+        "Alternate row background",
+        "Alternate modal background"
+      ]
     },
     "focusborder": {
       "hex": "#3d2a54",
@@ -1724,7 +2312,10 @@
       "saturation": 0.3333333333333333,
       "l": 0.24705882352941178,
       "lightness": 0.24705882352941178,
-      "hsl": "hsl(267, 33%, 25%)"
+      "hsl": "hsl(267, 33%, 25%)",
+      "uses": [
+        "Highlight and focus border"
+      ]
     },
     "highlightborder": {
       "hex": "#3d2a54",
@@ -1747,7 +2338,10 @@
       "saturation": 0.3333333333333333,
       "l": 0.24705882352941178,
       "lightness": 0.24705882352941178,
-      "hsl": "hsl(267, 33%, 25%)"
+      "hsl": "hsl(267, 33%, 25%)",
+      "uses": [
+        "Highlight and focus border"
+      ]
     },
     "modalhighlight": {
       "hex": "#3e2e4c",
@@ -1770,7 +2364,10 @@
       "saturation": 0.24590163934426232,
       "l": 0.2392156862745098,
       "lightness": 0.2392156862745098,
-      "hsl": "hsl(272, 25%, 24%)"
+      "hsl": "hsl(272, 25%, 24%)",
+      "uses": [
+        "Highlights in UI and modals"
+      ]
     },
     "highlight2": {
       "hex": "#3e2e4c",
@@ -1793,7 +2390,10 @@
       "saturation": 0.24590163934426232,
       "l": 0.2392156862745098,
       "lightness": 0.2392156862745098,
-      "hsl": "hsl(272, 25%, 24%)"
+      "hsl": "hsl(272, 25%, 24%)",
+      "uses": [
+        "Highlights in UI and modals"
+      ]
     },
     "selection": {
       "hex": "#3c376f",
@@ -1816,7 +2416,10 @@
       "saturation": 0.3373493975903614,
       "l": 0.3254901960784314,
       "lightness": 0.3254901960784314,
-      "hsl": "hsl(245, 34%, 33%)"
+      "hsl": "hsl(245, 34%, 33%)",
+      "uses": [
+        "Selection background"
+      ]
     },
     "comment": {
       "hex": "#5953a7",
@@ -1839,7 +2442,12 @@
       "saturation": 0.33599999999999997,
       "l": 0.4901960784313726,
       "lightness": 0.4901960784313726,
-      "hsl": "hsl(244, 34%, 49%)"
+      "hsl": "hsl(244, 34%, 49%)",
+      "uses": [
+        "Comments",
+        "Markdown block quotes",
+        "Folded code blocks"
+      ]
     },
     "cursor": {
       "hex": "#857abc",
@@ -1862,7 +2470,15 @@
       "saturation": 0.33000000000000007,
       "l": 0.607843137254902,
       "lightness": 0.607843137254902,
-      "hsl": "hsl(250, 33%, 61%)"
+      "hsl": "hsl(250, 33%, 61%)",
+      "uses": [
+        "Cursor",
+        "Active line number",
+        "Subheader foreground",
+        "Badge background",
+        "Minimap and scrollbar background",
+        "Markdown table text"
+      ]
     },
     "activitybadge": {
       "hex": "#007acc",
@@ -1885,7 +2501,10 @@
       "saturation": 1.0,
       "l": 0.5,
       "lightness": 0.5,
-      "hsl": "hsl(211, 100%, 50%)"
+      "hsl": "hsl(211, 100%, 50%)",
+      "uses": [
+        "VS Code activity badge"
+      ]
     },
     "blue2": {
       "hex": "#4984e7",
@@ -1908,7 +2527,10 @@
       "saturation": 0.7669902912621359,
       "l": 0.596078431372549,
       "lightness": 0.596078431372549,
-      "hsl": "hsl(218, 77%, 60%)"
+      "hsl": "hsl(218, 77%, 60%)",
+      "uses": [
+        "Alternate blue"
+      ]
     },
     "bracket": {
       "hex": "#6c8db3",
@@ -1931,7 +2553,12 @@
       "saturation": 0.31838565022421517,
       "l": 0.5627450980392157,
       "lightness": 0.5627450980392157,
-      "hsl": "hsl(212, 32%, 56%)"
+      "hsl": "hsl(212, 32%, 56%)",
+      "uses": [
+        "Parentheses",
+        "Brackets",
+        "Braces"
+      ]
     },
     "error2": {
       "hex": "#6a1d31",
@@ -1954,7 +2581,10 @@
       "saturation": 0.5703703703703704,
       "l": 0.2647058823529412,
       "lightness": 0.2647058823529412,
-      "hsl": "hsl(344, 57%, 26%)"
+      "hsl": "hsl(344, 57%, 26%)",
+      "uses": [
+        "Error background"
+      ]
     },
     "tag": {
       "hex": "#f07178",
@@ -1977,7 +2607,10 @@
       "saturation": 0.8089171974522292,
       "l": 0.692156862745098,
       "lightness": 0.692156862745098,
-      "hsl": "hsl(357, 81%, 69%)"
+      "hsl": "hsl(357, 81%, 69%)",
+      "uses": [
+        "Tags"
+      ]
     },
     "foreground2": {
       "hex": "#bbbbbb",
@@ -2000,7 +2633,10 @@
       "saturation": 0,
       "l": 0.7333333333333333,
       "lightness": 0.7333333333333333,
-      "hsl": "hsl(0, 0%, 73%)"
+      "hsl": "hsl(0, 0%, 73%)",
+      "uses": [
+        "Alternate foreground"
+      ]
     },
     "purewhite": {
       "hex": "#ffffff",
@@ -2023,7 +2659,11 @@
       "saturation": 0,
       "l": 1,
       "lightness": 1,
-      "hsl": "hsl(0, 0%, 100%)"
+      "hsl": "hsl(0, 0%, 100%)",
+      "uses": [
+        "Extra white for lighter backgrounds",
+        "Badge foreground"
+      ]
     },
     "teal": {
       "hex": "#5ee59d",
@@ -2046,7 +2686,10 @@
       "saturation": 0.7219251336898396,
       "l": 0.6333333333333333,
       "lightness": 0.6333333333333333,
-      "hsl": "hsl(148, 72%, 63%)"
+      "hsl": "hsl(148, 72%, 63%)",
+      "uses": [
+        "TODO comments"
+      ]
     },
     "todo": {
       "hex": "#5ee59d",
@@ -2069,7 +2712,10 @@
       "saturation": 0.7219251336898396,
       "l": 0.6333333333333333,
       "lightness": 0.6333333333333333,
-      "hsl": "hsl(148, 72%, 63%)"
+      "hsl": "hsl(148, 72%, 63%)",
+      "uses": [
+        "TODO comments"
+      ]
     }
   }
 }

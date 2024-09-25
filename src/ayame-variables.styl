@@ -2,13 +2,13 @@ aya-background = var(--ayame-background) // Background
 aya-foreground = var(--ayame-foreground) // Foreground
 aya-red = var(--ayame-red) // Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold
 aya-darkred = var(--ayame-darkred) // Terminal Red, Error, Invalid
-aya-yellow = var(--ayame-yellow) // Terminal Bright Yellow, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors
+aya-yellow = var(--ayame-yellow) // Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors
 aya-orange = var(--ayame-orange) // Terminal Yellow, Warnings, Constants
 aya-green = var(--ayame-green) // Terminal Bright Green, Git added, Debug, Strings
 aya-darkgreen = var(--ayame-darkgreen) // Terminal Green, Info, String quotation marks
 aya-cyan = var(--ayame-cyan) // Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics
-aya-darkcyan = var(--ayame-darkcyan) // Terminal Cyan, Classes
-aya-blue = var(--ayame-blue) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords
+aya-darkcyan = var(--ayame-darkcyan) // Terminal Cyan, Classes, Identifiers, Variables
+aya-blue = var(--ayame-blue) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type
 aya-darkblue = var(--ayame-darkblue) // Terminal Blue, Bookmarks
 aya-pink = var(--ayame-pink) // Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
 aya-purple = var(--ayame-purple) // Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks
@@ -42,6 +42,7 @@ aya-this = var(--ayame-this) // Terminal Bright Red, Git deleted, Breakpoints, S
 aya-bold = var(--ayame-bold) // Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold
 aya-error = var(--ayame-error) // Terminal Red, Error, Invalid
 aya-invalid = var(--ayame-invalid) // Terminal Red, Error, Invalid
+aya-character = var(--ayame-character) // Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors
 aya-darkyellow = var(--ayame-darkyellow) // Terminal Yellow, Warnings, Constants
 aya-warning = var(--ayame-warning) // Terminal Yellow, Warnings, Constants
 aya-constant = var(--ayame-constant) // Terminal Yellow, Warnings, Constants
@@ -54,12 +55,15 @@ aya-control = var(--ayame-control) // Terminal Bright Cyan, Find matches, Hyperl
 aya-regex = var(--ayame-regex) // Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics
 aya-escape = var(--ayame-escape) // Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics
 aya-italics = var(--ayame-italics) // Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics
-aya-class = var(--ayame-class) // Terminal Cyan, Classes
-aya-primary = var(--ayame-primary) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords
-aya-progress = var(--ayame-progress) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords
-aya-modified = var(--ayame-modified) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords
-aya-hyperlink = var(--ayame-hyperlink) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords
-aya-keyword = var(--ayame-keyword) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords
+aya-class = var(--ayame-class) // Terminal Cyan, Classes, Identifiers, Variables
+aya-identifier = var(--ayame-identifier) // Terminal Cyan, Classes, Identifiers, Variables
+aya-variable = var(--ayame-variable) // Terminal Cyan, Classes, Identifiers, Variables
+aya-primary = var(--ayame-primary) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type
+aya-progress = var(--ayame-progress) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type
+aya-modified = var(--ayame-modified) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type
+aya-hyperlink = var(--ayame-hyperlink) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type
+aya-keyword = var(--ayame-keyword) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type
+aya-type = var(--ayame-type) // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type
 aya-bookmark = var(--ayame-bookmark) // Terminal Blue, Bookmarks
 aya-magenta = var(--ayame-magenta) // Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
 aya-tertiary = var(--ayame-tertiary) // Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords
@@ -68,6 +72,7 @@ aya-operator = var(--ayame-operator) // Terminal Bright Magenta, Debug token val
 aya-darkmagenta = var(--ayame-darkmagenta) // Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks
 aya-secondary = var(--ayame-secondary) // Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks
 aya-function = var(--ayame-function) // Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks
+aya-fun = var(--ayame-fun) // Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks
 aya-attribute = var(--ayame-attribute) // Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks
 aya-code = var(--ayame-code) // Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks
 aya-object = var(--ayame-object) // Terminal Bright White, Objects
@@ -93,13 +98,13 @@ aya-todo = var(--ayame-todo) // TODO comments
     --ayame-foreground #bab4d2; /* Foreground */
     --ayame-red #ff6394; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
     --ayame-darkred #d74368; /* Terminal Red, Error, Invalid */
-    --ayame-yellow #f5cb40; /* Terminal Bright Yellow, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
+    --ayame-yellow #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-orange #e78d5b; /* Terminal Yellow, Warnings, Constants */
     --ayame-green #98d57e; /* Terminal Bright Green, Git added, Debug, Strings */
     --ayame-darkgreen #63ae5d; /* Terminal Green, Info, String quotation marks */
     --ayame-cyan #63dcea; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-darkcyan #64a9cc; /* Terminal Cyan, Classes */
-    --ayame-blue #51a2e8; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
+    --ayame-darkcyan #64a9cc; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-blue #51a2e8; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
     --ayame-darkblue #5984e7; /* Terminal Blue, Bookmarks */
     --ayame-pink #eb68e5; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
     --ayame-purple #966cec; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
@@ -133,6 +138,7 @@ aya-todo = var(--ayame-todo) // TODO comments
     --ayame-bold aya-red; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
     --ayame-error aya-darkred; /* Terminal Red, Error, Invalid */
     --ayame-invalid aya-darkred; /* Terminal Red, Error, Invalid */
+    --ayame-character aya-yellow; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-darkyellow aya-orange; /* Terminal Yellow, Warnings, Constants */
     --ayame-warning aya-orange; /* Terminal Yellow, Warnings, Constants */
     --ayame-constant aya-orange; /* Terminal Yellow, Warnings, Constants */
@@ -145,12 +151,15 @@ aya-todo = var(--ayame-todo) // TODO comments
     --ayame-regex aya-cyan; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
     --ayame-escape aya-cyan; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
     --ayame-italics aya-cyan; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-class aya-darkcyan; /* Terminal Cyan, Classes */
-    --ayame-primary aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
-    --ayame-progress aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
-    --ayame-modified aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
-    --ayame-hyperlink aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
-    --ayame-keyword aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords */
+    --ayame-class aya-darkcyan; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-identifier aya-darkcyan; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-variable aya-darkcyan; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-primary aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-progress aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-modified aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-hyperlink aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-keyword aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-type aya-blue; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
     --ayame-bookmark aya-darkblue; /* Terminal Blue, Bookmarks */
     --ayame-magenta aya-pink; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
     --ayame-tertiary aya-pink; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
@@ -159,6 +168,7 @@ aya-todo = var(--ayame-todo) // TODO comments
     --ayame-darkmagenta aya-purple; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
     --ayame-secondary aya-purple; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
     --ayame-function aya-purple; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-fun aya-purple; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
     --ayame-attribute aya-purple; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
     --ayame-code aya-purple; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
     --ayame-object aya-white; /* Terminal Bright White, Objects */

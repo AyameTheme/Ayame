@@ -10,6 +10,7 @@ $AyameVariablesPath = '.\src\ayame-variables.styl'
 $AyameHexPath = '.\src\ayame-hex.styl'
 $AyameRGBPath = '.\src\ayame-rgb.styl'
 $AyameHSLPath = '.\src\ayame-hsl.styl'
+$AyameLuaPath = '.\build\out\nvim\ayame.lua'
 $IconsPath = '.\build\out\icon'
 $ReadmePath = '.\README.md'
 $ReadmeTemplatePath = '.\src\readme-template.md'
@@ -105,14 +106,17 @@ $AyameJson = [ordered]@{
 $AyameJson.version = (Get-Content .\package.json -Raw | ConvertFrom-Json).version
 
 foreach ($Color in $Ayame.colors) {
-    $v = Convert-HexToRgbHsl $Color.hex
-    $AyameJson.colors[$Color.name] = $v
+    $AyameColorDef = Convert-HexToRgbHsl $Color.hex
+    
+    $AyameColorDef['uses'] = $Color.uses
+
+    $AyameJson.colors[$Color.name] = $AyameColorDef
     foreach ($Alias in $Color.aliases) {
-        $AyameJson.colors[$Alias] = $v
+        $AyameJson.colors[$Alias] = $AyameColorDef
     }
 }
 
-$AyameJson | ConvertTo-Json > $AyameJsonPath
+$AyameJson | ConvertTo-Json -Depth 3 > $AyameJsonPath
 
 # --( ayame-variables.styl )----------------------------------------------------
 
@@ -222,6 +226,67 @@ $(($Ayame.colors | Where-Object { $_.aliases } | ForEach-Object {
 }) -Join "`n")
 "@
 
+# --( ayame.lua )---------------------------------------------------------------
+
+if (!(Test-Path (Split-Path $AyameLuaPath -Parent))) {
+    New-Item -ItemType Directory -Path (Split-Path $AyameLuaPath -Parent) -Force | Out-Null
+}
+
+$Ayamepedia = Get-Content $AyameJsonPath -Raw | ConvertFrom-Json -AsHashtable
+
+# Remove Lua-reserved keywords from the hashtable. These keywords cannot be used
+# as keys in a Lua table.
+[string[]] $ReservedKeywordsLua = @(
+    'and', 'break', 'do', 'else', 'elseif', 'end', 'false', 'for', 'function',
+    'if', 'in', 'local', 'nil', 'not', 'or', 'repeat', 'return', 'then', 'true',
+    'until', 'while'
+)
+$AyamepediaLua = $Ayamepedia
+$ReservedKeywordsLua | ForEach-Object { $AyamepediaLua.colors.Remove($_) }
+
+# The length of the longest color ID is used to right-pad the ID with spaces in
+# the resulting Lua table so that the '=' operators and comments align. This
+# makes the table easier to read.
+[int] $LengthIDMax = 0
+foreach ($Color in $Ayame.colors) {
+    $LengthIDMax = [Math]::Max($LengthIDMax, $Color.name.Length)
+    
+    foreach ($Alias in $Color.aliases) {
+        $LengthIDMax = [Math]::Max($LengthIDMax, $Alias.Length)
+    }
+}
+
+[string[]] $Lines = @('') * ($Ayamepedia.colors.Count)
+[int] $i = 0
+foreach ($ColorKey in $Ayamepedia.colors.Keys) {
+    $Color = $Ayamepedia.colors[$ColorKey]
+    [string] $Name       = $ColorKey
+    [string] $NamePadded = $Name.PadRight($LengthIDMax, ' ')
+    [string] $Hex        = $Color.hex
+    [string] $Comment    = ''
+
+    if ($Color.uses -gt 0) {
+        $Comment = " -- $($Color.uses -join ', ')"
+    }
+    
+    $Lines[$i] = "$(' ' * 8)$NamePadded = ""$Hex"",$Comment"
+    $i += 1
+}
+
+[string] $LinesRaw = $Lines -join "`n"
+
+Set-Content -Path $AyameLuaPath -Value @"
+local M = {}
+
+function M.get()
+    return {
+$LinesRaw
+    }
+end
+
+return M
+"@
+
 # --( out/icon/*.svg ) ---------------------------------------------------------
 
 if (Test-Path $IconsPath) {
@@ -243,7 +308,7 @@ foreach ($Color in $Ayame.colors) {
 
 # --( README.md ) --------------------------------------------------------------
 
-$IconURL = 'https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/icon/'
+$IconURL = 'build/out/icon/'
 
 # Don’t waste three hours of your life like me and just accept the assignment
 $Backtick = "``"

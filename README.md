@@ -1,6 +1,6 @@
 <div align="center">
 
-![](build/out/icon/ayame-48.png)
+![](build/out/ayame-128.png)
 
 # Ayame
 
@@ -22,7 +22,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 
 ## Color Palette
 
-![](https://raw.githubusercontent.com/Nurdoidz/Ayame/master/build/out/ayame-palette-graphic.png)
+![](build/out/ayame-palette-graphic.png)
 
 | Hex ____________ | ID | Uses |
 | --- | --- | --- |
@@ -30,16 +30,16 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](build/out/icon/foreground.svg) `#bab4d2` | `foreground`, `fg` | Foreground |
 | ![](build/out/icon/red.svg) `#ff6394` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `bold` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold |
 | ![](build/out/icon/darkred.svg) `#d74368` | `darkred`, `error`, `invalid` | Terminal Red, Error, Invalid |
-| ![](build/out/icon/yellow.svg) `#f5cb40` | `yellow` | Terminal Bright Yellow, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
+| ![](build/out/icon/yellow.svg) `#f5cb40` | `yellow`, `character` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
 | ![](build/out/icon/orange.svg) `#e78d5b` | `orange`, `darkyellow`, `warning`, `constant` | Terminal Yellow, Warnings, Constants |
 | ![](build/out/icon/green.svg) `#98d57e` | `green`, `added`, `debug`, `string` | Terminal Bright Green, Git added, Debug, Strings |
 | ![](build/out/icon/darkgreen.svg) `#63ae5d` | `darkgreen`, `info` | Terminal Green, Info, String quotation marks |
 | ![](build/out/icon/cyan.svg) `#63dcea` | `cyan`, `match`, `control`, `regex`, `escape`, `italics` | Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics |
-| ![](build/out/icon/darkcyan.svg) `#64a9cc` | `darkcyan`, `class` | Terminal Cyan, Classes |
-| ![](build/out/icon/blue.svg) `#51a2e8` | `blue`, `primary`, `progress`, `modified`, `hyperlink`, `keyword` | Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords |
+| ![](build/out/icon/darkcyan.svg) `#64a9cc` | `darkcyan`, `class`, `identifier`, `variable` | Terminal Cyan, Classes, Identifiers, Variables |
+| ![](build/out/icon/blue.svg) `#51a2e8` | `blue`, `primary`, `progress`, `modified`, `hyperlink`, `keyword`, `type` | Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type |
 | ![](build/out/icon/darkblue.svg) `#5984e7` | `darkblue`, `bookmark` | Terminal Blue, Bookmarks |
 | ![](build/out/icon/pink.svg) `#eb68e5` | `pink`, `magenta`, `tertiary`, `focus`, `operator` | Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords |
-| ![](build/out/icon/purple.svg) `#966cec` | `purple`, `darkmagenta`, `secondary`, `function`, `attribute`, `code` | Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks |
+| ![](build/out/icon/purple.svg) `#966cec` | `purple`, `darkmagenta`, `secondary`, `function`, `fun`, `attribute`, `code` | Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks |
 | ![](build/out/icon/white.svg) `#d1c9f4` | `white`, `object` | Terminal Bright White, Objects |
 | ![](build/out/icon/lightgray.svg) `#8a7d9b` | `lightgray`, `darkwhite`, `muted`, `punctuation`, `terminator` | Terminal White, Muted text, Punctuation |
 | ![](build/out/icon/gray.svg) `#37355a` | `gray`, `gutter`, `border`, `rule`, `button` | Terminal Bright Black, Buttons, Borders, Rules and guides, Line numbers |
@@ -111,7 +111,6 @@ The build script uses the following tools:
 - [PowerShell v7+](https://github.com/PowerShell/PowerShell) (cross-platform), available as the shell used in your terminal, or as `pwsh` in PATH. Check version with `pwsh --version`.
 - [Inkscape v1+](https://github.com/inkscape/inkscape), available in as `inkscape` in PATH. Used to generate the palette graphic. Check version with `inkscape --version`.
 - [Victor Mono](https://github.com/rubjo/victor-mono). Used in the palette graphic.
-- [7-zip](https://7-zip.org/).
 
 ### Procedure
 
@@ -151,41 +150,41 @@ src/graphic.ayame-template.svg
 
 ### Example
 
-1. The build script finds a file named `custom.ayame-template.md` in the `src` directory. In this file:
+The build script finds a file named `custom.ayame-template.md` in the `src` directory. In this file:
 
-    ```markdown
-    How much red is in orange? This much: [[ayame:colors.orange.r]]
-    ```
+```markdown
+How much red is in orange? This much: [[ayame:colors.orange.r]]
+```
 
-2. It finds the following string and recognizes it as a variable to be replaced:
+It finds the following string and recognizes it as a variable to be replaced:
 
-    ```
-    [[ayame:colors.orange.r]]
-    ```
+```
+[[ayame:colors.orange.r]]
+```
 
-3. ...will be replaced with:
+...will be replaced with:
 
-    ```
-    231
-    ```
+```
+231
+```
 
-4. ...since `colors.orange.r` is a valid key to a value in `ayame.json`:
+...since `colors.orange.r` is a valid key to a value in `ayame.json`:
 
-    ```json
-    {
-      "colors": {
-        "orange": {
-          "r": 231,
-          // ...
-        },
-        // ...
-      },
+```json
+{
+  "colors": {
+    "orange": {
+      "r": 231,
       // ...
-    }
-    ```
+    },
+    // ...
+  },
+  // ...
+}
+```
 
-5. ...resulting in `custom.md` in the `out` directory with the following contents:
+...resulting in `custom.md` in the `out` directory with the following contents:
 
-    ```markdown
-    How much red is in orange? This much: 231
-    ```
+```markdown
+How much red is in orange? This much: 231
+```
