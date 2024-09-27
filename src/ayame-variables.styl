@@ -1,5 +1,5 @@
 aya-background = var(--ayame-background) // Background
-aya-foreground = var(--ayame-foreground) // Foreground
+aya-foreground = var(--ayame-foreground) // Foreground, Variables, Identifiers
 aya-red = var(--ayame-red) // Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold
 aya-orange = var(--ayame-orange) // Terminal Yellow, Warnings, Constants
 aya-yellow = var(--ayame-yellow) // Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors
@@ -30,7 +30,7 @@ aya-teal700 = var(--ayame-teal700)
 aya-teal300 = var(--ayame-teal300)
 aya-teal100 = var(--ayame-teal100)
 aya-cyan900 = var(--ayame-cyan900)
-aya-cyan700 = var(--ayame-cyan700) // Terminal Cyan, Classes, Identifiers, Variables
+aya-cyan700 = var(--ayame-cyan700) // Terminal Cyan, Classes
 aya-cyan300 = var(--ayame-cyan300)
 aya-cyan100 = var(--ayame-cyan100)
 aya-blue900 = var(--ayame-blue900)
@@ -68,8 +68,10 @@ aya-purewhite = var(--ayame-purewhite) // Extra white for lighter backgrounds, B
 aya-header = var(--ayame-header) // Modal header background
 aya-bg = var(--ayame-bg) // Background
 aya-bg900 = var(--ayame-bg900) // Background
-aya-fg = var(--ayame-fg) // Foreground
-aya-fg200 = var(--ayame-fg200) // Foreground
+aya-fg = var(--ayame-fg) // Foreground, Variables, Identifiers
+aya-fg200 = var(--ayame-fg200) // Foreground, Variables, Identifiers
+aya-variable = var(--ayame-variable) // Foreground, Variables, Identifiers
+aya-identifier = var(--ayame-identifier) // Foreground, Variables, Identifiers
 aya-deleted = var(--ayame-deleted) // Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold
 aya-breakpoint = var(--ayame-breakpoint) // Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold
 aya-stop = var(--ayame-stop) // Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold
@@ -121,10 +123,8 @@ aya-invalid = var(--ayame-invalid) // Terminal Red, Error, Invalid, Tags
 aya-tag = var(--ayame-tag) // Terminal Red, Error, Invalid, Tags
 aya-darkgreen = var(--ayame-darkgreen) // Terminal Green, Info, String quotation marks
 aya-info = var(--ayame-info) // Terminal Green, Info, String quotation marks
-aya-darkcyan = var(--ayame-darkcyan) // Terminal Cyan, Classes, Identifiers, Variables
-aya-class = var(--ayame-class) // Terminal Cyan, Classes, Identifiers, Variables
-aya-identifier = var(--ayame-identifier) // Terminal Cyan, Classes, Identifiers, Variables
-aya-variable = var(--ayame-variable) // Terminal Cyan, Classes, Identifiers, Variables
+aya-darkcyan = var(--ayame-darkcyan) // Terminal Cyan, Classes
+aya-class = var(--ayame-class) // Terminal Cyan, Classes
 aya-darkblue = var(--ayame-darkblue) // Terminal Blue, Bookmarks, VS Code activity badge
 aya-activitybadge = var(--ayame-activitybadge) // Terminal Blue, Bookmarks, VS Code activity badge
 aya-bookmark = var(--ayame-bookmark) // Terminal Blue, Bookmarks, VS Code activity badge
@@ -167,7 +167,7 @@ aya-punctuation = var(--ayame-punctuation) // Terminal White, Muted text, Punctu
 aya-terminator = var(--ayame-terminator) // Terminal White, Muted text, Punctuation
 :root
     --ayame-background #17131e; /* Background */
-    --ayame-foreground #cbbade; /* Foreground */
+    --ayame-foreground #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-red #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
     --ayame-orange #ff965c; /* Terminal Yellow, Warnings, Constants */
     --ayame-yellow #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
@@ -198,7 +198,7 @@ aya-terminator = var(--ayame-terminator) // Terminal White, Muted text, Punctuat
     --ayame-teal300 #7df9b8;
     --ayame-teal100 #befcdb;
     --ayame-cyan900 #225c63;
-    --ayame-cyan700 #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-cyan700 #43b9c6; /* Terminal Cyan, Classes */
     --ayame-cyan300 #76ecf9;
     --ayame-cyan100 #bbf5fc;
     --ayame-blue900 #1b4162;
@@ -236,8 +236,10 @@ aya-terminator = var(--ayame-terminator) // Terminal White, Muted text, Punctuat
     --ayame-header #0b0911; /* Modal header background */
     --ayame-bg aya-background; /* Background */
     --ayame-bg900 aya-background; /* Background */
-    --ayame-fg aya-foreground; /* Foreground */
-    --ayame-fg200 aya-foreground; /* Foreground */
+    --ayame-fg aya-foreground; /* Foreground, Variables, Identifiers */
+    --ayame-fg200 aya-foreground; /* Foreground, Variables, Identifiers */
+    --ayame-variable aya-foreground; /* Foreground, Variables, Identifiers */
+    --ayame-identifier aya-foreground; /* Foreground, Variables, Identifiers */
     --ayame-deleted aya-red; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
     --ayame-breakpoint aya-red; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
     --ayame-stop aya-red; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
@@ -289,10 +291,8 @@ aya-terminator = var(--ayame-terminator) // Terminal White, Muted text, Punctuat
     --ayame-tag aya-red700; /* Terminal Red, Error, Invalid, Tags */
     --ayame-darkgreen aya-green700; /* Terminal Green, Info, String quotation marks */
     --ayame-info aya-green700; /* Terminal Green, Info, String quotation marks */
-    --ayame-darkcyan aya-cyan700; /* Terminal Cyan, Classes, Identifiers, Variables */
-    --ayame-class aya-cyan700; /* Terminal Cyan, Classes, Identifiers, Variables */
-    --ayame-identifier aya-cyan700; /* Terminal Cyan, Classes, Identifiers, Variables */
-    --ayame-variable aya-cyan700; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-darkcyan aya-cyan700; /* Terminal Cyan, Classes */
+    --ayame-class aya-cyan700; /* Terminal Cyan, Classes */
     --ayame-darkblue aya-blue700; /* Terminal Blue, Bookmarks, VS Code activity badge */
     --ayame-activitybadge aya-blue700; /* Terminal Blue, Bookmarks, VS Code activity badge */
     --ayame-bookmark aya-blue700; /* Terminal Blue, Bookmarks, VS Code activity badge */

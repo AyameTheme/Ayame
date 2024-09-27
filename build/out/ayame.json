@@ -1,5 +1,5 @@
 {
-  "version": "2.2",
+  "version": "2.4",
   "colors": {
     "background": {
       "hex": "#17131e",
@@ -102,7 +102,9 @@
       "lightness": 0.8,
       "hsl": "hsl(268, 35%, 80%)",
       "uses": [
-        "Foreground"
+        "Foreground",
+        "Variables",
+        "Identifiers"
       ]
     },
     "fg": {
@@ -128,7 +130,9 @@
       "lightness": 0.8,
       "hsl": "hsl(268, 35%, 80%)",
       "uses": [
-        "Foreground"
+        "Foreground",
+        "Variables",
+        "Identifiers"
       ]
     },
     "fg200": {
@@ -154,7 +158,65 @@
       "lightness": 0.8,
       "hsl": "hsl(268, 35%, 80%)",
       "uses": [
-        "Foreground"
+        "Foreground",
+        "Variables",
+        "Identifiers"
+      ]
+    },
+    "variable": {
+      "hex": "#cbbade",
+      "hex_upper": "#CBBADE",
+      "hex_bare": "cbbade",
+      "hex_bare_upper": "CBBADE",
+      "r": 203,
+      "red": 203,
+      "red_percent": 0.796078431372549,
+      "g": 186,
+      "green": 186,
+      "green_percent": 0.7294117647058823,
+      "b": 222,
+      "blue": 222,
+      "blue_percent": 0.8705882352941177,
+      "rgb": "rgb(203, 186, 222)",
+      "h": 268.3333333333333,
+      "hue": 268.3333333333333,
+      "s": 0.3529411764705884,
+      "saturation": 0.3529411764705884,
+      "l": 0.8,
+      "lightness": 0.8,
+      "hsl": "hsl(268, 35%, 80%)",
+      "uses": [
+        "Foreground",
+        "Variables",
+        "Identifiers"
+      ]
+    },
+    "identifier": {
+      "hex": "#cbbade",
+      "hex_upper": "#CBBADE",
+      "hex_bare": "cbbade",
+      "hex_bare_upper": "CBBADE",
+      "r": 203,
+      "red": 203,
+      "red_percent": 0.796078431372549,
+      "g": 186,
+      "green": 186,
+      "green_percent": 0.7294117647058823,
+      "b": 222,
+      "blue": 222,
+      "blue_percent": 0.8705882352941177,
+      "rgb": "rgb(203, 186, 222)",
+      "h": 268.3333333333333,
+      "hue": 268.3333333333333,
+      "s": 0.3529411764705884,
+      "saturation": 0.3529411764705884,
+      "l": 0.8,
+      "lightness": 0.8,
+      "hsl": "hsl(268, 35%, 80%)",
+      "uses": [
+        "Foreground",
+        "Variables",
+        "Identifiers"
       ]
     },
     "red": {
@@ -2486,9 +2548,7 @@
       "hsl": "hsl(186, 53%, 52%)",
       "uses": [
         "Terminal Cyan",
-        "Classes",
-        "Identifiers",
-        "Variables"
+        "Classes"
       ]
     },
     "darkcyan": {
@@ -2515,9 +2575,7 @@
       "hsl": "hsl(186, 53%, 52%)",
       "uses": [
         "Terminal Cyan",
-        "Classes",
-        "Identifiers",
-        "Variables"
+        "Classes"
       ]
     },
     "class": {
@@ -2544,67 +2602,7 @@
       "hsl": "hsl(186, 53%, 52%)",
       "uses": [
         "Terminal Cyan",
-        "Classes",
-        "Identifiers",
-        "Variables"
-      ]
-    },
-    "identifier": {
-      "hex": "#43b9c6",
-      "hex_upper": "#43B9C6",
-      "hex_bare": "43b9c6",
-      "hex_bare_upper": "43B9C6",
-      "r": 67,
-      "red": 67,
-      "red_percent": 0.2627450980392157,
-      "g": 185,
-      "green": 185,
-      "green_percent": 0.7254901960784313,
-      "b": 198,
-      "blue": 198,
-      "blue_percent": 0.7764705882352941,
-      "rgb": "rgb(67, 185, 198)",
-      "h": 185.95419847328245,
-      "hue": 185.95419847328245,
-      "s": 0.5346938775510204,
-      "saturation": 0.5346938775510204,
-      "l": 0.5196078431372549,
-      "lightness": 0.5196078431372549,
-      "hsl": "hsl(186, 53%, 52%)",
-      "uses": [
-        "Terminal Cyan",
-        "Classes",
-        "Identifiers",
-        "Variables"
-      ]
-    },
-    "variable": {
-      "hex": "#43b9c6",
-      "hex_upper": "#43B9C6",
-      "hex_bare": "43b9c6",
-      "hex_bare_upper": "43B9C6",
-      "r": 67,
-      "red": 67,
-      "red_percent": 0.2627450980392157,
-      "g": 185,
-      "green": 185,
-      "green_percent": 0.7254901960784313,
-      "b": 198,
-      "blue": 198,
-      "blue_percent": 0.7764705882352941,
-      "rgb": "rgb(67, 185, 198)",
-      "h": 185.95419847328245,
-      "hue": 185.95419847328245,
-      "s": 0.5346938775510204,
-      "saturation": 0.5346938775510204,
-      "l": 0.5196078431372549,
-      "lightness": 0.5196078431372549,
-      "hsl": "hsl(186, 53%, 52%)",
-      "uses": [
-        "Terminal Cyan",
-        "Classes",
-        "Identifiers",
-        "Variables"
+        "Classes"
       ]
     },
     "cyan300": {

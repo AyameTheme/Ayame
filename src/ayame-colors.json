@@ -15,11 +15,15 @@
       "name": "foreground",
       "aliases": [
         "fg",
-        "fg200"
+        "fg200",
+        "variable",
+        "identifier"
       ],
       "hex": "#cbbade",
       "uses": [
-        "Foreground"
+        "Foreground",
+        "Variables",
+        "Identifiers"
       ]
     },
     {
@@ -331,16 +335,12 @@
       "name": "cyan700",
       "aliases": [
         "darkcyan",
-        "class",
-        "identifier",
-        "variable"
+        "class"
       ],
       "hex": "#43b9c6",
       "uses": [
         "Terminal Cyan",
-        "Classes",
-        "Identifiers",
-        "Variables"
+        "Classes"
       ]
     },
     {
