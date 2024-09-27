@@ -1,6 +1,6 @@
 <div align="center">
 
-![](build/out/image/ayame-128.png)
+![](bin/image/ayame-128.png)
 
 # Ayame
 
@@ -22,90 +22,90 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 
 ## Color Palette
 
-![](build/out/image/ayame-palette-graphic.png)
-![](build/out/image/ayame-palette.png)
+![](bin/image/ayame-palette-graphic.png)
+![](bin/image/ayame-palette.png)
 
 | Hex ____________ | ID | Uses |
 | --- | --- | --- |
-| ![](build/out/icon/background.svg) `#17131e` | `background`, `bg`, `bg900` | Background |
-| ![](build/out/icon/foreground.svg) `#cbbade` | `foreground`, `fg`, `fg200`, `variable`, `identifier` | Foreground, Variables, Identifiers |
-| ![](build/out/icon/red.svg) `#ff577e` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `bold`, `red500` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold |
-| ![](build/out/icon/orange.svg) `#ff965c` | `orange`, `warning`, `constant`, `orange500` | Terminal Yellow, Warnings, Constants |
-| ![](build/out/icon/yellow.svg) `#f5cb40` | `yellow`, `character`, `yellow500` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
-| ![](build/out/icon/green.svg) `#96e474` | `green`, `added`, `debug`, `string`, `green500` | Terminal Bright Green, Git added, Debug, Strings |
-| ![](build/out/icon/teal.svg) `#5df8a6` | `teal`, `todo`, `teal500` | TODO comments |
-| ![](build/out/icon/cyan.svg) `#54e7f8` | `cyan`, `match`, `control`, `regex`, `escape`, `italics`, `cyan500`, `linkhover` | Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics |
-| ![](build/out/icon/blue.svg) `#44a3f5` | `blue`, `primary`, `progress`, `modified`, `hyperlink`, `keyword`, `type`, `blue500` | Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type |
-| ![](build/out/icon/purple.svg) `#9768f8` | `purple`, `darkmagenta`, `secondary`, `function`, `fun`, `attribute`, `code`, `purple500` | Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks |
-| ![](build/out/icon/magenta.svg) `#f76ef1` | `magenta`, `pink`, `tertiary`, `focus`, `operator`, `magenta500`, `value` | Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords |
-| ![](build/out/icon/red900.svg) `#662332` | `red900`, `error2` | Error background |
-| ![](build/out/icon/red700.svg) `#cc4665` | `red700`, `darkred`, `error`, `invalid`, `tag` | Terminal Red, Error, Invalid, Tags |
-| ![](build/out/icon/red300.svg) `#ff7998` | `red300` |  |
-| ![](build/out/icon/red100.svg) `#ffbccb` | `red100` |  |
-| ![](build/out/icon/orange900.svg) `#663c25` | `orange900` |  |
-| ![](build/out/icon/orange700.svg) `#cc784a` | `orange700` |  |
-| ![](build/out/icon/orange300.svg) `#ffab7d` | `orange300` |  |
-| ![](build/out/icon/orange100.svg) `#ffd5be` | `orange100` |  |
-| ![](build/out/icon/yellow900.svg) `#62511a` | `yellow900` |  |
-| ![](build/out/icon/yellow700.svg) `#c4a233` | `yellow700` |  |
-| ![](build/out/icon/yellow300.svg) `#f7d566` | `yellow300` |  |
-| ![](build/out/icon/yellow100.svg) `#fbeab3` | `yellow100` |  |
-| ![](build/out/icon/green900.svg) `#3c5b2e` | `green900` |  |
-| ![](build/out/icon/green700.svg) `#78b65d` | `green700`, `darkgreen`, `info` | Terminal Green, Info, String quotation marks |
-| ![](build/out/icon/green300.svg) `#abe990` | `green300` |  |
-| ![](build/out/icon/green100.svg) `#d5f4c7` | `green100` |  |
-| ![](build/out/icon/teal900.svg) `#256342` | `teal900` |  |
-| ![](build/out/icon/teal700.svg) `#4ac685` | `teal700` |  |
-| ![](build/out/icon/teal300.svg) `#7df9b8` | `teal300` |  |
-| ![](build/out/icon/teal100.svg) `#befcdb` | `teal100` |  |
-| ![](build/out/icon/cyan900.svg) `#225c63` | `cyan900` |  |
-| ![](build/out/icon/cyan700.svg) `#43b9c6` | `cyan700`, `darkcyan`, `class` | Terminal Cyan, Classes |
-| ![](build/out/icon/cyan300.svg) `#76ecf9` | `cyan300` |  |
-| ![](build/out/icon/cyan100.svg) `#bbf5fc` | `cyan100` |  |
-| ![](build/out/icon/blue900.svg) `#1b4162` | `blue900` |  |
-| ![](build/out/icon/blue700.svg) `#3682c4` | `blue700`, `darkblue`, `activitybadge`, `bookmark`, `blue2` | Terminal Blue, Bookmarks, VS Code activity badge |
-| ![](build/out/icon/blue300.svg) `#69b5f7` | `blue300` |  |
-| ![](build/out/icon/blue100.svg) `#b4dafb` | `blue100` |  |
-| ![](build/out/icon/purple900.svg) `#3c2a63` | `purple900` |  |
-| ![](build/out/icon/purple700.svg) `#7953c6` | `purple700` |  |
-| ![](build/out/icon/purple300.svg) `#ac86f9` | `purple300` |  |
-| ![](build/out/icon/purple100.svg) `#d5c3fc` | `purple100` |  |
-| ![](build/out/icon/magenta900.svg) `#632c60` | `magenta900` |  |
-| ![](build/out/icon/magenta700.svg) `#c658c1` | `magenta700` |  |
-| ![](build/out/icon/magenta300.svg) `#f98bf4` | `magenta300` |  |
-| ![](build/out/icon/magenta100.svg) `#fcc5f9` | `magenta100` |  |
-| ![](build/out/icon/bg800.svg) `#1a1528` | `bg800`, `border2` | Secondary borders |
-| ![](build/out/icon/bg700.svg) `#221c35` | `bg700`, `modal`, `menu`, `toolbar`, `checkbox`, `input` | Modal background, Checkbox background, Input background |
-| ![](build/out/icon/bg600.svg) `#2b2343` | `bg600`, `subheader`, `tabline`, `hover`, `highlight` | Subheader background, Line highlight, UI hover highlight |
-| ![](build/out/icon/bg500.svg) `#342950` | `bg500`, `black`, `gutter`, `border`, `rule`, `button`, `altrow` | Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background |
-| ![](build/out/icon/bg400.svg) `#3c305d` | `bg400` |  |
-| ![](build/out/icon/bg300.svg) `#45376a` | `bg300` |  |
-| ![](build/out/icon/bg200.svg) `#4d3e78` | `bg200` |  |
-| ![](build/out/icon/bg100.svg) `#564585` | `bg100`, `gray`, `comment`, `blockquote`, `folded`, `darkgray` | Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks |
-| ![](build/out/icon/fg900.svg) `#191023` | `fg900` |  |
-| ![](build/out/icon/fg800.svg) `#322145` | `fg800`, `focusborder`, `highlightborder`, `modalhighlight`, `highlight2` | Highlight and focus border, Highlights in UI and modals |
-| ![](build/out/icon/fg700.svg) `#4a3168` | `fg700`, `selection` | Selection background |
-| ![](build/out/icon/fg600.svg) `#63428a` | `fg600` |  |
-| ![](build/out/icon/fg500.svg) `#7c52ad` | `fg500`, `underline` | Markdown underline |
-| ![](build/out/icon/fg400.svg) `#9675bd` | `fg400`, `cursor`, `activeborder`, `active` | Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text |
-| ![](build/out/icon/fg300.svg) `#b097ce` | `fg300` |  |
-| ![](build/out/icon/fg100.svg) `#e5dcef` | `fg100`, `white`, `object` | Terminal Bright White, Objects |
-| ![](build/out/icon/bracket.svg) `#6c8db3` | `bracket` | Parentheses, Brackets, Braces |
-| ![](build/out/icon/lightgray.svg) `#8a7d9b` | `lightgray`, `darkwhite`, `muted`, `punctuation`, `terminator` | Terminal White, Muted text, Punctuation |
-| ![](build/out/icon/foreground2.svg) `#bbbbbb` | `foreground2` | Alternate foreground |
-| ![](build/out/icon/purewhite.svg) `#ffffff` | `purewhite` | Extra white for lighter backgrounds, Badge foreground |
-| ![](build/out/icon/header.svg) `#0b0911` | `header` | Modal header background |
+| ![](bin/icon/background.svg) `#17131e` | `background`, `bg`, `bg900` | Background |
+| ![](bin/icon/foreground.svg) `#cbbade` | `foreground`, `fg`, `fg200` | Foreground |
+| ![](bin/icon/red.svg) `#ff577e` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `bold`, `red500` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold |
+| ![](bin/icon/orange.svg) `#ff965c` | `orange`, `warning`, `constant`, `orange500` | Terminal Yellow, Warnings, Constants |
+| ![](bin/icon/yellow.svg) `#f5cb40` | `yellow`, `character`, `yellow500` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
+| ![](bin/icon/green.svg) `#96e474` | `green`, `added`, `debug`, `string`, `green500` | Terminal Bright Green, Git added, Debug, Strings |
+| ![](bin/icon/teal.svg) `#5df8a6` | `teal`, `todo`, `teal500` | TODO comments |
+| ![](bin/icon/cyan.svg) `#54e7f8` | `cyan`, `match`, `control`, `regex`, `escape`, `italics`, `cyan500`, `linkhover` | Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics |
+| ![](bin/icon/blue.svg) `#44a3f5` | `blue`, `primary`, `progress`, `modified`, `hyperlink`, `keyword`, `type`, `blue500` | Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type |
+| ![](bin/icon/purple.svg) `#9768f8` | `purple`, `darkmagenta`, `secondary`, `function`, `fun`, `attribute`, `code`, `purple500` | Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks |
+| ![](bin/icon/magenta.svg) `#f76ef1` | `magenta`, `pink`, `tertiary`, `focus`, `operator`, `magenta500`, `value` | Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords |
+| ![](bin/icon/red900.svg) `#662332` | `red900`, `error2` | Error background |
+| ![](bin/icon/red700.svg) `#cc4665` | `red700`, `darkred`, `error`, `invalid`, `tag` | Terminal Red, Error, Invalid, Tags |
+| ![](bin/icon/red300.svg) `#ff7998` | `red300` |  |
+| ![](bin/icon/red100.svg) `#ffbccb` | `red100` |  |
+| ![](bin/icon/orange900.svg) `#663c25` | `orange900` |  |
+| ![](bin/icon/orange700.svg) `#cc784a` | `orange700` |  |
+| ![](bin/icon/orange300.svg) `#ffab7d` | `orange300` |  |
+| ![](bin/icon/orange100.svg) `#ffd5be` | `orange100` |  |
+| ![](bin/icon/yellow900.svg) `#62511a` | `yellow900` |  |
+| ![](bin/icon/yellow700.svg) `#c4a233` | `yellow700` |  |
+| ![](bin/icon/yellow300.svg) `#f7d566` | `yellow300` |  |
+| ![](bin/icon/yellow100.svg) `#fbeab3` | `yellow100` |  |
+| ![](bin/icon/green900.svg) `#3c5b2e` | `green900` |  |
+| ![](bin/icon/green700.svg) `#78b65d` | `green700`, `darkgreen`, `info` | Terminal Green, Info, String quotation marks |
+| ![](bin/icon/green300.svg) `#abe990` | `green300` |  |
+| ![](bin/icon/green100.svg) `#d5f4c7` | `green100` |  |
+| ![](bin/icon/teal900.svg) `#256342` | `teal900` |  |
+| ![](bin/icon/teal700.svg) `#4ac685` | `teal700` |  |
+| ![](bin/icon/teal300.svg) `#7df9b8` | `teal300` |  |
+| ![](bin/icon/teal100.svg) `#befcdb` | `teal100` |  |
+| ![](bin/icon/cyan900.svg) `#225c63` | `cyan900` |  |
+| ![](bin/icon/cyan700.svg) `#43b9c6` | `cyan700`, `darkcyan`, `class`, `identifier`, `variable` | Terminal Cyan, Classes, Identifiers, Variables |
+| ![](bin/icon/cyan300.svg) `#76ecf9` | `cyan300` |  |
+| ![](bin/icon/cyan100.svg) `#bbf5fc` | `cyan100` |  |
+| ![](bin/icon/blue900.svg) `#1b4162` | `blue900` |  |
+| ![](bin/icon/blue700.svg) `#3682c4` | `blue700`, `darkblue`, `activitybadge`, `bookmark`, `blue2` | Terminal Blue, Bookmarks, VS Code activity badge |
+| ![](bin/icon/blue300.svg) `#69b5f7` | `blue300` |  |
+| ![](bin/icon/blue100.svg) `#b4dafb` | `blue100` |  |
+| ![](bin/icon/purple900.svg) `#3c2a63` | `purple900` |  |
+| ![](bin/icon/purple700.svg) `#7953c6` | `purple700` |  |
+| ![](bin/icon/purple300.svg) `#ac86f9` | `purple300` |  |
+| ![](bin/icon/purple100.svg) `#d5c3fc` | `purple100` |  |
+| ![](bin/icon/magenta900.svg) `#632c60` | `magenta900` |  |
+| ![](bin/icon/magenta700.svg) `#c658c1` | `magenta700` |  |
+| ![](bin/icon/magenta300.svg) `#f98bf4` | `magenta300` |  |
+| ![](bin/icon/magenta100.svg) `#fcc5f9` | `magenta100` |  |
+| ![](bin/icon/bg800.svg) `#1a1528` | `bg800`, `border2` | Secondary borders |
+| ![](bin/icon/bg700.svg) `#221c35` | `bg700`, `modal`, `menu`, `toolbar`, `checkbox`, `input` | Modal background, Checkbox background, Input background |
+| ![](bin/icon/bg600.svg) `#2b2343` | `bg600`, `subheader`, `tabline`, `hover`, `highlight` | Subheader background, Line highlight, UI hover highlight |
+| ![](bin/icon/bg500.svg) `#342950` | `bg500`, `black`, `gutter`, `border`, `rule`, `button`, `altrow` | Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background |
+| ![](bin/icon/bg400.svg) `#3c305d` | `bg400` |  |
+| ![](bin/icon/bg300.svg) `#45376a` | `bg300` |  |
+| ![](bin/icon/bg200.svg) `#4d3e78` | `bg200` |  |
+| ![](bin/icon/bg100.svg) `#564585` | `bg100`, `gray`, `comment`, `blockquote`, `folded`, `darkgray` | Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks |
+| ![](bin/icon/fg900.svg) `#191023` | `fg900` |  |
+| ![](bin/icon/fg800.svg) `#322145` | `fg800`, `focusborder`, `highlightborder`, `modalhighlight`, `highlight2` | Highlight and focus border, Highlights in UI and modals |
+| ![](bin/icon/fg700.svg) `#4a3168` | `fg700`, `selection` | Selection background |
+| ![](bin/icon/fg600.svg) `#63428a` | `fg600` |  |
+| ![](bin/icon/fg500.svg) `#7c52ad` | `fg500`, `underline` | Markdown underline |
+| ![](bin/icon/fg400.svg) `#9675bd` | `fg400`, `cursor`, `activeborder`, `active` | Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text |
+| ![](bin/icon/fg300.svg) `#b097ce` | `fg300` |  |
+| ![](bin/icon/fg100.svg) `#e5dcef` | `fg100`, `white`, `object` | Terminal Bright White, Objects |
+| ![](bin/icon/bracket.svg) `#6c8db3` | `bracket` | Parentheses, Brackets, Braces |
+| ![](bin/icon/lightgray.svg) `#8a7d9b` | `lightgray`, `darkwhite`, `muted`, `punctuation`, `terminator` | Terminal White, Muted text, Punctuation |
+| ![](bin/icon/foreground2.svg) `#bbbbbb` | `foreground2` | Alternate foreground |
+| ![](bin/icon/purewhite.svg) `#ffffff` | `purewhite` | Extra white for lighter backgrounds, Badge foreground |
+| ![](bin/icon/header.svg) `#0b0911` | `header` | Modal header background |
 
 ## Deployments
 
 Ayame is available for the following tools:
 
 - [Visual Studio Code](https://github.com/AyameTheme/vscode)
-- [Microsoft Office](build/out/office/README.md)
+- [Microsoft Office](bin/office/README.md)
 
 ## Building
 
-Color definitions are contained in `src/ayame-colors.json`. This file is the main 'editable' file used for modifying the color palette. This file is used to generate `build/out/ayame.json`, which is the main file used to place colors in template files. For example, this is the output definition for "background":
+Color definitions are contained in `src/ayame-colors.json`. This file is the main 'editable' file used for modifying the color palette. This file is used to generate `bin/ayame.json`, which is the main file used to place colors in template files. For example, this is the output definition for "background":
 
 ```json
 "background": {

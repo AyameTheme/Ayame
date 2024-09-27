@@ -5,13 +5,13 @@ $Ayame = Get-Content '.\src\ayame-colors.json' -Raw | ConvertFrom-Json
 
 # --( Path Variables )----------------------------------------------------------
 
-$AyameJsonPath = '.\build\out\ayame.json'
+$AyameJsonPath = '.\bin\ayame.json'
 $AyameVariablesPath = '.\src\ayame-variables.styl'
 $AyameHexPath = '.\src\ayame-hex.styl'
 $AyameRGBPath = '.\src\ayame-rgb.styl'
 $AyameHSLPath = '.\src\ayame-hsl.styl'
-$AyameLuaPath = '.\build\out\nvim\ayame.lua'
-$IconsPath = '.\build\out\icon'
+$AyameLuaPath = '.\bin\nvim\ayame.lua'
+$IconsPath = '.\bin\icon'
 $ReadmePath = '.\README.md'
 $ReadmeTemplatePath = '.\src\readme-template.md'
 
@@ -308,7 +308,7 @@ foreach ($Color in $Ayame.colors) {
 
 # --( README.md ) --------------------------------------------------------------
 
-$IconURL = 'build/out/icon/'
+$IconURL = 'bin/icon/'
 
 # Don’t waste three hours of your life like me and just accept the assignment
 $Backtick = "``"
@@ -330,11 +330,11 @@ $AyamePaletteTable = ($Ayame.colors | ForEach-Object {
 # --( Office Theme ) -----------------------------------------------------------
 
 $OfficeSourcePath = Resolve-Path '.\src\office\thmx'
-New-Item -ItemType Directory -Path .\build\out\office\thmx -Force | Out-Null
+New-Item -ItemType Directory -Path .\bin\office\thmx -Force | Out-Null
 Get-ChildItem -Path $OfficeSourcePath -Recurse | Where-Object {
     $_.Name -notlike '*.ayame-template*'
 } | ForEach-Object {
-    $Destination = Join-Path -Path '.\build\out\office\thmx' -ChildPath $_.FullName.Substring($OfficeSourcePath.ToString().Length)
+    $Destination = Join-Path -Path '.\bin\office\thmx' -ChildPath $_.FullName.Substring($OfficeSourcePath.ToString().Length)
     if ($_.PSIsContainer) {
         New-Item -ItemType Directory -Path $Destination -Force | Out-Null
     }
@@ -353,7 +353,7 @@ $Pattern = [regex]'\[{2}(ayame):(\w+(?:\.\w+)*)\]{2}'
 
 $SourcePath = Resolve-Path '.\src'
 Get-ChildItem -Path $SourcePath -Recurse -Filter '*.ayame-template*' | ForEach-Object {
-    $Destination = Join-Path -Path '.\build\out' -ChildPath $_.FullName.Substring($SourcePath.ToString().Length).Replace('.ayame-template', '')
+    $Destination = Join-Path -Path '.\bin' -ChildPath $_.FullName.Substring($SourcePath.ToString().Length).Replace('.ayame-template', '')
     if ($_.PSIsContainer) {
         New-Item -ItemType Directory -Path $Destination -Force | Out-Null
     }
@@ -382,8 +382,8 @@ if ($null -eq (Get-Command 'inkscape' -ErrorAction SilentlyContinue)) {
     Write-Error 'inkscape not found in PATH.'
 }
 else {
-    inkscape '.\build\out\image\ayame-palette-graphic.svg' -o '.\build\out\image\ayame-palette-graphic.png'
-    inkscape '.\build\out\image\ayame-palette.svg' -o '.\build\out\image\ayame-palette.png'
+    inkscape '.\bin\image\ayame-palette-graphic.svg' -o '.\bin\image\ayame-palette-graphic.png'
+    inkscape '.\bin\image\ayame-palette.svg' -o '.\bin\image\ayame-palette.png'
 }
 
 # --( Office Theme cont. ) -----------------------------------------------------
@@ -392,16 +392,16 @@ if ($null -eq (Get-Command '7z' -ErrorAction SilentlyContinue)) {
     Write-Error '7z not found in PATH.'
 }
 else {
-    Get-ChildItem -Path .\build\out\office\thmx | ForEach-Object {
+    Get-ChildItem -Path .\bin\office\thmx | ForEach-Object {
         7z u -tzip Ayame.thmx $_.FullName
     }
 }
-Move-Item -Path Ayame.thmx -Destination .\build\out\office -Force
-Remove-Item -Path .\build\out\office\thmx -Recurse -Force
+Move-Item -Path Ayame.thmx -Destination .\bin\office -Force
+Remove-Item -Path .\bin\office\thmx -Recurse -Force
 
 # --( Stylus ) -----------------------------------------------------------------
 
 npx stylus src/ayame-variables.styl
-npx stylus src/usercss --out build/out/usercss
+npx stylus src/usercss --out bin/usercss
 
 Set-Location $PrevCWD
