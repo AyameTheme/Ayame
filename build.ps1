@@ -382,7 +382,8 @@ if ($null -eq (Get-Command 'inkscape' -ErrorAction SilentlyContinue)) {
     Write-Error 'inkscape not found in PATH.'
 }
 else {
-    inkscape '.\build\out\ayame-palette-graphic.svg' -o '.\build\out\ayame-palette-graphic.png'
+    inkscape '.\build\out\image\ayame-palette-graphic.svg' -o '.\build\out\image\ayame-palette-graphic.png'
+    inkscape '.\build\out\image\ayame-palette.svg' -o '.\build\out\image\ayame-palette.png'
 }
 
 # --( Office Theme cont. ) -----------------------------------------------------

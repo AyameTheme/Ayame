@@ -1,0 +1,283 @@
+<svg viewBox="0 0 2880 1080"
+    xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+    <path style="fill:[[ayame:colors.background.hex]]" d="M0 0h3840v2160H0z"/>
+    <path style="fill:[[ayame:colors.red.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 -217.498)"/>
+    <path style="fill:[[ayame:colors.red900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 -217.498)"/>
+    <path style="fill:[[ayame:colors.orange900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 -97.498)"/>
+    <path style="fill:[[ayame:colors.yellow900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 22.502)"/>
+    <path style="fill:[[ayame:colors.green900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 142.502)"/>
+    <path style="fill:[[ayame:colors.teal900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 262.502)"/>
+    <path style="fill:[[ayame:colors.cyan900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 382.502)"/>
+    <path style="fill:[[ayame:colors.blue900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 502.502)"/>
+    <path style="fill:[[ayame:colors.purple900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 622.502)"/>
+    <path style="fill:[[ayame:colors.magenta900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 742.502)"/>
+    <path style="fill:[[ayame:colors.red700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 -217.498)"/>
+    <path style="fill:[[ayame:colors.orange700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 -97.498)"/>
+    <path style="fill:[[ayame:colors.yellow700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 22.502)"/>
+    <path style="fill:[[ayame:colors.green700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 142.502)"/>
+    <path style="fill:[[ayame:colors.teal700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 262.502)"/>
+    <path style="fill:[[ayame:colors.cyan700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 382.502)"/>
+    <path style="fill:[[ayame:colors.blue700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 502.502)"/>
+    <path style="fill:[[ayame:colors.purple700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 622.502)"/>
+    <path style="fill:[[ayame:colors.magenta700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 742.502)"/>
+    <path style="fill:[[ayame:colors.red.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 -217.498)"/>
+    <path style="fill:[[ayame:colors.orange.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 -97.498)"/>
+    <path style="fill:[[ayame:colors.yellow.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 22.502)"/>
+    <path style="fill:[[ayame:colors.green.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 142.502)"/>
+    <path style="fill:[[ayame:colors.teal.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 262.502)"/>
+    <path style="fill:[[ayame:colors.cyan.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 382.502)"/>
+    <path style="fill:[[ayame:colors.blue.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 502.502)"/>
+    <path style="fill:[[ayame:colors.purple.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 622.502)"/>
+    <path style="fill:[[ayame:colors.magenta.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 742.502)"/>
+    <path style="fill:[[ayame:colors.red300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 -217.498)"/>
+    <path style="fill:[[ayame:colors.orange300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 -97.498)"/>
+    <path style="fill:[[ayame:colors.yellow300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 22.502)"/>
+    <path style="fill:[[ayame:colors.green300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 142.502)"/>
+    <path style="fill:[[ayame:colors.teal300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 262.502)"/>
+    <path style="fill:[[ayame:colors.cyan300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 382.502)"/>
+    <path style="fill:[[ayame:colors.blue300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 502.502)"/>
+    <path style="fill:[[ayame:colors.purple300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 622.502)"/>
+    <path style="fill:[[ayame:colors.magenta300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 742.502)"/>
+    <path style="fill:[[ayame:colors.red100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 -217.498)"/>
+    <path style="fill:[[ayame:colors.orange100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 -97.498)"/>
+    <path style="fill:[[ayame:colors.yellow100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 22.502)"/>
+    <path style="fill:[[ayame:colors.green100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 142.502)"/>
+    <path style="fill:[[ayame:colors.teal100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 262.502)"/>
+    <path style="fill:[[ayame:colors.cyan100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 382.502)"/>
+    <path style="fill:[[ayame:colors.blue100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 502.502)"/>
+    <path style="fill:[[ayame:colors.purple100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 622.502)"/>
+    <path style="fill:[[ayame:colors.magenta100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 742.502)"/>
+    <path style="fill:[[ayame:colors.orange.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 -97.498)"/>
+    <path style="fill:[[ayame:colors.yellow.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 22.502)"/>
+    <path style="fill:[[ayame:colors.green.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 142.502)"/>
+    <path style="fill:[[ayame:colors.teal.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 262.502)"/>
+    <path style="fill:[[ayame:colors.cyan.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 382.502)"/>
+    <path style="fill:[[ayame:colors.blue.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 502.502)"/>
+    <path style="fill:[[ayame:colors.purple.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 622.502)"/>
+    <path style="fill:[[ayame:colors.magenta.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 742.502)"/>
+    <path style="fill:[[ayame:colors.fg900.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 742.502)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 742.502)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 622.502)"/>
+    <path style="fill:[[ayame:colors.bg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 622.502)"/>
+    <path style="fill:[[ayame:colors.fg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 502.502)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 502.502)"/>
+    <path style="fill:[[ayame:colors.fg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 382.502)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 382.502)"/>
+    <path style="fill:[[ayame:colors.fg500.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 262.502)"/>
+    <path style="fill:[[ayame:colors.bg500.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 262.502)"/>
+    <path style="fill:[[ayame:colors.fg400.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 142.502)"/>
+    <path style="fill:[[ayame:colors.bg400.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 142.502)"/>
+    <path style="fill:[[ayame:colors.fg300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 22.502)"/>
+    <path style="fill:[[ayame:colors.bg300.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 22.502)"/>
+    <path style="fill:[[ayame:colors.foreground.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 -97.498)"/>
+    <path style="fill:[[ayame:colors.bg200.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 -97.498)"/>
+    <path style="fill:[[ayame:colors.fg100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1401.78 -217.498)"/>
+    <path style="fill:[[ayame:colors.bg100.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1641.78 -217.498)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 -217.498)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 -97.498)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 22.502)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 142.502)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 262.502)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 382.502)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 502.502)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 622.502)"/>
+    <path style="fill:[[ayame:colors.bg700.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -758.224 742.502)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 -217.498)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 -97.498)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 22.502)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 142.502)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 262.502)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 382.502)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 502.502)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 622.502)"/>
+    <path style="fill:[[ayame:colors.bg600.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -518.224 742.502)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 -217.498)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 -97.498)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 22.502)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 142.502)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 262.502)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 382.502)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 502.502)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 622.502)"/>
+    <path style="fill:[[ayame:colors.fg800.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -278.224 742.502)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 -217.498)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 -97.498)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 22.502)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 142.502)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 262.502)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 382.502)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 502.502)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 622.502)"/>
+    <path style="fill:[[ayame:colors.background.hex]]" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 742.502)"/>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-464.76 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red300.hex]]" transform="translate(736.467 -48.823)">[[ayame:colors.red900.hex]]</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.red300.hex]]" transform="translate(736.467 -48.823)">red900</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-464.4 79.326)">orange</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange300.hex]]" transform="translate(736.337 69.192)">[[ayame:colors.orange900.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.orange300.hex]]" transform="translate(736.337 69.192)">orange900</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-464.236 202.075)">yellow</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow300.hex]]" transform="translate(735.813 189.192)">[[ayame:colors.yellow900.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.yellow300.hex]]" transform="translate(735.813 189.192)">yellow900</text>
+    <text x="535.08" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-463.991 319.326)">green</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green300.hex]]" transform="translate(736.484 309.192)">[[ayame:colors.green900.hex]]</text>
+    <text x="531.807" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.green300.hex]]" transform="translate(736.484 309.192)">green900</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-464.105 445.054)">teal</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal300.hex]]" transform="translate(736.467 431.177)">[[ayame:colors.teal900.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.teal300.hex]]" transform="translate(736.467 431.177)">teal900</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-464.105 559.326)">cyan</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan300.hex]]" transform="translate(736.647 549.192)">[[ayame:colors.cyan900.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.cyan300.hex]]" transform="translate(736.647 549.192)">cyan900</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-464.694 685.054)">blue</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue300.hex]]" transform="translate(736.467 671.177)">[[ayame:colors.blue900.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.blue300.hex]]" transform="translate(736.467 671.177)">blue900</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-464.498 802.305)">purple</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple300.hex]]" transform="translate(736.647 789.345)">[[ayame:colors.purple900.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.purple300.hex]]" transform="translate(736.647 789.345)">purple900</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(-464.613 922.075)">magenta</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1936.78 429.192)">[[ayame:colors.fg500.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1936.78 429.192)">fg500</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.42 429.192)">[[ayame:colors.bg500.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.42 429.192)">bg500</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1935.81 549.192)">[[ayame:colors.fg600.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1935.81 549.192)">fg600</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.65 549.192)">[[ayame:colors.bg600.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.65 549.192)">bg600</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1936.4 669.192)">[[ayame:colors.fg700.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1936.4 669.192)">fg700</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.34 669.192)">[[ayame:colors.bg700.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.34 669.192)">bg700</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1936.34 789.192)">[[ayame:colors.fg800.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1936.34 789.192)">fg800</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.4 789.192)">[[ayame:colors.bg800.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.4 789.192)">bg800</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1936.65 909.192)">[[ayame:colors.fg900.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(1936.65 909.192)">fg900</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.48 909.192)">[[ayame:colors.background.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.48 909.192)">bg900</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(1936.78 309.192)">[[ayame:colors.fg400.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.background.hex]]" transform="translate(1936.78 309.192)">fg400</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.78 309.192)">[[ayame:colors.bg400.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.78 309.192)">bg400</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(1936.48 189.192)">[[ayame:colors.fg300.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.background.hex]]" transform="translate(1936.48 189.192)">fg300</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2175.81 189.192)">[[ayame:colors.bg300.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2175.81 189.192)">bg300</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(1936.48 68.963)">[[ayame:colors.foreground.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.background.hex]]" transform="translate(1936.48 68.963)">fg200</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.4 69.192)">[[ayame:colors.bg200.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.4 69.192)">bg200</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.background.hex]]" transform="translate(1935.99 -50.808)">[[ayame:colors.fg100.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.background.hex]]" transform="translate(1935.99 -50.808)">fg100</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.34 -50.808)">[[ayame:colors.bg100.hex]]</text>
+    <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.foreground.hex]]" transform="translate(2176.34 -50.808)">bg100</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta300.hex]]" transform="translate(736.418 909.192)">[[ayame:colors.magenta900.hex]]</text>
+    <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.magenta300.hex]]" transform="translate(736.418 909.192)">magenta900</text>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red.hex]]" transform="translate(-224.76 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red300.hex]]" transform="translate(976.337 -48.823)">[[ayame:colors.red700.hex]]</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.red300.hex]]" transform="translate(976.337 -48.823)">red700</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange.hex]]" transform="translate(-224.4 79.326)">orange</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange300.hex]]" transform="translate(975.813 69.192)">[[ayame:colors.orange700.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.orange300.hex]]" transform="translate(975.813 69.192)">orange700</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow.hex]]" transform="translate(-224.236 202.075)">yellow</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow300.hex]]" transform="translate(976.647 189.192)">[[ayame:colors.yellow700.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.yellow300.hex]]" transform="translate(976.647 189.192)">yellow700</text>
+    <text x="535.08" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green.hex]]" transform="translate(-223.991 319.326)">green</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green300.hex]]" transform="translate(976.778 309.192)">[[ayame:colors.green700.hex]]</text>
+    <text x="531.807" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.green300.hex]]" transform="translate(976.778 309.192)">green700</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal.hex]]" transform="translate(-224.105 445.054)">teal</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal300.hex]]" transform="translate(976.337 431.177)">[[ayame:colors.teal700.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.teal300.hex]]" transform="translate(976.337 431.177)">teal700</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan.hex]]" transform="translate(-224.105 559.326)">cyan</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan300.hex]]" transform="translate(976.533 549.192)">[[ayame:colors.cyan700.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.cyan300.hex]]" transform="translate(976.533 549.192)">cyan700</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue.hex]]" transform="translate(-224.694 685.054)">blue</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue300.hex]]" transform="translate(976.418 671.177)">[[ayame:colors.blue700.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.blue300.hex]]" transform="translate(976.418 671.177)">blue700</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple.hex]]" transform="translate(-224.498 802.305)">purple</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple300.hex]]" transform="translate(976.533 789.345)">[[ayame:colors.purple700.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.purple300.hex]]" transform="translate(976.533 789.345)">purple700</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta.hex]]" transform="translate(-224.613 922.075)">magenta</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta300.hex]]" transform="translate(977.498 909.192)">[[ayame:colors.magenta700.hex]]</text>
+    <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.magenta300.hex]]" transform="translate(977.498 909.192)">magenta700</text>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red.hex]]" transform="translate(15.24 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red900.hex]]" transform="translate(1216.48 -48.823)">[[ayame:colors.red.hex]]</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.red900.hex]]" transform="translate(1216.48 -48.823)">red500</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange.hex]]" transform="translate(15.6 79.326)">orange</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange900.hex]]" transform="translate(1216.58 69.192)">[[ayame:colors.orange.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.orange900.hex]]" transform="translate(1216.58 69.192)">orange500</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow.hex]]" transform="translate(15.764 202.075)">yellow</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow900.hex]]" transform="translate(1216.42 189.192)">[[ayame:colors.yellow.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.yellow900.hex]]" transform="translate(1216.42 189.192)">yellow500</text>
+    <text x="535.08" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green.hex]]" transform="translate(16.01 319.326)">green</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green900.hex]]" transform="translate(1216.42 309.192)">[[ayame:colors.green.hex]]</text>
+    <text x="531.807" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.green900.hex]]" transform="translate(1216.42 309.192)">green500</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal.hex]]" transform="translate(15.895 445.054)">teal</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal900.hex]]" transform="translate(1216.53 431.177)">[[ayame:colors.teal.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.teal900.hex]]" transform="translate(1216.53 431.177)">teal500</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan.hex]]" transform="translate(15.895 559.326)">cyan</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan900.hex]]" transform="translate(1216.4 549.192)">[[ayame:colors.cyan.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.cyan900.hex]]" transform="translate(1216.4 549.192)">cyan500</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue.hex]]" transform="translate(15.306 685.054)">blue</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue900.hex]]" transform="translate(1216.34 671.177)">[[ayame:colors.blue.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.blue900.hex]]" transform="translate(1216.34 671.177)">blue500</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple.hex]]" transform="translate(15.502 802.305)">purple</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple900.hex]]" transform="translate(1216.4 789.345)">[[ayame:colors.purple.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.purple900.hex]]" transform="translate(1216.4 789.345)">purple500</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta.hex]]" transform="translate(15.387 922.075)">magenta</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta900.hex]]" transform="translate(1217.5 909.192)">[[ayame:colors.magenta.hex]]</text>
+    <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.magenta900.hex]]" transform="translate(1217.5 909.192)">magenta500</text>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red.hex]]" transform="translate(255.24 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red700.hex]]" transform="translate(1456.4 -48.823)">[[ayame:colors.red300.hex]]</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.red700.hex]]" transform="translate(1456.4 -48.823)">red300</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange.hex]]" transform="translate(255.6 79.326)">orange</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange700.hex]]" transform="translate(1456.78 69.192)">[[ayame:colors.orange300.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.orange700.hex]]" transform="translate(1456.78 69.192)">orange300</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow.hex]]" transform="translate(255.764 202.075)">yellow</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow700.hex]]" transform="translate(1456.53 189.192)">[[ayame:colors.yellow300.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.yellow700.hex]]" transform="translate(1456.53 189.192)">yellow300</text>
+    <text x="535.08" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green.hex]]" transform="translate(256.009 319.326)">green</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green700.hex]]" transform="translate(1456.42 309.192)">[[ayame:colors.green300.hex]]</text>
+    <text x="531.807" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.green700.hex]]" transform="translate(1456.42 309.192)">green300</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal.hex]]" transform="translate(255.895 445.054)">teal</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal700.hex]]" transform="translate(1456.4 431.177)">[[ayame:colors.teal300.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.teal700.hex]]" transform="translate(1456.4 431.177)">teal300</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan.hex]]" transform="translate(255.895 559.326)">cyan</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan700.hex]]" transform="translate(1456.53 549.192)">[[ayame:colors.cyan300.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.cyan700.hex]]" transform="translate(1456.53 549.192)">cyan300</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue.hex]]" transform="translate(255.306 685.054)">blue</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue700.hex]]" transform="translate(1456.57 671.177)">[[ayame:colors.blue300.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.blue700.hex]]" transform="translate(1456.57 671.177)">blue300</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple.hex]]" transform="translate(255.502 802.305)">purple</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple700.hex]]" transform="translate(1456.53 789.345)">[[ayame:colors.purple300.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.purple700.hex]]" transform="translate(1456.53 789.345)">purple300</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta.hex]]" transform="translate(255.387 922.075)">magenta</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta700.hex]]" transform="translate(1456.42 909.192)">[[ayame:colors.magenta300.hex]]</text>
+    <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.magenta700.hex]]" transform="translate(1456.42 909.192)">magenta300</text>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red.hex]]" transform="translate(495.24 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.red700.hex]]" transform="translate(1696.63 -48.823)">[[ayame:colors.red100.hex]]</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.red700.hex]]" transform="translate(1696.63 -48.823)">red100</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange.hex]]" transform="translate(495.6 79.326)">orange</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.orange700.hex]]" transform="translate(1696.48 69.192)">[[ayame:colors.orange100.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.orange700.hex]]" transform="translate(1696.48 69.192)">orange100</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow.hex]]" transform="translate(495.764 202.075)">yellow</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.yellow700.hex]]" transform="translate(1696.65 189.192)">[[ayame:colors.yellow100.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.yellow700.hex]]" transform="translate(1696.65 189.192)">yellow100</text>
+    <text x="535.08" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green.hex]]" transform="translate(496.009 319.326)">green</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.green700.hex]]" transform="translate(1696.57 309.192)">[[ayame:colors.green100.hex]]</text>
+    <text x="531.807" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.green700.hex]]" transform="translate(1696.57 309.192)">green100</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal.hex]]" transform="translate(495.895 445.054)">teal</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.teal700.hex]]" transform="translate(1696.63 431.177)">[[ayame:colors.teal100.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.teal700.hex]]" transform="translate(1696.63 431.177)">teal100</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan.hex]]" transform="translate(495.895 559.326)">cyan</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.cyan700.hex]]" transform="translate(1696.58 549.192)">[[ayame:colors.cyan100.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.cyan700.hex]]" transform="translate(1696.58 549.192)">cyan100</text>
+    <text x="544.898" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue.hex]]" transform="translate(495.306 685.054)">blue</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.blue700.hex]]" transform="translate(1696.63 671.177)">[[ayame:colors.blue100.hex]]</text>
+    <text x="538.353" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.blue700.hex]]" transform="translate(1696.63 671.177)">blue100</text>
+    <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple.hex]]" transform="translate(495.502 802.305)">purple</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.purple700.hex]]" transform="translate(1696.58 789.345)">[[ayame:colors.purple100.hex]]</text>
+    <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.purple700.hex]]" transform="translate(1696.58 789.345)">purple100</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta.hex]]" transform="translate(495.387 922.075)">magenta</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:[[ayame:colors.magenta700.hex]]" transform="translate(1696.53 909.192)">[[ayame:colors.magenta100.hex]]</text>
+    <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:[[ayame:colors.magenta700.hex]]" transform="translate(1696.53 909.192)">magenta100</text>
+</svg>

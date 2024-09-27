@@ -1,6 +1,6 @@
 <div align="center">
 
-![](build/out/ayame-128.png)
+![](build/out/image/ayame-128.png)
 
 # Ayame
 
@@ -22,7 +22,8 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 
 ## Color Palette
 
-![](build/out/ayame-palette-graphic.png)
+![](build/out/image/ayame-palette-graphic.png)
+![](build/out/image/ayame-palette.png)
 
 | Hex ____________ | ID | Uses |
 | --- | --- | --- |

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2481 3508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect x="0" y="0" width="2480.32" height="3507.87" style="fill:#17131e;"/>
+    <g id="RED" transform="matrix(1.35044,0,0,0.408647,-123.948,-60.4916)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#ff577e;"/>
+    </g>
+    <g id="CYAN" transform="matrix(1.35044,0,0,0.408647,1684.32,-60.4916)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#54e7f8;"/>
+    </g>
+    <g id="TODO" transform="matrix(1.35044,0,0,0.408647,1684.32,471.004)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#5df8a6;"/>
+    </g>
+    <g id="TODO1" serif:id="TODO" transform="matrix(0.352109,0,0,0.408647,203.396,766.28)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#5df8a6;"/>
+    </g>
+    <g id="GREEN" transform="matrix(1.35044,0,0,0.408647,1081.56,-60.4916)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#96e474;"/>
+    </g>
+    <g id="WHITE" transform="matrix(1.35044,0,0,0.408647,1081.56,175.729)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#cbbade;"/>
+    </g>
+    <g id="COMMENT" transform="matrix(1.35044,0,0,0.408647,1081.56,471.004)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#564585;"/>
+    </g>
+    <g id="CONSTANT" transform="matrix(1.35044,0,0,0.408647,1081.56,707.225)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#ff965c;"/>
+    </g>
+    <g id="GUTTER" transform="matrix(1.35044,0,0,0.408647,1081.56,943.445)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+    </g>
+    <g id="TERMINATOR" transform="matrix(1.35044,0,0,0.408647,1081.56,1179.67)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#8a7d9b;"/>
+    </g>
+    <g id="HEADER" transform="matrix(1.35044,0,0,0.408647,1081.56,1474.94)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#0b0911;"/>
+    </g>
+    <g id="ROW" transform="matrix(1.35044,0,0,0.408647,1081.56,1770.22)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
+    </g>
+    <g id="THISROW" transform="matrix(1.35044,0,0,0.408647,1081.56,2006.44)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#322145;"/>
+    </g>
+    <g id="BRACKET" transform="matrix(1.35044,0,0,0.408647,1684.32,1179.67)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#6c8db3;"/>
+    </g>
+    <g id="TABLINE" transform="matrix(1.35044,0,0,0.408647,1684.32,1474.94)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
+    </g>
+    <g id="ALTROW" transform="matrix(1.35044,0,0,0.408647,1684.32,1770.22)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+    </g>
+    <g id="OPERATOR" transform="matrix(1.35044,0,0,0.408647,1684.32,2006.44)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#f76ef1;"/>
+    </g>
+    <g id="CURSOR" transform="matrix(1.35044,0,0,0.408647,1684.32,943.445)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#9675bd;"/>
+    </g>
+    <g id="HIGHLIGHT" transform="matrix(1.35044,0,0,0.408647,1684.32,707.225)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
+    </g>
+    <g id="LINE" transform="matrix(2.52413,0,0,0.408647,-172.341,884.39)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
+    </g>
+    <g id="CURSOR1" serif:id="CURSOR" transform="matrix(0.0579943,0,0,0.408647,140.286,884.39)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#9675bd;"/>
+    </g>
+    <g id="YELLOW" transform="matrix(1.35044,0,0,0.408647,478.808,-60.4916)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#f5cb40;"/>
+    </g>
+    <g id="BLACK" transform="matrix(1.35044,0,0,0.408647,1684.32,175.729)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#17131e;"/>
+    </g>
+    <g id="BLUE" transform="matrix(1.35044,0,0,0.408647,-123.948,175.729)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;"/>
+    </g>
+    <g id="BLUE1" serif:id="BLUE" transform="matrix(1.40931,0,0,0.408647,-131.41,3069.43)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+    </g>
+    <g id="Table-Header" serif:id="Table Header" transform="matrix(2.76164,0,0,0.408647,-302.842,1534)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#0b0911;"/>
+    </g>
+    <g id="Chart-Header" serif:id="Chart Header" transform="matrix(5.5785,0,0,0.408647,-659.929,2301.71)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#0b0911;"/>
+    </g>
+    <g id="Chart-Body" serif:id="Chart Body" transform="matrix(5.5785,0,0,4.49512,-659.929,692.86)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
+    </g>
+    <g id="Chart-Background" serif:id="Chart Background" transform="matrix(5.10903,0,0,2.86053,-500.021,1419.08)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#17131e;"/>
+    </g>
+    <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:#221c35;stroke-width:2.08px;"/>
+    <g transform="matrix(1,0,0,1,0,59.0551)">
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:#221c35;stroke-width:2.08px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,118.11)">
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:#221c35;stroke-width:2.08px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,177.165)">
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:#221c35;stroke-width:2.08px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,236.22)">
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:#221c35;stroke-width:2.08px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,295.276)">
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:#221c35;stroke-width:2.08px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,354.331)">
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:#221c35;stroke-width:2.08px;"/>
+    </g>
+    <g id="Bar-Item" serif:id="Bar Item">
+        <g id="Bar-Item1" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item2" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item3" serif:id="Bar Item" transform="matrix(1,0,0,1,126.378,-4.54747e-13)">
+        <g id="Bar-Item4" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item5" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item6" serif:id="Bar Item" transform="matrix(1,0,0,0.846154,251.575,461.538)">
+        <g id="Bar-Item7" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item8" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,420.805 135.643,540.015 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item9" serif:id="Bar Item" transform="matrix(1,0,0,0.692308,376.772,923.077)">
+        <g id="Bar-Item10" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item11" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.286L135.643,409.286C135.643,409.286 135.643,551.534 135.643,551.534L545.575,551.534L545.575,409.286Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item12" serif:id="Bar Item" transform="matrix(1,0,0,0.538462,503.15,1384.62)">
+        <g id="Bar-Item13" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item14" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.61C545.575,409.61 135.643,409.61 135.643,409.61C135.643,409.61 135.643,551.211 135.643,551.211C135.643,551.211 545.575,551.211 545.575,551.211L545.575,409.61Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item15" serif:id="Bar Item" transform="matrix(1,0,0,0.692308,628.346,923.077)">
+        <g id="Bar-Item16" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item17" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.286L135.643,409.286C135.643,409.286 135.643,551.534 135.643,551.534L545.575,551.534L545.575,409.286Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item18" serif:id="Bar Item" transform="matrix(1,0,0,1,753.543,2.21689e-12)">
+        <g id="Bar-Item19" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item20" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item21" serif:id="Bar Item" transform="matrix(1,0,0,0.846154,879.921,461.538)">
+        <g id="Bar-Item22" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item23" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,409.08 135.643,551.74 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item24" serif:id="Bar Item" transform="matrix(1,0,0,0.846154,1005.12,461.538)">
+        <g id="Bar-Item25" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item26" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,420.805 135.643,540.015 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item27" serif:id="Bar Item" transform="matrix(1,0,0,1,1130.31,-1.47793e-12)">
+        <g id="Bar-Item28" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item29" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item30" serif:id="Bar Item" transform="matrix(0.750465,0,0,0.153846,1123.3,2656.57)">
+        <g id="Bar-Item31" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item32" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM542.624,413.252L138.594,413.252C138.594,413.252 138.594,547.569 138.594,547.569L542.624,547.569L542.624,413.252Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item33" serif:id="Bar Item" transform="matrix(1,0,0,1,1255.51,-2.27374e-13)">
+        <g id="Bar-Item34" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item35" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item36" serif:id="Bar Item" transform="matrix(1,0,0,1,1381.89,1.42109e-12)">
+        <g id="Bar-Item37" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item38" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item39" serif:id="Bar Item" transform="matrix(1,0,0,1,1507.09,3.06954e-12)">
+        <g id="Bar-Item40" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item41" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item42" serif:id="Bar Item" transform="matrix(1,0,0,1,1632.28,4.718e-12)">
+        <g id="Bar-Item43" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item44" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item45" serif:id="Bar Item" transform="matrix(1,0,0,0.846154,1758.66,461.538)">
+        <g id="Bar-Item46" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item47" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,409.08 135.643,551.74 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item48" serif:id="Bar Item" transform="matrix(1,0,0,1,1883.86,4.54747e-13)">
+        <g id="Bar-Item49" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item50" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Bar-Item51" serif:id="Bar Item" transform="matrix(1,0,0,1,2009.06,3.41061e-13)">
+        <g id="Bar-Item52" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#44a3f5;fill-opacity:0.4;"/>
+        </g>
+        <g id="Bar-Item53" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:#44a3f5;"/>
+        </g>
+    </g>
+    <g id="Tabline" transform="matrix(2.76164,0,0,0.408647,-302.842,1593.05)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
+    </g>
+    <g id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1652.11)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
+    </g>
+    <g id="Row1" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1711.16)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+    </g>
+    <g id="Row2" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1770.22)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
+    </g>
+    <g id="Row3" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1829.27)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#322145;"/>
+    </g>
+    <g id="Row4" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1888.33)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
+    </g>
+    <g id="Row5" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2006.44)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
+    </g>
+    <g id="Row6" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2124.55)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
+    </g>
+    <g id="Row7" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1947.38)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+    </g>
+    <g id="Row8" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2183.6)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+    </g>
+    <g id="Row9" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2065.49)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+    </g>
+    <g id="MAGENTA" transform="matrix(1.35044,0,0,0.408647,478.808,175.729)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#9768f8;"/>
+    </g>
+    <g id="CURSOR2" serif:id="CURSOR" transform="matrix(0.0579943,0,0,0.408647,1069.56,1829.27)">
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#9675bd;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,47.2441,47.2441)">
+        <text x="0px" y="43.914px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#cbbade;">Terminal colors ~~</text>
+        <text x="250.917px" y="102.956px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">RED                   YELLOW                   GREEN                   CYAN</text>
+        <text x="200.733px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff577e;">#ff577e</text>
+        <text x="802.933px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f5cb40;">#f5cb40</text>
+        <text x="1405.13px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#96e474;">#96e474</text>
+        <text x="2007.33px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#54e7f8;">#54e7f8</text>
+        <text x="75.275px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff577e;">rgb(255, 87, 126)</text>
+        <text x="677.475px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f5cb40;">rgb(245, 203, 64)</text>
+        <text x="1279.67px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#96e474;">rgb(150, 228, 116)</text>
+        <text x="1906.97px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#54e7f8;">rgb(84, 231, 248)</text>
+        <text x="50.183px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff577e;">hsl(351, 100%, 50%)</text>
+        <text x="677.475px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f5cb40;">hsl(46, 90%, 61%)</text>
+        <text x="1279.67px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#96e474;">hsl(102, 67%, 67%)</text>
+        <text x="1881.88px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#54e7f8;">hsl(186, 92%, 65%)</text>
+        <text x="225.825px" y="339.122px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">BLUE               PURPLE/MAGENTA               WHITE</text>
+        <text x="2032.42px" y="339.122px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">BLACK</text>
+        <text x="200.733px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">#44a3f5</text>
+        <text x="802.933px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">#9768f8</text>
+        <text x="1405.13px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#cbbade                 #17131e</text>
+        <text x="75.275px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">rgb(68, 163, 245)</text>
+        <text x="677.475px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">rgb(151, 104, 248)</text>
+        <text x="1254.58px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">rgb(203, 186, 222)        rgb(23, 19, 30)</text>
+        <text x="50.183px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">hsl(208, 90%, 61%)</text>
+        <text x="652.383px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">hsl(260, 91%, 69%)</text>
+        <text x="1254.58px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(268, 35%, 80%)       hsl(262, 22%, 10%)</text>
+        <text x="0px" y="575.289px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">-----------------------------------------------------------------------------------------------</text>
+        <text x="0px" y="634.331px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#cbbade;">Code ~~</text>
+        <text x="1406.53px" y="634.331px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#17131e;">COMMENT</text>
+        <text x="1985.03px" y="634.331px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">TODO/TEAL</text>
+        <text x="25.092px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">1</text>
+        <text x="100.367px" y="693.372px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#44a3f5;">const</text>
+        <text x="251.914px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">btn</text>
+        <text x="352.28px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">=</text>
+        <text x="402.464px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">document</text>
+        <text x="603.197px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">.</text>
+        <text x="628.289px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">getElementById</text>
+        <text x="979.572px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">(</text>
+        <text x="1004.66px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#96e474;">&apos;btn&apos;</text>
+        <text x="1130.12px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">)</text>
+        <text x="1155.21px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;</text>
+        <text x="1406.13px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">#564585</text>
+        <text x="2008.33px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#5df8a6;">#5df8a6</text>
+        <text x="25.092px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">2</text>
+        <text x="100.367px" y="752.414px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#44a3f5;">let</text>
+        <text x="201.331px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">count</text>
+        <text x="351.881px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">=</text>
+        <text x="402.065px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">0</text>
+        <text x="427.156px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;</text>
+        <text x="1305.37px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">rgb(86, 69, 133)</text>
+        <text x="1882.47px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#5df8a6;">rgb(93, 248, 166)</text>
+        <text x="25.092px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">3</text>
+        <text x="1279.67px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">hsl(256, 32%, 40%)</text>
+        <text x="1881.88px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#5df8a6;">hsl(148, 92%, 67%)</text>
+        <text x="25.092px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">4</text>
+        <text x="100.367px" y="870.497px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#44a3f5;">function</text>
+        <text x="327.787px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">render</text>
+        <text x="478.337px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">()</text>
+        <text x="553.612px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">{</text>
+        <text x="1306.36px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">CONSTANT/ORANGE</text>
+        <text x="1983.84px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">HIGHLIGHT</text>
+        <text x="25.092px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">5</text>
+        <text x="150.55px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#564585;">//</text>
+        <text x="226.423px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#17131e;">TODO</text>
+        <text x="327.587px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#5df8a6;">:</text>
+        <text x="378.169px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#564585;">change variable name</text>
+        <text x="1410.91px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">#ff965c</text>
+        <text x="2013.12px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#2b2343</text>
+        <text x="25.092px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">6</text>
+        <text x="150.55px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">btn</text>
+        <text x="225.825px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">.</text>
+        <text x="250.917px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">innerText</text>
+        <text x="501.833px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">=</text>
+        <text x="552.017px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">`</text>
+        <text x="577.108px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#96e474;">Count:</text>
+        <text x="752.75px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff577e;">${</text>
+        <text x="802.933px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">count</text>
+        <text x="928.392px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff577e;">}</text>
+        <text x="953.483px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">`;</text>
+        <text x="1279.67px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">rgb(255, 150, 92)</text>
+        <text x="1906.97px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">rgb(45, 32, 60)</text>
+        <text x="25.092px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">7</text>
+        <text x="100.367px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">}</text>
+        <text x="1279.67px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">hsl(14, 100%, 50%)</text>
+        <text x="1881.88px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(268, 30%, 18%)</text>
+        <text x="25.092px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">8</text>
+        <text x="1405.13px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">GUTTER                  CURSOR</text>
+        <text x="25.092px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">9</text>
+        <text x="100.367px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">btn</text>
+        <text x="175.642px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">.</text>
+        <text x="200.733px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">addEventListener</text>
+        <text x="602.2px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">(</text>
+        <text x="627.292px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#96e474;">&apos;click&apos;</text>
+        <text x="802.933px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">,</text>
+        <text x="853.117px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">()</text>
+        <text x="928.392px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#54e7f8;">=&gt;</text>
+        <text x="1004.07px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">{</text>
+        <text x="1405.53px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">#342950</text>
+        <text x="2007.73px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">#9675bd</text>
+        <text x="0px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">10</text>
+        <text x="150.55px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#564585;">// Count from 1 to 10.</text>
+        <text x="1309.15px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">rgb(52, 41, 80)</text>
+        <text x="1861.17px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">rgb(150, 117, 189)</text>
+        <text x="0px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">11</text>
+        <text x="150.55px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#54e7f8;">if</text>
+        <text x="225.825px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">(</text>
+        <text x="250.917px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">count</text>
+        <text x="401.467px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff577e;">&lt;</text>
+        <text x="451.65px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">10</text>
+        <text x="501.833px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">)</text>
+        <text x="552.017px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">{</text>
+        <text x="1279.67px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">hsl(257, 32%, 24%)</text>
+        <text x="1856.78px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">hsl(268, 35%, 60%)</text>
+        <text x="0px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">12</text>
+        <text x="200.733px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">count</text>
+        <text x="351.283px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">+=</text>
+        <text x="426.558px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">1</text>
+        <text x="451.65px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;</text>
+        <text x="1354.95px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">TERMINATOR                BRACKET</text>
+        <text x="0px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">13</text>
+        <text x="200.733px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">render</text>
+        <text x="351.283px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">()</text>
+        <text x="401.467px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;                                       #8a7d9b</text>
+        <text x="2007.33px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">#6c8db3</text>
+        <text x="0px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">14</text>
+        <text x="150.55px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">}</text>
+        <text x="1254.58px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">rgb(138, 125, 155)</text>
+        <text x="1856.78px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">rgb(108, 141, 179)</text>
+        <text x="0px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">15</text>
+        <text x="100.367px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">})</text>
+        <text x="150.55px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;                                           hsl(266, 13%, 55%)</text>
+        <text x="1856.78px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">hsl(212, 32%, 56%)</text>
+        <text x="0px" y="1579px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">-----------------------------------------------------------------------------------------------</text>
+        <text x="0px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#cbbade;">GUI ~~</text>
+        <text x="1406.33px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">HEADER</text>
+        <text x="2009.73px" y="1638.04px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:#9675bd;">TABLINE</text>
+        <text x="376.375px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">Favorite Movies</text>
+        <text x="1408.12px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">#0b0911                 #2b2343</text>
+        <text x="25.092px" y="1756.12px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:#9675bd;">Rank  Title                           TMDB ID</text>
+        <text x="1304.77px" y="1756.12px" style="font-family:'VictorMono-Regular', 'Victor Mono';font-size:45.833px;fill:#9675bd;">rgb(11, 9, 17)          rgb(43, 35, 67)</text>
+        <text x="75.275px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#1  EEAAO</text>
+        <text x="1003.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">545611</text>
+        <text x="1279.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">hsl(255, 31%, 5%)       hsl(255, 31%, 20%)</text>
+        <text x="75.275px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#2  Puss in Boots: The Last Wish</text>
+        <text x="1003.67px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">315162</text>
+        <text x="1254.58px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">Italic</text>
+        <text x="1431.42px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">| FG:CURSOR</text>
+        <text x="1883.07px" y="1874.21px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:#9675bd;">Bold</text>
+        <text x="2008.53px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">| FG:CURSOR</text>
+        <text x="75.275px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#3  A Silent Voice: The Movie</text>
+        <text x="1003.67px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">378064</text>
+        <text x="1430.23px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">MODAL                   ALTROW</text>
+        <text x="75.275px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#4  Interstellar</text>
+        <text x="1003.67px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">1</text>
+        <text x="1028.76px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">5</text>
+        <text x="1053.85px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">7336</text>
+        <text x="1405.13px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#221c35                 #342950</text>
+        <rect x="1003.67" y="1995.41" width="25.092" height="2.083" style="fill:#44a3f5;"/>
+        <rect x="1028.76" y="1995.41" width="25.092" height="2.083" style="fill:#17131e;"/>
+        <rect x="1053.85" y="1995.41" width="100.367" height="2.083" style="fill:#44a3f5;"/>
+        <text x="75.275px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#5  Train to Busan</text>
+        <text x="1003.67px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">396535</text>
+        <text x="1304.77px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">rgb(34, 28, 53)         rgb(52, 41, 80)</text>
+        <text x="75.275px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#6  Your Name.</text>
+        <text x="1003.67px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">372058</text>
+        <text x="1254.58px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(254, 31%, 16%)       rgb(52, 41, 80)</text>
+        <text x="75.275px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#7  No Game No Life: Zero</text>
+        <text x="1003.67px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">445030</text>
+        <text x="1405.13px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">THISROW</text>
+        <text x="1932.06px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#17131e;">OPERATOR/PINK</text>
+        <text x="75.275px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#8  Oppenheimer</text>
+        <text x="1003.67px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">872585</text>
+        <text x="1405.13px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#322145</text>
+        <text x="2007.33px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">#f76ef1</text>
+        <text x="75.275px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#9  Top Gun: Maverick</text>
+        <text x="1003.67px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">361743</text>
+        <text x="1304.77px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">rgb(43, 35, 67)</text>
+        <text x="1881.88px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">rgb(247, 110, 241)</text>
+        <text x="50.183px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#10  A Quiet Place</text>
+        <text x="1003.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">447332</text>
+        <text x="1279.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(255, 31%, 20%)</text>
+        <text x="1881.88px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">hsl(303, 90%, 70%)</text>
+        <text x="878.208px" y="2464.62px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">Episode Scores Over Time</text>
+        <text x="25.092px" y="2582.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">10</text>
+        <text x="50.183px" y="2641.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">9</text>
+        <text x="50.183px" y="2700.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">8</text>
+        <text x="50.183px" y="2759.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">7</text>
+        <text x="50.183px" y="2818.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">6</text>
+        <text x="50.183px" y="2877.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">5</text>
+        <text x="50.183px" y="2936.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">4</text>
+        <text x="175.642px" y="2996px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17</text>
+        <text x="853.117px" y="3055.04px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">overall avg       episode score</text>
+        <text x="25.092px" y="3232.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">FILL: OPACITY 40% BLUE</text>
+        <g transform="matrix(45.8333,0,0,45.8333,1881.88,3232.16)">
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,1881.88,3232.16)">
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,1906.97,3232.16)">
+            <path d="M0.248,-0.086C0.281,-0.086 0.316,-0.096 0.353,-0.115C0.39,-0.134 0.42,-0.158 0.443,-0.186L0.489,-0.101C0.457,-0.067 0.417,-0.039 0.368,-0.018C0.32,0.002 0.274,0.013 0.231,0.013C0.186,0.013 0.148,-0.001 0.118,-0.028C0.088,-0.056 0.07,-0.092 0.064,-0.137C0.049,-0.126 0.039,-0.114 0.033,-0.1C0.016,-0.061 -0.003,-0.032 -0.025,-0.014C-0.046,0.004 -0.076,0.013 -0.115,0.013C-0.141,0.013 -0.162,0.006 -0.176,-0.008C-0.192,-0.023 -0.199,-0.042 -0.199,-0.066C-0.199,-0.091 -0.194,-0.123 -0.184,-0.164C-0.174,-0.204 -0.156,-0.268 -0.13,-0.356C-0.117,-0.401 -0.111,-0.433 -0.111,-0.453C-0.111,-0.47 -0.115,-0.478 -0.125,-0.478C-0.143,-0.478 -0.157,-0.473 -0.166,-0.462C-0.177,-0.452 -0.185,-0.435 -0.191,-0.413C-0.197,-0.391 -0.205,-0.355 -0.215,-0.304L-0.223,-0.265L-0.277,-0L-0.379,-0L-0.305,-0.353C-0.292,-0.41 -0.286,-0.445 -0.286,-0.458C-0.286,-0.465 -0.288,-0.471 -0.29,-0.474C-0.292,-0.477 -0.296,-0.478 -0.302,-0.478C-0.318,-0.478 -0.329,-0.474 -0.337,-0.465C-0.345,-0.456 -0.352,-0.44 -0.358,-0.416C-0.364,-0.393 -0.374,-0.349 -0.386,-0.286C-0.387,-0.283 -0.388,-0.275 -0.391,-0.264L-0.445,-0L-0.548,-0L-0.449,-0.456C-0.449,-0.458 -0.448,-0.459 -0.447,-0.462C-0.446,-0.464 -0.446,-0.467 -0.447,-0.471C-0.45,-0.476 -0.455,-0.478 -0.461,-0.478C-0.465,-0.478 -0.47,-0.476 -0.475,-0.472C-0.479,-0.468 -0.491,-0.458 -0.508,-0.442L-0.549,-0.519C-0.541,-0.535 -0.525,-0.549 -0.502,-0.559C-0.479,-0.569 -0.455,-0.575 -0.432,-0.575C-0.417,-0.575 -0.402,-0.572 -0.387,-0.566C-0.373,-0.561 -0.363,-0.554 -0.356,-0.545C-0.34,-0.558 -0.328,-0.566 -0.319,-0.569C-0.311,-0.573 -0.301,-0.575 -0.289,-0.575C-0.24,-0.575 -0.21,-0.559 -0.198,-0.529C-0.194,-0.533 -0.186,-0.539 -0.175,-0.549C-0.163,-0.559 -0.153,-0.566 -0.144,-0.569C-0.135,-0.573 -0.125,-0.575 -0.112,-0.575C-0.043,-0.575 -0.009,-0.541 -0.009,-0.474C-0.009,-0.438 -0.018,-0.395 -0.037,-0.345C-0.058,-0.287 -0.074,-0.239 -0.085,-0.201C-0.095,-0.163 -0.1,-0.133 -0.1,-0.109C-0.1,-0.101 -0.1,-0.095 -0.099,-0.092C-0.098,-0.086 -0.094,-0.084 -0.086,-0.084C-0.078,-0.084 -0.069,-0.09 -0.059,-0.102C-0.05,-0.114 -0.039,-0.135 -0.026,-0.165C-0.014,-0.194 0.016,-0.218 0.065,-0.236C0.072,-0.306 0.088,-0.366 0.115,-0.417C0.141,-0.468 0.175,-0.507 0.217,-0.534C0.26,-0.561 0.309,-0.575 0.365,-0.575C0.411,-0.575 0.446,-0.563 0.469,-0.539C0.493,-0.515 0.505,-0.482 0.505,-0.437C0.505,-0.392 0.491,-0.354 0.464,-0.325C0.437,-0.295 0.405,-0.272 0.367,-0.255C0.33,-0.239 0.281,-0.222 0.22,-0.203C0.213,-0.2 0.192,-0.194 0.158,-0.183L0.158,-0.175C0.158,-0.148 0.167,-0.127 0.185,-0.111C0.202,-0.095 0.223,-0.086 0.248,-0.086ZM0.352,-0.478C0.305,-0.478 0.264,-0.46 0.231,-0.423C0.198,-0.386 0.176,-0.335 0.165,-0.267C0.222,-0.282 0.266,-0.294 0.295,-0.305C0.325,-0.315 0.351,-0.329 0.374,-0.348C0.396,-0.368 0.407,-0.393 0.407,-0.424C0.407,-0.44 0.402,-0.453 0.392,-0.463C0.382,-0.473 0.369,-0.478 0.352,-0.478Z" style="fill:url(#_Linear1);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,1906.97,3232.16)">
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,2157.88,3232.16)">
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,2157.88,3232.16)">
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,2182.98,3232.16)">
+            <path d="M0.248,-0.086C0.281,-0.086 0.316,-0.096 0.353,-0.115C0.39,-0.134 0.42,-0.158 0.443,-0.186L0.489,-0.101C0.457,-0.067 0.417,-0.039 0.368,-0.018C0.32,0.002 0.274,0.013 0.231,0.013C0.186,0.013 0.148,-0.001 0.118,-0.027C0.088,-0.055 0.07,-0.09 0.064,-0.135C0.032,-0.119 0.01,-0.101 -0.003,-0.082C-0.025,-0.048 -0.049,-0.024 -0.075,-0.009C-0.101,0.005 -0.127,0.013 -0.153,0.013C-0.179,0.013 -0.199,0.006 -0.215,-0.007C-0.23,-0.021 -0.238,-0.038 -0.237,-0.061C-0.239,-0.085 -0.235,-0.118 -0.224,-0.161C-0.213,-0.204 -0.195,-0.269 -0.17,-0.356C-0.163,-0.381 -0.159,-0.402 -0.159,-0.419C-0.159,-0.458 -0.18,-0.478 -0.221,-0.478C-0.242,-0.478 -0.266,-0.467 -0.294,-0.445C-0.322,-0.422 -0.348,-0.393 -0.371,-0.356C-0.395,-0.321 -0.41,-0.284 -0.418,-0.246L-0.469,-0L-0.572,-0L-0.419,-0.727L-0.315,-0.727L-0.361,-0.51C-0.314,-0.553 -0.263,-0.575 -0.208,-0.575C-0.109,-0.575 -0.06,-0.532 -0.06,-0.446C-0.06,-0.417 -0.065,-0.383 -0.076,-0.345L-0.09,-0.297C-0.106,-0.242 -0.118,-0.198 -0.125,-0.166C-0.133,-0.135 -0.138,-0.11 -0.138,-0.092C-0.138,-0.086 -0.133,-0.084 -0.125,-0.084C-0.117,-0.084 -0.107,-0.089 -0.095,-0.1C-0.084,-0.112 -0.067,-0.133 -0.044,-0.165C-0.024,-0.191 0.012,-0.214 0.065,-0.232C0.071,-0.303 0.087,-0.364 0.113,-0.415C0.139,-0.467 0.173,-0.506 0.216,-0.534C0.259,-0.561 0.309,-0.575 0.365,-0.575C0.411,-0.575 0.446,-0.563 0.469,-0.539C0.493,-0.515 0.505,-0.482 0.505,-0.437C0.505,-0.391 0.49,-0.352 0.462,-0.32C0.433,-0.289 0.399,-0.265 0.358,-0.246C0.318,-0.228 0.266,-0.208 0.201,-0.187L0.158,-0.173C0.159,-0.147 0.168,-0.126 0.185,-0.11C0.202,-0.094 0.223,-0.086 0.248,-0.086ZM0.352,-0.478C0.304,-0.478 0.263,-0.459 0.229,-0.421C0.196,-0.383 0.174,-0.33 0.165,-0.261C0.22,-0.275 0.264,-0.288 0.295,-0.299C0.325,-0.311 0.352,-0.326 0.374,-0.346C0.396,-0.366 0.407,-0.392 0.407,-0.424C0.407,-0.44 0.402,-0.453 0.392,-0.463C0.382,-0.473 0.369,-0.478 0.352,-0.478Z" style="fill:url(#_Linear2);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,2182.98,3232.16)">
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,2208.07,3232.16)">
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,2208.07,3232.16)">
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,2233.16,3232.16)">
+            <path d="M0.248,-0.086C0.281,-0.086 0.316,-0.096 0.353,-0.115C0.39,-0.134 0.42,-0.158 0.443,-0.186L0.489,-0.101C0.457,-0.067 0.417,-0.039 0.368,-0.018C0.32,0.002 0.274,0.013 0.231,0.013C0.186,0.013 0.148,-0.001 0.118,-0.028C0.088,-0.056 0.07,-0.092 0.064,-0.137C0.049,-0.126 0.039,-0.114 0.033,-0.1C0.016,-0.061 -0.003,-0.032 -0.025,-0.014C-0.046,0.004 -0.076,0.013 -0.115,0.013C-0.141,0.013 -0.162,0.006 -0.176,-0.008C-0.192,-0.023 -0.199,-0.042 -0.199,-0.066C-0.199,-0.091 -0.194,-0.123 -0.184,-0.164C-0.174,-0.204 -0.156,-0.268 -0.13,-0.356C-0.117,-0.401 -0.111,-0.433 -0.111,-0.453C-0.111,-0.47 -0.115,-0.478 -0.125,-0.478C-0.143,-0.478 -0.157,-0.473 -0.166,-0.462C-0.177,-0.452 -0.185,-0.435 -0.191,-0.413C-0.197,-0.391 -0.205,-0.355 -0.215,-0.304L-0.223,-0.265L-0.277,-0L-0.379,-0L-0.305,-0.353C-0.292,-0.41 -0.286,-0.445 -0.286,-0.458C-0.286,-0.465 -0.288,-0.471 -0.29,-0.474C-0.292,-0.477 -0.296,-0.478 -0.302,-0.478C-0.318,-0.478 -0.329,-0.474 -0.337,-0.465C-0.345,-0.456 -0.352,-0.44 -0.358,-0.416C-0.364,-0.393 -0.374,-0.349 -0.386,-0.286C-0.387,-0.283 -0.388,-0.275 -0.391,-0.264L-0.445,-0L-0.548,-0L-0.449,-0.456C-0.449,-0.458 -0.448,-0.459 -0.447,-0.462C-0.446,-0.464 -0.446,-0.467 -0.447,-0.471C-0.45,-0.476 -0.455,-0.478 -0.461,-0.478C-0.465,-0.478 -0.47,-0.476 -0.475,-0.472C-0.479,-0.468 -0.491,-0.458 -0.508,-0.442L-0.549,-0.519C-0.541,-0.535 -0.525,-0.549 -0.502,-0.559C-0.479,-0.569 -0.455,-0.575 -0.432,-0.575C-0.417,-0.575 -0.402,-0.572 -0.387,-0.566C-0.373,-0.561 -0.363,-0.554 -0.356,-0.545C-0.34,-0.558 -0.328,-0.566 -0.319,-0.569C-0.311,-0.573 -0.301,-0.575 -0.289,-0.575C-0.24,-0.575 -0.21,-0.559 -0.198,-0.529C-0.194,-0.533 -0.186,-0.539 -0.175,-0.549C-0.163,-0.559 -0.153,-0.566 -0.144,-0.569C-0.135,-0.573 -0.125,-0.575 -0.112,-0.575C-0.043,-0.575 -0.009,-0.541 -0.009,-0.474C-0.009,-0.438 -0.018,-0.395 -0.037,-0.345C-0.058,-0.287 -0.074,-0.239 -0.085,-0.201C-0.095,-0.163 -0.1,-0.133 -0.1,-0.109C-0.1,-0.101 -0.1,-0.095 -0.099,-0.092C-0.098,-0.086 -0.094,-0.084 -0.086,-0.084C-0.078,-0.084 -0.069,-0.09 -0.059,-0.102C-0.05,-0.114 -0.039,-0.135 -0.026,-0.165C-0.014,-0.194 0.016,-0.218 0.065,-0.236C0.072,-0.306 0.088,-0.366 0.115,-0.417C0.141,-0.468 0.175,-0.507 0.217,-0.534C0.26,-0.561 0.309,-0.575 0.365,-0.575C0.411,-0.575 0.446,-0.563 0.469,-0.539C0.493,-0.515 0.505,-0.482 0.505,-0.437C0.505,-0.392 0.491,-0.354 0.464,-0.325C0.437,-0.295 0.405,-0.272 0.367,-0.255C0.33,-0.239 0.281,-0.222 0.22,-0.203C0.213,-0.2 0.192,-0.194 0.158,-0.183L0.158,-0.175C0.158,-0.148 0.167,-0.127 0.185,-0.111C0.202,-0.095 0.223,-0.086 0.248,-0.086ZM0.352,-0.478C0.305,-0.478 0.264,-0.46 0.231,-0.423C0.198,-0.386 0.176,-0.335 0.165,-0.267C0.222,-0.282 0.266,-0.294 0.295,-0.305C0.325,-0.315 0.351,-0.329 0.374,-0.348C0.396,-0.368 0.407,-0.393 0.407,-0.424C0.407,-0.44 0.402,-0.453 0.392,-0.463C0.382,-0.473 0.369,-0.478 0.352,-0.478Z" style="fill:url(#_Linear3);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(45.8333,0,0,45.8333,2233.16,3232.16)">
+        </g>
+        <text x="1806.6px" y="3232.16px" style="font-family:'VictorMono-BoldItalic', 'Victor Mono';font-weight:700;font-style:italic;font-size:45.833px;fill:url(#_Linear4);">Ayame color scheme v2.2</text>
+        <text x="25.092px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">BORDER: BLUE</text>
+        <text x="1555.68px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">https://github.com/Nurdoidz/Ayame</text>
+        <text x="25.092px" y="3350.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">LINE: OPERATOR</text>
+        <text x="1354.95px" y="3350.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">©2024 Nurdoidz released under MIT License</text>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,-357.263,188.495)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,232.729,660.936)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,282.957,660.936)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,-232.066,188.495)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,-106.869,208.574)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,19.5088,233.377)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,144.706,259.361)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,269.902,267.629)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,396.28,255.818)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,521.477,254.637)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,646.674,254.637)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,773.052,247.55)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,898.249,241.645)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,1023.45,238.101)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,1149.82,233.377)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,1275.02,231.015)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,1400.22,232.196)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,1526.6,228.653)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <g transform="matrix(1.03545,0,0,0.735229,1651.79,226.29)">
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:#f76ef1;"/>
+    </g>
+    <path d="M222.638,2616.14L349.016,2616.14L473.622,2636.22L600,2661.02L725.197,2687.01L850.394,2695.28L976.772,2683.47L1101.97,2682.28L1227.16,2682.28L1353.54,2675.2L1478.74,2669.29L1603.94,2665.75L1730.32,2661.02L1855.51,2658.66L1980.71,2659.84L2107.09,2656.3L2232.28,2653.94" style="fill:none;stroke:#f76ef1;stroke-width:6.25px;stroke-linecap:round;"/>
+    <path d="M813.22,3088.58L863.448,3088.58" style="fill:none;stroke:#f76ef1;stroke-width:6.25px;stroke-linecap:round;"/>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,0.547455,-0.336305)"><stop offset="0" style="stop-color:#44a3f5;stop-opacity:1"/><stop offset="1" style="stop-color:#9768f8;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,-5.47455,-0.336305)"><stop offset="0" style="stop-color:#44a3f5;stop-opacity:1"/><stop offset="1" style="stop-color:#9768f8;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,-6.56945,-0.336305)"><stop offset="0" style="stop-color:#44a3f5;stop-opacity:1"/><stop offset="1" style="stop-color:#9768f8;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(451.65,0,0,56.25,1932.06,3216.75)"><stop offset="0" style="stop-color:#44a3f5;stop-opacity:1"/><stop offset="1" style="stop-color:#9768f8;stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
