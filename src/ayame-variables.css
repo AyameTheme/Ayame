@@ -66,6 +66,7 @@
   --ayame-lightgray: #8a7d9b; /* Terminal White, Muted text, Punctuation */
   --ayame-foreground2: #bbb; /* Alternate foreground */
   --ayame-purewhite: #fff; /* Extra white for lighter backgrounds, Badge foreground */
+  --ayame-header: #0b0911; /* Modal header background */
   --ayame-bg: var(--ayame-background); /* Background */
   --ayame-bg900: var(--ayame-background); /* Background */
   --ayame-fg: var(--ayame-foreground); /* Foreground */
@@ -130,7 +131,6 @@
   --ayame-bookmark: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
   --ayame-blue2: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
   --ayame-border2: var(--ayame-bg800); /* Secondary borders */
-  --ayame-header: var(--ayame-bg800); /* Secondary borders */
   --ayame-modal: var(--ayame-bg700); /* Modal background, Checkbox background, Input background */
   --ayame-menu: var(--ayame-bg700); /* Modal background, Checkbox background, Input background */
   --ayame-toolbar: var(--ayame-bg700); /* Modal background, Checkbox background, Input background */

@@ -113,7 +113,6 @@ function M.get()
         magenta100      = "#fcc5f9",
         bg800           = "#1a1528", -- Secondary borders
         border2         = "#1a1528", -- Secondary borders
-        header          = "#1a1528", -- Secondary borders
         bg700           = "#221c35", -- Modal background, Checkbox background, Input background
         modal           = "#221c35", -- Modal background, Checkbox background, Input background
         menu            = "#221c35", -- Modal background, Checkbox background, Input background
@@ -168,6 +167,7 @@ function M.get()
         terminator      = "#8a7d9b", -- Terminal White, Muted text, Punctuation
         foreground2     = "#bbbbbb", -- Alternate foreground
         purewhite       = "#ffffff", -- Extra white for lighter backgrounds, Badge foreground
+        header          = "#0b0911", -- Modal header background
     }
 end
 

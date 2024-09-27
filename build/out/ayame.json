@@ -3111,32 +3111,6 @@
         "Secondary borders"
       ]
     },
-    "header": {
-      "hex": "#1a1528",
-      "hex_upper": "#1A1528",
-      "hex_bare": "1a1528",
-      "hex_bare_upper": "1A1528",
-      "r": 26,
-      "red": 26,
-      "red_percent": 0.10196078431372549,
-      "g": 21,
-      "green": 21,
-      "green_percent": 0.08235294117647059,
-      "b": 40,
-      "blue": 40,
-      "blue_percent": 0.1568627450980392,
-      "rgb": "rgb(26, 21, 40)",
-      "h": 255.78947368421055,
-      "hue": 255.78947368421055,
-      "s": 0.31147540983606553,
-      "saturation": 0.31147540983606553,
-      "l": 0.1196078431372549,
-      "lightness": 0.1196078431372549,
-      "hsl": "hsl(256, 31%, 12%)",
-      "uses": [
-        "Secondary borders"
-      ]
-    },
     "bg700": {
       "hex": "#221c35",
       "hex_upper": "#221C35",
@@ -4654,6 +4628,32 @@
       "uses": [
         "Extra white for lighter backgrounds",
         "Badge foreground"
+      ]
+    },
+    "header": {
+      "hex": "#0b0911",
+      "hex_upper": "#0B0911",
+      "hex_bare": "0b0911",
+      "hex_bare_upper": "0B0911",
+      "r": 11,
+      "red": 11,
+      "red_percent": 0.043137254901960784,
+      "g": 9,
+      "green": 9,
+      "green_percent": 0.03529411764705882,
+      "b": 17,
+      "blue": 17,
+      "blue_percent": 0.06666666666666667,
+      "rgb": "rgb(11, 9, 17)",
+      "h": 255.0,
+      "hue": 255.0,
+      "s": 0.30769230769230776,
+      "saturation": 0.30769230769230776,
+      "l": 0.050980392156862744,
+      "lightness": 0.050980392156862744,
+      "hsl": "hsl(255, 31%, 5%)",
+      "uses": [
+        "Modal header background"
       ]
     }
   }

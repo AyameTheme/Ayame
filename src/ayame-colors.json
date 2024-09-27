@@ -439,8 +439,7 @@
     {
       "name": "bg800",
       "aliases": [
-        "border2",
-        "header"
+        "border2"
       ],
       "hex": "#1a1528",
       "uses": [
@@ -659,6 +658,15 @@
       "uses": [
         "Extra white for lighter backgrounds",
         "Badge foreground"
+      ]
+    },
+    {
+      "name": "header",
+      "aliases": [
+      ],
+      "hex": "#0b0911",
+      "uses": [
+        "Modal header background"
       ]
     }
   ]
