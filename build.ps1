@@ -1,4 +1,6 @@
-﻿$PrevCWD = (Get-Item .).FullName
+﻿# TODO: Add a non-positional parameter "All".
+# TODO: Add parameters for specific scripts.
+$PrevCWD = (Get-Item .).FullName
 Set-Location $PSScriptRoot
 
 . .\src\script\util\ColorConversion.ps1
@@ -12,7 +14,6 @@ $AyameVariablesPath = '.\src\ayame-variables.styl'
 $AyameHexPath       = '.\src\ayame-hex.styl'
 $AyameRGBPath       = '.\src\ayame-rgb.styl'
 $AyameHSLPath       = '.\src\ayame-hsl.styl'
-$AyameLuaPath       = '.\bin\nvim\ayame.lua'
 $IconsPath          = '.\bin\icon'
 $ReadmePath         = '.\README.md'
 $ReadmeTemplatePath = '.\src\readme-template.md'
@@ -38,6 +39,8 @@ foreach ($Color in $AyameColors) {
 }
 
 $AyameRef | ConvertTo-Json -Depth 3 > $AyameRefPath
+
+. '.\src\script\export\Neovim.ps1' -Colors $AyameRef.colors
 
 # --( ayame-variables.styl )----------------------------------------------------
 
@@ -145,67 +148,6 @@ $(($AyameColors | Where-Object { $_.aliases } | ForEach-Object {
         "ayahsl-$_ = $($AyameRef.colors[$ThisColor.name].hsl)$Comment"
     }) -Join "`n"
 }) -Join "`n")
-"@
-
-# --( ayame.lua )---------------------------------------------------------------
-
-if (!(Test-Path (Split-Path $AyameLuaPath -Parent))) {
-    New-Item -ItemType Directory -Path (Split-Path $AyameLuaPath -Parent) -Force | Out-Null
-}
-
-$Ayamepedia = Get-Content $AyameRefPath -Raw | ConvertFrom-Json -AsHashtable
-
-# Remove Lua-reserved keywords from the hashtable. These keywords cannot be used
-# as keys in a Lua table.
-[string[]] $ReservedKeywordsLua = @(
-    'and', 'break', 'do', 'else', 'elseif', 'end', 'false', 'for', 'function',
-    'if', 'in', 'local', 'nil', 'not', 'or', 'repeat', 'return', 'then', 'true',
-    'until', 'while'
-)
-$AyamepediaLua = $Ayamepedia
-$ReservedKeywordsLua | ForEach-Object { $AyamepediaLua.colors.Remove($_) }
-
-# The length of the longest color ID is used to right-pad the ID with spaces in
-# the resulting Lua table so that the '=' operators and comments align. This
-# makes the table easier to read.
-[int] $LengthIDMax = 0
-foreach ($Color in $AyameColors) {
-    $LengthIDMax = [Math]::Max($LengthIDMax, $Color.name.Length)
-
-    foreach ($Alias in $Color.aliases) {
-        $LengthIDMax = [Math]::Max($LengthIDMax, $Alias.Length)
-    }
-}
-
-[string[]] $Lines = @('') * ($Ayamepedia.colors.Count)
-[int] $i = 0
-foreach ($ColorKey in $Ayamepedia.colors.Keys) {
-    $Color = $Ayamepedia.colors[$ColorKey]
-    [string] $Name       = $ColorKey
-    [string] $NamePadded = $Name.PadRight($LengthIDMax, ' ')
-    [string] $Hex        = $Color.hex
-    [string] $Comment    = ''
-
-    if ($Color.uses -gt 0) {
-        $Comment = " -- $($Color.uses -join ', ')"
-    }
-
-    $Lines[$i] = "$(' ' * 8)$NamePadded = ""$Hex"",$Comment"
-    $i += 1
-}
-
-[string] $LinesRaw = $Lines -join "`n"
-
-Set-Content -Path $AyameLuaPath -Value @"
-local M = {}
-
-function M.get()
-    return {
-$LinesRaw
-    }
-end
-
-return M
 "@
 
 # --( out/icon/*.svg ) ---------------------------------------------------------
