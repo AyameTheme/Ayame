@@ -11,7 +11,7 @@ param (
         Mandatory = $true,
         Position  = 0
     )]
-    [hashtable] $Colors,
+    [Management.Automation.OrderedHashtable] $Colors,
     [switch]    $Force
 )
 

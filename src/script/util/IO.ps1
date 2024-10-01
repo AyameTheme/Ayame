@@ -53,48 +53,44 @@ class AssignmentLineBatch {
     [int]       $RightBasePad      = 0
     [string]    $CommentPrefix     = ''
     [string]    $CommentSuffix     = ''
-    [hashtable] $Colors
+    [Management.Automation.OrderedHashtable]$Colors
     
-    AssignmentLineBatch([hashtable] $Colors) { $this.Colors = $Colors }
+    AssignmentLineBatch([Management.Automation.OrderedHashtable] $Colors) { $this.Colors = $Colors }
     
     [string] ToString() {
         if ($this.IndentLength -lt 0) { $this.IndentLength = 0 }
-        $Indent = ' ' * $this.IndentLength
+        [string] $Indent = ' ' * $this.IndentLength
         
-        $LeftPad = $this.LeftPrefix.Length + $this.LeftSuffix.Length + $this.LeftBasePad
+        [int] $LeftPad = $this.LeftPrefix.Length + $this.LeftSuffix.Length + $this.LeftBasePad
         
         $this.Operator = $this.Operator.Trim()
         $this.Operator = $(if ($this.Operator) { " $($this.Operator) " } else { ' ' })
         
-        $this.RightPicker = $this.RightPicker.Trim()
+        $this.Picker = $this.Picker.Trim()
         
-        $RightPad = $this.RightPrefix.Length + $this.RightSuffix.Length + $this.RightBasePad
+        [int] $RightPad = $this.RightPrefix.Length + $this.RightSuffix.Length + $this.RightBasePad
         
         [string[]] $Lines = @('') * $this.Colors.Count
         [int] $i = 0
         
         foreach ($ColorKey in $this.Colors.Keys) {
-            $Left = "$($this.LeftPrefix)$ColorKey$($this.LeftSuffix)".PadRight($LeftPad)
+            [string] $Left = "$($this.LeftPrefix)$ColorKey$($this.LeftSuffix)".PadRight($LeftPad)
 
             $Color = $this.Colors[$ColorKey]
-            $Value = $(
-                if ($this.RightPicker) {
-                    if ($Color.ContainsKey($this.RightPicker)) {
-                        $Color[$this.RightPicker]
-                    }
-                    else { $this.RightPicker }
-                }
-                else { '' }
+            [string] $Value = $(
+                if ($this.Picker -eq '.') { $ColorKey }
+                else { $Color[$this.Picker] }
             )
             
-            $Right = "$($this.RightPrefix)$Value$($this.RightSuffix)".PadRight($RightPad)
+            [string] $Right = "$($this.RightPrefix)$Value$($this.RightSuffix)".PadRight($RightPad)
             
-            $Comment = $(
+            [string] $Comment = $(
                 if ($Color.uses.Count -gt 0) { " $($this.CommentPrefix)$($Color.uses -join ', ')$($this.CommentSuffix)" }
                 else { '' }
             )
             
             $Lines[$i] = "$Indent$Left$($this.Operator)$Right$Comment"
+            $i++
         }
         
         return $Lines -join "`n"

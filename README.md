@@ -1,6 +1,7 @@
+
 <div align="center">
 
-![](bin/image/ayame-128.png)
+![](bin/image/ayame-200.png)
 
 # Ayame
 
@@ -134,8 +135,8 @@ Color definitions are contained in `src/ayame-colors.json`. This file is the mai
 
 There are multiple benefits to this model. Firstly, templates referencing colors can use contextual IDs so the template reads less confusing and IDs themselves can be changed to different colors easily. For example:
 
-1. One template contains `@ayame:colors.red.hex@`, which will be replaced with `#ff6394` by the build script. The developer used this variable to style some bold text.
-2. The developer decides to be more specific and uses `@ayame:colors.bold.hex@` instead.
+1. One template contains `#ff577e`, which will be replaced with `#ff6394` by the build script. The developer used this variable to style some bold text.
+2. The developer decides to be more specific and uses `#ff577e` instead.
 3. The developer wishes to change the bold color, so he changes the hex code in `ayame-colors.json` for ID `bold` to `#76b5c5`. Not only will this change affect all instances when the ID `bold` is referenced, but IDs (`red`, `deleted`, `this`, etc.) previously grouped with ID `bold` are not affected, and will remain red.
 
 ### Tools Required
@@ -202,7 +203,7 @@ It finds the following string and recognizes it as a variable to be replaced:
 231
 ```
 
-...since `colors.orange.r` is a valid key to a value in `ayame.json`:
+...since `colors.orange.r` is a valid key to a value in `mock.json`:
 
 ```json
 {

@@ -11,8 +11,8 @@ param (
         Mandatory = $true,
         Position  = 0
     )]
-    [hashtable] $Colors,
-    [switch]    $Force
+    [Management.Automation.OrderedHashtable] $Colors,
+    [switch] $Force
 )
 
 . '.\src\script\util\IO.ps1'
@@ -22,13 +22,7 @@ LogInfo 'Starting task: Stylus Export'
 LogInfo "$($Colors.Count) colors loaded."
 
 [int] $LengthIDMax = 0
-foreach ($Color in $Colors) {
-    $LengthIDMax = [Math]::Max($LengthIDMax, $Color.name.Length)
-
-    foreach ($Alias in $Color.aliases) {
-        $LengthIDMax = [Math]::Max($LengthIDMax, $Alias.Length)
-    }
-}
+foreach ($ColorKey in $Colors.Keys) { $LengthIDMax = [Math]::Max($LengthIDMax, $ColorKey.Length) }
 
 $StylusPath    = ".\src\stylus"
 Ensure $StylusPath
@@ -48,7 +42,7 @@ $LinesVar.RightBasePad  = $LengthIDMax
 $LinesVar.CommentPrefix = '// '
 
 $LinesVarRoot = [AssignmentLineBatch]::new($Colors)
-$LinesVarRoot.IndentSize    = 4
+$LinesVarRoot.IndentLength  = 4
 $LinesVarRoot.LeftPrefix    = '--ayame-'
 $LinesVarRoot.LeftBasePad   = $LengthIDMax
 $LinesVarRoot.Picker        = 'hex'
@@ -63,7 +57,7 @@ $LinesHex.LeftBasePad   = $LengthIDMax
 $LinesHex.Operator      = '='
 $LinesHex.Picker        = 'hex'
 $LinesHex.RightBasePad  = '#FFFFFF'.Length
-$LinesHex.CommentPrefix = '//'
+$LinesHex.CommentPrefix = '// '
 
 $LinesRGB = [AssignmentLineBatch]::new($Colors)
 $LinesRGB.LeftPrefix    = 'ayargb-'
@@ -71,7 +65,7 @@ $LinesRGB.LeftBasePad   = $LengthIDMax
 $LinesRGB.Operator      = '='
 $LinesRGB.Picker        = 'rgb'
 $LinesRGB.RightBasePad  = 'rgb(255, 255, 255)'.Length
-$LinesRGB.CommentPrefix = '//'
+$LinesRGB.CommentPrefix = '// '
 
 $LinesHSL = [AssignmentLineBatch]::new($Colors)
 $LinesHSL.LeftPrefix    = 'ayahsl-'
@@ -79,7 +73,7 @@ $LinesHSL.LeftBasePad   = $LengthIDMax
 $LinesHSL.Operator      = '='
 $LinesHSL.Picker        = 'hsl'
 $LinesHSL.RightBasePad  = 'hsl(360, 100%, 100%)'.Length
-$LinesHSL.CommentPrefix = '//'
+$LinesHSL.CommentPrefix = '// '
 
 Set-Content -Path $StylusPathVar -Value @"
 $($LinesVar.ToString())
@@ -90,8 +84,6 @@ Set-Content -Path $StylusPathHex -Value ($LinesHex.ToString())
 Set-Content -Path $StylusPathRGB -Value ($LinesRGB.ToString())
 Set-Content -Path $StylusPathHSL -Value ($LinesHSL.ToString())
 
-LogInfo "Converting 'src/ayame-variables.styl' -> CSS."
-npx stylus src/ayame-variables.styl
 LogInfo "Converting 'src/usercss/*.styl' -> CSS."
 npx stylus src/usercss --out bin/usercss
 

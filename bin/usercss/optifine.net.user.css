@@ -12,18 +12,71 @@
 @-moz-document domain("optifine.net") {
   :root {
     --ayame-background: #17131e; /* Background */
-    --ayame-foreground: #cbbade; /* Foreground, Variables, Identifiers */
+    --ayame-bg: #17131e; /* Background */
+    --ayame-bg900: #17131e; /* Background */
+    --ayame-foreground: #cbbade; /* Foreground */
+    --ayame-fg: #cbbade; /* Foreground */
+    --ayame-fg200: #cbbade; /* Foreground */
     --ayame-red: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-deleted: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-breakpoint: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-stop: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-this: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-bold: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
+    --ayame-red500: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
     --ayame-orange: #ff965c; /* Terminal Yellow, Warnings, Constants */
+    --ayame-warning: #ff965c; /* Terminal Yellow, Warnings, Constants */
+    --ayame-constant: #ff965c; /* Terminal Yellow, Warnings, Constants */
+    --ayame-orange500: #ff965c; /* Terminal Yellow, Warnings, Constants */
     --ayame-yellow: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
+    --ayame-character: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
+    --ayame-yellow500: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-green: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-added: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-debug: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-string: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-green500: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
     --ayame-teal: #5df8a6; /* TODO comments */
+    --ayame-todo: #5df8a6; /* TODO comments */
+    --ayame-teal500: #5df8a6; /* TODO comments */
     --ayame-cyan: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-match: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-control: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-regex: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-escape: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-italics: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-cyan500: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
+    --ayame-linkhover: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
     --ayame-blue: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-primary: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-progress: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-modified: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-hyperlink: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-keyword: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-type: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
+    --ayame-blue500: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
     --ayame-purple: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-darkmagenta: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-secondary: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-function: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-fun: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-attribute: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-code: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
+    --ayame-purple500: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
     --ayame-magenta: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-pink: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-tertiary: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-focus: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-operator: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-magenta500: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-value: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
     --ayame-red900: #662332; /* Error background */
+    --ayame-error2: #662332; /* Error background */
     --ayame-red700: #cc4665; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-darkred: #cc4665; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-error: #cc4665; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-invalid: #cc4665; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-tag: #cc4665; /* Terminal Red, Error, Invalid, Tags */
     --ayame-red300: #ff7998;
     --ayame-red100: #ffbccb;
     --ayame-orange900: #663c25;
@@ -36,6 +89,8 @@
     --ayame-yellow100: #fbeab3;
     --ayame-green900: #3c5b2e;
     --ayame-green700: #78b65d; /* Terminal Green, Info, String quotation marks */
+    --ayame-darkgreen: #78b65d; /* Terminal Green, Info, String quotation marks */
+    --ayame-info: #78b65d; /* Terminal Green, Info, String quotation marks */
     --ayame-green300: #abe990;
     --ayame-green100: #d5f4c7;
     --ayame-teal900: #256342;
@@ -43,11 +98,19 @@
     --ayame-teal300: #7df9b8;
     --ayame-teal100: #befcdb;
     --ayame-cyan900: #225c63;
-    --ayame-cyan700: #43b9c6; /* Terminal Cyan, Classes */
+    --ayame-cyan700: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-darkcyan: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-class: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-identifier: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-variable: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
     --ayame-cyan300: #76ecf9;
     --ayame-cyan100: #bbf5fc;
     --ayame-blue900: #1b4162;
     --ayame-blue700: #3682c4; /* Terminal Blue, Bookmarks, VS Code activity badge */
+    --ayame-darkblue: #3682c4; /* Terminal Blue, Bookmarks, VS Code activity badge */
+    --ayame-activitybadge: #3682c4; /* Terminal Blue, Bookmarks, VS Code activity badge */
+    --ayame-bookmark: #3682c4; /* Terminal Blue, Bookmarks, VS Code activity badge */
+    --ayame-blue2: #3682c4; /* Terminal Blue, Bookmarks, VS Code activity badge */
     --ayame-blue300: #69b5f7;
     --ayame-blue100: #b4dafb;
     --ayame-purple900: #3c2a63;
@@ -59,125 +122,62 @@
     --ayame-magenta300: #f98bf4;
     --ayame-magenta100: #fcc5f9;
     --ayame-bg800: #1a1528; /* Secondary borders */
+    --ayame-border2: #1a1528; /* Secondary borders */
     --ayame-bg700: #221c35; /* Modal background, Checkbox background, Input background */
+    --ayame-modal: #221c35; /* Modal background, Checkbox background, Input background */
+    --ayame-menu: #221c35; /* Modal background, Checkbox background, Input background */
+    --ayame-toolbar: #221c35; /* Modal background, Checkbox background, Input background */
+    --ayame-checkbox: #221c35; /* Modal background, Checkbox background, Input background */
+    --ayame-input: #221c35; /* Modal background, Checkbox background, Input background */
     --ayame-bg600: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
+    --ayame-subheader: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
+    --ayame-tabline: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
+    --ayame-hover: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
+    --ayame-highlight: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
     --ayame-bg500: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
+    --ayame-black: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
+    --ayame-gutter: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
+    --ayame-border: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
+    --ayame-rule: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
+    --ayame-button: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
+    --ayame-altrow: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
     --ayame-bg400: #3c305d;
     --ayame-bg300: #45376a;
     --ayame-bg200: #4d3e78;
     --ayame-bg100: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
+    --ayame-gray: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
+    --ayame-comment: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
+    --ayame-blockquote: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
+    --ayame-folded: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
+    --ayame-darkgray: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
     --ayame-fg900: #191023;
     --ayame-fg800: #322145; /* Highlight and focus border, Highlights in UI and modals */
+    --ayame-focusborder: #322145; /* Highlight and focus border, Highlights in UI and modals */
+    --ayame-highlightborder: #322145; /* Highlight and focus border, Highlights in UI and modals */
+    --ayame-modalhighlight: #322145; /* Highlight and focus border, Highlights in UI and modals */
+    --ayame-highlight2: #322145; /* Highlight and focus border, Highlights in UI and modals */
     --ayame-fg700: #4a3168; /* Selection background */
+    --ayame-selection: #4a3168; /* Selection background */
     --ayame-fg600: #63428a;
     --ayame-fg500: #7c52ad; /* Markdown underline */
+    --ayame-underline: #7c52ad; /* Markdown underline */
     --ayame-fg400: #9675bd; /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
+    --ayame-cursor: #9675bd; /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
+    --ayame-activeborder: #9675bd; /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
+    --ayame-active: #9675bd; /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
     --ayame-fg300: #b097ce;
     --ayame-fg100: #e5dcef; /* Terminal Bright White, Objects */
+    --ayame-white: #e5dcef; /* Terminal Bright White, Objects */
+    --ayame-object: #e5dcef; /* Terminal Bright White, Objects */
     --ayame-bracket: #6c8db3; /* Parentheses, Brackets, Braces */
     --ayame-lightgray: #8a7d9b; /* Terminal White, Muted text, Punctuation */
+    --ayame-darkwhite: #8a7d9b; /* Terminal White, Muted text, Punctuation */
+    --ayame-muted: #8a7d9b; /* Terminal White, Muted text, Punctuation */
+    --ayame-punctuation: #8a7d9b; /* Terminal White, Muted text, Punctuation */
+    --ayame-terminator: #8a7d9b; /* Terminal White, Muted text, Punctuation */
     --ayame-foreground2: #bbb; /* Alternate foreground */
     --ayame-purewhite: #fff; /* Extra white for lighter backgrounds, Badge foreground */
     --ayame-header: #0b0911; /* Modal header background */
-    --ayame-bg: var(--ayame-background); /* Background */
-    --ayame-bg900: var(--ayame-background); /* Background */
-    --ayame-fg: var(--ayame-foreground); /* Foreground, Variables, Identifiers */
-    --ayame-fg200: var(--ayame-foreground); /* Foreground, Variables, Identifiers */
-    --ayame-variable: var(--ayame-foreground); /* Foreground, Variables, Identifiers */
-    --ayame-identifier: var(--ayame-foreground); /* Foreground, Variables, Identifiers */
-    --ayame-deleted: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-breakpoint: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-stop: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-this: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-bold: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-red500: var(--ayame-red); /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-warning: var(--ayame-orange); /* Terminal Yellow, Warnings, Constants */
-    --ayame-constant: var(--ayame-orange); /* Terminal Yellow, Warnings, Constants */
-    --ayame-orange500: var(--ayame-orange); /* Terminal Yellow, Warnings, Constants */
-    --ayame-character: var(--ayame-yellow); /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
-    --ayame-yellow500: var(--ayame-yellow); /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
-    --ayame-added: var(--ayame-green); /* Terminal Bright Green, Git added, Debug, Strings */
-    --ayame-debug: var(--ayame-green); /* Terminal Bright Green, Git added, Debug, Strings */
-    --ayame-string: var(--ayame-green); /* Terminal Bright Green, Git added, Debug, Strings */
-    --ayame-green500: var(--ayame-green); /* Terminal Bright Green, Git added, Debug, Strings */
-    --ayame-todo: var(--ayame-teal); /* TODO comments */
-    --ayame-teal500: var(--ayame-teal); /* TODO comments */
-    --ayame-match: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-control: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-regex: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-escape: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-italics: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-cyan500: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-linkhover: var(--ayame-cyan); /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-primary: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-progress: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-modified: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-hyperlink: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-keyword: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-type: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-blue500: var(--ayame-blue); /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-darkmagenta: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-secondary: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-function: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-fun: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-attribute: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-code: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-purple500: var(--ayame-purple); /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-pink: var(--ayame-magenta); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-tertiary: var(--ayame-magenta); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-focus: var(--ayame-magenta); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-operator: var(--ayame-magenta); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-magenta500: var(--ayame-magenta); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-value: var(--ayame-magenta); /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-error2: var(--ayame-red900); /* Error background */
-    --ayame-darkred: var(--ayame-red700); /* Terminal Red, Error, Invalid, Tags */
-    --ayame-error: var(--ayame-red700); /* Terminal Red, Error, Invalid, Tags */
-    --ayame-invalid: var(--ayame-red700); /* Terminal Red, Error, Invalid, Tags */
-    --ayame-tag: var(--ayame-red700); /* Terminal Red, Error, Invalid, Tags */
-    --ayame-darkgreen: var(--ayame-green700); /* Terminal Green, Info, String quotation marks */
-    --ayame-info: var(--ayame-green700); /* Terminal Green, Info, String quotation marks */
-    --ayame-darkcyan: var(--ayame-cyan700); /* Terminal Cyan, Classes */
-    --ayame-class: var(--ayame-cyan700); /* Terminal Cyan, Classes */
-    --ayame-darkblue: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
-    --ayame-activitybadge: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
-    --ayame-bookmark: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
-    --ayame-blue2: var(--ayame-blue700); /* Terminal Blue, Bookmarks, VS Code activity badge */
-    --ayame-border2: var(--ayame-bg800); /* Secondary borders */
-    --ayame-modal: var(--ayame-bg700); /* Modal background, Checkbox background, Input background */
-    --ayame-menu: var(--ayame-bg700); /* Modal background, Checkbox background, Input background */
-    --ayame-toolbar: var(--ayame-bg700); /* Modal background, Checkbox background, Input background */
-    --ayame-checkbox: var(--ayame-bg700); /* Modal background, Checkbox background, Input background */
-    --ayame-input: var(--ayame-bg700); /* Modal background, Checkbox background, Input background */
-    --ayame-subheader: var(--ayame-bg600); /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-tabline: var(--ayame-bg600); /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-hover: var(--ayame-bg600); /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-highlight: var(--ayame-bg600); /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-black: var(--ayame-bg500); /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-gutter: var(--ayame-bg500); /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-border: var(--ayame-bg500); /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-rule: var(--ayame-bg500); /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-button: var(--ayame-bg500); /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-altrow: var(--ayame-bg500); /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-gray: var(--ayame-bg100); /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-comment: var(--ayame-bg100); /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-blockquote: var(--ayame-bg100); /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-folded: var(--ayame-bg100); /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-darkgray: var(--ayame-bg100); /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-focusborder: var(--ayame-fg800); /* Highlight and focus border, Highlights in UI and modals */
-    --ayame-highlightborder: var(--ayame-fg800); /* Highlight and focus border, Highlights in UI and modals */
-    --ayame-modalhighlight: var(--ayame-fg800); /* Highlight and focus border, Highlights in UI and modals */
-    --ayame-highlight2: var(--ayame-fg800); /* Highlight and focus border, Highlights in UI and modals */
-    --ayame-selection: var(--ayame-fg700); /* Selection background */
-    --ayame-underline: var(--ayame-fg500); /* Markdown underline */
-    --ayame-cursor: var(--ayame-fg400); /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
-    --ayame-activeborder: var(--ayame-fg400); /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
-    --ayame-active: var(--ayame-fg400); /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
-    --ayame-white: var(--ayame-fg100); /* Terminal Bright White, Objects */
-    --ayame-object: var(--ayame-fg100); /* Terminal Bright White, Objects */
-    --ayame-darkwhite: var(--ayame-lightgray); /* Terminal White, Muted text, Punctuation */
-    --ayame-muted: var(--ayame-lightgray); /* Terminal White, Muted text, Punctuation */
-    --ayame-punctuation: var(--ayame-lightgray); /* Terminal White, Muted text, Punctuation */
-    --ayame-terminator: var(--ayame-lightgray); /* Terminal White, Muted text, Punctuation */
   }
   body {
     background: var(--ayame-black);

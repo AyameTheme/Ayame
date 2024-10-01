@@ -1,9 +1,18 @@
+<#
+ ╭──────────────────────────────────────────────────────────────────────────────╮
+ │                             Ayame Palette Table                              │
+ ├──────────────────────────────────────────────────────────────────────────────┤
+ │           Generates a markdown table listing all colors in Ayame.            │
+ ╰──────────────────────────────────────────────────────────────────────────────╯
+ #>
 $Colors  = Get-Content '.\src\ayame-colors.json' -Raw | ConvertFrom-Json
 $IconURL = 'bin/icon'
 
 # Don’t waste three hours of your life like me and just accept the assignment.
 $T = "``"
 
+$Lines = @('') * $Colors.Count
+$i     = 0
 foreach ($Color in $Colors) {
     $Name    = $Color.name
     $Hex     = $Color.hex
@@ -14,5 +23,8 @@ foreach ($Color in $Colors) {
         }
         else { '' }
     )
-    "| ![]($IconURL/$Name.svg) $T$Hex$T | $T$Name$T$Aliases | $Uses |"
+    $Lines[$i] = "| ![]($IconURL/$Name.svg) $T$Hex$T | $T$Name$T$Aliases | $Uses |"
+
+    $i++
 }
+return $Lines -join "`n"

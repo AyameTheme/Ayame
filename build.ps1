@@ -8,7 +8,8 @@ param(
     [switch] $DotIcon,
     [switch] $SVG,
     [switch] $Template,
-    [switch] $OfficeTheme
+    [switch] $OfficeTheme,
+    [switch] $Export
 )
 
 if ($Clean) {
@@ -21,12 +22,13 @@ if (!$All -and !($Template -or
                  $Stylus   -or
                  $DotIcon  -or
                  $SVG      -or
+                 $Export   -or
                  $OfficeTheme)) { $All = $true }
 
-$PrevCWD = Get-Location
+$LastDir = Get-Location
 Set-Location $PSScriptRoot
 
-. .\src\script\util\ColorConversion.ps1
+. '.\src\script\util\ColorConversion.ps1'
 
 $AyameColors  = Get-Content '.\src\ayame-colors.json' -Raw | ConvertFrom-Json
 $AyameRefPath = '.\bin\ayame.json'
@@ -63,5 +65,6 @@ if ($All -or $Neovim)      { & '.\src\script\export\Neovim.ps1'    -Colors $Ayam
 if ($All -or $Stylus)      { & '.\src\script\export\Stylus.ps1'    -Colors $AyameRef.colors -Force:$Force }
 if ($All -or $DotIcon)     { & '.\src\script\export\DotIcon.ps1'   -Colors $AyameRef.colors -Force:$Force }
 if ($All -or $SVG)         { & '.\src\script\export\SVG.ps1'                                -Force:$Force }
+if ($All -or $Export)      { & '.\src\script\export\Export.ps1'                             -Force:$Force }
 
-Set-Location $PrevCWD
+Set-Location $LastDir

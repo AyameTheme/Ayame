@@ -12,8 +12,8 @@ param (
         Mandatory = $true,
         Position  = 0
     )]
-    [hashtable] $Colors,
-    [switch]    $Force
+    [Management.Automation.OrderedHashtable] $Colors,
+    [switch] $Force
 )
 
 . '.\src\script\util\IO.ps1'
@@ -38,13 +38,7 @@ LogInfo "$($Colors.Count) colors remaining."
 # The length of the longest color ID is used to right-pad the ID with spaces in the resulting Lua
 # table so that the '=' operators and comments align. This makes the table easier to read.
 [int] $LengthIDMax = 0
-foreach ($Color in $Colors) {
-    $LengthIDMax = [Math]::Max($LengthIDMax, $Color.name.Length)
-
-    foreach ($Alias in $Color.aliases) {
-        $LengthIDMax = [Math]::Max($LengthIDMax, $Alias.Length)
-    }
-}
+foreach ($ColorKey in $Colors.Keys) { $LengthIDMax = [Math]::Max($LengthIDMax, $ColorKey.Length) }
 
 $LineBatch  = [AssignmentLineBatch]::new($Colors)
 $LineBatch.IndentLength  = 8
@@ -53,7 +47,7 @@ $LineBatch.Operator      = '='
 $LineBatch.RightPrefix   = '"'
 $LineBatch.Picker        = 'hex'
 $LineBatch.RightSuffix   = '",'
-$LineBatch.RightBasePad  = '"#FFFFFF"'.Length
+$LineBatch.RightBasePad  = '#FFFFFF'.Length
 $LineBatch.CommentPrefix = '-- '
 
 

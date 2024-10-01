@@ -1,7 +1,7 @@
 <!-- @container:.@ -->
 <div align="center">
 
-![](bin/image/ayame-128.png)
+![](bin/image/ayame-200.png)
 
 # Ayame
 
@@ -103,7 +103,7 @@ To build the project:
 You can create templates and the build script will replace 'variables' with values from `ayame.json`. The build script will navigate through the JSON tree and replace the key with the appropriate value. Here is the format:
 
 ```
-@ayame:key.sub_key.sub_sub_key@
+@mock:key.sub_key.sub_sub_key@
 ```
 
 A template file recognized by the build script contains `.ayame-template` anywhere in the file name in the `src` directory. It will place the product in `out`, removing `.ayame-template` from the file name, and following a subdirectory structure if relevant.
@@ -121,13 +121,13 @@ src/graphic.ayame-template.svg
 The build script finds a file named `custom.ayame-template.md` in the `src` directory. In this file:
 
 ```markdown
-How much red is in orange? This much: @ayame:colors.orange.r@
+How much red is in orange? This much: @mock:colors.orange.r@
 ```
 
 It finds the following string and recognizes it as a variable to be replaced:
 
 ```
-@ayame:colors.orange.r@
+@mock:colors.orange.r@
 ```
 
 ...will be replaced with:
@@ -136,7 +136,7 @@ It finds the following string and recognizes it as a variable to be replaced:
 231
 ```
 
-...since `colors.orange.r` is a valid key to a value in `ayame.json`:
+...since `colors.orange.r` is a valid key to a value in `mock.json`:
 
 ```json
 {

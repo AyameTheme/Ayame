@@ -158,6 +158,11 @@ foreach ($P in $TemplatePaths) {
                     else { LogError "'$P' (Line $i): Cannot replace '$($Match.Groups[0].Value)' because '$PathScript' was not found." }
                 }
             }
+            elseif ($Root -eq 'mock') {
+                $Result = $Match.Groups[0].Value.Replace('mock', 'ayame')
+                LogDebug "'$P' (Line $i): '$($Match.Groups[0].Value)' -> '$Result'"
+                $Result
+            }
             else {
                 if (!$Values.ContainsKey($Root)) {
                     LogError "'$P' (Line $i): Cannot replace '$($Match.Groups[0].Value)' because '$Root' is not a valid root key."

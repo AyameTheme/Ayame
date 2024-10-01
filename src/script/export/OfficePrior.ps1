@@ -5,6 +5,8 @@
  │                Copies non-template Office theme files to bin.                │
  ╰──────────────────────────────────────────────────────────────────────────────╯
  #>
+. '.\src\script\util\IO.ps1'
+
 $PathSource = Resolve-Path '.\src\office\thmx'
 Ensure '.\bin\office\thmx'
 Get-ChildItem $PathSource -Recurse | Where-Object {
