@@ -34,8 +34,10 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 
 Ayame is available for the following tools:
 
-- [Visual Studio Code](https://github.com/AyameTheme/vscode)
 - [Microsoft Office](bin/office/README.md)
+- [Stylus (Websites)](bin/usercss/README.md)
+- [Visual Studio Code](https://github.com/AyameTheme/vscode)
+- [Windows Terminal](bin/windowsterminal/README.md)
 
 ## Building
 
