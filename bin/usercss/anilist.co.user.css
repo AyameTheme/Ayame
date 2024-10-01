@@ -13,9 +13,11 @@
     --ayame-background: #17131e; /* Background */
     --ayame-bg: #17131e; /* Background */
     --ayame-bg900: #17131e; /* Background */
-    --ayame-foreground: #cbbade; /* Foreground */
-    --ayame-fg: #cbbade; /* Foreground */
-    --ayame-fg200: #cbbade; /* Foreground */
+    --ayame-foreground: #cbbade; /* Foreground, Variables, Identifiers */
+    --ayame-fg: #cbbade; /* Foreground, Variables, Identifiers */
+    --ayame-fg200: #cbbade; /* Foreground, Variables, Identifiers */
+    --ayame-variable: #cbbade; /* Foreground, Variables, Identifiers */
+    --ayame-identifier: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-red: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
     --ayame-deleted: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
     --ayame-breakpoint: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
@@ -97,11 +99,9 @@
     --ayame-teal300: #7df9b8;
     --ayame-teal100: #befcdb;
     --ayame-cyan900: #225c63;
-    --ayame-cyan700: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
-    --ayame-darkcyan: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
-    --ayame-class: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
-    --ayame-identifier: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
-    --ayame-variable: #43b9c6; /* Terminal Cyan, Classes, Identifiers, Variables */
+    --ayame-cyan700: #43b9c6; /* Terminal Cyan, Classes */
+    --ayame-darkcyan: #43b9c6; /* Terminal Cyan, Classes */
+    --ayame-class: #43b9c6; /* Terminal Cyan, Classes */
     --ayame-cyan300: #76ecf9;
     --ayame-cyan100: #bbf5fc;
     --ayame-blue900: #1b4162;

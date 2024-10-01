@@ -29,7 +29,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | Hex ____________ | ID | Uses |
 | --- | --- | --- |
 | ![](bin/icon/background.svg) `#17131e` | `background`, `bg`, `bg900` | Background |
-| ![](bin/icon/foreground.svg) `#cbbade` | `foreground`, `fg`, `fg200` | Foreground |
+| ![](bin/icon/foreground.svg) `#cbbade` | `foreground`, `fg`, `fg200`, `variable`, `identifier` | Foreground, Variables, Identifiers |
 | ![](bin/icon/red.svg) `#ff577e` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `bold`, `red500` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold |
 | ![](bin/icon/orange.svg) `#ff965c` | `orange`, `warning`, `constant`, `orange500` | Terminal Yellow, Warnings, Constants |
 | ![](bin/icon/yellow.svg) `#f5cb40` | `yellow`, `character`, `yellow500` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
@@ -60,7 +60,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](bin/icon/teal300.svg) `#7df9b8` | `teal300` |  |
 | ![](bin/icon/teal100.svg) `#befcdb` | `teal100` |  |
 | ![](bin/icon/cyan900.svg) `#225c63` | `cyan900` |  |
-| ![](bin/icon/cyan700.svg) `#43b9c6` | `cyan700`, `darkcyan`, `class`, `identifier`, `variable` | Terminal Cyan, Classes, Identifiers, Variables |
+| ![](bin/icon/cyan700.svg) `#43b9c6` | `cyan700`, `darkcyan`, `class` | Terminal Cyan, Classes |
 | ![](bin/icon/cyan300.svg) `#76ecf9` | `cyan300` |  |
 | ![](bin/icon/cyan100.svg) `#bbf5fc` | `cyan100` |  |
 | ![](bin/icon/blue900.svg) `#1b4162` | `blue900` |  |
