@@ -7,338 +7,338 @@
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.black.blue_percent]]</real>
+		<real>@ayame:colors.black.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.black.green_percent]]</real>
+		<real>@ayame:colors.black.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.black.red_percent]]</real>
+		<real>@ayame:colors.black.red_percent@</real>
 	</dict>
 	<key>Ansi 1 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.darkred.blue_percent]]</real>
+		<real>@ayame:colors.darkred.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.darkred.green_percent]]</real>
+		<real>@ayame:colors.darkred.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.darkred.red_percent]]</real>
+		<real>@ayame:colors.darkred.red_percent@</real>
 	</dict>
 	<key>Ansi 10 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.green.blue_percent]]</real>
+		<real>@ayame:colors.green.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.green.green_percent]]</real>
+		<real>@ayame:colors.green.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.green.red_percent]]</real>
+		<real>@ayame:colors.green.red_percent@</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.yellow.blue_percent]]</real>
+		<real>@ayame:colors.yellow.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.yellow.green_percent]]</real>
+		<real>@ayame:colors.yellow.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.yellow.red_percent]]</real>
+		<real>@ayame:colors.yellow.red_percent@</real>
 	</dict>
 	<key>Ansi 12 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.blue.blue_percent]]</real>
+		<real>@ayame:colors.blue.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.blue.green_percent]]</real>
+		<real>@ayame:colors.blue.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.blue.red_percent]]</real>
+		<real>@ayame:colors.blue.red_percent@</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.pink.blue_percent]]</real>
+		<real>@ayame:colors.pink.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.pink.green_percent]]</real>
+		<real>@ayame:colors.pink.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.pink.red_percent]]</real>
+		<real>@ayame:colors.pink.red_percent@</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.cyan.blue_percent]]</real>
+		<real>@ayame:colors.cyan.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.cyan.green_percent]]</real>
+		<real>@ayame:colors.cyan.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.cyan.red_percent]]</real>
+		<real>@ayame:colors.cyan.red_percent@</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.white.blue_percent]]</real>
+		<real>@ayame:colors.white.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.white.green_percent]]</real>
+		<real>@ayame:colors.white.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.white.red_percent]]</real>
+		<real>@ayame:colors.white.red_percent@</real>
 	</dict>
 	<key>Ansi 2 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.darkgreen.blue_percent]]</real>
+		<real>@ayame:colors.darkgreen.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.darkgreen.green_percent]]</real>
+		<real>@ayame:colors.darkgreen.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.darkgreen.red_percent]]</real>
+		<real>@ayame:colors.darkgreen.red_percent@</real>
 	</dict>
 	<key>Ansi 3 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.orange.blue_percent]]</real>
+		<real>@ayame:colors.orange.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.orange.green_percent]]</real>
+		<real>@ayame:colors.orange.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.orange.red_percent]]</real>
+		<real>@ayame:colors.orange.red_percent@</real>
 	</dict>
 	<key>Ansi 4 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.darkblue.blue_percent]]</real>
+		<real>@ayame:colors.darkblue.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.darkblue.green_percent]]</real>
+		<real>@ayame:colors.darkblue.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.darkblue.red_percent]]</real>
+		<real>@ayame:colors.darkblue.red_percent@</real>
 	</dict>
 	<key>Ansi 5 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.magenta.blue_percent]]</real>
+		<real>@ayame:colors.magenta.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.magenta.green_percent]]</real>
+		<real>@ayame:colors.magenta.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.magenta.red_percent]]</real>
+		<real>@ayame:colors.magenta.red_percent@</real>
 	</dict>
 	<key>Ansi 6 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.darkcyan.blue_percent]]</real>
+		<real>@ayame:colors.darkcyan.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.darkcyan.green_percent]]</real>
+		<real>@ayame:colors.darkcyan.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.darkcyan.red_percent]]</real>
+		<real>@ayame:colors.darkcyan.red_percent@</real>
 	</dict>
 	<key>Ansi 7 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.lightgray.blue_percent]]</real>
+		<real>@ayame:colors.lightgray.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.lightgray.green_percent]]</real>
+		<real>@ayame:colors.lightgray.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.lightgray.red_percent]]</real>
+		<real>@ayame:colors.lightgray.red_percent@</real>
 	</dict>
 	<key>Ansi 8 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.gray.blue_percent]]</real>
+		<real>@ayame:colors.gray.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.gray.green_percent]]</real>
+		<real>@ayame:colors.gray.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.gray.red_percent]]</real>
+		<real>@ayame:colors.gray.red_percent@</real>
 	</dict>
 	<key>Ansi 9 Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.red.blue_percent]]</real>
+		<real>@ayame:colors.red.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.red.green_percent]]</real>
+		<real>@ayame:colors.red.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.red.red_percent]]</real>
+		<real>@ayame:colors.red.red_percent@</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.background.blue_percent]]</real>
+		<real>@ayame:colors.background.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.background.green_percent]]</real>
+		<real>@ayame:colors.background.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.background.red_percent]]</real>
+		<real>@ayame:colors.background.red_percent@</real>
 	</dict>
 	<key>Badge Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.cursor.blue_percent]]</real>
+		<real>@ayame:colors.cursor.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.cursor.green_percent]]</real>
+		<real>@ayame:colors.cursor.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.cursor.red_percent]]</real>
+		<real>@ayame:colors.cursor.red_percent@</real>
 	</dict>
 	<key>Bold Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.foreground.blue_percent]]</real>
+		<real>@ayame:colors.foreground.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.foreground.green_percent]]</real>
+		<real>@ayame:colors.foreground.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.foreground.red_percent]]</real>
+		<real>@ayame:colors.foreground.red_percent@</real>
 	</dict>
 	<key>Cursor Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.cursor.blue_percent]]</real>
+		<real>@ayame:colors.cursor.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.cursor.green_percent]]</real>
+		<real>@ayame:colors.cursor.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.cursor.red_percent]]</real>
+		<real>@ayame:colors.cursor.red_percent@</real>
 	</dict>
 	<key>Cursor Guide Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.altrow.blue_percent]]</real>
+		<real>@ayame:colors.altrow.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.altrow.green_percent]]</real>
+		<real>@ayame:colors.altrow.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.altrow.red_percent]]</real>
+		<real>@ayame:colors.altrow.red_percent@</real>
 	</dict>
 	<key>Cursor Text Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.background.blue_percent]]</real>
+		<real>@ayame:colors.background.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.background.green_percent]]</real>
+		<real>@ayame:colors.background.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.background.red_percent]]</real>
+		<real>@ayame:colors.background.red_percent@</real>
 	</dict>
 	<key>Foreground Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.foreground.blue_percent]]</real>
+		<real>@ayame:colors.foreground.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.foreground.green_percent]]</real>
+		<real>@ayame:colors.foreground.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.foreground.red_percent]]</real>
+		<real>@ayame:colors.foreground.red_percent@</real>
 	</dict>
 	<key>Link Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.hyperlink.blue_percent]]</real>
+		<real>@ayame:colors.hyperlink.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.hyperlink.green_percent]]</real>
+		<real>@ayame:colors.hyperlink.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.hyperlink.red_percent]]</real>
+		<real>@ayame:colors.hyperlink.red_percent@</real>
 	</dict>
 	<key>Selected Text Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.background.blue_percent]]</real>
+		<real>@ayame:colors.background.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.background.green_percent]]</real>
+		<real>@ayame:colors.background.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.background.red_percent]]</real>
+		<real>@ayame:colors.background.red_percent@</real>
 	</dict>
 	<key>Selection Color</key>
 	<dict>
 		<key>Alpha Component</key>
 		<real>1</real>
 		<key>Blue Component</key>
-		<real>[[ayame:colors.selection.blue_percent]]</real>
+		<real>@ayame:colors.selection.blue_percent@</real>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>[[ayame:colors.selection.green_percent]]</real>
+		<real>@ayame:colors.selection.green_percent@</real>
 		<key>Red Component</key>
-		<real>[[ayame:colors.selection.red_percent]]</real>
+		<real>@ayame:colors.selection.red_percent@</real>
 	</dict>
 </dict>
 </plist>

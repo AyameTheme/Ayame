@@ -1,3 +1,4 @@
+<!-- @container:.@ -->
 <div align="center">
 
 ![](bin/image/ayame-128.png)
@@ -27,7 +28,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 
 | Hex ____________ | ID | Uses |
 | --- | --- | --- |
-@-ayame-palette-table
+@template:ayame.PaletteTable@
 
 ## Deployments
 
@@ -67,8 +68,8 @@ Color definitions are contained in `src/ayame-colors.json`. This file is the mai
 
 There are multiple benefits to this model. Firstly, templates referencing colors can use contextual IDs so the template reads less confusing and IDs themselves can be changed to different colors easily. For example:
 
-1. One template contains `[[ayame:colors.red.hex]]`, which will be replaced with `#ff6394` by the build script. The developer used this variable to style some bold text.
-2. The developer decides to be more specific and uses `[[ayame:colors.bold.hex]]` instead.
+1. One template contains `@ayame:colors.red.hex@`, which will be replaced with `#ff6394` by the build script. The developer used this variable to style some bold text.
+2. The developer decides to be more specific and uses `@ayame:colors.bold.hex@` instead.
 3. The developer wishes to change the bold color, so he changes the hex code in `ayame-colors.json` for ID `bold` to `#76b5c5`. Not only will this change affect all instances when the ID `bold` is referenced, but IDs (`red`, `deleted`, `this`, etc.) previously grouped with ID `bold` are not affected, and will remain red.
 
 ### Tools Required
@@ -102,7 +103,7 @@ To build the project:
 You can create templates and the build script will replace 'variables' with values from `ayame.json`. The build script will navigate through the JSON tree and replace the key with the appropriate value. Here is the format:
 
 ```
-[[ayame:key.sub_key.sub_sub_key]]
+@ayame:key.sub_key.sub_sub_key@
 ```
 
 A template file recognized by the build script contains `.ayame-template` anywhere in the file name in the `src` directory. It will place the product in `out`, removing `.ayame-template` from the file name, and following a subdirectory structure if relevant.
@@ -120,13 +121,13 @@ src/graphic.ayame-template.svg
 The build script finds a file named `custom.ayame-template.md` in the `src` directory. In this file:
 
 ```markdown
-How much red is in orange? This much: [[ayame:colors.orange.r]]
+How much red is in orange? This much: @ayame:colors.orange.r@
 ```
 
 It finds the following string and recognizes it as a variable to be replaced:
 
 ```
-[[ayame:colors.orange.r]]
+@ayame:colors.orange.r@
 ```
 
 ...will be replaced with:

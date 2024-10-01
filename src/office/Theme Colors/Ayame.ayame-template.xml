@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <a:clrScheme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Ayame">
     <a:dk1>
-        <a:srgbClr val="[[ayame:colors.foreground.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.foreground.hex_bare_upper@"/>
     </a:dk1>
     <a:lt1>
-        <a:srgbClr val="[[ayame:colors.header.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.header.hex_bare_upper@"/>
     </a:lt1>
     <a:dk2>
-        <a:srgbClr val="[[ayame:colors.cursor.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.cursor.hex_bare_upper@"/>
     </a:dk2>
     <a:lt2>
-        <a:srgbClr val="[[ayame:colors.background.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.background.hex_bare_upper@"/>
     </a:lt2>
     <a:accent1>
-        <a:srgbClr val="[[ayame:colors.blue.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.blue.hex_bare_upper@"/>
     </a:accent1>
     <a:accent2>
-        <a:srgbClr val="[[ayame:colors.purple.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.purple.hex_bare_upper@"/>
     </a:accent2>
     <a:accent3>
-        <a:srgbClr val="[[ayame:colors.pink.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.pink.hex_bare_upper@"/>
     </a:accent3>
     <a:accent4>
-        <a:srgbClr val="[[ayame:colors.red.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.red.hex_bare_upper@"/>
     </a:accent4>
     <a:accent5>
-        <a:srgbClr val="[[ayame:colors.yellow.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.yellow.hex_bare_upper@"/>
     </a:accent5>
     <a:accent6>
-        <a:srgbClr val="[[ayame:colors.green.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.green.hex_bare_upper@"/>
     </a:accent6>
     <a:hlink>
-        <a:srgbClr val="[[ayame:colors.cyan.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.cyan.hex_bare_upper@"/>
     </a:hlink>
     <a:folHlink>
-        <a:srgbClr val="[[ayame:colors.orange.hex_bare_upper]]"/>
+        <a:srgbClr val="@ayame:colors.orange.hex_bare_upper@"/>
     </a:folHlink>
 </a:clrScheme>

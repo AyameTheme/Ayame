@@ -1,489 +1,489 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 2481 3508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <rect x="0" y="0" width="2480.32" height="3507.87" style="fill:[[ayame:colors.background.hex]];"/>
+    <rect x="0" y="0" width="2480.32" height="3507.87" style="fill:@ayame:colors.background.hex@;"/>
     <g id="RED" transform="matrix(1.35044,0,0,0.408647,-123.948,-60.4916)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.red.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.red.hex@;"/>
     </g>
     <g id="CYAN" transform="matrix(1.35044,0,0,0.408647,1684.32,-60.4916)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.cyan.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.cyan.hex@;"/>
     </g>
     <g id="TODO" transform="matrix(1.35044,0,0,0.408647,1684.32,471.004)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.todo.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.todo.hex@;"/>
     </g>
     <g id="TODO1" serif:id="TODO" transform="matrix(0.352109,0,0,0.408647,203.396,766.28)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.todo.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.todo.hex@;"/>
     </g>
     <g id="GREEN" transform="matrix(1.35044,0,0,0.408647,1081.56,-60.4916)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.green.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.green.hex@;"/>
     </g>
     <g id="WHITE" transform="matrix(1.35044,0,0,0.408647,1081.56,175.729)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.foreground.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.foreground.hex@;"/>
     </g>
     <g id="COMMENT" transform="matrix(1.35044,0,0,0.408647,1081.56,471.004)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.comment.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.comment.hex@;"/>
     </g>
     <g id="CONSTANT" transform="matrix(1.35044,0,0,0.408647,1081.56,707.225)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.orange.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.orange.hex@;"/>
     </g>
     <g id="GUTTER" transform="matrix(1.35044,0,0,0.408647,1081.56,943.445)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.gutter.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.gutter.hex@;"/>
     </g>
     <g id="TERMINATOR" transform="matrix(1.35044,0,0,0.408647,1081.56,1179.67)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.terminator.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.terminator.hex@;"/>
     </g>
     <g id="HEADER" transform="matrix(1.35044,0,0,0.408647,1081.56,1474.94)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.header.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.header.hex@;"/>
     </g>
     <g id="ROW" transform="matrix(1.35044,0,0,0.408647,1081.56,1770.22)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modal.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modal.hex@;"/>
     </g>
     <g id="THISROW" transform="matrix(1.35044,0,0,0.408647,1081.56,2006.44)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modalhighlight.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modalhighlight.hex@;"/>
     </g>
     <g id="BRACKET" transform="matrix(1.35044,0,0,0.408647,1684.32,1179.67)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.bracket.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.bracket.hex@;"/>
     </g>
     <g id="TABLINE" transform="matrix(1.35044,0,0,0.408647,1684.32,1474.94)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.tabline.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.tabline.hex@;"/>
     </g>
     <g id="ALTROW" transform="matrix(1.35044,0,0,0.408647,1684.32,1770.22)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.altrow.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.altrow.hex@;"/>
     </g>
     <g id="OPERATOR" transform="matrix(1.35044,0,0,0.408647,1684.32,2006.44)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g id="CURSOR" transform="matrix(1.35044,0,0,0.408647,1684.32,943.445)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.cursor.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.cursor.hex@;"/>
     </g>
     <g id="HIGHLIGHT" transform="matrix(1.35044,0,0,0.408647,1684.32,707.225)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.highlight.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.highlight.hex@;"/>
     </g>
     <g id="LINE" transform="matrix(2.52413,0,0,0.408647,-172.341,884.39)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.highlight.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.highlight.hex@;"/>
     </g>
     <g id="CURSOR1" serif:id="CURSOR" transform="matrix(0.0579943,0,0,0.408647,140.286,884.39)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.cursor.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.cursor.hex@;"/>
     </g>
     <g id="YELLOW" transform="matrix(1.35044,0,0,0.408647,478.808,-60.4916)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.yellow.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.yellow.hex@;"/>
     </g>
     <g id="BLACK" transform="matrix(1.35044,0,0,0.408647,1684.32,175.729)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.background.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.background.hex@;"/>
     </g>
     <g id="BLUE" transform="matrix(1.35044,0,0,0.408647,-123.948,175.729)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;"/>
     </g>
     <g id="BLUE1" serif:id="BLUE" transform="matrix(1.40931,0,0,0.408647,-131.41,3069.43)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
     </g>
     <g id="Table-Header" serif:id="Table Header" transform="matrix(2.76164,0,0,0.408647,-302.842,1534)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.header.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.header.hex@;"/>
     </g>
     <g id="Chart-Header" serif:id="Chart Header" transform="matrix(5.5785,0,0,0.408647,-659.929,2301.71)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.header.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.header.hex@;"/>
     </g>
     <g id="Chart-Body" serif:id="Chart Body" transform="matrix(5.5785,0,0,4.49512,-659.929,692.86)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modal.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modal.hex@;"/>
     </g>
     <g id="Chart-Background" serif:id="Chart Background" transform="matrix(5.10903,0,0,2.86053,-500.021,1419.08)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.background.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.background.hex@;"/>
     </g>
-    <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:[[ayame:colors.modal.hex]];stroke-width:2.08px;"/>
+    <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:@ayame:colors.modal.hex@;stroke-width:2.08px;"/>
     <g transform="matrix(1,0,0,1,0,59.0551)">
-        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:[[ayame:colors.modal.hex]];stroke-width:2.08px;"/>
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:@ayame:colors.modal.hex@;stroke-width:2.08px;"/>
     </g>
     <g transform="matrix(1,0,0,1,0,118.11)">
-        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:[[ayame:colors.modal.hex]];stroke-width:2.08px;"/>
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:@ayame:colors.modal.hex@;stroke-width:2.08px;"/>
     </g>
     <g transform="matrix(1,0,0,1,0,177.165)">
-        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:[[ayame:colors.modal.hex]];stroke-width:2.08px;"/>
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:@ayame:colors.modal.hex@;stroke-width:2.08px;"/>
     </g>
     <g transform="matrix(1,0,0,1,0,236.22)">
-        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:[[ayame:colors.modal.hex]];stroke-width:2.08px;"/>
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:@ayame:colors.modal.hex@;stroke-width:2.08px;"/>
     </g>
     <g transform="matrix(1,0,0,1,0,295.276)">
-        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:[[ayame:colors.modal.hex]];stroke-width:2.08px;"/>
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:@ayame:colors.modal.hex@;stroke-width:2.08px;"/>
     </g>
     <g transform="matrix(1,0,0,1,0,354.331)">
-        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:[[ayame:colors.modal.hex]];stroke-width:2.08px;"/>
+        <path d="M148.819,2616.14L2332.68,2616.14" style="fill:none;stroke:@ayame:colors.modal.hex@;stroke-width:2.08px;"/>
     </g>
     <g id="Bar-Item" serif:id="Bar Item">
         <g id="Bar-Item1" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item2" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item3" serif:id="Bar Item" transform="matrix(1,0,0,1,126.378,-4.54747e-13)">
         <g id="Bar-Item4" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item5" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item6" serif:id="Bar Item" transform="matrix(1,0,0,0.846154,251.575,461.538)">
         <g id="Bar-Item7" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item8" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,420.805 135.643,540.015 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,420.805 135.643,540.015 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item9" serif:id="Bar Item" transform="matrix(1,0,0,0.692308,376.772,923.077)">
         <g id="Bar-Item10" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item11" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.286L135.643,409.286C135.643,409.286 135.643,551.534 135.643,551.534L545.575,551.534L545.575,409.286Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.286L135.643,409.286C135.643,409.286 135.643,551.534 135.643,551.534L545.575,551.534L545.575,409.286Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item12" serif:id="Bar Item" transform="matrix(1,0,0,0.538462,503.15,1384.62)">
         <g id="Bar-Item13" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item14" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.61C545.575,409.61 135.643,409.61 135.643,409.61C135.643,409.61 135.643,551.211 135.643,551.211C135.643,551.211 545.575,551.211 545.575,551.211L545.575,409.61Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.61C545.575,409.61 135.643,409.61 135.643,409.61C135.643,409.61 135.643,551.211 135.643,551.211C135.643,551.211 545.575,551.211 545.575,551.211L545.575,409.61Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item15" serif:id="Bar Item" transform="matrix(1,0,0,0.692308,628.346,923.077)">
         <g id="Bar-Item16" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item17" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.286L135.643,409.286C135.643,409.286 135.643,551.534 135.643,551.534L545.575,551.534L545.575,409.286Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.286L135.643,409.286C135.643,409.286 135.643,551.534 135.643,551.534L545.575,551.534L545.575,409.286Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item18" serif:id="Bar Item" transform="matrix(1,0,0,1,753.543,2.21689e-12)">
         <g id="Bar-Item19" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item20" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item21" serif:id="Bar Item" transform="matrix(1,0,0,0.846154,879.921,461.538)">
         <g id="Bar-Item22" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item23" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,409.08 135.643,551.74 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,409.08 135.643,551.74 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item24" serif:id="Bar Item" transform="matrix(1,0,0,0.846154,1005.12,461.538)">
         <g id="Bar-Item25" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item26" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,420.805 135.643,540.015 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,420.805 135.643,540.015 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item27" serif:id="Bar Item" transform="matrix(1,0,0,1,1130.31,-1.47793e-12)">
         <g id="Bar-Item28" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item29" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item30" serif:id="Bar Item" transform="matrix(0.750465,0,0,0.153846,1123.3,2656.57)">
         <g id="Bar-Item31" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item32" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM542.624,413.252L138.594,413.252C138.594,413.252 138.594,547.569 138.594,547.569L542.624,547.569L542.624,413.252Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM542.624,413.252L138.594,413.252C138.594,413.252 138.594,547.569 138.594,547.569L542.624,547.569L542.624,413.252Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item33" serif:id="Bar Item" transform="matrix(1,0,0,1,1255.51,-2.27374e-13)">
         <g id="Bar-Item34" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item35" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item36" serif:id="Bar Item" transform="matrix(1,0,0,1,1381.89,1.42109e-12)">
         <g id="Bar-Item37" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item38" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,408.938 135.643,551.883 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item39" serif:id="Bar Item" transform="matrix(1,0,0,1,1507.09,3.06954e-12)">
         <g id="Bar-Item40" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item41" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item42" serif:id="Bar Item" transform="matrix(1,0,0,1,1632.28,4.718e-12)">
         <g id="Bar-Item43" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item44" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883C135.643,551.883 545.575,551.883 545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item45" serif:id="Bar Item" transform="matrix(1,0,0,0.846154,1758.66,461.538)">
         <g id="Bar-Item46" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item47" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,409.08 135.643,551.74 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,409.08L135.643,409.08C135.643,409.08 135.643,551.74 135.643,551.74L545.575,551.74L545.575,409.08Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item48" serif:id="Bar Item" transform="matrix(1,0,0,1,1883.86,4.54747e-13)">
         <g id="Bar-Item49" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item50" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938C545.575,408.938 135.643,408.938 135.643,408.938C135.643,420.325 135.643,551.883 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Bar-Item51" serif:id="Bar Item" transform="matrix(1,0,0,1,2009.06,3.41061e-13)">
         <g id="Bar-Item52" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.blue.hex]];fill-opacity:0.4;"/>
+            <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.blue.hex@;fill-opacity:0.4;"/>
         </g>
         <g id="Bar-Item53" serif:id="Bar Item" transform="matrix(0.234739,0,0,2.65621,142.684,1532)">
-            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:[[ayame:colors.blue.hex]];"/>
+            <path d="M554.45,408.153L554.45,552.667L126.768,552.667L126.768,408.153L554.45,408.153ZM545.575,408.938L135.643,408.938C135.643,419.843 135.643,540.977 135.643,551.883L545.575,551.883L545.575,408.938Z" style="fill:@ayame:colors.blue.hex@;"/>
         </g>
     </g>
     <g id="Tabline" transform="matrix(2.76164,0,0,0.408647,-302.842,1593.05)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.tabline.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.tabline.hex@;"/>
     </g>
     <g id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1652.11)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modal.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modal.hex@;"/>
     </g>
     <g id="Row1" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1711.16)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.altrow.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.altrow.hex@;"/>
     </g>
     <g id="Row2" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1770.22)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modal.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modal.hex@;"/>
     </g>
     <g id="Row3" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1829.27)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modalhighlight.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modalhighlight.hex@;"/>
     </g>
     <g id="Row4" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1888.33)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modal.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modal.hex@;"/>
     </g>
     <g id="Row5" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2006.44)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modal.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modal.hex@;"/>
     </g>
     <g id="Row6" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2124.55)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.modal.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.modal.hex@;"/>
     </g>
     <g id="Row7" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1947.38)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.altrow.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.altrow.hex@;"/>
     </g>
     <g id="Row8" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2183.6)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.altrow.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.altrow.hex@;"/>
     </g>
     <g id="Row9" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2065.49)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.altrow.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.altrow.hex@;"/>
     </g>
     <g id="MAGENTA" transform="matrix(1.35044,0,0,0.408647,478.808,175.729)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.purple.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.purple.hex@;"/>
     </g>
     <g id="CURSOR2" serif:id="CURSOR" transform="matrix(0.0579943,0,0,0.408647,1069.56,1829.27)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:[[ayame:colors.cursor.hex]];"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:@ayame:colors.cursor.hex@;"/>
     </g>
     <g transform="matrix(1,0,0,1,47.2441,47.2441)">
-        <text x="0px" y="43.914px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">Terminal colors ~~</text>
-        <text x="250.917px" y="102.956px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">RED                   YELLOW                   GREEN                   CYAN</text>
-        <text x="200.733px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.red.hex]];">[[ayame:colors.red.hex]]</text>
-        <text x="802.933px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.yellow.hex]];">[[ayame:colors.yellow.hex]]</text>
-        <text x="1405.13px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.green.hex]];">[[ayame:colors.green.hex]]</text>
-        <text x="2007.33px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cyan.hex]];">[[ayame:colors.cyan.hex]]</text>
-        <text x="75.275px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.red.hex]];">[[ayame:colors.red.rgb]]</text>
-        <text x="677.475px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.yellow.hex]];">[[ayame:colors.yellow.rgb]]</text>
-        <text x="1279.67px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.green.hex]];">[[ayame:colors.green.rgb]]</text>
-        <text x="1906.97px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cyan.hex]];">[[ayame:colors.cyan.rgb]]</text>
-        <text x="50.183px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.red.hex]];">[[ayame:colors.red.hsl]]</text>
-        <text x="677.475px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.yellow.hex]];">[[ayame:colors.yellow.hsl]]</text>
-        <text x="1279.67px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.green.hex]];">[[ayame:colors.green.hsl]]</text>
-        <text x="1881.88px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cyan.hex]];">[[ayame:colors.cyan.hsl]]</text>
-        <text x="225.825px" y="339.122px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">BLUE               PURPLE/MAGENTA               WHITE</text>
-        <text x="2032.42px" y="339.122px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">BLACK</text>
-        <text x="200.733px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">[[ayame:colors.blue.hex]]</text>
-        <text x="802.933px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">[[ayame:colors.purple.hex]]</text>
-        <text x="1405.13px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.foreground.hex]]                 [[ayame:colors.background.hex]]</text>
-        <text x="75.275px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">[[ayame:colors.blue.rgb]]</text>
-        <text x="677.475px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">[[ayame:colors.purple.rgb]]</text>
-        <text x="1254.58px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.foreground.rgb]]        rgb(23, 19, 30)</text>
-        <text x="50.183px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">[[ayame:colors.blue.hsl]]</text>
-        <text x="652.383px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">[[ayame:colors.purple.hsl]]</text>
-        <text x="1254.58px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.foreground.hsl]]       hsl(262, 22%, 10%)</text>
-        <text x="0px" y="575.289px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">-----------------------------------------------------------------------------------------------</text>
-        <text x="0px" y="634.331px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">Code ~~</text>
-        <text x="1406.53px" y="634.331px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.background.hex]];">COMMENT</text>
-        <text x="1985.03px" y="634.331px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">TODO/TEAL</text>
-        <text x="25.092px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">1</text>
-        <text x="100.367px" y="693.372px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">const</text>
-        <text x="251.914px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">btn</text>
-        <text x="352.28px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.magenta.hex]];">=</text>
-        <text x="402.464px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">document</text>
-        <text x="603.197px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">.</text>
-        <text x="628.289px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">getElementById</text>
-        <text x="979.572px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">(</text>
-        <text x="1004.66px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.green.hex]];">&apos;btn&apos;</text>
-        <text x="1130.12px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">)</text>
-        <text x="1155.21px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">;</text>
-        <text x="1406.13px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.comment.hex]];">[[ayame:colors.comment.hex]]</text>
-        <text x="2008.33px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.todo.hex]];">[[ayame:colors.todo.hex]]</text>
-        <text x="25.092px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">2</text>
-        <text x="100.367px" y="752.414px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">let</text>
-        <text x="201.331px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">count</text>
-        <text x="351.881px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.magenta.hex]];">=</text>
-        <text x="402.065px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.orange.hex]];">0</text>
-        <text x="427.156px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">;</text>
-        <text x="1305.37px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.comment.hex]];">[[ayame:colors.comment.rgb]]</text>
-        <text x="1882.47px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.todo.hex]];">[[ayame:colors.teal.rgb]]</text>
-        <text x="25.092px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">3</text>
-        <text x="1279.67px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.comment.hex]];">[[ayame:colors.comment.hsl]]</text>
-        <text x="1881.88px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.todo.hex]];">[[ayame:colors.teal.hsl]]</text>
-        <text x="25.092px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">4</text>
-        <text x="100.367px" y="870.497px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">function</text>
-        <text x="327.787px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">render</text>
-        <text x="478.337px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">()</text>
-        <text x="553.612px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">{</text>
-        <text x="1306.36px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">CONSTANT/ORANGE</text>
-        <text x="1983.84px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">HIGHLIGHT</text>
-        <text x="25.092px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">5</text>
-        <text x="150.55px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.comment.hex]];">//</text>
-        <text x="226.423px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.background.hex]];">TODO</text>
-        <text x="327.587px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.todo.hex]];">:</text>
-        <text x="378.169px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.comment.hex]];">change variable name</text>
-        <text x="1410.91px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.orange.hex]];">[[ayame:colors.orange.hex]]</text>
-        <text x="2013.12px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.highlight.hex]]</text>
-        <text x="25.092px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">6</text>
-        <text x="150.55px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">btn</text>
-        <text x="225.825px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">.</text>
-        <text x="250.917px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">innerText</text>
-        <text x="501.833px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.magenta.hex]];">=</text>
-        <text x="552.017px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">`</text>
-        <text x="577.108px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.green.hex]];">Count:</text>
-        <text x="752.75px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.red.hex]];">${</text>
-        <text x="802.933px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">count</text>
-        <text x="928.392px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.red.hex]];">}</text>
-        <text x="953.483px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">`;</text>
-        <text x="1279.67px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.orange.hex]];">[[ayame:colors.orange.rgb]]</text>
-        <text x="1906.97px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">rgb(45, 32, 60)</text>
-        <text x="25.092px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">7</text>
-        <text x="100.367px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">}</text>
-        <text x="1279.67px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.orange.hex]];">[[ayame:colors.orange.hsl]]</text>
-        <text x="1881.88px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">hsl(268, 30%, 18%)</text>
-        <text x="25.092px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">8</text>
-        <text x="1405.13px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">GUTTER                  CURSOR</text>
-        <text x="25.092px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">9</text>
-        <text x="100.367px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">btn</text>
-        <text x="175.642px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">.</text>
-        <text x="200.733px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">addEventListener</text>
-        <text x="602.2px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">(</text>
-        <text x="627.292px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.green.hex]];">&apos;click&apos;</text>
-        <text x="802.933px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">,</text>
-        <text x="853.117px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">()</text>
-        <text x="928.392px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.cyan.hex]];">=&gt;</text>
-        <text x="1004.07px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">{</text>
-        <text x="1405.53px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">[[ayame:colors.gutter.hex]]</text>
-        <text x="2007.73px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">[[ayame:colors.cursor.hex]]</text>
-        <text x="0px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">10</text>
-        <text x="150.55px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.comment.hex]];">// Count from 1 to 10.</text>
-        <text x="1309.15px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">[[ayame:colors.gutter.rgb]]</text>
-        <text x="1861.17px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">[[ayame:colors.cursor.rgb]]</text>
-        <text x="0px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">11</text>
-        <text x="150.55px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cyan.hex]];">if</text>
-        <text x="225.825px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">(</text>
-        <text x="250.917px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">count</text>
-        <text x="401.467px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.red.hex]];">&lt;</text>
-        <text x="451.65px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.orange.hex]];">10</text>
-        <text x="501.833px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">)</text>
-        <text x="552.017px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">{</text>
-        <text x="1279.67px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">[[ayame:colors.gutter.hsl]]</text>
-        <text x="1856.78px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">[[ayame:colors.cursor.hsl]]</text>
-        <text x="0px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">12</text>
-        <text x="200.733px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">count</text>
-        <text x="351.283px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.magenta.hex]];">+=</text>
-        <text x="426.558px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.orange.hex]];">1</text>
-        <text x="451.65px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">;</text>
-        <text x="1354.95px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">TERMINATOR                BRACKET</text>
-        <text x="0px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">13</text>
-        <text x="200.733px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">render</text>
-        <text x="351.283px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">()</text>
-        <text x="401.467px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">;                                       [[ayame:colors.terminator.hex]]</text>
-        <text x="2007.33px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">[[ayame:colors.bracket.hex]]</text>
-        <text x="0px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">14</text>
-        <text x="150.55px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">}</text>
-        <text x="1254.58px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">[[ayame:colors.terminator.rgb]]</text>
-        <text x="1856.78px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">[[ayame:colors.bracket.rgb]]</text>
-        <text x="0px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">15</text>
-        <text x="100.367px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">})</text>
-        <text x="150.55px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.terminator.hex]];">;                                           [[ayame:colors.terminator.hsl]]</text>
-        <text x="1856.78px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.bracket.hex]];">[[ayame:colors.bracket.hsl]]</text>
-        <text x="0px" y="1579px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.gutter.hex]];">-----------------------------------------------------------------------------------------------</text>
-        <text x="0px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">GUI ~~</text>
-        <text x="1406.33px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">HEADER</text>
-        <text x="2009.73px" y="1638.04px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">TABLINE</text>
-        <text x="376.375px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">Favorite Movies</text>
-        <text x="1408.12px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">[[ayame:colors.header.hex]]                 [[ayame:colors.tabline.hex]]</text>
-        <text x="25.092px" y="1756.12px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">Rank  Title                           TMDB ID</text>
-        <text x="1304.77px" y="1756.12px" style="font-family:'VictorMono-Regular', 'Victor Mono';font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">[[ayame:colors.header.rgb]]          [[ayame:colors.tabline.rgb]]</text>
-        <text x="75.275px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#1  EEAAO</text>
-        <text x="1003.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">545611</text>
-        <text x="1279.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">[[ayame:colors.header.hsl]]       [[ayame:colors.tabline.hsl]]</text>
-        <text x="75.275px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#2  Puss in Boots: The Last Wish</text>
-        <text x="1003.67px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">315162</text>
-        <text x="1254.58px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">Italic</text>
-        <text x="1431.42px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">| FG:CURSOR</text>
-        <text x="1883.07px" y="1874.21px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">Bold</text>
-        <text x="2008.53px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">| FG:CURSOR</text>
-        <text x="75.275px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#3  A Silent Voice: The Movie</text>
-        <text x="1003.67px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">378064</text>
-        <text x="1430.23px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">MODAL                   ALTROW</text>
-        <text x="75.275px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#4  Interstellar</text>
-        <text x="1003.67px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">1</text>
-        <text x="1028.76px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">5</text>
-        <text x="1053.85px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">7336</text>
-        <text x="1405.13px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.modal.hex]]                 [[ayame:colors.altrow.hex]]</text>
-        <rect x="1003.67" y="1995.41" width="25.092" height="2.083" style="fill:[[ayame:colors.blue.hex]];"/>
-        <rect x="1028.76" y="1995.41" width="25.092" height="2.083" style="fill:[[ayame:colors.background.hex]];"/>
-        <rect x="1053.85" y="1995.41" width="100.367" height="2.083" style="fill:[[ayame:colors.blue.hex]];"/>
-        <text x="75.275px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#5  Train to Busan</text>
-        <text x="1003.67px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">396535</text>
-        <text x="1304.77px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.modal.rgb]]         [[ayame:colors.altrow.rgb]]</text>
-        <text x="75.275px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#6  Your Name.</text>
-        <text x="1003.67px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">372058</text>
-        <text x="1254.58px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.modal.hsl]]       [[ayame:colors.altrow.rgb]]</text>
-        <text x="75.275px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#7  No Game No Life: Zero</text>
-        <text x="1003.67px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">445030</text>
-        <text x="1405.13px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">THISROW</text>
-        <text x="1932.06px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.background.hex]];">OPERATOR/PINK</text>
-        <text x="75.275px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#8  Oppenheimer</text>
-        <text x="1003.67px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">872585</text>
-        <text x="1405.13px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.modalhighlight.hex]]</text>
-        <text x="2007.33px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.magenta.hex]];">[[ayame:colors.magenta.hex]]</text>
-        <text x="75.275px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#9  Top Gun: Maverick</text>
-        <text x="1003.67px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">361743</text>
-        <text x="1304.77px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.highlight.rgb]]</text>
-        <text x="1881.88px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.magenta.hex]];">[[ayame:colors.magenta.rgb]]</text>
-        <text x="50.183px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">#10  A Quiet Place</text>
-        <text x="1003.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.purple.hex]];">447332</text>
-        <text x="1279.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">[[ayame:colors.highlight.hsl]]</text>
-        <text x="1881.88px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.magenta.hex]];">[[ayame:colors.magenta.hsl]]</text>
-        <text x="878.208px" y="2464.62px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:[[ayame:colors.cursor.hex]];">Episode Scores Over Time</text>
-        <text x="25.092px" y="2582.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">10</text>
-        <text x="50.183px" y="2641.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">9</text>
-        <text x="50.183px" y="2700.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">8</text>
-        <text x="50.183px" y="2759.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">7</text>
-        <text x="50.183px" y="2818.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">6</text>
-        <text x="50.183px" y="2877.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">5</text>
-        <text x="50.183px" y="2936.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">4</text>
-        <text x="175.642px" y="2996px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17</text>
-        <text x="853.117px" y="3055.04px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">overall avg       episode score</text>
-        <text x="25.092px" y="3232.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">FILL: OPACITY 40% BLUE</text>
+        <text x="0px" y="43.914px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">Terminal colors ~~</text>
+        <text x="250.917px" y="102.956px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">RED                   YELLOW                   GREEN                   CYAN</text>
+        <text x="200.733px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.red.hex@;">@ayame:colors.red.hex@</text>
+        <text x="802.933px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.yellow.hex@;">@ayame:colors.yellow.hex@</text>
+        <text x="1405.13px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.green.hex@;">@ayame:colors.green.hex@</text>
+        <text x="2007.33px" y="161.997px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cyan.hex@;">@ayame:colors.cyan.hex@</text>
+        <text x="75.275px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.red.hex@;">@ayame:colors.red.rgb@</text>
+        <text x="677.475px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.yellow.hex@;">@ayame:colors.yellow.rgb@</text>
+        <text x="1279.67px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.green.hex@;">@ayame:colors.green.rgb@</text>
+        <text x="1906.97px" y="221.039px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cyan.hex@;">@ayame:colors.cyan.rgb@</text>
+        <text x="50.183px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.red.hex@;">@ayame:colors.red.hsl@</text>
+        <text x="677.475px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.yellow.hex@;">@ayame:colors.yellow.hsl@</text>
+        <text x="1279.67px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.green.hex@;">@ayame:colors.green.hsl@</text>
+        <text x="1881.88px" y="280.081px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cyan.hex@;">@ayame:colors.cyan.hsl@</text>
+        <text x="225.825px" y="339.122px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">BLUE               PURPLE/MAGENTA               WHITE</text>
+        <text x="2032.42px" y="339.122px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">BLACK</text>
+        <text x="200.733px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.blue.hex@;">@ayame:colors.blue.hex@</text>
+        <text x="802.933px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">@ayame:colors.purple.hex@</text>
+        <text x="1405.13px" y="398.164px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.foreground.hex@                 @ayame:colors.background.hex@</text>
+        <text x="75.275px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.blue.hex@;">@ayame:colors.blue.rgb@</text>
+        <text x="677.475px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">@ayame:colors.purple.rgb@</text>
+        <text x="1254.58px" y="457.206px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.foreground.rgb@        rgb(23, 19, 30)</text>
+        <text x="50.183px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.blue.hex@;">@ayame:colors.blue.hsl@</text>
+        <text x="652.383px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">@ayame:colors.purple.hsl@</text>
+        <text x="1254.58px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.foreground.hsl@       hsl(262, 22%, 10%)</text>
+        <text x="0px" y="575.289px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">-----------------------------------------------------------------------------------------------</text>
+        <text x="0px" y="634.331px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">Code ~~</text>
+        <text x="1406.53px" y="634.331px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.background.hex@;">COMMENT</text>
+        <text x="1985.03px" y="634.331px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">TODO/TEAL</text>
+        <text x="25.092px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">1</text>
+        <text x="100.367px" y="693.372px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.blue.hex@;">const</text>
+        <text x="251.914px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">btn</text>
+        <text x="352.28px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.magenta.hex@;">=</text>
+        <text x="402.464px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">document</text>
+        <text x="603.197px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">.</text>
+        <text x="628.289px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">getElementById</text>
+        <text x="979.572px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">(</text>
+        <text x="1004.66px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.green.hex@;">&apos;btn&apos;</text>
+        <text x="1130.12px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">)</text>
+        <text x="1155.21px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">;</text>
+        <text x="1406.13px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.comment.hex@;">@ayame:colors.comment.hex@</text>
+        <text x="2008.33px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.todo.hex@;">@ayame:colors.todo.hex@</text>
+        <text x="25.092px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">2</text>
+        <text x="100.367px" y="752.414px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.blue.hex@;">let</text>
+        <text x="201.331px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">count</text>
+        <text x="351.881px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.magenta.hex@;">=</text>
+        <text x="402.065px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.orange.hex@;">0</text>
+        <text x="427.156px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">;</text>
+        <text x="1305.37px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.comment.hex@;">@ayame:colors.comment.rgb@</text>
+        <text x="1882.47px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.todo.hex@;">@ayame:colors.teal.rgb@</text>
+        <text x="25.092px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">3</text>
+        <text x="1279.67px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.comment.hex@;">@ayame:colors.comment.hsl@</text>
+        <text x="1881.88px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.todo.hex@;">@ayame:colors.teal.hsl@</text>
+        <text x="25.092px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">4</text>
+        <text x="100.367px" y="870.497px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.blue.hex@;">function</text>
+        <text x="327.787px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">render</text>
+        <text x="478.337px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">()</text>
+        <text x="553.612px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">{</text>
+        <text x="1306.36px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">CONSTANT/ORANGE</text>
+        <text x="1983.84px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">HIGHLIGHT</text>
+        <text x="25.092px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">5</text>
+        <text x="150.55px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.comment.hex@;">//</text>
+        <text x="226.423px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.background.hex@;">TODO</text>
+        <text x="327.587px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.todo.hex@;">:</text>
+        <text x="378.169px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.comment.hex@;">change variable name</text>
+        <text x="1410.91px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.orange.hex@;">@ayame:colors.orange.hex@</text>
+        <text x="2013.12px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.highlight.hex@</text>
+        <text x="25.092px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">6</text>
+        <text x="150.55px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">btn</text>
+        <text x="225.825px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">.</text>
+        <text x="250.917px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">innerText</text>
+        <text x="501.833px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.magenta.hex@;">=</text>
+        <text x="552.017px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">`</text>
+        <text x="577.108px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.green.hex@;">Count:</text>
+        <text x="752.75px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.red.hex@;">${</text>
+        <text x="802.933px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">count</text>
+        <text x="928.392px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.red.hex@;">}</text>
+        <text x="953.483px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">`;</text>
+        <text x="1279.67px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.orange.hex@;">@ayame:colors.orange.rgb@</text>
+        <text x="1906.97px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">rgb(45, 32, 60)</text>
+        <text x="25.092px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">7</text>
+        <text x="100.367px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">}</text>
+        <text x="1279.67px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.orange.hex@;">@ayame:colors.orange.hsl@</text>
+        <text x="1881.88px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">hsl(268, 30%, 18%)</text>
+        <text x="25.092px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">8</text>
+        <text x="1405.13px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">GUTTER                  CURSOR</text>
+        <text x="25.092px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">9</text>
+        <text x="100.367px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">btn</text>
+        <text x="175.642px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">.</text>
+        <text x="200.733px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">addEventListener</text>
+        <text x="602.2px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">(</text>
+        <text x="627.292px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.green.hex@;">&apos;click&apos;</text>
+        <text x="802.933px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">,</text>
+        <text x="853.117px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">()</text>
+        <text x="928.392px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.cyan.hex@;">=&gt;</text>
+        <text x="1004.07px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">{</text>
+        <text x="1405.53px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">@ayame:colors.gutter.hex@</text>
+        <text x="2007.73px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">@ayame:colors.cursor.hex@</text>
+        <text x="0px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">10</text>
+        <text x="150.55px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.comment.hex@;">// Count from 1 to 10.</text>
+        <text x="1309.15px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">@ayame:colors.gutter.rgb@</text>
+        <text x="1861.17px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">@ayame:colors.cursor.rgb@</text>
+        <text x="0px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">11</text>
+        <text x="150.55px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cyan.hex@;">if</text>
+        <text x="225.825px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">(</text>
+        <text x="250.917px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">count</text>
+        <text x="401.467px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.red.hex@;">&lt;</text>
+        <text x="451.65px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.orange.hex@;">10</text>
+        <text x="501.833px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">)</text>
+        <text x="552.017px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">{</text>
+        <text x="1279.67px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">@ayame:colors.gutter.hsl@</text>
+        <text x="1856.78px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">@ayame:colors.cursor.hsl@</text>
+        <text x="0px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">12</text>
+        <text x="200.733px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">count</text>
+        <text x="351.283px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.magenta.hex@;">+=</text>
+        <text x="426.558px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.orange.hex@;">1</text>
+        <text x="451.65px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">;</text>
+        <text x="1354.95px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">TERMINATOR                BRACKET</text>
+        <text x="0px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">13</text>
+        <text x="200.733px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">render</text>
+        <text x="351.283px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">()</text>
+        <text x="401.467px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">;                                       @ayame:colors.terminator.hex@</text>
+        <text x="2007.33px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">@ayame:colors.bracket.hex@</text>
+        <text x="0px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">14</text>
+        <text x="150.55px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">}</text>
+        <text x="1254.58px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">@ayame:colors.terminator.rgb@</text>
+        <text x="1856.78px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">@ayame:colors.bracket.rgb@</text>
+        <text x="0px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">15</text>
+        <text x="100.367px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">})</text>
+        <text x="150.55px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.terminator.hex@;">;                                           @ayame:colors.terminator.hsl@</text>
+        <text x="1856.78px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.bracket.hex@;">@ayame:colors.bracket.hsl@</text>
+        <text x="0px" y="1579px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.gutter.hex@;">-----------------------------------------------------------------------------------------------</text>
+        <text x="0px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">GUI ~~</text>
+        <text x="1406.33px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">HEADER</text>
+        <text x="2009.73px" y="1638.04px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">TABLINE</text>
+        <text x="376.375px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">Favorite Movies</text>
+        <text x="1408.12px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">@ayame:colors.header.hex@                 @ayame:colors.tabline.hex@</text>
+        <text x="25.092px" y="1756.12px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">Rank  Title                           TMDB ID</text>
+        <text x="1304.77px" y="1756.12px" style="font-family:'VictorMono-Regular', 'Victor Mono';font-size:45.833px;fill:@ayame:colors.cursor.hex@;">@ayame:colors.header.rgb@          @ayame:colors.tabline.rgb@</text>
+        <text x="75.275px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#1  EEAAO</text>
+        <text x="1003.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">545611</text>
+        <text x="1279.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">@ayame:colors.header.hsl@       @ayame:colors.tabline.hsl@</text>
+        <text x="75.275px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#2  Puss in Boots: The Last Wish</text>
+        <text x="1003.67px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">315162</text>
+        <text x="1254.58px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">Italic</text>
+        <text x="1431.42px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">| FG:CURSOR</text>
+        <text x="1883.07px" y="1874.21px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">Bold</text>
+        <text x="2008.53px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">| FG:CURSOR</text>
+        <text x="75.275px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#3  A Silent Voice: The Movie</text>
+        <text x="1003.67px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">378064</text>
+        <text x="1430.23px" y="1933.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">MODAL                   ALTROW</text>
+        <text x="75.275px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#4  Interstellar</text>
+        <text x="1003.67px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.blue.hex@;">1</text>
+        <text x="1028.76px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">5</text>
+        <text x="1053.85px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.blue.hex@;">7336</text>
+        <text x="1405.13px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.modal.hex@                 @ayame:colors.altrow.hex@</text>
+        <rect x="1003.67" y="1995.41" width="25.092" height="2.083" style="fill:@ayame:colors.blue.hex@;"/>
+        <rect x="1028.76" y="1995.41" width="25.092" height="2.083" style="fill:@ayame:colors.background.hex@;"/>
+        <rect x="1053.85" y="1995.41" width="100.367" height="2.083" style="fill:@ayame:colors.blue.hex@;"/>
+        <text x="75.275px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#5  Train to Busan</text>
+        <text x="1003.67px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">396535</text>
+        <text x="1304.77px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.modal.rgb@         @ayame:colors.altrow.rgb@</text>
+        <text x="75.275px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#6  Your Name.</text>
+        <text x="1003.67px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">372058</text>
+        <text x="1254.58px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.modal.hsl@       @ayame:colors.altrow.rgb@</text>
+        <text x="75.275px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#7  No Game No Life: Zero</text>
+        <text x="1003.67px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">445030</text>
+        <text x="1405.13px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">THISROW</text>
+        <text x="1932.06px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.background.hex@;">OPERATOR/PINK</text>
+        <text x="75.275px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#8  Oppenheimer</text>
+        <text x="1003.67px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">872585</text>
+        <text x="1405.13px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.modalhighlight.hex@</text>
+        <text x="2007.33px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.magenta.hex@;">@ayame:colors.magenta.hex@</text>
+        <text x="75.275px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#9  Top Gun: Maverick</text>
+        <text x="1003.67px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">361743</text>
+        <text x="1304.77px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.highlight.rgb@</text>
+        <text x="1881.88px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.magenta.hex@;">@ayame:colors.magenta.rgb@</text>
+        <text x="50.183px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">#10  A Quiet Place</text>
+        <text x="1003.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.purple.hex@;">447332</text>
+        <text x="1279.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">@ayame:colors.highlight.hsl@</text>
+        <text x="1881.88px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.magenta.hex@;">@ayame:colors.magenta.hsl@</text>
+        <text x="878.208px" y="2464.62px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:@ayame:colors.cursor.hex@;">Episode Scores Over Time</text>
+        <text x="25.092px" y="2582.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">10</text>
+        <text x="50.183px" y="2641.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">9</text>
+        <text x="50.183px" y="2700.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">8</text>
+        <text x="50.183px" y="2759.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">7</text>
+        <text x="50.183px" y="2818.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">6</text>
+        <text x="50.183px" y="2877.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">5</text>
+        <text x="50.183px" y="2936.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">4</text>
+        <text x="175.642px" y="2996px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17</text>
+        <text x="853.117px" y="3055.04px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">overall avg       episode score</text>
+        <text x="25.092px" y="3232.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.blue.hex@;">FILL: OPACITY 40% BLUE</text>
         <g transform="matrix(45.8333,0,0,45.8333,1881.88,3232.16)">
         </g>
         <g transform="matrix(45.8333,0,0,45.8333,1881.88,3232.16)">
@@ -511,75 +511,75 @@
         </g>
         <g transform="matrix(45.8333,0,0,45.8333,2233.16,3232.16)">
         </g>
-        <text x="1806.6px" y="3232.16px" style="font-family:'VictorMono-BoldItalic', 'Victor Mono';font-weight:700;font-style:italic;font-size:45.833px;fill:url(#_Linear4);">Ayame color scheme v[[ayame:version]]</text>
-        <text x="25.092px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.blue.hex]];">BORDER: BLUE</text>
-        <text x="1555.68px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">https://github.com/Nurdoidz/Ayame</text>
-        <text x="25.092px" y="3350.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.magenta.hex]];">LINE: OPERATOR</text>
-        <text x="1354.95px" y="3350.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:[[ayame:colors.foreground.hex]];">©2024 Nurdoidz released under MIT License</text>
+        <text x="1806.6px" y="3232.16px" style="font-family:'VictorMono-BoldItalic', 'Victor Mono';font-weight:700;font-style:italic;font-size:45.833px;fill:url(#_Linear4);">Ayame color scheme v@ayame:version@</text>
+        <text x="25.092px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.blue.hex@;">BORDER: BLUE</text>
+        <text x="1555.68px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">https://github.com/Nurdoidz/Ayame</text>
+        <text x="25.092px" y="3350.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.magenta.hex@;">LINE: OPERATOR</text>
+        <text x="1354.95px" y="3350.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:@ayame:colors.foreground.hex@;">©2024 Nurdoidz released under MIT License</text>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,-357.263,188.495)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,232.729,660.936)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,282.957,660.936)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,-232.066,188.495)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,-106.869,208.574)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,19.5088,233.377)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,144.706,259.361)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,269.902,267.629)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,396.28,255.818)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,521.477,254.637)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,646.674,254.637)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,773.052,247.55)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,898.249,241.645)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,1023.45,238.101)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,1149.82,233.377)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,1275.02,231.015)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,1400.22,232.196)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,1526.6,228.653)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
     <g transform="matrix(1.03545,0,0,0.735229,1651.79,226.29)">
-        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:[[ayame:colors.magenta.hex]];"/>
+        <ellipse cx="560.619" cy="3301.89" rx="11.407" ry="16.064" style="fill:@ayame:colors.magenta.hex@;"/>
     </g>
-    <path d="M222.638,2616.14L349.016,2616.14L473.622,2636.22L600,2661.02L725.197,2687.01L850.394,2695.28L976.772,2683.47L1101.97,2682.28L1227.16,2682.28L1353.54,2675.2L1478.74,2669.29L1603.94,2665.75L1730.32,2661.02L1855.51,2658.66L1980.71,2659.84L2107.09,2656.3L2232.28,2653.94" style="fill:none;stroke:[[ayame:colors.magenta.hex]];stroke-width:6.25px;stroke-linecap:round;"/>
-    <path d="M813.22,3088.58L863.448,3088.58" style="fill:none;stroke:[[ayame:colors.magenta.hex]];stroke-width:6.25px;stroke-linecap:round;"/>
+    <path d="M222.638,2616.14L349.016,2616.14L473.622,2636.22L600,2661.02L725.197,2687.01L850.394,2695.28L976.772,2683.47L1101.97,2682.28L1227.16,2682.28L1353.54,2675.2L1478.74,2669.29L1603.94,2665.75L1730.32,2661.02L1855.51,2658.66L1980.71,2659.84L2107.09,2656.3L2232.28,2653.94" style="fill:none;stroke:@ayame:colors.magenta.hex@;stroke-width:6.25px;stroke-linecap:round;"/>
+    <path d="M813.22,3088.58L863.448,3088.58" style="fill:none;stroke:@ayame:colors.magenta.hex@;stroke-width:6.25px;stroke-linecap:round;"/>
     <defs>
-        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,0.547455,-0.336305)"><stop offset="0" style="stop-color:[[ayame:colors.blue.hex]];stop-opacity:1"/><stop offset="1" style="stop-color:[[ayame:colors.purple.hex]];stop-opacity:1"/></linearGradient>
-        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,-5.47455,-0.336305)"><stop offset="0" style="stop-color:[[ayame:colors.blue.hex]];stop-opacity:1"/><stop offset="1" style="stop-color:[[ayame:colors.purple.hex]];stop-opacity:1"/></linearGradient>
-        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,-6.56945,-0.336305)"><stop offset="0" style="stop-color:[[ayame:colors.blue.hex]];stop-opacity:1"/><stop offset="1" style="stop-color:[[ayame:colors.purple.hex]];stop-opacity:1"/></linearGradient>
-        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(451.65,0,0,56.25,1932.06,3216.75)"><stop offset="0" style="stop-color:[[ayame:colors.blue.hex]];stop-opacity:1"/><stop offset="1" style="stop-color:[[ayame:colors.purple.hex]];stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,0.547455,-0.336305)"><stop offset="0" style="stop-color:@ayame:colors.blue.hex@;stop-opacity:1"/><stop offset="1" style="stop-color:@ayame:colors.purple.hex@;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,-5.47455,-0.336305)"><stop offset="0" style="stop-color:@ayame:colors.blue.hex@;stop-opacity:1"/><stop offset="1" style="stop-color:@ayame:colors.purple.hex@;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.85418,0,0,1.22727,-6.56945,-0.336305)"><stop offset="0" style="stop-color:@ayame:colors.blue.hex@;stop-opacity:1"/><stop offset="1" style="stop-color:@ayame:colors.purple.hex@;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(451.65,0,0,56.25,1932.06,3216.75)"><stop offset="0" style="stop-color:@ayame:colors.blue.hex@;stop-opacity:1"/><stop offset="1" style="stop-color:@ayame:colors.purple.hex@;stop-opacity:1"/></linearGradient>
     </defs>
 </svg>
