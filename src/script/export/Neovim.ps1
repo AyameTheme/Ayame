@@ -38,7 +38,7 @@ LogInfo("$($Colors.Count) colors remaining.")
 # The length of the longest color ID is used to right-pad the ID with spaces in the resulting Lua
 # table so that the '=' operators and comments align. This makes the table easier to read.
 [int] $LengthIDMax = 0
-foreach ($Color in $AyameColors) {
+foreach ($Color in $Colors) {
     $LengthIDMax = [Math]::Max($LengthIDMax, $Color.name.Length)
 
     foreach ($Alias in $Color.aliases) {
@@ -46,35 +46,23 @@ foreach ($Color in $AyameColors) {
     }
 }
 
-[string[]] $Lines = @('') * ($Colors.Count)
-[int]      $i     = 0
-foreach ($ColorKey in $Colors.Keys) {
-    $Color = $Colors[$ColorKey]
-    [string] $Name       = $ColorKey
-    [string] $NamePadded = $Name.PadRight($LengthIDMax, ' ')
-    [string] $Hex        = $Color.hex
-    [string] $Comment    = ''
+$LineBatch  = [AssignmentLineBatch]::new($Colors)
+$LineBatch.IndentLength  = 8
+$LineBatch.LeftBasePad   = $LengthIDMax
+$LineBatch.Operator      = '='
+$LineBatch.RightPrefix   = '"'
+$LineBatch.Picker        = 'hex'
+$LineBatch.RightSuffix   = '",'
+$LineBatch.RightBasePad  = '"#FFFFFF"'.Length
+$LineBatch.CommentPrefix = '-- '
 
-    if ($Color.uses -gt 0) {
-        $Comment = " -- $($Color.uses -join ', ')"
-    }
-
-    $Line = "$(' ' * 8)$NamePadded = ""$Hex"",$Comment"
-
-    LogDebugCode $Line ($i + 4) ($Lines.Count + 4)
-
-    $Lines[$i] = $Line
-    $i++
-}
-
-[string] $LinesRaw = $Lines -join "`n"
 
 Set-Content -Path $AyameLuaPath -Value @"
 local M = {}
 
 function M.get()
     return {
-$LinesRaw
+$($LineBatch.ToString())
     }
 end
 

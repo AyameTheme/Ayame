@@ -10,10 +10,6 @@ $AyameColors = Get-Content '.\src\ayame-colors.json' -Raw | ConvertFrom-Json
 # -- Path Variables ------------------------------------------------------------
 
 $AyameRefPath       = '.\bin\ayame.json' # JSON holding Ayame reference object
-$AyameVariablesPath = '.\src\ayame-variables.styl'
-$AyameHexPath       = '.\src\ayame-hex.styl'
-$AyameRGBPath       = '.\src\ayame-rgb.styl'
-$AyameHSLPath       = '.\src\ayame-hsl.styl'
 $IconsPath          = '.\bin\icon'
 $ReadmePath         = '.\README.md'
 $ReadmeTemplatePath = '.\src\readme-template.md'
@@ -40,115 +36,10 @@ foreach ($Color in $AyameColors) {
 
 $AyameRef | ConvertTo-Json -Depth 3 > $AyameRefPath
 
+# -- Export Scripts ------------------------------------------------------------
+
 . '.\src\script\export\Neovim.ps1' -Colors $AyameRef.colors
-
-# --( ayame-variables.styl )----------------------------------------------------
-
-$Prefix = '--ayame-'
-
-Set-Content -Path $AyameVariablesPath -Value @"
-$(($AyameColors | ForEach-Object {
-    $Comment = ''
-    if ($_.uses -gt 0) {
-        $Comment = " // $($_.uses -Join ', ')"
-    }
-    "aya-$($_.name) = var($Prefix$($_.name))$Comment"
-}) -Join "`n")
-$(($AyameColors | Where-Object { $_.aliases } | ForEach-Object {
-    $ThisColor = $_
-    ($_.aliases | ForEach-Object {
-        $Comment = ''
-        if ($ThisColor.uses -gt 0) {
-            $Comment = " // $($ThisColor.uses -Join ', ')"
-        }
-        "aya-$_ = var($Prefix$_)$Comment"
-    }) -Join "`n"
-}) -Join "`n")
-:root
-$(($AyameColors | ForEach-Object {
-    $Comment = ''
-    if ($_.uses -gt 0) {
-        $Comment = " /* $($_.uses -Join ', ') */"
-    }
-    "    $($Prefix)$($_.name) $($AyameRef.colors[$_.name].hex);$Comment"
-}) -Join "`n")
-$(($AyameColors | Where-Object { $_.aliases } | ForEach-Object {
-    $ThisColor = $_
-    ($_.aliases | ForEach-Object {
-        $Comment = ''
-        if ($ThisColor.uses -gt 0) {
-            $Comment = " /* $($ThisColor.uses -Join ', ') */"
-        }
-        "    $($Prefix)$_ aya-$($ThisColor.name);$Comment"
-    }) -Join "`n"
-}) -Join "`n")
-"@
-
-# --( ayame-hex.styl )----------------------------------------------------------
-
-Set-Content -Path $AyameHexPath -Value @"
-$(($AyameColors | ForEach-Object {
-    $Comment = ''
-    if ($_.uses -gt 0) {
-        $Comment = " // $($_.uses -Join ', ')"
-    }
-    "ayahex-$($_.name) = $($AyameRef.colors[$_.name].hex)$Comment"
-}) -Join "`n")
-$(($AyameColors | Where-Object { $_.aliases } | ForEach-Object {
-    $ThisColor = $_
-    ($_.aliases | ForEach-Object {
-        $Comment = ''
-        if ($ThisColor.uses -gt 0) {
-            $Comment = " // $($ThisColor.uses -Join ', ')"
-        }
-        "ayahex-$_ = $($AyameRef.colors[$ThisColor.name].hex)$Comment"
-    }) -Join "`n"
-}) -Join "`n")
-"@
-
-# --( ayame-rgb.styl )----------------------------------------------------------
-
-Set-Content -Path $AyameRGBPath -Value @"
-$(($AyameColors | ForEach-Object {
-    $Comment = ''
-    if ($_.uses -gt 0) {
-        $Comment = " // $($_.uses -Join ', ')"
-    }
-    "ayargb-$($_.name) = $($AyameRef.colors[$_.name].rgb)$Comment"
-}) -Join "`n")
-$(($AyameColors | Where-Object { $_.aliases } | ForEach-Object {
-    $ThisColor = $_
-    ($_.aliases | ForEach-Object {
-        $Comment = ''
-        if ($ThisColor.uses -gt 0) {
-            $Comment = " // $($ThisColor.uses -Join ', ')"
-        }
-        "ayargb-$_ = $($AyameRef.colors[$ThisColor.name].rgb)$Comment"
-    }) -Join "`n"
-}) -Join "`n")
-"@
-
-# --( ayame-hsl.styl )----------------------------------------------------------
-
-Set-Content -Path $AyameHSLPath -Value @"
-$(($AyameColors | ForEach-Object {
-    $Comment = ''
-    if ($_.uses -gt 0) {
-        $Comment = " // $($_.uses -Join ', ')"
-    }
-    "ayahsl-$($_.name) = $($AyameRef.colors[$_.name].hsl)$Comment"
-}) -Join "`n")
-$(($AyameColors | Where-Object { $_.aliases } | ForEach-Object {
-    $ThisColor = $_
-    ($_.aliases | ForEach-Object {
-        $Comment = ''
-        if ($ThisColor.uses -gt 0) {
-            $Comment = " // $($ThisColor.uses -Join ', ')"
-        }
-        "ayahsl-$_ = $($AyameRef.colors[$ThisColor.name].hsl)$Comment"
-    }) -Join "`n"
-}) -Join "`n")
-"@
+. '.\src\script\export\Stylus.ps1' -Colors $AyameRef.colors
 
 # --( out/icon/*.svg ) ---------------------------------------------------------
 
@@ -261,10 +152,5 @@ else {
 }
 Move-Item -Path Ayame.thmx -Destination .\bin\office -Force
 Remove-Item -Path .\bin\office\thmx -Recurse -Force
-
-# --( Stylus ) -----------------------------------------------------------------
-
-npx stylus src/ayame-variables.styl
-npx stylus src/usercss --out bin/usercss
 
 Set-Location $PrevCWD
