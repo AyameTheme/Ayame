@@ -10,7 +10,6 @@ $AyameColors = Get-Content '.\src\ayame-colors.json' -Raw | ConvertFrom-Json
 # -- Path Variables ------------------------------------------------------------
 
 $AyameRefPath       = '.\bin\ayame.json' # JSON holding Ayame reference object
-$IconsPath          = '.\bin\icon'
 $ReadmePath         = '.\README.md'
 $ReadmeTemplatePath = '.\src\readme-template.md'
 
@@ -38,27 +37,9 @@ $AyameRef | ConvertTo-Json -Depth 3 > $AyameRefPath
 
 # -- Export Scripts ------------------------------------------------------------
 
-. '.\src\script\export\Neovim.ps1' -Colors $AyameRef.colors
-. '.\src\script\export\Stylus.ps1' -Colors $AyameRef.colors
-
-# --( out/icon/*.svg ) ---------------------------------------------------------
-
-if (Test-Path $IconsPath) {
-    Get-ChildItem $IconsPath | ForEach-Object { Remove-Item $_ -Recurse }
-}
-else {
-    New-Item -ItemType Directory -Path $IconsPath -Force | Out-Null
-}
-
-foreach ($Color in $AyameColors) {
-    $SVGPath = Join-Path -Path $IconsPath -ChildPath "$($Color.name).svg"
-    $SVGContent = @"
-<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="8" cy="8" r="8" fill="$($AyameRef.colors[$Color.name].hex)" />
-</svg>
-"@
-    New-Item -Path $SVGPath -Value $SVGContent | Out-Null
-}
+if ($All -or $Neovim)  { . '.\src\script\export\Neovim.ps1'  -Colors $AyameRef.colors -Force:$Force }
+if ($All -or $Stylus)  { . '.\src\script\export\Stylus.ps1'  -Colors $AyameRef.colors -Force:$Force }
+if ($All -or $DotIcon) { . '.\src\script\export\DotIcon.ps1' -Colors $AyameRef.colors -Force:$Force }
 
 # --( README.md ) --------------------------------------------------------------
 
