@@ -1,6 +1,24 @@
-﻿# TODO: Add a non-positional parameter "All".
-# TODO: Add parameters for specific scripts.
-$PrevCWD = (Get-Item .).FullName
+﻿[CmdletBinding()]
+param(
+    [switch] $Force,
+    [switch] $Clean,
+    [switch] $All,
+    [switch] $Neovim,
+    [switch] $Stylus,
+    [switch] $DotIcon,
+    [switch] $SVG,
+    [switch] $Template,
+    [switch] $OfficeTheme
+)
+
+if (!$All -and !($Template -or
+                 $Neovim   -or
+                 $Stylus   -or
+                 $DotIcon  -or
+                 $SVG      -or
+                 $OfficeTheme)) { $All = $true }
+
+$PrevCWD = Get-Location
 Set-Location $PSScriptRoot
 
 . .\src\script\util\ColorConversion.ps1
@@ -40,6 +58,7 @@ $AyameRef | ConvertTo-Json -Depth 3 > $AyameRefPath
 if ($All -or $Neovim)  { . '.\src\script\export\Neovim.ps1'  -Colors $AyameRef.colors -Force:$Force }
 if ($All -or $Stylus)  { . '.\src\script\export\Stylus.ps1'  -Colors $AyameRef.colors -Force:$Force }
 if ($All -or $DotIcon) { . '.\src\script\export\DotIcon.ps1' -Colors $AyameRef.colors -Force:$Force }
+if ($All -or $SVG)     { . '.\src\script\export\SVG.ps1'                              -Force:$Force }
 
 # --( README.md ) --------------------------------------------------------------
 
@@ -109,16 +128,6 @@ Get-ChildItem -Path $SourcePath -Recurse -Filter '*.ayame-template*' | ForEach-O
         New-Item -ItemType Directory -Path (Split-Path -Path $Destination -Parent) -Force | Out-Null
         $Content > $Destination
     }
-}
-
-# --( ayame-palette-graphic.svg -> png ) ---------------------------------------
-
-if ($null -eq (Get-Command 'inkscape' -ErrorAction SilentlyContinue)) {
-    Write-Error 'inkscape not found in PATH.'
-}
-else {
-    inkscape '.\bin\image\ayame-palette-graphic.svg' -o '.\bin\image\ayame-palette-graphic.png'
-    inkscape '.\bin\image\ayame-palette.svg' -o '.\bin\image\ayame-palette.png'
 }
 
 # --( Office Theme cont. ) -----------------------------------------------------

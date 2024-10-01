@@ -95,4 +95,4 @@ npx stylus src/ayame-variables.styl
 LogInfo "Converting 'src/usercss/*.styl' -> CSS."
 npx stylus src/usercss --out bin/usercss
 
-LogInfo('Completed task: Stylus Export')
+LogInfo "Completed task: Stylus Export"
