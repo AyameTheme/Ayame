@@ -11,6 +11,11 @@ param(
     [switch] $OfficeTheme
 )
 
+if ($Clean) {
+    LogFatal 'Not implemented'
+    return
+}
+
 if (!$All -and !($Template -or
                  $Neovim   -or
                  $Stylus   -or
