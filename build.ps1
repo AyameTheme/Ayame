@@ -12,6 +12,8 @@ param(
     [switch] $Export
 )
 
+. '.\src\script\util\Logger.ps1'
+
 if ($Clean) {
     LogFatal 'Not implemented'
     return
