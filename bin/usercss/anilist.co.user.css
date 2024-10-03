@@ -10,9 +10,9 @@
 ==/UserStyle== */
 @-moz-document domain("anilist.co") {
   :root {
-    --ayame-background: #17131e; /* Background */
-    --ayame-bg: #17131e; /* Background */
-    --ayame-bg900: #17131e; /* Background */
+    --ayame-background: #130f1e; /* Background */
+    --ayame-bg: #130f1e; /* Background */
+    --ayame-bg900: #130f1e; /* Background */
     --ayame-foreground: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-fg: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-fg200: #cbbade; /* Foreground, Variables, Identifiers */
@@ -182,14 +182,14 @@
     font-family: "Lato", "Overpass", sans-serif !important;
   }
   .site-theme-dark {
-    --color-background: 23, 19, 30;
+    --color-background: 19, 15, 30;
     --color-foreground: 34, 28, 53;
     --color-foreground-blue: 43, 35, 67;
     --color-text: 203, 186, 222;
     --color-text-light: 203, 186, 222;
     --color-text-lighter: 138, 125, 155;
     --color-background-100: 34, 28, 53;
-    --color-background-200: 23, 19, 30;
+    --color-background-200: 19, 15, 30;
     --color-gray-800: 150, 117, 189;
     --color-gray-700: 138, 125, 155;
     --color-gray-600: 138, 125, 155;

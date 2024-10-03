@@ -11,9 +11,9 @@
 ==/UserStyle== */
 @-moz-document domain("optifine.net") {
   :root {
-    --ayame-background: #17131e; /* Background */
-    --ayame-bg: #17131e; /* Background */
-    --ayame-bg900: #17131e; /* Background */
+    --ayame-background: #130f1e; /* Background */
+    --ayame-bg: #130f1e; /* Background */
+    --ayame-bg900: #130f1e; /* Background */
     --ayame-foreground: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-fg: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-fg200: #cbbade; /* Foreground, Variables, Identifiers */

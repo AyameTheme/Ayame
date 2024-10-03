@@ -47,7 +47,7 @@
           "powerline_symbol": "",
           "properties": {
             "folder_icon": "",
-            "folder_separator_icon": " <#17131e></> ",
+            "folder_separator_icon": " <#130f1e></> ",
             "home_icon": "󰜥 ",
             "style": "agnoster_full"
           },
@@ -100,7 +100,7 @@
           "background": "#256342",
           "leading_diamond": "",
           "trailing_diamond": "",
-          "template": " 󰃫 {{ .Env.keki_cake }} <#17131e></> 󰌨 {{ .Env.keki_layers }} <#17131e></> {{ .Env.keki_layer }} "
+          "template": " 󰃫 {{ .Env.keki_cake }} <#130f1e></> 󰌨 {{ .Env.keki_layers }} <#130f1e></> {{ .Env.keki_layer }} "
         },
         {
           "type": "text",

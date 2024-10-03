@@ -2,9 +2,9 @@ local M = {}
 
 function M.get()
     return {
-        background      = "#17131e", -- Background
-        bg              = "#17131e", -- Background
-        bg900           = "#17131e", -- Background
+        background      = "#130f1e", -- Background
+        bg              = "#130f1e", -- Background
+        bg900           = "#130f1e", -- Background
         foreground      = "#cbbade", -- Foreground, Variables, Identifiers
         fg              = "#cbbade", -- Foreground, Variables, Identifiers
         fg200           = "#cbbade", -- Foreground, Variables, Identifiers

@@ -28,7 +28,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 
 | Hex ____________ | ID | Uses |
 | --- | --- | --- |
-| ![](bin/icon/background.svg) `#17131e` | `background`, `bg`, `bg900` | Background |
+| ![](bin/icon/background.svg) `#130f1e` | `background`, `bg`, `bg900` | Background |
 | ![](bin/icon/foreground.svg) `#cbbade` | `foreground`, `fg`, `fg200`, `variable`, `identifier` | Foreground, Variables, Identifiers |
 | ![](bin/icon/red.svg) `#ff577e` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `bold`, `red500` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold |
 | ![](bin/icon/orange.svg) `#ff965c` | `orange`, `warning`, `constant`, `orange500` | Terminal Yellow, Warnings, Constants |

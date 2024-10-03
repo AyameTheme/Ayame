@@ -219,9 +219,9 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.0745098039215686</real>
+		<real>0.0588235294117647</real>
 		<key>Red Component</key>
-		<real>0.0901960784313725</real>
+		<real>0.0745098039215686</real>
 	</dict>
 	<key>Badge Color</key>
 	<dict>
@@ -284,9 +284,9 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.0745098039215686</real>
+		<real>0.0588235294117647</real>
 		<key>Red Component</key>
-		<real>0.0901960784313725</real>
+		<real>0.0745098039215686</real>
 	</dict>
 	<key>Foreground Color</key>
 	<dict>
@@ -323,9 +323,9 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.0745098039215686</real>
+		<real>0.0588235294117647</real>
 		<key>Red Component</key>
-		<real>0.0901960784313725</real>
+		<real>0.0745098039215686</real>
 	</dict>
 	<key>Selection Color</key>
 	<dict>
