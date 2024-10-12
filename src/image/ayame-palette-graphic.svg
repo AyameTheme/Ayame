@@ -21,13 +21,13 @@
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#cbbade;"/>
     </g>
     <g id="COMMENT" transform="matrix(1.35044,0,0,0.408647,1081.56,471.004)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#564585;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#675891;"/>
     </g>
     <g id="CONSTANT" transform="matrix(1.35044,0,0,0.408647,1081.56,707.225)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#ff965c;"/>
     </g>
     <g id="GUTTER" transform="matrix(1.35044,0,0,0.408647,1081.56,943.445)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#564585;"/>
     </g>
     <g id="TERMINATOR" transform="matrix(1.35044,0,0,0.408647,1081.56,1179.67)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#8a7d9b;"/>
@@ -45,10 +45,10 @@
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#6c8db3;"/>
     </g>
     <g id="TABLINE" transform="matrix(1.35044,0,0,0.408647,1684.32,1474.94)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#1a1528;"/>
     </g>
     <g id="ALTROW" transform="matrix(1.35044,0,0,0.408647,1684.32,1770.22)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
     </g>
     <g id="OPERATOR" transform="matrix(1.35044,0,0,0.408647,1684.32,2006.44)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#f76ef1;"/>
@@ -57,10 +57,10 @@
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#9675bd;"/>
     </g>
     <g id="HIGHLIGHT" transform="matrix(1.35044,0,0,0.408647,1684.32,707.225)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
     </g>
     <g id="LINE" transform="matrix(2.52413,0,0,0.408647,-172.341,884.39)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
     </g>
     <g id="CURSOR1" serif:id="CURSOR" transform="matrix(0.0579943,0,0,0.408647,140.286,884.39)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#9675bd;"/>
@@ -253,13 +253,13 @@
         </g>
     </g>
     <g id="Tabline" transform="matrix(2.76164,0,0,0.408647,-302.842,1593.05)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#1a1528;"/>
     </g>
     <g id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1652.11)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
     </g>
     <g id="Row1" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1711.16)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
     </g>
     <g id="Row2" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1770.22)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
@@ -277,13 +277,13 @@
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#221c35;"/>
     </g>
     <g id="Row7" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,1947.38)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
     </g>
     <g id="Row8" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2183.6)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
     </g>
     <g id="Row9" serif:id="Row" transform="matrix(2.76164,0,0,0.408647,-302.842,2065.49)">
-        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#342950;"/>
+        <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#2b2343;"/>
     </g>
     <g id="MAGENTA" transform="matrix(1.35044,0,0,0.408647,478.808,175.729)">
         <rect x="126.768" y="408.153" width="427.682" height="144.514" style="fill:#9768f8;"/>
@@ -317,11 +317,11 @@
         <text x="50.183px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">hsl(208, 90%, 61%)</text>
         <text x="652.383px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">hsl(260, 91%, 69%)</text>
         <text x="1254.58px" y="516.247px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(268, 35%, 80%)       hsl(262, 22%, 10%)</text>
-        <text x="0px" y="575.289px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">-----------------------------------------------------------------------------------------------</text>
+        <text x="0px" y="575.289px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">-----------------------------------------------------------------------------------------------</text>
         <text x="0px" y="634.331px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#cbbade;">Code ~~</text>
         <text x="1406.53px" y="634.331px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#130f1e;">COMMENT</text>
         <text x="1985.03px" y="634.331px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#130f1e;">TODO/TEAL</text>
-        <text x="25.092px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">1</text>
+        <text x="25.092px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">1</text>
         <text x="100.367px" y="693.372px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#44a3f5;">const</text>
         <text x="251.914px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">btn</text>
         <text x="352.28px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">=</text>
@@ -332,34 +332,34 @@
         <text x="1004.66px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#96e474;">&apos;btn&apos;</text>
         <text x="1130.12px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">)</text>
         <text x="1155.21px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;</text>
-        <text x="1406.13px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">#564585</text>
+        <text x="1406.13px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#675891;">#675891</text>
         <text x="2008.33px" y="693.372px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#5df8a6;">#5df8a6</text>
-        <text x="25.092px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">2</text>
+        <text x="25.092px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">2</text>
         <text x="100.367px" y="752.414px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#44a3f5;">let</text>
         <text x="201.331px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">count</text>
         <text x="351.881px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">=</text>
         <text x="402.065px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">0</text>
         <text x="427.156px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;</text>
-        <text x="1305.37px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">rgb(86, 69, 133)</text>
+        <text x="1305.37px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#675891;">rgb(103, 88, 145)</text>
         <text x="1882.47px" y="752.414px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#5df8a6;">rgb(93, 248, 166)</text>
-        <text x="25.092px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">3</text>
-        <text x="1279.67px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">hsl(256, 32%, 40%)</text>
+        <text x="25.092px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">3</text>
+        <text x="1279.67px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#675891;">hsl(256, 24%, 46%)</text>
         <text x="1881.88px" y="811.456px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#5df8a6;">hsl(148, 92%, 67%)</text>
-        <text x="25.092px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">4</text>
+        <text x="25.092px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">4</text>
         <text x="100.367px" y="870.497px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#44a3f5;">function</text>
         <text x="327.787px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">render</text>
         <text x="478.337px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">()</text>
         <text x="553.612px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">{</text>
         <text x="1306.36px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#130f1e;">CONSTANT/ORANGE</text>
         <text x="1983.84px" y="870.497px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">HIGHLIGHT</text>
-        <text x="25.092px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">5</text>
-        <text x="150.55px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#564585;">//</text>
+        <text x="25.092px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">5</text>
+        <text x="150.55px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#675891;">//</text>
         <text x="226.423px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#130f1e;">TODO</text>
         <text x="327.587px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#5df8a6;">:</text>
-        <text x="378.169px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#564585;">change variable name</text>
+        <text x="378.169px" y="929.539px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#675891;">change variable name</text>
         <text x="1410.91px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">#ff965c</text>
-        <text x="2013.12px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#2b2343</text>
-        <text x="25.092px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">6</text>
+        <text x="2013.12px" y="929.539px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#342950</text>
+        <text x="25.092px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">6</text>
         <text x="150.55px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">btn</text>
         <text x="225.825px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">.</text>
         <text x="250.917px" y="988.581px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">innerText</text>
@@ -376,9 +376,9 @@
         <text x="100.367px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#130f1e;">}</text>
         <text x="1279.67px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">hsl(14, 100%, 50%)</text>
         <text x="1881.88px" y="1047.62px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(268, 30%, 18%)</text>
-        <text x="25.092px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">8</text>
+        <text x="25.092px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">8</text>
         <text x="1405.13px" y="1106.66px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#130f1e;">GUTTER                  CURSOR</text>
-        <text x="25.092px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">9</text>
+        <text x="25.092px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">9</text>
         <text x="100.367px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">btn</text>
         <text x="175.642px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">.</text>
         <text x="200.733px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">addEventListener</text>
@@ -388,13 +388,13 @@
         <text x="853.117px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">()</text>
         <text x="928.392px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#54e7f8;">=&gt;</text>
         <text x="1004.07px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">{</text>
-        <text x="1405.53px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">#342950</text>
+        <text x="1405.53px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">#564585</text>
         <text x="2007.73px" y="1165.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">#9675bd</text>
-        <text x="0px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">10</text>
-        <text x="150.55px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#564585;">// Count from 1 to 10.</text>
-        <text x="1309.15px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">rgb(52, 41, 80)</text>
+        <text x="0px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">10</text>
+        <text x="150.55px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#675891;">// Count from 1 to 10.</text>
+        <text x="1309.15px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">rgb(86, 69, 133)</text>
         <text x="1861.17px" y="1224.75px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">rgb(150, 117, 189)</text>
-        <text x="0px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">11</text>
+        <text x="0px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">11</text>
         <text x="150.55px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#54e7f8;">if</text>
         <text x="225.825px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">(</text>
         <text x="250.917px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">count</text>
@@ -402,38 +402,38 @@
         <text x="451.65px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">10</text>
         <text x="501.833px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">)</text>
         <text x="552.017px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">{</text>
-        <text x="1279.67px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">hsl(257, 32%, 24%)</text>
+        <text x="1279.67px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">hsl(256, 32%, 40%)</text>
         <text x="1856.78px" y="1283.79px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">hsl(268, 35%, 60%)</text>
-        <text x="0px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">12</text>
+        <text x="0px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">12</text>
         <text x="200.733px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">count</text>
         <text x="351.283px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">+=</text>
         <text x="426.558px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#ff965c;">1</text>
         <text x="451.65px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;</text>
         <text x="1354.95px" y="1342.83px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#130f1e;">TERMINATOR                BRACKET</text>
-        <text x="0px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">13</text>
+        <text x="0px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">13</text>
         <text x="200.733px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">render</text>
         <text x="351.283px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">()</text>
         <text x="401.467px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;                                       #8a7d9b</text>
         <text x="2007.33px" y="1401.87px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">#6c8db3</text>
-        <text x="0px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">14</text>
+        <text x="0px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">14</text>
         <text x="150.55px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">}</text>
         <text x="1254.58px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">rgb(138, 125, 155)</text>
         <text x="1856.78px" y="1460.91px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">rgb(108, 141, 179)</text>
-        <text x="0px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">15</text>
+        <text x="0px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">15</text>
         <text x="100.367px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">})</text>
         <text x="150.55px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#8a7d9b;">;                                           hsl(266, 13%, 55%)</text>
         <text x="1856.78px" y="1519.96px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#6c8db3;">hsl(212, 32%, 56%)</text>
-        <text x="0px" y="1579px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#342950;">-----------------------------------------------------------------------------------------------</text>
+        <text x="0px" y="1579px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#564585;">-----------------------------------------------------------------------------------------------</text>
         <text x="0px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#cbbade;">GUI ~~</text>
         <text x="1406.33px" y="1638.04px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">HEADER</text>
         <text x="2009.73px" y="1638.04px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:#9675bd;">TABLINE</text>
         <text x="376.375px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">Favorite Movies</text>
-        <text x="1408.12px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">#0b0911                 #2b2343</text>
+        <text x="1408.12px" y="1697.08px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">#0b0911                 #1a1528</text>
         <text x="25.092px" y="1756.12px" style="font-family:'VictorMono-Bold', 'Victor Mono';font-weight:700;font-size:45.833px;fill:#9675bd;">Rank  Title                           TMDB ID</text>
-        <text x="1304.77px" y="1756.12px" style="font-family:'VictorMono-Regular', 'Victor Mono';font-size:45.833px;fill:#9675bd;">rgb(11, 9, 17)          rgb(43, 35, 67)</text>
+        <text x="1304.77px" y="1756.12px" style="font-family:'VictorMono-Regular', 'Victor Mono';font-size:45.833px;fill:#9675bd;">rgb(11, 9, 17)          rgb(26, 21, 40)</text>
         <text x="75.275px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#1  EEAAO</text>
         <text x="1003.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">545611</text>
-        <text x="1279.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">hsl(255, 31%, 5%)       hsl(255, 31%, 20%)</text>
+        <text x="1279.67px" y="1815.16px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9675bd;">hsl(255, 31%, 5%)       hsl(256, 31%, 12%)</text>
         <text x="75.275px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#2  Puss in Boots: The Last Wish</text>
         <text x="1003.67px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">315162</text>
         <text x="1254.58px" y="1874.21px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">Italic</text>
@@ -447,16 +447,16 @@
         <text x="1003.67px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">1</text>
         <text x="1028.76px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#130f1e;">5</text>
         <text x="1053.85px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">7336</text>
-        <text x="1405.13px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#221c35                 #342950</text>
+        <text x="1405.13px" y="1992.29px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#221c35                 #2b2343</text>
         <rect x="1003.67" y="1995.41" width="25.092" height="2.083" style="fill:#44a3f5;"/>
         <rect x="1028.76" y="1995.41" width="25.092" height="2.083" style="fill:#130f1e;"/>
         <rect x="1053.85" y="1995.41" width="100.367" height="2.083" style="fill:#44a3f5;"/>
         <text x="75.275px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#5  Train to Busan</text>
         <text x="1003.67px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">396535</text>
-        <text x="1304.77px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">rgb(34, 28, 53)         rgb(52, 41, 80)</text>
+        <text x="1304.77px" y="2051.33px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">rgb(34, 28, 53)         rgb(43, 35, 67)</text>
         <text x="75.275px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#6  Your Name.</text>
         <text x="1003.67px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">372058</text>
-        <text x="1254.58px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(254, 31%, 16%)       rgb(52, 41, 80)</text>
+        <text x="1254.58px" y="2110.37px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(254, 31%, 16%)       rgb(43, 35, 67)</text>
         <text x="75.275px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#7  No Game No Life: Zero</text>
         <text x="1003.67px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">445030</text>
         <text x="1405.13px" y="2169.41px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">THISROW</text>
@@ -467,11 +467,11 @@
         <text x="2007.33px" y="2228.46px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">#f76ef1</text>
         <text x="75.275px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#9  Top Gun: Maverick</text>
         <text x="1003.67px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">361743</text>
-        <text x="1304.77px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">rgb(43, 35, 67)</text>
+        <text x="1304.77px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">rgb(52, 41, 80)</text>
         <text x="1881.88px" y="2287.5px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">rgb(247, 110, 241)</text>
         <text x="50.183px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">#10  A Quiet Place</text>
         <text x="1003.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#9768f8;">447332</text>
-        <text x="1279.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(255, 31%, 20%)</text>
+        <text x="1279.67px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">hsl(257, 32%, 24%)</text>
         <text x="1881.88px" y="2346.54px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">hsl(303, 90%, 70%)</text>
         <text x="878.208px" y="2464.62px" style="font-family:'VictorMono-Medium', 'Consolas';font-style:italic;font-size:45.833px;fill:#9675bd;">Episode Scores Over Time</text>
         <text x="25.092px" y="2582.71px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">10</text>
@@ -511,7 +511,7 @@
         </g>
         <g transform="matrix(45.8333,0,0,45.8333,2233.16,3232.16)">
         </g>
-        <text x="1806.6px" y="3232.16px" style="font-family:'VictorMono-BoldItalic', 'Victor Mono';font-weight:700;font-style:italic;font-size:45.833px;fill:url(#_Linear4);">Ayame color scheme v2.4</text>
+        <text x="1806.6px" y="3232.16px" style="font-family:'VictorMono-BoldItalic', 'Victor Mono';font-weight:700;font-style:italic;font-size:45.833px;fill:url(#_Linear4);">Ayame color scheme v2.5</text>
         <text x="25.092px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#44a3f5;">BORDER: BLUE</text>
         <text x="1555.68px" y="3291.21px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#cbbade;">https://github.com/Nurdoidz/Ayame</text>
         <text x="25.092px" y="3350.25px" style="font-family:'VictorMono-Medium', 'Victor Mono';font-weight:500;font-size:45.833px;fill:#f76ef1;">LINE: OPERATOR</text>

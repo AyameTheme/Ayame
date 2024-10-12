@@ -11,9 +11,26 @@
 @-moz-document domain("anilist.co")
     @import "../stylus/ayame-variables"
     @import "../stylus/ayame-hex"
-    
+
     body
         font-family "Lato", "Overpass", sans-serif !important
+
+    b
+    strong
+        color aya-bold
+
+    em
+    i
+        color aya-italic
+
+    code
+    kbd
+    samp
+        background aya-bg
+        border 2px solid aya-border
+        border-radius 4px
+        padding 2px
+        font-size 0.8em
 
     .site-theme-dark
         // 255, 0, 228
@@ -59,23 +76,478 @@
         --color-orange red(ayahex-orange), green(ayahex-orange), blue(ayahex-orange)
         --color-yellow red(ayahex-yellow), green(ayahex-yellow), blue(ayahex-yellow)
         --color-green red(ayahex-green), green(ayahex-green), blue(ayahex-green)
-        
+
+        a:hover, .list .title:hover
+            color ayahex-focus
+
+        .el-textarea__inner,
+        .wrap,
+        .embed,
+        .overview .content-wrap
+            border-radius 0
+        .activity-feed .wrap:hover
+            background-color ayahex-modalhighlight
+        .embed .wrap:hover
+            background-color ayahex-magenta900
+            color ayahex-focus
+            .title
+                color ayahex-focus
+
+        .button
+            border-radius 0
+        .button.save
+            color ayahex-background
+        .button.cancel
+            color ayahex-foreground
+            background-color ayahex-button
+        .button:hover
+            background-color ayahex-focus
+            color ayahex-background
+
         .nav-unscoped
             color aya-foreground
             background aya-header
-            
+        .nav-unscode.transparent
+            background red
+        .nav .link:hover
+            color ayahex-focus
+            background-color ayahex-magenta900
+        .nav .router-link-active
+            color ayahex-purewhite
+            text-shadow:
+            0 0 3px ayahex-purewhite,
+            0 0 5px ayahex-primary,
+            0 0 7px ayahex-primary,
+            0 0 10px ayahex-primary,
+            0 0 20px ayahex-primary,
+            0 0 40px ayahex-primary
+        .nav .link:hover
+            color ayahex-purewhite
+            background none
+            text-shadow:
+            0 0 3px ayahex-purewhite,
+            0 0 5px ayahex-magenta,
+            0 0 7px ayahex-magenta,
+            0 0 10px ayahex-magenta,
+            0 0 20px ayahex-magenta,
+            0 0 40px ayahex-magenta
+
+        /* Categories
+         * 1.   Anime
+         * 2.   Manga
+         * 3.   Light Novels
+         * 4.   Visual Novels
+         * 5.   Release Discussion
+         * 6.   ???
+         * 7.   General
+         * 8.   News
+         * 9.   Music
+         * 10.  Gaming
+         * 11.  Site Feedback
+         * 12.  Bug Reports
+         * 13.  Site Announcements
+         * 14.  ???
+         * 15.  Recommendations
+         * 16.  Forum Games
+         * 17.  Misc.
+         * 18.  AniList Apps
+         */
         a.category
-            color aya-background
+            color aya-background !important
+            border 2px solid transparent
+            &:hover
+                border-color aya-focus
+                box-shadow:
+                    0 0 5px aya-purewhite,
+                    0 0 5px aya-focus,
+                    0 0 7px aya-focus,
+                    0 0 10px aya-focus
         a[href="/forum/recent?category=1"].category
             background-color aya-blue !important
-        a[href="/forum/recent?category=16"].category
-            background-color aya-orange !important
-        a[href="/forum/recent?category=7"].category
-            background-color aya-cyan !important
         a[href="/forum/recent?category=2"].category
-            background-color aya-green !important
-        a[href="/forum/recent?category=5"].category
             background-color aya-purple !important
-        a[href="/forum/recent?category=13"].category
+        a[href="/forum/recent?category=3"].category
+            background-color aya-purple300 !important
+        a[href="/forum/recent?category=4"].category
+            background-color aya-purple100 !important
+        a[href="/forum/recent?category=5"].category
+            background-color aya-blue700 !important
+        a[href="/forum/recent?category=7"].category
+            background-color aya-orange !important
+        a[href="/forum/recent?category=8"].category
+            background-color aya-green !important
+        a[href="/forum/recent?category=9"].category
             background-color aya-pink !important
-        // TODO: Add other categories
+        a[href="/forum/recent?category=10"].category
+            background-color aya-pink300 !important
+        a[href="/forum/recent?category=11"].category
+            background-color aya-red300 !important
+        a[href="/forum/recent?category=12"].category
+            background-color aya-red !important
+        a[href="/forum/recent?category=13"].category
+            background-color aya-red700 !important
+        a[href="/forum/recent?category=15"].category
+            background-color aya-cyan !important
+        a[href="/forum/recent?category=16"].category
+            background-color aya-fg700 !important
+            color aya-fg !important
+        a[href="/forum/recent?category=17"].category
+            background-color aya-fg400 !important
+        a[href="/forum/recent?category=18"].category
+            background-color aya-teal !important
+
+        a.media.ANIME
+            background-color aya-blue900 !important
+            color aya-blue !important
+        a.media.MANGA
+            background-color aya-purple900 !important
+            color aya-purple !important
+
+        .actions
+            color ayahex-primary
+            .action.action:hover
+                color ayahex-focus
+            .action.likes .button:hover,
+            .action.button:hover
+                background none
+                color ayahex-focus
+        .actions svg:hover
+            color ayahex-focus
+        .time
+            .action
+                color ayahex-primary
+            .action:hover
+                color ayahex-focus
+        .time
+            color ayahex-muted
+
+        .el-dropdown
+            color ayahex-muted
+        .el-dropdown:hover
+            color ayahex-focus
+        .el-dropdown-menu
+            background-color ayahex-bg500
+        .el-dropdown-menu__item--divided
+            border-color ayahex-modal
+        .el-dropdown-menu__item--divided::before
+            background-color ayahex-modal
+        .el-popper .popper__arrow,
+        .el-popper .popper__arrow::after
+            color ayahex-bg500
+            border-bottom-color ayahex-bg500
+        .el-dropdown-menu__item:focus,
+        .el-dropdown-menu__item:not(.is-disabled):hover
+            background-color ayahex-magenta900
+            color ayahex-focus
+        .el-dropdown-menu__item:focus svg,
+        .el-dropdown-menu__item:not(.is-disabled):hover svg
+            color ayahex-focus
+        .el-input,
+        .el-textarea
+            border-radius 0
+        .el-input-group__append,
+        .el-input-group__prepend,
+        .el-input__inner,
+        .el-textarea__inner
+            border 2px solid transparent
+        .el-input-group__append:focus,
+        .el-input-group__prepend:focus,
+        .el-input__inner:focus,
+        .el-textarea__inner:focus
+            border-color ayahex-magenta900
+        .el-select:hover .el-input__inner
+            border-color ayahex-focus
+        .el-input-number__decrease:hover:not(.is-disabled) ~ .el-input .el-input__inner:not(.is-disabled),
+        .el-input-number__increase:hover:not(.is-disabled) ~ .el-input .el-input__inner:not(.is-disabled)
+            border-color ayahex-focus
+
+        .markdown-editor > div:hover
+            color ayahex-focus
+
+        .user-page-unscoped.blue .progress .bar
+            // background linear-gradient(270deg, ayahex-primary, ayahex-secondary)
+            background ayahex-primary
+
+        pick-gradient(turn, opacity)
+            result = blend(rgba(ayahex-secondary, turn), ayahex-primary)
+            if opacity
+                result = rgba(result, opacity)
+            return result
+
+        .history-day
+            background ayahex-background
+            border-radius 0
+        .history-day.lv-1
+            background ayahex-primary
+        .history-day.lv-2
+            background blend(pick-gradient(0.1, 0.9), ayahex-purewhite)
+            box-shadow:
+                0 0 3px rgba(ayahex-purewhite, 0.1),
+                0 0 5px pick-gradient(0.1, 0.1),
+                0 0 7px pick-gradient(0.1, 0.1),
+                0 0 10px pick-gradient(0.1, 0.1),
+                0 0 20px pick-gradient(0.1, 0.1),
+                0 0 40px pick-gradient(0.1, 0.1)
+        .history-day.lv-3
+            background blend(pick-gradient(0.2, 0.8), ayahex-purewhite)
+            box-shadow:
+                0 0 3px rgba(ayahex-purewhite, 0.2),
+                0 0 5px pick-gradient(0.2, 0.2),
+                0 0 7px pick-gradient(0.2, 0.2),
+                0 0 10px pick-gradient(0.2, 0.2),
+                0 0 20px pick-gradient(0.2, 0.2),
+                0 0 40px pick-gradient(0.2, 0.2)
+        .history-day.lv-4
+            background blend(pick-gradient(0.3, 0.7), ayahex-purewhite)
+            box-shadow:
+                0 0 3px rgba(ayahex-purewhite, 0.3),
+                0 0 5px pick-gradient(0.3, 0.3),
+                0 0 7px pick-gradient(0.3, 0.3),
+                0 0 10px pick-gradient(0.3, 0.3),
+                0 0 20px pick-gradient(0.3, 0.3),
+                0 0 40px pick-gradient(0.3, 0.3)
+        .history-day.lv-5
+            background blend(pick-gradient(0.5, 0.5), ayahex-purewhite)
+            box-shadow:
+                0 0 5px rgba(ayahex-purewhite, 0.5),
+                0 0 5px pick-gradient(0.5, 0.5),
+                0 0 7px pick-gradient(0.5, 0.5),
+                0 0 10px pick-gradient(0.5, 0.5),
+                0 0 20px pick-gradient(0.5, 0.5),
+                0 0 40px pick-gradient(0.5, 0.5)
+        .history-day.lv-6
+            background blend(pick-gradient(0.7, 0.3), ayahex-purewhite)
+            box-shadow:
+                0 0 5px rgba(ayahex-purewhite, 0.7),
+                0 0 5px pick-gradient(0.7, 0.7),
+                0 0 7px pick-gradient(0.7, 0.7),
+                0 0 10px pick-gradient(0.7, 0.7),
+                0 0 20px pick-gradient(0.7, 0.7),
+                0 0 40px pick-gradient(0.7, 0.7)
+        .history-day.lv-7
+            background blend(pick-gradient(0.8, 0.2), ayahex-purewhite)
+            box-shadow:
+                0 0 5px rgba(ayahex-purewhite, 0.8),
+                0 0 5px pick-gradient(0.8, 0.8),
+                0 0 7px pick-gradient(0.8, 0.8),
+                0 0 10px pick-gradient(0.8, 0.8),
+                0 0 20px pick-gradient(0.8, 0.8),
+                0 0 40px pick-gradient(0.8, 0.8)
+        .history-day.lv-8
+            background blend(pick-gradient(0.9, 0.1), ayahex-purewhite)
+            box-shadow:
+                0 0 5px rgba(ayahex-purewhite, 0.9),
+                0 0 5px pick-gradient(0.9, 0.9),
+                0 0 7px pick-gradient(0.9, 0.9),
+                0 0 10px pick-gradient(0.9, 0.9),
+                0 0 20px pick-gradient(0.9, 0.9),
+                0 0 40px pick-gradient(0.9, 0.9)
+        .history-day.lv-9
+            background ayahex-purewhite
+            box-shadow:
+                0 0 3px ayahex-purewhite,
+                0 0 5px ayahex-secondary,
+                0 0 7px ayahex-secondary,
+                0 0 10px ayahex-secondary,
+                0 0 20px ayahex-secondary,
+                0 0 40px ayahex-secondary
+
+        a.favourite,
+        a.cover
+            border 2px solid transparent
+        a.favourite:hover,
+        a.cover:hover
+            border-color ayahex-purewhite
+            box-shadow:
+                0 0 5px ayahex-purewhite,
+                0 0 5px ayahex-primary,
+                0 0 7px ayahex-primary,
+                0 0 10px ayahex-primary,
+                0 0 20px ayahex-primary,
+                0 0 40px ayahex-primary
+
+        .donator-badge
+            background-color ayahex-green900
+            border 2px solid transparent
+            color ayahex-green
+        .wrap:hover .donator-badge
+            border-color ayahex-purewhite
+            color ayahex-purewhite
+            text-shadow:
+                0 0 5px ayahex-purewhite,
+                0 0 5px ayahex-green,
+                0 0 10px ayahex-green
+            box-shadow:
+                0 0 5px ayahex-purewhite,
+                0 0 5px ayahex-green,
+                0 0 10px ayahex-green,
+                0 0 30px ayahex-green
+
+        // Anime List
+        .medialist.table
+            .section-name
+                background ayahex-header
+                color ayahex-cursor
+                font-style italic
+                font-size 1em
+                text-transform lowercase
+                margin-bottom 0
+                padding-top 7px
+                padding-bottom 10px
+            .list-head
+                background ayahex-bg800
+                font-weight 700
+                color ayahex-cursor
+                > div
+                    padding-top 5px
+                    padding-bottom 5px
+            .entry:nth-child(odd)
+                background ayahex-altrow
+            .entry:hover
+                background ayahex-modalhighlight
+                color ayahex-focus
+                .title a:hover
+                    color inherit
+                .edit
+                    transition 0.2s
+                    background none
+                    color ayahex-focus
+                .edit:hover
+                    background ayahex-focus
+                    color ayahex-background
+
+        .filter-group
+            a
+            span
+                color aya-muted
+                &:hover
+                    background-color aya-magenta900
+                    color aya-focus
+                &.active
+                    background-color aya-highlight
+                    color aya-primary
+                &.action:hover
+                    background none
+                    color aya-focus
+
+        .name span:hover
+            color aya-focus
+
+        .about .content-wrap
+            max-height none
+
+        // List Editor
+        .list-editor-wrap
+            .header .save-btn
+                background-color ayahex-primary
+                color ayahex-background
+                transition 0.2s
+            .header .save-btn:hover
+                background-color ayahex-focus
+            .outline
+                border 1px solid transparent
+            .outline:hover
+                background-color ayahex-magenta900
+                color ayahex-focus
+            .outline.isFavourite:hover
+                color ayahex-background
+                border-color ayahex-focus
+            .el-checkbox:hover,
+            .el-checkbox.is-checked:hover .el-checkbox__input + .el-checkbox__label
+                color ayahex-focus
+
+        .el-select-dropdown
+            background-color ayahex-button
+        .el-select-dropdown__item.selected
+            color ayahex-secondary
+        .el-select-dropdown__item:hover
+        .el-select-dropdown__item.hover
+            background-color ayahex-magenta900
+            color ayahex-focus
+
+        .el-picker-panel
+            background-color ayahex-button
+            border none
+            color ayahex-foreground
+            border-radius 0
+        .el-picker-panel__icon-btn
+            color ayahex-foreground
+            padding 4px
+            border-radius 50%
+        .el-picker-panel__icon-btn:hover
+            color ayahex-focus
+            background-color ayahex-magenta900
+            border-color ayahex-focus
+        .el-date-picker__header--bordered
+            border none
+        .el-date-picker__header-label
+            color ayahex-foreground
+        .el-date-picker__header-label:hover
+            color ayahex-focus
+        .el-date-table
+            td.current:not(.disabled) span
+                color ayahex-background
+                background-color ayahex-primary
+            td.available:hover span
+                color ayahex-focus
+                background-color ayahex-magenta900
+            td.today span
+                color ayahex-secondary
+                background-color ayahex-purple900
+            td.next-month,
+            td.prev-month
+                color ayahex-muted
+            tr:not(.el-date-table__row)
+                background-color ayahex-tabline
+            tr.el-date-table__row
+                background-color ayahex-modal
+            th
+                color ayahex-cursor
+                border none
+        .el-month-table
+            background ayahex-modal
+            td .cell
+                color ayahex-foreground
+                border-radius 18px
+                width 60px
+                height 36px
+                line-height 36px
+            td.current .cell
+                background-color ayahex-primary
+                color ayahex-background
+            td.today .cell
+                background-color ayahex-purple900
+                color ayahex-secondary
+            td .cell:hover
+                color ayahex-focus
+                background-color ayahex-magenta900
+            td div
+                padding 0
+                height auto
+            td
+                padding 20px 3px
+        .el-year-table
+            background ayahex-modal
+            td .cell
+                color ayahex-foreground
+                border-radius 18px
+                width 60px
+                height 36px
+                line-height 36px
+            td.today .cell
+                color ayahex-secondary
+                background-color ayahex-purple900
+            td.current .cell
+                background-color ayahex-primary
+                color ayahex-background
+            td .cell:hover
+                color ayahex-focus
+                background-color ayahex-magenta900
+            td
+                padding 20px 3px
+
+        #app > .wrap > .footer
+            background ayahex-header
+
+        ::selection
+            background ayahex-selection

@@ -6,6 +6,7 @@ param(
     [switch] $Neovim,
     [switch] $Stylus,
     [switch] $DotIcon,
+    [switch] $Espanso,
     [switch] $SVG,
     [switch] $Template,
     [switch] $OfficeTheme,
@@ -23,6 +24,7 @@ if (!$All -and !($Template -or
                  $Neovim   -or
                  $Stylus   -or
                  $DotIcon  -or
+                 $Espanso  -or
                  $SVG      -or
                  $Export   -or
                  $OfficeTheme)) { $All = $true }
@@ -66,6 +68,7 @@ if ($All -or $OfficeTheme) { & '.\src\script\export\OfficeAfter.ps1' }
 if ($All -or $Neovim)      { & '.\src\script\export\Neovim.ps1'    -Colors $AyameRef.colors -Force:$Force }
 if ($All -or $Stylus)      { & '.\src\script\export\Stylus.ps1'    -Colors $AyameRef.colors -Force:$Force }
 if ($All -or $DotIcon)     { & '.\src\script\export\DotIcon.ps1'   -Colors $AyameRef.colors -Force:$Force }
+if ($All -or $Espanso)     { & '.\src\script\export\Espanso.ps1'   -Colors $AyameRef.colors -Force:$Force }
 if ($All -or $SVG)         { & '.\src\script\export\SVG.ps1'                                -Force:$Force }
 if ($All -or $Export)      { & '.\src\script\export\Export.ps1'                             -Force:$Force }
 

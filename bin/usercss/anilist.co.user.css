@@ -18,59 +18,66 @@
     --ayame-fg200: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-variable: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-identifier: #cbbade; /* Foreground, Variables, Identifiers */
-    --ayame-red: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-deleted: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-breakpoint: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-stop: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-this: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-bold: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-red500: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold */
-    --ayame-orange: #ff965c; /* Terminal Yellow, Warnings, Constants */
-    --ayame-warning: #ff965c; /* Terminal Yellow, Warnings, Constants */
-    --ayame-constant: #ff965c; /* Terminal Yellow, Warnings, Constants */
-    --ayame-orange500: #ff965c; /* Terminal Yellow, Warnings, Constants */
+    --ayame-red: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold, Header 6 */
+    --ayame-deleted: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold, Header 6 */
+    --ayame-breakpoint: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold, Header 6 */
+    --ayame-stop: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold, Header 6 */
+    --ayame-this: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold, Header 6 */
+    --ayame-bold: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold, Header 6 */
+    --ayame-red500: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold, Header 6 */
+    --ayame-h6: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Markdown bold, Header 6 */
+    --ayame-orange: #ff965c; /* Terminal Yellow, Warnings, Constants, Header 4 */
+    --ayame-warning: #ff965c; /* Terminal Yellow, Warnings, Constants, Header 4 */
+    --ayame-constant: #ff965c; /* Terminal Yellow, Warnings, Constants, Header 4 */
+    --ayame-orange500: #ff965c; /* Terminal Yellow, Warnings, Constants, Header 4 */
+    --ayame-h4: #ff965c; /* Terminal Yellow, Warnings, Constants, Header 4 */
     --ayame-yellow: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-character: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-yellow500: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
-    --ayame-green: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
-    --ayame-added: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
-    --ayame-debug: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
-    --ayame-string: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
-    --ayame-green500: #96e474; /* Terminal Bright Green, Git added, Debug, Strings */
+    --ayame-green: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics */
+    --ayame-added: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics */
+    --ayame-debug: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics */
+    --ayame-string: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics */
+    --ayame-green500: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics */
+    --ayame-h5: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics */
+    --ayame-italic: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics */
     --ayame-teal: #5df8a6; /* TODO comments */
     --ayame-todo: #5df8a6; /* TODO comments */
     --ayame-teal500: #5df8a6; /* TODO comments */
-    --ayame-cyan: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-match: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-control: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-regex: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-escape: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-italics: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-cyan500: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-linkhover: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters, Markdown italics */
-    --ayame-blue: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-primary: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-progress: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-modified: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-hyperlink: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-keyword: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-type: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-blue500: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type */
-    --ayame-purple: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-darkmagenta: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-secondary: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-function: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-fun: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-attribute: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-code: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-purple500: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks */
-    --ayame-magenta: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-pink: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-tertiary: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-focus: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-operator: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-magenta500: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
-    --ayame-value: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords */
+    --ayame-cyan: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters */
+    --ayame-match: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters */
+    --ayame-control: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters */
+    --ayame-regex: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters */
+    --ayame-escape: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters */
+    --ayame-cyan500: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters */
+    --ayame-linkhover: #54e7f8; /* Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters */
+    --ayame-blue: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-primary: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-progress: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-modified: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-hyperlink: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-keyword: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-type: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-blue500: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-h1: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
+    --ayame-purple: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-darkmagenta: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-secondary: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-function: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-fun: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-attribute: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-code: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-purple500: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-h2: #9768f8; /* Terminal Magenta, Debug token keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-magenta: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
+    --ayame-pink: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
+    --ayame-tertiary: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
+    --ayame-focus: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
+    --ayame-operator: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
+    --ayame-magenta500: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
+    --ayame-pink500: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
+    --ayame-value: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
+    --ayame-h3: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Header 3 */
     --ayame-red900: #662332; /* Error background */
     --ayame-error2: #662332; /* Error background */
     --ayame-red700: #cc4665; /* Terminal Red, Error, Invalid, Tags */
@@ -112,59 +119,82 @@
     --ayame-blue2: #3682c4; /* Terminal Blue, Bookmarks, VS Code activity badge */
     --ayame-blue300: #69b5f7;
     --ayame-blue100: #b4dafb;
-    --ayame-purple900: #3c2a63;
+    --ayame-purple900: #3c2a63; /* Active item */
+    --ayame-activeitem: #3c2a63; /* Active item */
     --ayame-purple700: #7953c6;
-    --ayame-purple300: #ac86f9;
+    --ayame-purple300: #ac86f9; /* Active item text */
+    --ayame-activeitemtext: #ac86f9; /* Active item text */
     --ayame-purple100: #d5c3fc;
     --ayame-magenta900: #632c60;
+    --ayame-pink900: #632c60;
     --ayame-magenta700: #c658c1;
+    --ayame-pink700: #c658c1;
     --ayame-magenta300: #f98bf4;
+    --ayame-pink300: #f98bf4;
     --ayame-magenta100: #fcc5f9;
-    --ayame-bg800: #1a1528; /* Secondary borders */
-    --ayame-border2: #1a1528; /* Secondary borders */
-    --ayame-bg700: #221c35; /* Modal background, Checkbox background, Input background */
+    --ayame-pink100: #fcc5f9;
+    --ayame-bg850: #1a1528; /* Markdown block quotes, Header Row, Secondary borders */
+    --ayame-tabline: #1a1528; /* Markdown block quotes, Header Row, Secondary borders */
+    --ayame-blockquote: #1a1528; /* Markdown block quotes, Header Row, Secondary borders */
+    --ayame-border2: #1a1528; /* Markdown block quotes, Header Row, Secondary borders */
+    --ayame-bg800: #221c35; /* Modal background, Checkbox background, Input background */
     --ayame-modal: #221c35; /* Modal background, Checkbox background, Input background */
     --ayame-menu: #221c35; /* Modal background, Checkbox background, Input background */
     --ayame-toolbar: #221c35; /* Modal background, Checkbox background, Input background */
     --ayame-checkbox: #221c35; /* Modal background, Checkbox background, Input background */
     --ayame-input: #221c35; /* Modal background, Checkbox background, Input background */
-    --ayame-bg600: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-subheader: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-tabline: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-hover: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-highlight: #2b2343; /* Subheader background, Line highlight, UI hover highlight */
-    --ayame-bg500: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-black: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-gutter: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-border: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-rule: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-button: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-altrow: #342950; /* Terminal Black, Buttons, Borders, Rules and guides, Line numbers, Alternate row background, Alternate modal background */
-    --ayame-bg400: #3c305d;
-    --ayame-bg300: #45376a;
-    --ayame-bg200: #4d3e78;
-    --ayame-bg100: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-gray: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-comment: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-blockquote: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-folded: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
-    --ayame-darkgray: #564585; /* Terminal Bright Black, Comments, Markdown block quotes, Folded code blocks */
+    --ayame-bg750: #2b2343; /* Subheader background, Alternate row background, Alternate modal background */
+    --ayame-subheader: #2b2343; /* Subheader background, Alternate row background, Alternate modal background */
+    --ayame-altrow: #2b2343; /* Subheader background, Alternate row background, Alternate modal background */
+    --ayame-bg700: #342950; /* Terminal Black, Line highlight, UI hover highlight, Buttons, Borders, Rules and guides */
+    --ayame-black: #342950; /* Terminal Black, Line highlight, UI hover highlight, Buttons, Borders, Rules and guides */
+    --ayame-hover: #342950; /* Terminal Black, Line highlight, UI hover highlight, Buttons, Borders, Rules and guides */
+    --ayame-highlight: #342950; /* Terminal Black, Line highlight, UI hover highlight, Buttons, Borders, Rules and guides */
+    --ayame-border: #342950; /* Terminal Black, Line highlight, UI hover highlight, Buttons, Borders, Rules and guides */
+    --ayame-rule: #342950; /* Terminal Black, Line highlight, UI hover highlight, Buttons, Borders, Rules and guides */
+    --ayame-button: #342950; /* Terminal Black, Line highlight, UI hover highlight, Buttons, Borders, Rules and guides */
+    --ayame-bg650: #3c305d;
+    --ayame-bg600: #45376a;
+    --ayame-bg550: #4d3e78;
+    --ayame-bg500: #564585; /* Terminal Bright Black, Line numbers, Folded code blocks */
+    --ayame-gray: #564585; /* Terminal Bright Black, Line numbers, Folded code blocks */
+    --ayame-gutter: #564585; /* Terminal Bright Black, Line numbers, Folded code blocks */
+    --ayame-folded: #564585; /* Terminal Bright Black, Line numbers, Folded code blocks */
+    --ayame-darkgray: #564585; /* Terminal Bright Black, Line numbers, Folded code blocks */
+    --ayame-bg450: #675891; /* Comments */
+    --ayame-comment: #675891; /* Comments */
+    --ayame-bg400: #786a9d;
+    --ayame-bg350: #897daa;
+    --ayame-bg300: #9a8fb6;
+    --ayame-bg250: #aba2c2;
+    --ayame-bg200: #bbb5ce;
+    --ayame-bg150: #ccc7da;
+    --ayame-bg100: #dddae7;
     --ayame-fg900: #191023;
+    --ayame-fg850: #251934;
     --ayame-fg800: #322145; /* Highlight and focus border, Highlights in UI and modals */
     --ayame-focusborder: #322145; /* Highlight and focus border, Highlights in UI and modals */
     --ayame-highlightborder: #322145; /* Highlight and focus border, Highlights in UI and modals */
     --ayame-modalhighlight: #322145; /* Highlight and focus border, Highlights in UI and modals */
     --ayame-highlight2: #322145; /* Highlight and focus border, Highlights in UI and modals */
+    --ayame-fg750: #3e2957;
     --ayame-fg700: #4a3168; /* Selection background */
     --ayame-selection: #4a3168; /* Selection background */
+    --ayame-fg650: #573979;
     --ayame-fg600: #63428a;
+    --ayame-fg550: #704a9c;
     --ayame-fg500: #7c52ad; /* Markdown underline */
     --ayame-underline: #7c52ad; /* Markdown underline */
+    --ayame-fg450: #8963b5;
     --ayame-fg400: #9675bd; /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
     --ayame-cursor: #9675bd; /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
     --ayame-activeborder: #9675bd; /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
     --ayame-active: #9675bd; /* Cursor, Active border, Active line number, Subheader foreground, Badge background, Minimap and scrollbar background, Markdown table text */
-    --ayame-fg300: #b097ce;
+    --ayame-fg350: #a386c6;
+    --ayame-fg300: #b097ce; /* Blockquote text */
+    --ayame-blockquotetext: #b097ce; /* Blockquote text */
+    --ayame-fg250: #bea9d6;
+    --ayame-fg150: #d8cbe6;
     --ayame-fg100: #e5dcef; /* Terminal Bright White, Objects */
     --ayame-white: #e5dcef; /* Terminal Bright White, Objects */
     --ayame-object: #e5dcef; /* Terminal Bright White, Objects */
@@ -181,10 +211,27 @@
   body {
     font-family: "Lato", "Overpass", sans-serif !important;
   }
+  b,
+  strong {
+    color: var(--ayame-bold);
+  }
+  em,
+  i {
+    color: var(--ayame-italic);
+  }
+  code,
+  kbd,
+  samp {
+    background: var(--ayame-bg);
+    border: 2px solid var(--ayame-border);
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 0.8em;
+  }
   .site-theme-dark {
     --color-background: 19, 15, 30;
     --color-foreground: 34, 28, 53;
-    --color-foreground-blue: 43, 35, 67;
+    --color-foreground-blue: 26, 21, 40;
     --color-text: 203, 186, 222;
     --color-text-light: 203, 186, 222;
     --color-text-lighter: 138, 125, 155;
@@ -194,7 +241,7 @@
     --color-gray-700: 138, 125, 155;
     --color-gray-600: 138, 125, 155;
     --color-gray-100: 34, 28, 53;
-    --color-overlay: 43, 35, 67;
+    --color-overlay: 52, 41, 80;
     --color-shadow-dark: 11, 9, 17;
     --color-text-bright: 203, 186, 222;
     --color-blue: 68, 163, 245;
@@ -203,30 +250,492 @@
     --color-orange: 255, 150, 92;
     --color-yellow: 245, 203, 64;
     --color-green: 150, 228, 116;
+/* Categories
+         * 1.   Anime
+         * 2.   Manga
+         * 3.   Light Novels
+         * 4.   Visual Novels
+         * 5.   Release Discussion
+         * 6.   ???
+         * 7.   General
+         * 8.   News
+         * 9.   Music
+         * 10.  Gaming
+         * 11.  Site Feedback
+         * 12.  Bug Reports
+         * 13.  Site Announcements
+         * 14.  ???
+         * 15.  Recommendations
+         * 16.  Forum Games
+         * 17.  Misc.
+         * 18.  AniList Apps
+         */
+  }
+  .site-theme-dark a:hover,
+  .site-theme-dark .list .title:hover {
+    color: #f76ef1;
+  }
+  .site-theme-dark .el-textarea__inner,
+  .site-theme-dark .wrap,
+  .site-theme-dark .embed,
+  .site-theme-dark .overview .content-wrap {
+    border-radius: 0;
+  }
+  .site-theme-dark .activity-feed .wrap:hover {
+    background-color: #322145;
+  }
+  .site-theme-dark .embed .wrap:hover {
+    background-color: #632c60;
+    color: #f76ef1;
+  }
+  .site-theme-dark .embed .wrap:hover .title {
+    color: #f76ef1;
+  }
+  .site-theme-dark .button {
+    border-radius: 0;
+  }
+  .site-theme-dark .button.save {
+    color: #130f1e;
+  }
+  .site-theme-dark .button.cancel {
+    color: #cbbade;
+    background-color: #342950;
+  }
+  .site-theme-dark .button:hover {
+    background-color: #f76ef1;
+    color: #130f1e;
   }
   .site-theme-dark .nav-unscoped {
     color: var(--ayame-foreground);
     background: var(--ayame-header);
   }
+  .site-theme-dark .nav-unscode.transparent {
+    background: #f00;
+  }
+  .site-theme-dark .nav .link:hover {
+    color: #f76ef1;
+    background-color: #632c60;
+  }
+  .site-theme-dark .nav .router-link-active {
+    color: #fff;
+    text-shadow: 0 0 3px #fff, 0 0 5px #44a3f5, 0 0 7px #44a3f5, 0 0 10px #44a3f5, 0 0 20px #44a3f5, 0 0 40px #44a3f5;
+  }
+  .site-theme-dark .nav .link:hover {
+    color: #fff;
+    background: none;
+    text-shadow: 0 0 3px #fff, 0 0 5px #f76ef1, 0 0 7px #f76ef1, 0 0 10px #f76ef1, 0 0 20px #f76ef1, 0 0 40px #f76ef1;
+  }
   .site-theme-dark a.category {
-    color: var(--ayame-background);
+    color: var(--ayame-background) !important;
+    border: 2px solid transparent;
+  }
+  .site-theme-dark a.category:hover {
+    border-color: var(--ayame-focus);
+    box-shadow: 0 0 5px var(--ayame-purewhite), 0 0 5px var(--ayame-focus), 0 0 7px var(--ayame-focus), 0 0 10px var(--ayame-focus);
   }
   .site-theme-dark a[href="/forum/recent?category=1"].category {
     background-color: var(--ayame-blue) !important;
   }
-  .site-theme-dark a[href="/forum/recent?category=16"].category {
-    background-color: var(--ayame-orange) !important;
-  }
-  .site-theme-dark a[href="/forum/recent?category=7"].category {
-    background-color: var(--ayame-cyan) !important;
-  }
   .site-theme-dark a[href="/forum/recent?category=2"].category {
-    background-color: var(--ayame-green) !important;
-  }
-  .site-theme-dark a[href="/forum/recent?category=5"].category {
     background-color: var(--ayame-purple) !important;
   }
-  .site-theme-dark a[href="/forum/recent?category=13"].category {
+  .site-theme-dark a[href="/forum/recent?category=3"].category {
+    background-color: var(--ayame-purple300) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=4"].category {
+    background-color: var(--ayame-purple100) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=5"].category {
+    background-color: var(--ayame-blue700) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=7"].category {
+    background-color: var(--ayame-orange) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=8"].category {
+    background-color: var(--ayame-green) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=9"].category {
     background-color: var(--ayame-pink) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=10"].category {
+    background-color: var(--ayame-pink300) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=11"].category {
+    background-color: var(--ayame-red300) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=12"].category {
+    background-color: var(--ayame-red) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=13"].category {
+    background-color: var(--ayame-red700) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=15"].category {
+    background-color: var(--ayame-cyan) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=16"].category {
+    background-color: var(--ayame-fg700) !important;
+    color: var(--ayame-fg) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=17"].category {
+    background-color: var(--ayame-fg400) !important;
+  }
+  .site-theme-dark a[href="/forum/recent?category=18"].category {
+    background-color: var(--ayame-teal) !important;
+  }
+  .site-theme-dark a.media.ANIME {
+    background-color: var(--ayame-blue900) !important;
+    color: var(--ayame-blue) !important;
+  }
+  .site-theme-dark a.media.MANGA {
+    background-color: var(--ayame-purple900) !important;
+    color: var(--ayame-purple) !important;
+  }
+  .site-theme-dark .actions {
+    color: #44a3f5;
+  }
+  .site-theme-dark .actions .action.action:hover {
+    color: #f76ef1;
+  }
+  .site-theme-dark .actions .action.likes .button:hover,
+  .site-theme-dark .actions .action.button:hover {
+    background: none;
+    color: #f76ef1;
+  }
+  .site-theme-dark .actions svg:hover {
+    color: #f76ef1;
+  }
+  .site-theme-dark .time .action {
+    color: #44a3f5;
+  }
+  .site-theme-dark .time .action:hover {
+    color: #f76ef1;
+  }
+  .site-theme-dark .time {
+    color: #8a7d9b;
+  }
+  .site-theme-dark .el-dropdown {
+    color: #8a7d9b;
+  }
+  .site-theme-dark .el-dropdown:hover {
+    color: #f76ef1;
+  }
+  .site-theme-dark .el-dropdown-menu {
+    background-color: #564585;
+  }
+  .site-theme-dark .el-dropdown-menu__item--divided {
+    border-color: #221c35;
+  }
+  .site-theme-dark .el-dropdown-menu__item--divided::before {
+    background-color: #221c35;
+  }
+  .site-theme-dark .el-popper .popper__arrow,
+  .site-theme-dark .el-popper .popper__arrow::after {
+    color: #564585;
+    border-bottom-color: #564585;
+  }
+  .site-theme-dark .el-dropdown-menu__item:focus,
+  .site-theme-dark .el-dropdown-menu__item:not(.is-disabled):hover {
+    background-color: #632c60;
+    color: #f76ef1;
+  }
+  .site-theme-dark .el-dropdown-menu__item:focus svg,
+  .site-theme-dark .el-dropdown-menu__item:not(.is-disabled):hover svg {
+    color: #f76ef1;
+  }
+  .site-theme-dark .el-input,
+  .site-theme-dark .el-textarea {
+    border-radius: 0;
+  }
+  .site-theme-dark .el-input-group__append,
+  .site-theme-dark .el-input-group__prepend,
+  .site-theme-dark .el-input__inner,
+  .site-theme-dark .el-textarea__inner {
+    border: 2px solid transparent;
+  }
+  .site-theme-dark .el-input-group__append:focus,
+  .site-theme-dark .el-input-group__prepend:focus,
+  .site-theme-dark .el-input__inner:focus,
+  .site-theme-dark .el-textarea__inner:focus {
+    border-color: #632c60;
+  }
+  .site-theme-dark .el-select:hover .el-input__inner {
+    border-color: #f76ef1;
+  }
+  .site-theme-dark .el-input-number__decrease:hover:not(.is-disabled) ~ .el-input .el-input__inner:not(.is-disabled),
+  .site-theme-dark .el-input-number__increase:hover:not(.is-disabled) ~ .el-input .el-input__inner:not(.is-disabled) {
+    border-color: #f76ef1;
+  }
+  .site-theme-dark .markdown-editor > div:hover {
+    color: #f76ef1;
+  }
+  .site-theme-dark .user-page-unscoped.blue .progress .bar {
+    background: #44a3f5;
+  }
+  .site-theme-dark .history-day {
+    background: #130f1e;
+    border-radius: 0;
+  }
+  .site-theme-dark .history-day.lv-1 {
+    background: #44a3f5;
+  }
+  .site-theme-dark .history-day.lv-2 {
+    background: rgba(94,167,246,1);
+    box-shadow: 0 0 3px rgba(255,255,255,0.1), 0 0 5px rgba(76,157,245,0.1), 0 0 7px rgba(76,157,245,0.1), 0 0 10px rgba(76,157,245,0.1), 0 0 20px rgba(76,157,245,0.1), 0 0 40px rgba(76,157,245,0.1);
+  }
+  .site-theme-dark .history-day.lv-3 {
+    background: #77acf8;
+    box-shadow: 0 0 3px rgba(255,255,255,0.2), 0 0 5px rgba(85,151,246,0.2), 0 0 7px rgba(85,151,246,0.2), 0 0 10px rgba(85,151,246,0.2), 0 0 20px rgba(85,151,246,0.2), 0 0 40px rgba(85,151,246,0.2);
+  }
+  .site-theme-dark .history-day.lv-4 {
+    background: #8eb2f9;
+    box-shadow: 0 0 3px rgba(255,255,255,0.3), 0 0 5px rgba(93,145,246,0.3), 0 0 7px rgba(93,145,246,0.3), 0 0 10px rgba(93,145,246,0.3), 0 0 20px rgba(93,145,246,0.3), 0 0 40px rgba(93,145,246,0.3);
+  }
+  .site-theme-dark .history-day.lv-5 {
+    background: #b7c3fb;
+    box-shadow: 0 0 5px rgba(255,255,255,0.5), 0 0 5px rgba(110,134,247,0.5), 0 0 7px rgba(110,134,247,0.5), 0 0 10px rgba(110,134,247,0.5), 0 0 20px rgba(110,134,247,0.5), 0 0 40px rgba(110,134,247,0.5);
+  }
+  .site-theme-dark .history-day.lv-6 {
+    background: #d8d7fd;
+    box-shadow: 0 0 5px rgba(255,255,255,0.7), 0 0 5px rgba(126,122,247,0.7), 0 0 7px rgba(126,122,247,0.7), 0 0 10px rgba(126,122,247,0.7), 0 0 20px rgba(126,122,247,0.7), 0 0 40px rgba(126,122,247,0.7);
+  }
+  .site-theme-dark .history-day.lv-7 {
+    background: #e7e3fd;
+    box-shadow: 0 0 5px rgba(255,255,255,0.8), 0 0 5px rgba(134,116,247,0.8), 0 0 7px rgba(134,116,247,0.8), 0 0 10px rgba(134,116,247,0.8), 0 0 20px rgba(134,116,247,0.8), 0 0 40px rgba(134,116,247,0.8);
+  }
+  .site-theme-dark .history-day.lv-8 {
+    background: #f4f1fe;
+    box-shadow: 0 0 5px rgba(255,255,255,0.9), 0 0 5px rgba(143,110,248,0.9), 0 0 7px rgba(143,110,248,0.9), 0 0 10px rgba(143,110,248,0.9), 0 0 20px rgba(143,110,248,0.9), 0 0 40px rgba(143,110,248,0.9);
+  }
+  .site-theme-dark .history-day.lv-9 {
+    background: #fff;
+    box-shadow: 0 0 3px #fff, 0 0 5px #9768f8, 0 0 7px #9768f8, 0 0 10px #9768f8, 0 0 20px #9768f8, 0 0 40px #9768f8;
+  }
+  .site-theme-dark a.favourite,
+  .site-theme-dark a.cover {
+    border: 2px solid transparent;
+  }
+  .site-theme-dark a.favourite:hover,
+  .site-theme-dark a.cover:hover {
+    border-color: #fff;
+    box-shadow: 0 0 5px #fff, 0 0 5px #44a3f5, 0 0 7px #44a3f5, 0 0 10px #44a3f5, 0 0 20px #44a3f5, 0 0 40px #44a3f5;
+  }
+  .site-theme-dark .donator-badge {
+    background-color: #3c5b2e;
+    border: 2px solid transparent;
+    color: #96e474;
+  }
+  .site-theme-dark .wrap:hover .donator-badge {
+    border-color: #fff;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 5px #96e474, 0 0 10px #96e474;
+    box-shadow: 0 0 5px #fff, 0 0 5px #96e474, 0 0 10px #96e474, 0 0 30px #96e474;
+  }
+  .site-theme-dark .medialist.table .section-name {
+    background: #0b0911;
+    color: #9675bd;
+    font-style: italic;
+    font-size: 1em;
+    text-transform: lowercase;
+    margin-bottom: 0;
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+  .site-theme-dark .medialist.table .list-head {
+    background: #221c35;
+    font-weight: 700;
+    color: #9675bd;
+  }
+  .site-theme-dark .medialist.table .list-head > div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .site-theme-dark .medialist.table .entry:nth-child(odd) {
+    background: #2b2343;
+  }
+  .site-theme-dark .medialist.table .entry:hover {
+    background: #322145;
+    color: #f76ef1;
+  }
+  .site-theme-dark .medialist.table .entry:hover .title a:hover {
+    color: inherit;
+  }
+  .site-theme-dark .medialist.table .entry:hover .edit {
+    transition: 0.2s;
+    background: none;
+    color: #f76ef1;
+  }
+  .site-theme-dark .medialist.table .entry:hover .edit:hover {
+    background: #f76ef1;
+    color: #130f1e;
+  }
+  .site-theme-dark .filter-group a,
+  .site-theme-dark .filter-group span {
+    color: var(--ayame-muted);
+  }
+  .site-theme-dark .filter-group a:hover,
+  .site-theme-dark .filter-group span:hover {
+    background-color: var(--ayame-magenta900);
+    color: var(--ayame-focus);
+  }
+  .site-theme-dark .filter-group a.active,
+  .site-theme-dark .filter-group span.active {
+    background-color: var(--ayame-highlight);
+    color: var(--ayame-primary);
+  }
+  .site-theme-dark .filter-group a.action:hover,
+  .site-theme-dark .filter-group span.action:hover {
+    background: none;
+    color: var(--ayame-focus);
+  }
+  .site-theme-dark .name span:hover {
+    color: var(--ayame-focus);
+  }
+  .site-theme-dark .about .content-wrap {
+    max-height: none;
+  }
+  .site-theme-dark .list-editor-wrap .header .save-btn {
+    background-color: #44a3f5;
+    color: #130f1e;
+    transition: 0.2s;
+  }
+  .site-theme-dark .list-editor-wrap .header .save-btn:hover {
+    background-color: #f76ef1;
+  }
+  .site-theme-dark .list-editor-wrap .outline {
+    border: 1px solid transparent;
+  }
+  .site-theme-dark .list-editor-wrap .outline:hover {
+    background-color: #632c60;
+    color: #f76ef1;
+  }
+  .site-theme-dark .list-editor-wrap .outline.isFavourite:hover {
+    color: #130f1e;
+    border-color: #f76ef1;
+  }
+  .site-theme-dark .list-editor-wrap .el-checkbox:hover,
+  .site-theme-dark .list-editor-wrap .el-checkbox.is-checked:hover .el-checkbox__input + .el-checkbox__label {
+    color: #f76ef1;
+  }
+  .site-theme-dark .el-select-dropdown {
+    background-color: #342950;
+  }
+  .site-theme-dark .el-select-dropdown__item.selected {
+    color: #9768f8;
+  }
+  .site-theme-dark .el-select-dropdown__item:hover,
+  .site-theme-dark .el-select-dropdown__item.hover {
+    background-color: #632c60;
+    color: #f76ef1;
+  }
+  .site-theme-dark .el-picker-panel {
+    background-color: #342950;
+    border: none;
+    color: #cbbade;
+    border-radius: 0;
+  }
+  .site-theme-dark .el-picker-panel__icon-btn {
+    color: #cbbade;
+    padding: 4px;
+    border-radius: 50%;
+  }
+  .site-theme-dark .el-picker-panel__icon-btn:hover {
+    color: #f76ef1;
+    background-color: #632c60;
+    border-color: #f76ef1;
+  }
+  .site-theme-dark .el-date-picker__header--bordered {
+    border: none;
+  }
+  .site-theme-dark .el-date-picker__header-label {
+    color: #cbbade;
+  }
+  .site-theme-dark .el-date-picker__header-label:hover {
+    color: #f76ef1;
+  }
+  .site-theme-dark .el-date-table td.current:not(.disabled) span {
+    color: #130f1e;
+    background-color: #44a3f5;
+  }
+  .site-theme-dark .el-date-table td.available:hover span {
+    color: #f76ef1;
+    background-color: #632c60;
+  }
+  .site-theme-dark .el-date-table td.today span {
+    color: #9768f8;
+    background-color: #3c2a63;
+  }
+  .site-theme-dark .el-date-table td.next-month,
+  .site-theme-dark .el-date-table td.prev-month {
+    color: #8a7d9b;
+  }
+  .site-theme-dark .el-date-table tr:not(.el-date-table__row) {
+    background-color: #1a1528;
+  }
+  .site-theme-dark .el-date-table tr.el-date-table__row {
+    background-color: #221c35;
+  }
+  .site-theme-dark .el-date-table th {
+    color: #9675bd;
+    border: none;
+  }
+  .site-theme-dark .el-month-table {
+    background: #221c35;
+  }
+  .site-theme-dark .el-month-table td .cell {
+    color: #cbbade;
+    border-radius: 18px;
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+  }
+  .site-theme-dark .el-month-table td.current .cell {
+    background-color: #44a3f5;
+    color: #130f1e;
+  }
+  .site-theme-dark .el-month-table td.today .cell {
+    background-color: #3c2a63;
+    color: #9768f8;
+  }
+  .site-theme-dark .el-month-table td .cell:hover {
+    color: #f76ef1;
+    background-color: #632c60;
+  }
+  .site-theme-dark .el-month-table td div {
+    padding: 0;
+    height: auto;
+  }
+  .site-theme-dark .el-month-table td {
+    padding: 20px 3px;
+  }
+  .site-theme-dark .el-year-table {
+    background: #221c35;
+  }
+  .site-theme-dark .el-year-table td .cell {
+    color: #cbbade;
+    border-radius: 18px;
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+  }
+  .site-theme-dark .el-year-table td.today .cell {
+    color: #9768f8;
+    background-color: #3c2a63;
+  }
+  .site-theme-dark .el-year-table td.current .cell {
+    background-color: #44a3f5;
+    color: #130f1e;
+  }
+  .site-theme-dark .el-year-table td .cell:hover {
+    color: #f76ef1;
+    background-color: #632c60;
+  }
+  .site-theme-dark .el-year-table td {
+    padding: 20px 3px;
+  }
+  .site-theme-dark #app > .wrap > .footer {
+    background: #0b0911;
+  }
+  .site-theme-dark ::selection {
+    background: #4a3168;
   }
 }

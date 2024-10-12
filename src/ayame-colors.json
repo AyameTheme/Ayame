@@ -33,7 +33,8 @@
       "stop",
       "this",
       "bold",
-      "red500"
+      "red500",
+      "h6"
     ],
     "hex": "#ff577e",
     "uses": [
@@ -42,7 +43,8 @@
       "Breakpoints",
       "Stop",
       "Language variables",
-      "Markdown bold"
+      "Markdown bold",
+      "Header 6"
     ]
   },
   {
@@ -50,13 +52,15 @@
     "aliases": [
       "warning",
       "constant",
-      "orange500"
+      "orange500",
+      "h4"
     ],
     "hex": "#ff965c",
     "uses": [
       "Terminal Yellow",
       "Warnings",
-      "Constants"
+      "Constants",
+      "Header 4"
     ]
   },
   {
@@ -81,14 +85,18 @@
       "added",
       "debug",
       "string",
-      "green500"
+      "green500",
+      "h5",
+      "italic"
     ],
     "hex": "#96e474",
     "uses": [
       "Terminal Bright Green",
       "Git added",
       "Debug",
-      "Strings"
+      "Strings",
+      "Header 5",
+      "Markdown italics"
     ]
   },
   {
@@ -109,7 +117,6 @@
       "control",
       "regex",
       "escape",
-      "italics",
       "cyan500",
       "linkhover"
     ],
@@ -120,8 +127,7 @@
       "Hyperlink hover",
       "Control keywords",
       "RegEx literals",
-      "Escape characters",
-      "Markdown italics"
+      "Escape characters"
     ]
   },
   {
@@ -133,7 +139,8 @@
       "hyperlink",
       "keyword",
       "type",
-      "blue500"
+      "blue500",
+      "h1"
     ],
     "hex": "#44a3f5",
     "uses": [
@@ -142,7 +149,8 @@
       "Git modified",
       "Hyperlinks",
       "Keywords",
-      "Type"
+      "Type",
+      "Header 1"
     ]
   },
   {
@@ -154,7 +162,8 @@
       "fun",
       "attribute",
       "code",
-      "purple500"
+      "purple500",
+      "h2"
     ],
     "hex": "#9768f8",
     "uses": [
@@ -162,7 +171,8 @@
       "Debug token keys",
       "Functions",
       "Attributes",
-      "Markdown plain code blocks"
+      "Markdown plain code blocks",
+      "Header 2"
     ]
   },
   {
@@ -173,14 +183,17 @@
       "focus",
       "operator",
       "magenta500",
-      "value"
+      "pink500",
+      "value",
+      "h3"
     ],
     "hex": "#f76ef1",
     "uses": [
       "Terminal Bright Magenta",
       "Debug token values",
       "Focus accents",
-      "Operator keywords"
+      "Operator keywords",
+      "Header 3"
     ]
   },
   {
@@ -211,69 +224,91 @@
   },
   {
     "name": "red300",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#ff7998",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "red100",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#ffbccb",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "orange900",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#663c25",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "orange700",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#cc784a",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "orange300",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#ffab7d",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "orange100",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#ffd5be",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "yellow900",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#62511a",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "yellow700",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#c4a233",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "yellow300",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#f7d566",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "yellow100",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#fbeab3",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "green900",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#3c5b2e",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "green700",
@@ -290,45 +325,59 @@
   },
   {
     "name": "green300",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#abe990",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "green100",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#d5f4c7",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "teal900",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#256342",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "teal700",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#4ac685",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "teal300",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#7df9b8",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "teal100",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#befcdb",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "cyan900",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#225c63",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "cyan700",
@@ -344,21 +393,27 @@
   },
   {
     "name": "cyan300",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#76ecf9",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "cyan100",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#bbf5fc",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "blue900",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#1b4162",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "blue700",
@@ -377,76 +432,108 @@
   },
   {
     "name": "blue300",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#69b5f7",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "blue100",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#b4dafb",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "purple900",
-    "aliases": [],
+    "aliases": [
+      "activeitem"
+    ],
     "hex": "#3c2a63",
-    "uses": []
+    "uses": [
+      "Active item"
+    ]
   },
   {
     "name": "purple700",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#7953c6",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "purple300",
-    "aliases": [],
+    "aliases": [
+      "activeitemtext"
+    ],
     "hex": "#ac86f9",
-    "uses": []
+    "uses": [
+      "Active item text"
+    ]
   },
   {
     "name": "purple100",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#d5c3fc",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "magenta900",
-    "aliases": [],
+    "aliases": [
+      "pink900"
+    ],
     "hex": "#632c60",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "magenta700",
-    "aliases": [],
+    "aliases": [
+      "pink700"
+    ],
     "hex": "#c658c1",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "magenta300",
-    "aliases": [],
+    "aliases": [
+      "pink300"
+    ],
     "hex": "#f98bf4",
-    "uses": []
+    "uses": [
+    ]
   },
   {
     "name": "magenta100",
-    "aliases": [],
+    "aliases": [
+      "pink100"
+    ],
     "hex": "#fcc5f9",
-    "uses": []
+    "uses": [
+    ]
   },
   {
-    "name": "bg800",
+    "name": "bg850",
     "aliases": [
+      "tabline",
+      "blockquote",
       "border2"
     ],
     "hex": "#1a1528",
     "uses": [
+      "Markdown block quotes",
+      "Header Row",
       "Secondary borders"
     ]
   },
   {
-    "name": "bg700",
+    "name": "bg800",
     "aliases": [
       "modal",
       "menu",
@@ -462,81 +549,158 @@
     ]
   },
   {
-    "name": "bg600",
+    "name": "bg750",
     "aliases": [
       "subheader",
-      "tabline",
-      "hover",
-      "highlight"
+      "altrow"
     ],
     "hex": "#2b2343",
     "uses": [
       "Subheader background",
-      "Line highlight",
-      "UI hover highlight"
-    ]
-  },
-  {
-    "name": "bg500",
-    "aliases": [
-      "black",
-      "gutter",
-      "border",
-      "rule",
-      "button",
-      "altrow"
-    ],
-    "hex": "#342950",
-    "uses": [
-      "Terminal Black",
-      "Buttons",
-      "Borders",
-      "Rules and guides",
-      "Line numbers",
       "Alternate row background",
       "Alternate modal background"
     ]
   },
   {
-    "name": "bg400",
-    "aliases": [],
+    "name": "bg700",
+    "aliases": [
+      "black",
+      "hover",
+      "highlight",
+      "border",
+      "rule",
+      "button"
+    ],
+    "hex": "#342950",
+    "uses": [
+      "Terminal Black",
+      "Line highlight",
+      "UI hover highlight",
+      "Buttons",
+      "Borders",
+      "Rules and guides"
+    ]
+  },
+  {
+    "name": "bg650",
+    "aliases": [
+    ],
     "hex": "#3c305d",
-    "uses": []
+    "uses": [
+    ]
   },
   {
-    "name": "bg300",
-    "aliases": [],
+    "name": "bg600",
+    "aliases": [
+    ],
     "hex": "#45376a",
-    "uses": []
+    "uses": [
+    ]
   },
   {
-    "name": "bg200",
-    "aliases": [],
+    "name": "bg550",
+    "aliases": [
+    ],
     "hex": "#4d3e78",
-    "uses": []
+    "uses": [
+    ]
   },
   {
-    "name": "bg100",
+    "name": "bg500",
     "aliases": [
       "gray",
-      "comment",
-      "blockquote",
+      "gutter",
       "folded",
       "darkgray"
     ],
     "hex": "#564585",
     "uses": [
       "Terminal Bright Black",
-      "Comments",
-      "Markdown block quotes",
+      "Line numbers",
       "Folded code blocks"
     ]
   },
   {
+    "name": "bg450",
+    "aliases": [
+      "comment"
+    ],
+    "hex": "#675891",
+    "uses": [
+      "Comments"
+    ]
+  },
+  {
+    "name": "bg400",
+    "aliases": [
+    ],
+    "hex": "#786a9d",
+    "uses": [
+    ]
+  },
+  {
+    "name": "bg350",
+    "aliases": [
+    ],
+    "hex": "#897daa",
+    "uses": [
+    ]
+  },
+  {
+    "name": "bg300",
+    "aliases": [
+    ],
+    "hex": "#9a8fb6",
+    "uses": [
+    ]
+  },
+  {
+    "name": "bg250",
+    "aliases": [
+    ],
+    "hex": "#aba2c2",
+    "uses": [
+    ]
+  },
+  {
+    "name": "bg200",
+    "aliases": [
+    ],
+    "hex": "#bbb5ce",
+    "uses": [
+    ]
+  },
+  {
+    "name": "bg150",
+    "aliases": [
+    ],
+    "hex": "#ccc7da",
+    "uses": [
+    ]
+  },
+  {
+    "name": "bg100",
+    "aliases": [
+    ],
+    "hex": "#dddae7",
+    "uses": [
+    ]
+  },
+  {
     "name": "fg900",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#191023",
-    "uses": []
+    "uses": [
+    ]
+  },
+  {
+    "name": "fg850",
+    "aliases": [
+    ],
+    "hex": "#251934",
+    "uses": [
+    ]
   },
   {
     "name": "fg800",
@@ -553,6 +717,14 @@
     ]
   },
   {
+    "name": "fg750",
+    "aliases": [
+    ],
+    "hex": "#3e2957",
+    "uses": [
+    ]
+  },
+  {
     "name": "fg700",
     "aliases": [
       "selection"
@@ -563,10 +735,28 @@
     ]
   },
   {
+    "name": "fg650",
+    "aliases": [
+    ],
+    "hex": "#573979",
+    "uses": [
+    ]
+  },
+  {
     "name": "fg600",
-    "aliases": [],
+    "aliases": [
+    ],
     "hex": "#63428a",
-    "uses": []
+    "uses": [
+    ]
+  },
+  {
+    "name": "fg550",
+    "aliases": [
+    ],
+    "hex": "#704a9c",
+    "uses": [
+    ]
   },
   {
     "name": "fg500",
@@ -576,6 +766,14 @@
     "hex": "#7c52ad",
     "uses": [
       "Markdown underline"
+    ]
+  },
+  {
+    "name": "fg450",
+    "aliases": [
+    ],
+    "hex": "#8963b5",
+    "uses": [
     ]
   },
   {
@@ -597,10 +795,38 @@
     ]
   },
   {
+    "name": "fg350",
+    "aliases": [
+    ],
+    "hex": "#a386c6",
+    "uses": [
+    ]
+  },
+  {
     "name": "fg300",
-    "aliases": [],
+    "aliases": [
+      "blockquotetext"
+    ],
     "hex": "#b097ce",
-    "uses": []
+    "uses": [
+      "Blockquote text"
+    ]
+  },
+  {
+    "name": "fg250",
+    "aliases": [
+    ],
+    "hex": "#bea9d6",
+    "uses": [
+    ]
+  },
+  {
+    "name": "fg150",
+    "aliases": [
+    ],
+    "hex": "#d8cbe6",
+    "uses": [
+    ]
   },
   {
     "name": "fg100",
