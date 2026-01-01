@@ -53,14 +53,17 @@
       "warning",
       "constant",
       "orange500",
-      "h4"
+      "h4",
+      "conflict"
     ],
     "hex": "#ff965c",
     "uses": [
       "Terminal Yellow",
       "Warnings",
       "Constants",
-      "Header 4"
+      "Header 4",
+      "Predefined symbols",
+      "Git conflict"
     ]
   },
   {
@@ -96,7 +99,8 @@
       "Debug",
       "Strings",
       "Header 5",
-      "Markdown italics"
+      "Markdown italics",
+      "Property values"
     ]
   },
   {
@@ -163,12 +167,14 @@
       "attribute",
       "code",
       "purple500",
-      "h2"
+      "h2",
+      "key"
     ],
     "hex": "#9768f8",
     "uses": [
       "Terminal Magenta",
       "Debug token keys",
+      "Property keys",
       "Functions",
       "Attributes",
       "Markdown plain code blocks",
@@ -203,7 +209,8 @@
     ],
     "hex": "#662332",
     "uses": [
-      "Error background"
+      "Error background",
+      "Git deleted background"
     ]
   },
   {
@@ -244,6 +251,7 @@
     ],
     "hex": "#663c25",
     "uses": [
+      "Git conflic background"
     ]
   },
   {
@@ -257,9 +265,11 @@
   {
     "name": "orange300",
     "aliases": [
+      "parameter"
     ],
     "hex": "#ffab7d",
     "uses": [
+      "Parameters"
     ]
   },
   {
@@ -281,9 +291,11 @@
   {
     "name": "yellow700",
     "aliases": [
+      "verbose"
     ],
     "hex": "#c4a233",
     "uses": [
+      "Verbose"
     ]
   },
   {
@@ -308,6 +320,7 @@
     ],
     "hex": "#3c5b2e",
     "uses": [
+      "Git added background"
     ]
   },
   {
@@ -358,9 +371,11 @@
   {
     "name": "teal300",
     "aliases": [
+      "instance"
     ],
     "hex": "#7df9b8",
     "uses": [
+      "Instance fields"
     ]
   },
   {
@@ -394,9 +409,11 @@
   {
     "name": "cyan300",
     "aliases": [
+      "static"
     ],
     "hex": "#76ecf9",
     "uses": [
+      "Static fields"
     ]
   },
   {
@@ -413,6 +430,7 @@
     ],
     "hex": "#1b4162",
     "uses": [
+      "Git modified background"
     ]
   },
   {
@@ -471,7 +489,8 @@
     ],
     "hex": "#ac86f9",
     "uses": [
-      "Active item text"
+      "Active item text",
+      "Named argument"
     ]
   },
   {
@@ -503,19 +522,25 @@
   {
     "name": "magenta300",
     "aliases": [
-      "pink300"
+      "pink300",
+      "annotation",
+      "metadata"
     ],
     "hex": "#f98bf4",
     "uses": [
+      "Annotations",
+      "Metadata"
     ]
   },
   {
     "name": "magenta100",
     "aliases": [
-      "pink100"
+      "pink100",
+      "reassigned"
     ],
     "hex": "#fcc5f9",
     "uses": [
+      "Reassigned local variable"
     ]
   },
   {
@@ -856,6 +881,7 @@
     "aliases": [
       "darkwhite",
       "muted",
+      "unused",
       "punctuation",
       "terminator"
     ],
@@ -863,7 +889,8 @@
     "uses": [
       "Terminal White",
       "Muted text",
-      "Punctuation"
+      "Punctuation",
+      "Unused code"
     ]
   },
   {
