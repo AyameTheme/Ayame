@@ -247,7 +247,6 @@
         "Breakpoints",
         "Stop",
         "Language variables",
-        "Markdown bold",
         "Header 6"
       ]
     },
@@ -279,7 +278,6 @@
         "Breakpoints",
         "Stop",
         "Language variables",
-        "Markdown bold",
         "Header 6"
       ]
     },
@@ -311,7 +309,6 @@
         "Breakpoints",
         "Stop",
         "Language variables",
-        "Markdown bold",
         "Header 6"
       ]
     },
@@ -343,7 +340,6 @@
         "Breakpoints",
         "Stop",
         "Language variables",
-        "Markdown bold",
         "Header 6"
       ]
     },
@@ -375,39 +371,6 @@
         "Breakpoints",
         "Stop",
         "Language variables",
-        "Markdown bold",
-        "Header 6"
-      ]
-    },
-    "bold": {
-      "hex": "#ff577e",
-      "hex_upper": "#FF577E",
-      "hex_bare": "ff577e",
-      "hex_bare_upper": "FF577E",
-      "r": 255,
-      "red": 255,
-      "red_percent": 1,
-      "g": 87,
-      "green": 87,
-      "green_percent": 0.3411764705882353,
-      "b": 126,
-      "blue": 126,
-      "blue_percent": 0.49411764705882355,
-      "rgb": "rgb(255, 87, 126)",
-      "h": 350.8235294117647,
-      "hue": 350.8235294117647,
-      "s": 1.0,
-      "saturation": 1.0,
-      "l": 0.5,
-      "lightness": 0.5,
-      "hsl": "hsl(351, 100%, 50%)",
-      "uses": [
-        "Terminal Bright Red",
-        "Git deleted",
-        "Breakpoints",
-        "Stop",
-        "Language variables",
-        "Markdown bold",
         "Header 6"
       ]
     },
@@ -439,7 +402,6 @@
         "Breakpoints",
         "Stop",
         "Language variables",
-        "Markdown bold",
         "Header 6"
       ]
     },
@@ -471,7 +433,6 @@
         "Breakpoints",
         "Stop",
         "Language variables",
-        "Markdown bold",
         "Header 6"
       ]
     },
@@ -501,7 +462,9 @@
         "Terminal Yellow",
         "Warnings",
         "Constants",
-        "Header 4"
+        "Header 4",
+        "Predefined symbols",
+        "Git conflict"
       ]
     },
     "warning": {
@@ -530,7 +493,9 @@
         "Terminal Yellow",
         "Warnings",
         "Constants",
-        "Header 4"
+        "Header 4",
+        "Predefined symbols",
+        "Git conflict"
       ]
     },
     "constant": {
@@ -559,7 +524,9 @@
         "Terminal Yellow",
         "Warnings",
         "Constants",
-        "Header 4"
+        "Header 4",
+        "Predefined symbols",
+        "Git conflict"
       ]
     },
     "orange500": {
@@ -588,7 +555,9 @@
         "Terminal Yellow",
         "Warnings",
         "Constants",
-        "Header 4"
+        "Header 4",
+        "Predefined symbols",
+        "Git conflict"
       ]
     },
     "h4": {
@@ -617,7 +586,40 @@
         "Terminal Yellow",
         "Warnings",
         "Constants",
-        "Header 4"
+        "Header 4",
+        "Predefined symbols",
+        "Git conflict"
+      ]
+    },
+    "conflict": {
+      "hex": "#ff965c",
+      "hex_upper": "#FF965C",
+      "hex_bare": "ff965c",
+      "hex_bare_upper": "FF965C",
+      "r": 255,
+      "red": 255,
+      "red_percent": 1,
+      "g": 150,
+      "green": 150,
+      "green_percent": 0.5882352941176471,
+      "b": 92,
+      "blue": 92,
+      "blue_percent": 0.3607843137254902,
+      "rgb": "rgb(255, 150, 92)",
+      "h": 13.647058823529413,
+      "hue": 13.647058823529413,
+      "s": 1.0,
+      "saturation": 1.0,
+      "l": 0.5,
+      "lightness": 0.5,
+      "hsl": "hsl(14, 100%, 50%)",
+      "uses": [
+        "Terminal Yellow",
+        "Warnings",
+        "Constants",
+        "Header 4",
+        "Predefined symbols",
+        "Git conflict"
       ]
     },
     "yellow": {
@@ -741,7 +743,8 @@
         "Debug",
         "Strings",
         "Header 5",
-        "Markdown italics"
+        "Markdown italics",
+        "Property values"
       ]
     },
     "added": {
@@ -772,7 +775,8 @@
         "Debug",
         "Strings",
         "Header 5",
-        "Markdown italics"
+        "Markdown italics",
+        "Property values"
       ]
     },
     "debug": {
@@ -803,7 +807,8 @@
         "Debug",
         "Strings",
         "Header 5",
-        "Markdown italics"
+        "Markdown italics",
+        "Property values"
       ]
     },
     "string": {
@@ -834,7 +839,8 @@
         "Debug",
         "Strings",
         "Header 5",
-        "Markdown italics"
+        "Markdown italics",
+        "Property values"
       ]
     },
     "green500": {
@@ -865,7 +871,8 @@
         "Debug",
         "Strings",
         "Header 5",
-        "Markdown italics"
+        "Markdown italics",
+        "Property values"
       ]
     },
     "h5": {
@@ -896,7 +903,8 @@
         "Debug",
         "Strings",
         "Header 5",
-        "Markdown italics"
+        "Markdown italics",
+        "Property values"
       ]
     },
     "italic": {
@@ -927,7 +935,8 @@
         "Debug",
         "Strings",
         "Header 5",
-        "Markdown italics"
+        "Markdown italics",
+        "Property values"
       ]
     },
     "teal": {
@@ -953,7 +962,8 @@
       "lightness": 0.6686274509803921,
       "hsl": "hsl(148, 92%, 67%)",
       "uses": [
-        "TODO comments"
+        "TODO comments",
+        "Inline code"
       ]
     },
     "todo": {
@@ -979,7 +989,8 @@
       "lightness": 0.6686274509803921,
       "hsl": "hsl(148, 92%, 67%)",
       "uses": [
-        "TODO comments"
+        "TODO comments",
+        "Inline code"
       ]
     },
     "teal500": {
@@ -1005,7 +1016,35 @@
       "lightness": 0.6686274509803921,
       "hsl": "hsl(148, 92%, 67%)",
       "uses": [
-        "TODO comments"
+        "TODO comments",
+        "Inline code"
+      ]
+    },
+    "inlinecode": {
+      "hex": "#5df8a6",
+      "hex_upper": "#5DF8A6",
+      "hex_bare": "5df8a6",
+      "hex_bare_upper": "5DF8A6",
+      "r": 93,
+      "red": 93,
+      "red_percent": 0.36470588235294116,
+      "g": 248,
+      "green": 248,
+      "green_percent": 0.9725490196078431,
+      "b": 166,
+      "blue": 166,
+      "blue_percent": 0.6509803921568628,
+      "rgb": "rgb(93, 248, 166)",
+      "h": 148.25806451612905,
+      "hue": 148.25806451612905,
+      "s": 0.9171597633136095,
+      "saturation": 0.9171597633136095,
+      "l": 0.6686274509803921,
+      "lightness": 0.6686274509803921,
+      "hsl": "hsl(148, 92%, 67%)",
+      "uses": [
+        "TODO comments",
+        "Inline code"
       ]
     },
     "cyan": {
@@ -1538,6 +1577,7 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1569,6 +1609,7 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1600,6 +1641,7 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1631,6 +1673,7 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1662,6 +1705,7 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1693,6 +1737,7 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1724,6 +1769,7 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1755,6 +1801,7 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1786,6 +1833,39 @@
       "uses": [
         "Terminal Magenta",
         "Debug token keys",
+        "Property keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks",
+        "Header 2"
+      ]
+    },
+    "key": {
+      "hex": "#9768f8",
+      "hex_upper": "#9768F8",
+      "hex_bare": "9768f8",
+      "hex_bare_upper": "9768F8",
+      "r": 151,
+      "red": 151,
+      "red_percent": 0.592156862745098,
+      "g": 104,
+      "green": 104,
+      "green_percent": 0.40784313725490196,
+      "b": 248,
+      "blue": 248,
+      "blue_percent": 0.9725490196078431,
+      "rgb": "rgb(151, 104, 248)",
+      "h": 259.58333333333337,
+      "hue": 259.58333333333337,
+      "s": 0.9113924050632911,
+      "saturation": 0.9113924050632911,
+      "l": 0.6901960784313725,
+      "lightness": 0.6901960784313725,
+      "hsl": "hsl(260, 91%, 69%)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Property keys",
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
@@ -1819,6 +1899,7 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -1849,6 +1930,7 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -1879,6 +1961,7 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -1909,6 +1992,7 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -1939,6 +2023,7 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -1969,6 +2054,7 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -1999,6 +2085,38 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
+        "Header 3"
+      ]
+    },
+    "bold": {
+      "hex": "#f76ef1",
+      "hex_upper": "#F76EF1",
+      "hex_bare": "f76ef1",
+      "hex_bare_upper": "F76EF1",
+      "r": 247,
+      "red": 247,
+      "red_percent": 0.9686274509803922,
+      "g": 110,
+      "green": 110,
+      "green_percent": 0.43137254901960786,
+      "b": 241,
+      "blue": 241,
+      "blue_percent": 0.9450980392156862,
+      "rgb": "rgb(247, 110, 241)",
+      "h": 302.62773722627736,
+      "hue": 302.62773722627736,
+      "s": 0.895424836601307,
+      "saturation": 0.895424836601307,
+      "l": 0.7,
+      "lightness": 0.7,
+      "hsl": "hsl(303, 90%, 70%)",
+      "uses": [
+        "Terminal Bright Magenta",
+        "Debug token values",
+        "Focus accents",
+        "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -2029,6 +2147,7 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -2059,6 +2178,7 @@
         "Debug token values",
         "Focus accents",
         "Operator keywords",
+        "Markdown bold",
         "Header 3"
       ]
     },
@@ -2085,7 +2205,8 @@
       "lightness": 0.2686274509803922,
       "hsl": "hsl(347, 49%, 27%)",
       "uses": [
-        "Error background"
+        "Error background",
+        "Git deleted background"
       ]
     },
     "error2": {
@@ -2111,7 +2232,8 @@
       "lightness": 0.2686274509803922,
       "hsl": "hsl(347, 49%, 27%)",
       "uses": [
-        "Error background"
+        "Error background",
+        "Git deleted background"
       ]
     },
     "red700": {
@@ -2329,7 +2451,9 @@
       "l": 0.27254901960784317,
       "lightness": 0.27254901960784317,
       "hsl": "hsl(21, 47%, 27%)",
-      "uses": []
+      "uses": [
+        "Git conflic background"
+      ]
     },
     "orange700": {
       "hex": "#cc784a",
@@ -2377,7 +2501,35 @@
       "l": 0.5,
       "lightness": 0.5,
       "hsl": "hsl(11, 100%, 50%)",
-      "uses": []
+      "uses": [
+        "Parameters"
+      ]
+    },
+    "parameter": {
+      "hex": "#ffab7d",
+      "hex_upper": "#FFAB7D",
+      "hex_bare": "ffab7d",
+      "hex_bare_upper": "FFAB7D",
+      "r": 255,
+      "red": 255,
+      "red_percent": 1,
+      "g": 171,
+      "green": 171,
+      "green_percent": 0.6705882352941176,
+      "b": 125,
+      "blue": 125,
+      "blue_percent": 0.49019607843137253,
+      "rgb": "rgb(255, 171, 125)",
+      "h": 10.823529411764705,
+      "hue": 10.823529411764705,
+      "s": 1.0,
+      "saturation": 1.0,
+      "l": 0.5,
+      "lightness": 0.5,
+      "hsl": "hsl(11, 100%, 50%)",
+      "uses": [
+        "Parameters"
+      ]
     },
     "orange100": {
       "hex": "#ffd5be",
@@ -2449,7 +2601,35 @@
       "l": 0.48431372549019613,
       "lightness": 0.48431372549019613,
       "hsl": "hsl(46, 59%, 48%)",
-      "uses": []
+      "uses": [
+        "Verbose"
+      ]
+    },
+    "verbose": {
+      "hex": "#c4a233",
+      "hex_upper": "#C4A233",
+      "hex_bare": "c4a233",
+      "hex_bare_upper": "C4A233",
+      "r": 196,
+      "red": 196,
+      "red_percent": 0.7686274509803922,
+      "g": 162,
+      "green": 162,
+      "green_percent": 0.6352941176470588,
+      "b": 51,
+      "blue": 51,
+      "blue_percent": 0.2,
+      "rgb": "rgb(196, 162, 51)",
+      "h": 45.93103448275862,
+      "hue": 45.93103448275862,
+      "s": 0.5870445344129553,
+      "saturation": 0.5870445344129553,
+      "l": 0.48431372549019613,
+      "lightness": 0.48431372549019613,
+      "hsl": "hsl(46, 59%, 48%)",
+      "uses": [
+        "Verbose"
+      ]
     },
     "yellow300": {
       "hex": "#f7d566",
@@ -2521,7 +2701,9 @@
       "l": 0.26862745098039215,
       "lightness": 0.26862745098039215,
       "hsl": "hsl(101, 33%, 27%)",
-      "uses": []
+      "uses": [
+        "Git added background"
+      ]
     },
     "green700": {
       "hex": "#78b65d",
@@ -2725,7 +2907,35 @@
       "l": 0.7333333333333333,
       "lightness": 0.7333333333333333,
       "hsl": "hsl(149, 91%, 73%)",
-      "uses": []
+      "uses": [
+        "Instance fields"
+      ]
+    },
+    "instance": {
+      "hex": "#7df9b8",
+      "hex_upper": "#7DF9B8",
+      "hex_bare": "7df9b8",
+      "hex_bare_upper": "7DF9B8",
+      "r": 125,
+      "red": 125,
+      "red_percent": 0.49019607843137253,
+      "g": 249,
+      "green": 249,
+      "green_percent": 0.9764705882352941,
+      "b": 184,
+      "blue": 184,
+      "blue_percent": 0.7215686274509804,
+      "rgb": "rgb(125, 249, 184)",
+      "h": 148.54838709677418,
+      "hue": 148.54838709677418,
+      "s": 0.9117647058823527,
+      "saturation": 0.9117647058823527,
+      "l": 0.7333333333333333,
+      "lightness": 0.7333333333333333,
+      "hsl": "hsl(149, 91%, 73%)",
+      "uses": [
+        "Instance fields"
+      ]
     },
     "teal100": {
       "hex": "#befcdb",
@@ -2878,7 +3088,35 @@
       "l": 0.7196078431372549,
       "lightness": 0.7196078431372549,
       "hsl": "hsl(186, 92%, 72%)",
-      "uses": []
+      "uses": [
+        "Static fields"
+      ]
+    },
+    "static": {
+      "hex": "#76ecf9",
+      "hex_upper": "#76ECF9",
+      "hex_bare": "76ecf9",
+      "hex_bare_upper": "76ECF9",
+      "r": 118,
+      "red": 118,
+      "red_percent": 0.4627450980392157,
+      "g": 236,
+      "green": 236,
+      "green_percent": 0.9254901960784314,
+      "b": 249,
+      "blue": 249,
+      "blue_percent": 0.9764705882352941,
+      "rgb": "rgb(118, 236, 249)",
+      "h": 185.95419847328245,
+      "hue": 185.95419847328245,
+      "s": 0.916083916083916,
+      "saturation": 0.916083916083916,
+      "l": 0.7196078431372549,
+      "lightness": 0.7196078431372549,
+      "hsl": "hsl(186, 92%, 72%)",
+      "uses": [
+        "Static fields"
+      ]
     },
     "cyan100": {
       "hex": "#bbf5fc",
@@ -2926,7 +3164,9 @@
       "l": 0.2450980392156863,
       "lightness": 0.2450980392156863,
       "hsl": "hsl(208, 57%, 25%)",
-      "uses": []
+      "uses": [
+        "Git modified background"
+      ]
     },
     "blue700": {
       "hex": "#3682c4",
@@ -3215,7 +3455,8 @@
       "lightness": 0.7509803921568627,
       "hsl": "hsl(260, 91%, 75%)",
       "uses": [
-        "Active item text"
+        "Active item text",
+        "Named argument"
       ]
     },
     "activeitemtext": {
@@ -3241,7 +3482,8 @@
       "lightness": 0.7509803921568627,
       "hsl": "hsl(260, 91%, 75%)",
       "uses": [
-        "Active item text"
+        "Active item text",
+        "Named argument"
       ]
     },
     "purple100": {
@@ -3386,7 +3628,10 @@
       "l": 0.7607843137254902,
       "lightness": 0.7607843137254902,
       "hsl": "hsl(303, 90%, 76%)",
-      "uses": []
+      "uses": [
+        "Annotations",
+        "Metadata"
+      ]
     },
     "pink300": {
       "hex": "#f98bf4",
@@ -3410,7 +3655,64 @@
       "l": 0.7607843137254902,
       "lightness": 0.7607843137254902,
       "hsl": "hsl(303, 90%, 76%)",
-      "uses": []
+      "uses": [
+        "Annotations",
+        "Metadata"
+      ]
+    },
+    "annotation": {
+      "hex": "#f98bf4",
+      "hex_upper": "#F98BF4",
+      "hex_bare": "f98bf4",
+      "hex_bare_upper": "F98BF4",
+      "r": 249,
+      "red": 249,
+      "red_percent": 0.9764705882352941,
+      "g": 139,
+      "green": 139,
+      "green_percent": 0.5450980392156862,
+      "b": 244,
+      "blue": 244,
+      "blue_percent": 0.9568627450980393,
+      "rgb": "rgb(249, 139, 244)",
+      "h": 302.7272727272727,
+      "hue": 302.7272727272727,
+      "s": 0.901639344262295,
+      "saturation": 0.901639344262295,
+      "l": 0.7607843137254902,
+      "lightness": 0.7607843137254902,
+      "hsl": "hsl(303, 90%, 76%)",
+      "uses": [
+        "Annotations",
+        "Metadata"
+      ]
+    },
+    "metadata": {
+      "hex": "#f98bf4",
+      "hex_upper": "#F98BF4",
+      "hex_bare": "f98bf4",
+      "hex_bare_upper": "F98BF4",
+      "r": 249,
+      "red": 249,
+      "red_percent": 0.9764705882352941,
+      "g": 139,
+      "green": 139,
+      "green_percent": 0.5450980392156862,
+      "b": 244,
+      "blue": 244,
+      "blue_percent": 0.9568627450980393,
+      "rgb": "rgb(249, 139, 244)",
+      "h": 302.7272727272727,
+      "hue": 302.7272727272727,
+      "s": 0.901639344262295,
+      "saturation": 0.901639344262295,
+      "l": 0.7607843137254902,
+      "lightness": 0.7607843137254902,
+      "hsl": "hsl(303, 90%, 76%)",
+      "uses": [
+        "Annotations",
+        "Metadata"
+      ]
     },
     "magenta100": {
       "hex": "#fcc5f9",
@@ -3434,7 +3736,9 @@
       "l": 0.8803921568627451,
       "lightness": 0.8803921568627451,
       "hsl": "hsl(303, 90%, 88%)",
-      "uses": []
+      "uses": [
+        "Reassigned local variable"
+      ]
     },
     "pink100": {
       "hex": "#fcc5f9",
@@ -3458,7 +3762,35 @@
       "l": 0.8803921568627451,
       "lightness": 0.8803921568627451,
       "hsl": "hsl(303, 90%, 88%)",
-      "uses": []
+      "uses": [
+        "Reassigned local variable"
+      ]
+    },
+    "reassigned": {
+      "hex": "#fcc5f9",
+      "hex_upper": "#FCC5F9",
+      "hex_bare": "fcc5f9",
+      "hex_bare_upper": "FCC5F9",
+      "r": 252,
+      "red": 252,
+      "red_percent": 0.9882352941176471,
+      "g": 197,
+      "green": 197,
+      "green_percent": 0.7725490196078432,
+      "b": 249,
+      "blue": 249,
+      "blue_percent": 0.9764705882352941,
+      "rgb": "rgb(252, 197, 249)",
+      "h": 303.27272727272725,
+      "hue": 303.27272727272725,
+      "s": 0.901639344262295,
+      "saturation": 0.901639344262295,
+      "l": 0.8803921568627451,
+      "lightness": 0.8803921568627451,
+      "hsl": "hsl(303, 90%, 88%)",
+      "uses": [
+        "Reassigned local variable"
+      ]
     },
     "bg850": {
       "hex": "#1a1528",
@@ -5266,7 +5598,8 @@
       "uses": [
         "Terminal White",
         "Muted text",
-        "Punctuation"
+        "Punctuation",
+        "Unused code"
       ]
     },
     "darkwhite": {
@@ -5294,7 +5627,8 @@
       "uses": [
         "Terminal White",
         "Muted text",
-        "Punctuation"
+        "Punctuation",
+        "Unused code"
       ]
     },
     "muted": {
@@ -5322,7 +5656,37 @@
       "uses": [
         "Terminal White",
         "Muted text",
-        "Punctuation"
+        "Punctuation",
+        "Unused code"
+      ]
+    },
+    "unused": {
+      "hex": "#8a7d9b",
+      "hex_upper": "#8A7D9B",
+      "hex_bare": "8a7d9b",
+      "hex_bare_upper": "8A7D9B",
+      "r": 138,
+      "red": 138,
+      "red_percent": 0.5411764705882353,
+      "g": 125,
+      "green": 125,
+      "green_percent": 0.49019607843137253,
+      "b": 155,
+      "blue": 155,
+      "blue_percent": 0.6078431372549019,
+      "rgb": "rgb(138, 125, 155)",
+      "h": 266.0,
+      "hue": 266.0,
+      "s": 0.1304347826086956,
+      "saturation": 0.1304347826086956,
+      "l": 0.5490196078431372,
+      "lightness": 0.5490196078431372,
+      "hsl": "hsl(266, 13%, 55%)",
+      "uses": [
+        "Terminal White",
+        "Muted text",
+        "Punctuation",
+        "Unused code"
       ]
     },
     "punctuation": {
@@ -5350,7 +5714,8 @@
       "uses": [
         "Terminal White",
         "Muted text",
-        "Punctuation"
+        "Punctuation",
+        "Unused code"
       ]
     },
     "terminator": {
@@ -5378,7 +5743,8 @@
       "uses": [
         "Terminal White",
         "Muted text",
-        "Punctuation"
+        "Punctuation",
+        "Unused code"
       ]
     },
     "foreground2": {

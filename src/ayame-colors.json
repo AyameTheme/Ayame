@@ -32,7 +32,6 @@
       "breakpoint",
       "stop",
       "this",
-      "bold",
       "red500",
       "h6"
     ],
@@ -43,7 +42,6 @@
       "Breakpoints",
       "Stop",
       "Language variables",
-      "Markdown bold",
       "Header 6"
     ]
   },
@@ -107,11 +105,13 @@
     "name": "teal",
     "aliases": [
       "todo",
-      "teal500"
+      "teal500",
+      "inlinecode"
     ],
     "hex": "#5df8a6",
     "uses": [
-      "TODO comments"
+      "TODO comments",
+      "Inline code"
     ]
   },
   {
@@ -190,6 +190,7 @@
       "operator",
       "magenta500",
       "pink500",
+      "bold",
       "value",
       "h3"
     ],
@@ -199,6 +200,7 @@
       "Debug token values",
       "Focus accents",
       "Operator keywords",
+      "Markdown bold",
       "Header 3"
     ]
   },
