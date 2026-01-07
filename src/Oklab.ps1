@@ -1,18 +1,18 @@
 class Oklab {
-    hidden [float] $ok_l
-    hidden [float] $ok_a
-    hidden [float] $ok_b
-    hidden [float] $alpha
+    hidden [double] $ok_l
+    hidden [double] $ok_a
+    hidden [double] $ok_b
+    hidden [double] $ok_alpha
     
     Oklab(
-        [float] $l,
-        [float] $a,
-        [float] $b,
-        [float] $alpha
+        [double] $l,
+        [double] $a,
+        [double] $b,
+        [double] $alpha
     ) {
-        $this.ok_l  = $l
-        $this.ok_a  = $a
-        $this.ok_b  = $b
-        $this.alpha = $alpha
+        $this.ok_l     = $l
+        $this.ok_a     = $a
+        $this.ok_b     = $b
+        $this.ok_alpha = $alpha
     }
 }
