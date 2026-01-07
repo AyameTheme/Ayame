@@ -82,4 +82,35 @@ class Oklab {
     static [Oklab] RgbToOklab([double] $r, [double] $g, [double] $b) {
         return [Oklab]::RgbaToOklab($r, $g, $b, 1.0)
     }
+    
+    static [Oklch] OklabToOklch([Oklab] $lab) {
+        $chroma = [Math]::Sqrt(
+            [Math]::Pow($lab.ok_a, 2) +
+            [Math]::Pow($lab.ok_b, 2))        
+        $hue = [Math]::Atan2($lab.ok_b, $lab.ok_a) * 180.0 / [Math]::PI
+        if ($hue -lt 0) { $hue += 360.0 }
+        
+        return [Oklch]::new($lab.ok_l, $chroma, $hue, $lab.ok_alpha)
+    }
+    static [Oklab] OklchToOklab([Oklch] $lch) {
+        $hue_rad = $lch.ok_h * [Math]::PI / 180.0
+
+        $a = $lch.ok_c * [Math]::Cos($hue_rad)
+        $b = $lch.ok_c * [Math]::Sin($hue_rad)
+
+        return [Oklab]::new($lch.ok_l, $a, $b, $lch.ok_alpha)
+    }
+}
+
+class Oklch {
+    [double] $ok_l
+    [double] $ok_c
+    [double] $ok_h
+    [double] $ok_alpha
+    Oklch([double] $l, [double] $c, [double] $h, [double] $alpha) {
+        $this.ok_l     = $l
+        $this.ok_c     = $c
+        $this.ok_h     = $h
+        $this.ok_alpha = $alpha
+    }
 }
