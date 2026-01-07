@@ -115,6 +115,46 @@ class Oklab {
             $base.ok_alpha
         )
     }
+
+    hidden static [double] ToSrgb([double] $color) {
+        if ($color -le 0.0031308) {
+            return 12.92 * $color
+        }
+        return 1.055 * [Math]::Pow($color, 1.0 / 2.4) - 0.055
+    }
+
+    hidden [double[]] ToRgbLinear() {
+        $l = $this.ok_l + 0.3963377774 * $this.ok_a + 0.2158037573 * $this.ok_b
+        $m = $this.ok_l - 0.1055613458 * $this.ok_a - 0.0638541728 * $this.ok_b
+        $s = $this.ok_l - 0.0894841775 * $this.ok_a - 1.2914855480 * $this.ok_b
+
+        $l = [Math]::Pow($l, 3)
+        $m = [Math]::Pow($m, 3)
+        $s = [Math]::Pow($s, 3)
+
+        # Step 2: LMS → linear RGB
+        $r =  4.0767416621 * $l - 3.3077115913 * $m + 0.2309699292 * $s
+        $g = -1.2684380046 * $l + 2.6097574011 * $m - 0.3413193965 * $s
+        $b = -0.0041960863 * $l - 0.7034186147 * $m + 1.7076147010 * $s
+
+        return @($r, $g, $b)
+    }
+
+    [int] Red() {
+        $rgb = $this.ToRgbLinear()
+        $s_r = [Oklab]::ToSrgb([Math]::Clamp($rgb[0], 0.0, 1.0))
+        return [Math]::Clamp([Math]::Round($s_r * 255), 0, 255)
+    }
+    [int] Green() {
+        $rgb = $this.ToRgbLinear()
+        $s_g = [Oklab]::ToSrgb([Math]::Clamp($rgb[1], 0.0, 1.0))
+        return [Math]::Clamp([Math]::Round($s_g * 255), 0, 255)
+    }
+    [int] Blue() {
+        $rgb = $this.ToRgbLinear()
+        $s_b = [Oklab]::ToSrgb([Math]::Clamp($rgb[2], 0.0, 1.0))
+        return [Math]::Clamp([Math]::Round($s_b * 255), 0, 255)
+    }
 }
 
 class Oklch {
