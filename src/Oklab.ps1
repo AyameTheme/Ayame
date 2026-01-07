@@ -103,8 +103,8 @@ class Oklab {
     
     [Oklab] WithShade([int] $shade) {
         [Oklch]  $base     = [Oklab]::OklabToOklch($this)
-        [double] $t        = [Math]::Clamp(($shade - 100) / 800.0, 0, 1)
-        [double] $delta_l  = 0.18 * [Math]::Pow((1 - 2 * $t), 1.3)
+        [double] $t        = [Math]::Clamp(($shade - 100) / 800.0, 0.0, 1.0)
+        [double] $delta_l  = 0.18 * [Oklab]::PowSigned((1 - 2 * $t), 1.3)
         [double] $c_factor = 0.5 + 0.5 * [Math]::Cos([Math]::PI * ($t - 0.5))
         [double] $new_l    = $base.ok_l + $delta_l
         [double] $new_c    = $base.ok_c * $c_factor
@@ -115,6 +115,12 @@ class Oklab {
             $base.ok_h,
             $base.ok_alpha
         ))
+    }
+
+    hidden static [double] PowSigned([double] $x, [double] $p) {
+        if ($x -eq 0) { return 0 }
+        $sign = [Math]::Sign($x)
+        return $sign * [Math]::Pow([Math]::Abs($x), $p)
     }
 
     hidden static [double] ToSrgb([double] $color) {
