@@ -155,6 +155,39 @@ class Oklab {
         $s_b = [Oklab]::ToSrgb([Math]::Clamp($rgb[2], 0.0, 1.0))
         return [Math]::Clamp([Math]::Round($s_b * 255), 0, 255)
     }
+    
+    [string] ToHex6() {
+        return '#' + $this.ToHex6Bare()
+    }
+    [string] ToHex6Lower() {
+        return $this.ToHex6().ToLower()
+    }
+    [string] ToHex6Bare() {
+        [string] $r = [Convert]::ToHexString($this.Red())
+        [string] $g = [Convert]::ToHexString($this.Green())
+        [string] $b = [Convert]::ToHexString($this.Blue())
+        
+        return $r + $g + $b
+    }
+    [string] ToHex6BareLower() {
+        return $this.ToHex6Bare().ToLower()
+    }
+    [string] ToHex8() {
+        [string] $a = [Convert]::ToHexString([Math]::Clamp([Math]::Round($this.ok_alpha * 255.0), 0, 255))
+        
+        return $this.ToHex6() + $a
+    }
+    [string] ToHex8Lower() {
+        return $this.ToHex8().ToLower()
+    }
+    [string] ToHex8Bare() {
+        [string] $a = [Convert]::ToHexString([Math]::Clamp([Math]::Round($this.ok_alpha * 255.0), 0, 255))
+        
+        return $this.ToHex6Bare() + $a
+    }
+    [string] ToHex8BareLower() {
+        return $this.ToHex8Bare().ToLower()
+    }
 }
 
 class Oklch {
