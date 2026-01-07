@@ -15,6 +15,43 @@ class Oklab {
         $this.ok_b     = $b
         $this.ok_alpha = $alpha
     }
+    
+    static [Oklab] FromHexString([string] $str) {
+        if ([string]::IsNullOrWhiteSpace($str)) {
+            throw [System.ArgumentException]::new(
+                "Hex string must not be null, empty, or whitespace.", "str"
+            )
+        }
+        [string] $str = $str.Trim().Replace('#', '')
+        if (
+            ($str.Length -ne 3) -and
+            ($str.Length -ne 6) -and
+            ($str.Length -ne 8)) {
+            throw [System.ArgumentException]::new(
+                "Hex string must a length of 3, 6, or 8 not including '#'.", "str"
+            )
+        }
+        if ($str -notmatch '^[0-9A-Fa-f]+$') {
+            throw [System.ArgumentException]::new(
+                "Hex string contains invalid characters.", "str"
+            )
+        }
+        if ($str.Length -eq 3) {
+            $str = $str[0] + $str[0] + $str[1] + $str[1] + $str[2] + $str[2]
+        }
+        
+        [byte[]] $channels = [Convert]::FromHexString($str)
+        [double] $red      = $channels[0]
+        [double] $green    = $channels[1]
+        [double] $blue     = $channels[2]
+        [double] $alpha    = 1.0
+
+        if ($channels.Count -eq 4) {
+            $alpha = [double] ($channels[3] / 255.0)
+        }
+
+        return [Oklab]::RgbaToOklab($red, $green, $blue, $alpha)
+    }
 
     static [Oklab] RgbaToOklab([double] $r, [double] $g, [double] $b, [double] $alpha) {
         $alpha = [Math]::Clamp($alpha, 0.0, 1.0)
