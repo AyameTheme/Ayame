@@ -101,19 +101,20 @@ class Oklab {
         return [Oklab]::new($lch.ok_l, $a, $b, $lch.ok_alpha)
     }
     
-    static [Oklch] WithShade([Oklch] $base, [int] $shade) {
+    [Oklab] WithShade([int] $shade) {
+        [Oklch]  $base     = [Oklab]::OklabToOklch($this)
         [double] $t        = [Math]::Clamp(($shade - 100) / 800.0, 0, 1)
         [double] $delta_l  = 0.18 * [Math]::Pow((1 - 2 * $t), 1.3)
         [double] $c_factor = 0.5 + 0.5 * [Math]::Cos([Math]::PI * ($t - 0.5))
         [double] $new_l    = $base.ok_l + $delta_l
         [double] $new_c    = $base.ok_c * $c_factor
 
-        return [Oklch]::new(
+        return [Oklab]::OklchToOklab([Oklch]::new(
             $new_l,
             $new_c,
             $base.ok_h,
             $base.ok_alpha
-        )
+        ))
     }
 
     hidden static [double] ToSrgb([double] $color) {
