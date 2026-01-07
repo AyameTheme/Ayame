@@ -104,7 +104,11 @@ class Oklab {
     [Oklab] WithShade([int] $shade) {
         [Oklch]  $base     = [Oklab]::OklabToOklch($this)
         [double] $t        = [Math]::Clamp(($shade - 100) / 800.0, 0.0, 1.0)
-        [double] $delta_l  = 0.18 * [Oklab]::PowSigned((1 - 2 * $t), 1.3)
+        [double] $a        = -0.1066667
+        [double] $b        = -0.08
+        [double] $c        = -0.2933333
+        [double] $d        = 0.18
+        [double] $delta_l  = (($a * $t + $b) * $t + $c) * $t + $d
         [double] $c_factor = 0.5 + 0.5 * [Math]::Cos([Math]::PI * ($t - 0.5))
         [double] $new_l    = $base.ok_l + $delta_l
         [double] $new_c    = $base.ok_c * $c_factor
