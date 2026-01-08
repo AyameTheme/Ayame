@@ -23,7 +23,6 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 
 ## Color Palette
 
-![](bin/image/ayame-palette-graphic.png)
 ![](bin/image/ayame-palette.png)
 
 | Hex ____________ | ID | Uses |
@@ -31,7 +30,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](bin/icon/background.svg) `#130f1e` | `background`, `bg`, `bg900` | Background |
 | ![](bin/icon/foreground.svg) `#cbbade` | `foreground`, `fg`, `fg200`, `variable`, `identifier` | Foreground, Variables, Identifiers |
 | ![](bin/icon/red.svg) `#ff577e` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `red500`, `h6` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 |
-| ![](bin/icon/orange.svg) `#ff965c` | `orange`, `warning`, `constant`, `orange500`, `h4`, `conflict` | Terminal Yellow, Warnings, Constants, Header 4, Predefined symbols, Git conflict |
+| ![](bin/icon/orange.svg) `#ff874b` | `orange`, `warning`, `constant`, `orange500`, `h4`, `conflict` | Terminal Yellow, Warnings, Constants, Header 4, Predefined symbols, Git conflict |
 | ![](bin/icon/yellow.svg) `#f5cb40` | `yellow`, `character`, `yellow500` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
 | ![](bin/icon/green.svg) `#96e474` | `green`, `added`, `debug`, `string`, `green500`, `h5`, `italic` | Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values |
 | ![](bin/icon/teal.svg) `#5df8a6` | `teal`, `todo`, `teal500`, `inlinecode` | TODO comments, Inline code |
@@ -39,42 +38,42 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](bin/icon/blue.svg) `#44a3f5` | `blue`, `primary`, `progress`, `modified`, `hyperlink`, `keyword`, `type`, `blue500`, `h1` | Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 |
 | ![](bin/icon/purple.svg) `#9768f8` | `purple`, `darkmagenta`, `secondary`, `function`, `fun`, `attribute`, `code`, `purple500`, `h2`, `key` | Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 |
 | ![](bin/icon/magenta.svg) `#f76ef1` | `magenta`, `pink`, `tertiary`, `focus`, `operator`, `magenta500`, `pink500`, `bold`, `value`, `h3` | Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 |
-| ![](bin/icon/red900.svg) `#662332` | `red900`, `error2` | Error background, Git deleted background |
-| ![](bin/icon/red700.svg) `#cc4665` | `red700`, `darkred`, `error`, `invalid`, `tag` | Terminal Red, Error, Invalid, Tags |
-| ![](bin/icon/red300.svg) `#ff7998` | `red300` |  |
-| ![](bin/icon/red100.svg) `#ffbccb` | `red100` |  |
-| ![](bin/icon/orange900.svg) `#663c25` | `orange900` | Git conflic background |
-| ![](bin/icon/orange700.svg) `#cc784a` | `orange700` |  |
-| ![](bin/icon/orange300.svg) `#ffab7d` | `orange300`, `parameter` | Parameters |
-| ![](bin/icon/orange100.svg) `#ffd5be` | `orange100` |  |
-| ![](bin/icon/yellow900.svg) `#62511a` | `yellow900` |  |
-| ![](bin/icon/yellow700.svg) `#c4a233` | `yellow700`, `verbose` | Verbose |
-| ![](bin/icon/yellow300.svg) `#f7d566` | `yellow300` |  |
-| ![](bin/icon/yellow100.svg) `#fbeab3` | `yellow100` |  |
-| ![](bin/icon/green900.svg) `#3c5b2e` | `green900` | Git added background |
-| ![](bin/icon/green700.svg) `#78b65d` | `green700`, `darkgreen`, `info` | Terminal Green, Info, String quotation marks |
-| ![](bin/icon/green300.svg) `#abe990` | `green300` |  |
-| ![](bin/icon/green100.svg) `#d5f4c7` | `green100` |  |
-| ![](bin/icon/teal900.svg) `#256342` | `teal900` |  |
-| ![](bin/icon/teal700.svg) `#4ac685` | `teal700` |  |
-| ![](bin/icon/teal300.svg) `#7df9b8` | `teal300`, `instance` | Instance fields |
-| ![](bin/icon/teal100.svg) `#befcdb` | `teal100` |  |
-| ![](bin/icon/cyan900.svg) `#225c63` | `cyan900` |  |
-| ![](bin/icon/cyan700.svg) `#43b9c6` | `cyan700`, `darkcyan`, `class` | Terminal Cyan, Classes |
-| ![](bin/icon/cyan300.svg) `#76ecf9` | `cyan300`, `static` | Static fields |
-| ![](bin/icon/cyan100.svg) `#bbf5fc` | `cyan100` |  |
-| ![](bin/icon/blue900.svg) `#1b4162` | `blue900` | Git modified background |
-| ![](bin/icon/blue700.svg) `#3682c4` | `blue700`, `darkblue`, `activitybadge`, `bookmark`, `blue2` | Terminal Blue, Bookmarks, VS Code activity badge |
-| ![](bin/icon/blue300.svg) `#69b5f7` | `blue300` |  |
-| ![](bin/icon/blue100.svg) `#b4dafb` | `blue100` |  |
-| ![](bin/icon/purple900.svg) `#3c2a63` | `purple900`, `activeitem` | Active item |
-| ![](bin/icon/purple700.svg) `#7953c6` | `purple700` |  |
-| ![](bin/icon/purple300.svg) `#ac86f9` | `purple300`, `activeitemtext` | Active item text, Named argument |
-| ![](bin/icon/purple100.svg) `#d5c3fc` | `purple100` |  |
-| ![](bin/icon/magenta900.svg) `#632c60` | `magenta900`, `pink900` |  |
-| ![](bin/icon/magenta700.svg) `#c658c1` | `magenta700`, `pink700` |  |
-| ![](bin/icon/magenta300.svg) `#f98bf4` | `magenta300`, `pink300`, `annotation`, `metadata` | Annotations, Metadata |
-| ![](bin/icon/magenta100.svg) `#fcc5f9` | `magenta100`, `pink100`, `reassigned` | Reassigned local variable |
+| ![](bin/icon/red900.svg) `#712a39` | `red900`, `error2` | Error background, Git deleted background |
+| ![](bin/icon/red700.svg) `#c53b5d` | `red700`, `darkred`, `error`, `invalid`, `tag` | Terminal Red, Error, Invalid, Tags |
+| ![](bin/icon/red300.svg) `#ff86a1` | `red300` |  |
+| ![](bin/icon/red100.svg) `#ffb9c5` | `red100` |  |
+| ![](bin/icon/orange900.svg) `#79452c` | `orange900` | Git conflic background |
+| ![](bin/icon/orange700.svg) `#c86634` | `orange700` |  |
+| ![](bin/icon/orange300.svg) `#ffae7d` | `orange300`, `parameter` | Parameters |
+| ![](bin/icon/orange100.svg) `#ffd6ba` | `orange100` |  |
+| ![](bin/icon/yellow900.svg) `#84723a` | `yellow900` |  |
+| ![](bin/icon/yellow700.svg) `#c5a330` | `yellow700`, `verbose` | Verbose |
+| ![](bin/icon/yellow300.svg) `#ffed82` | `yellow300` |  |
+| ![](bin/icon/yellow100.svg) `#ffffcf` | `yellow100` |  |
+| ![](bin/icon/green900.svg) `#587b4a` | `green900` | Git added background |
+| ![](bin/icon/green700.svg) `#76b65b` | `green700`, `darkgreen`, `info` | Terminal Green, Info, String quotation marks |
+| ![](bin/icon/green300.svg) `#bfffa3` | `green300` |  |
+| ![](bin/icon/green100.svg) `#edffde` | `green100` |  |
+| ![](bin/icon/teal900.svg) `#4a8964` | `teal900` |  |
+| ![](bin/icon/teal700.svg) `#49c885` | `teal700` |  |
+| ![](bin/icon/teal300.svg) `#9bffce` | `teal300`, `instance` | Instance fields |
+| ![](bin/icon/teal100.svg) `#e2fffa` | `teal100` |  |
+| ![](bin/icon/cyan900.svg) `#437e86` | `cyan900` |  |
+| ![](bin/icon/cyan700.svg) `#41bac8` | `cyan700`, `darkcyan`, `class` | Terminal Cyan, Classes |
+| ![](bin/icon/cyan300.svg) `#93ffff` | `cyan300`, `static` | Static fields |
+| ![](bin/icon/cyan100.svg) `#daffff` | `cyan100` |  |
+| ![](bin/icon/blue900.svg) `#224a6d` | `blue900` | Git modified background |
+| ![](bin/icon/blue700.svg) `#2b7bbd` | `blue700`, `darkblue`, `activitybadge`, `bookmark`, `blue2` | Terminal Blue, Bookmarks, VS Code activity badge |
+| ![](bin/icon/blue300.svg) `#76c3ff` | `blue300` |  |
+| ![](bin/icon/blue100.svg) `#b0dbff` | `blue100` |  |
+| ![](bin/icon/purple900.svg) `#3c2865` | `purple900`, `activeitem` | Active item |
+| ![](bin/icon/purple700.svg) `#6f47bd` | `purple700` |  |
+| ![](bin/icon/purple300.svg) `#b38fff` | `purple300`, `activeitemtext` | Active item text, Named argument |
+| ![](bin/icon/purple100.svg) `#c7b6ff` | `purple100` |  |
+| ![](bin/icon/magenta900.svg) `#763b73` | `magenta900`, `pink900` |  |
+| ![](bin/icon/magenta700.svg) `#c151bc` | `magenta700`, `pink700` |  |
+| ![](bin/icon/magenta300.svg) `#ff9bff` | `magenta300`, `pink300`, `annotation`, `metadata` | Annotations, Metadata |
+| ![](bin/icon/magenta100.svg) `#ffcdff` | `magenta100`, `pink100`, `reassigned` | Reassigned local variable |
 | ![](bin/icon/bg850.svg) `#1a1528` | `bg850`, `tabline`, `blockquote`, `border2` | Markdown block quotes, Header Row, Secondary borders |
 | ![](bin/icon/bg800.svg) `#221c35` | `bg800`, `modal`, `menu`, `toolbar`, `checkbox`, `input` | Modal background, Checkbox background, Input background |
 | ![](bin/icon/bg750.svg) `#2b2343` | `bg750`, `subheader`, `altrow` | Subheader background, Alternate row background, Alternate modal background |

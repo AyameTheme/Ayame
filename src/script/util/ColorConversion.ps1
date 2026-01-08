@@ -1,4 +1,7 @@
-function Convert-HexToRgbHsl {
+. .\src\script\util\Oklab.ps1
+
+function Convert-HexToColorDefinition {
+    [Obsolete("Convert-HexToColorDefinition is deprecated. Use Convert-OklchToColorDefinition instead.")]
     param(
         [string]
         $HexColor
@@ -76,5 +79,55 @@ function Convert-HexToRgbHsl {
         l              = $l
         lightness      = $l
         hsl            = "hsl($([math]::Round($h)), $([math]::Round($s * 100))%, $([math]::Round($l * 100))%)"
+    }
+}
+
+function Convert-OklchToColorDefinition {
+    param(
+        # CSS-like Oklch definition string
+        [Parameter(Mandatory=$true)]
+        [string]
+        $OklchDef,
+        [int]
+        $Shade
+    )
+    
+    if ([string]::IsNullOrWhiteSpace($OklchDef)) {
+        throw [System.ArgumentException]::new(
+            "String cannot be null or whitespace.",
+            'OklchDef'
+        )
+    }
+    
+    [Oklab] $oklab = [Oklab]::FromOklchString($OklchDef)
+    
+    if ($PSBoundParameters.ContainsKey('Shade') -and $Shade -ne 500) {
+        $oklab = $oklab.WithShade($Shade)
+    }
+    
+    return [ordered]@{
+        hex            = $oklab.ToHex6Lower()
+        hex_upper      = $oklab.ToHex6()
+        hex_bare       = $oklab.ToHex6BareLower()
+        hex_bare_upper = $oklab.ToHex6Bare()
+        r              = $oklab.Red()
+        red            = $oklab.Red()
+        red_percent    = $oklab.Red()   / 255
+        g              = $oklab.Green()
+        green          = $oklab.Green()
+        green_percent  = $oklab.Green() / 255
+        b              = $oklab.Blue()
+        blue           = $oklab.Blue()
+        blue_percent   = $oklab.Blue()  / 255
+        rgb            = $oklab.ToString('rgb')
+        rgba           = $oklab.ToString('rgba')
+        h              = $oklab.HslHue()
+        hue            = $oklab.HslHue()
+        s              = $oklab.HslSaturation()
+        saturation     = $oklab.HslSaturation()
+        l              = $oklab.HslLightness()
+        lightness      = $oklab.HslLightness()
+        hsl            = $oklab.ToString('hsl')
+        hsla           = $oklab.ToString('hsla')
     }
 }

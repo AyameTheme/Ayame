@@ -5,7 +5,7 @@
       "bg",
       "bg900"
     ],
-    "hex": "#130f1e",
+    "oklch": "oklch(0.1816 0.0306 295.4)",
     "uses": [
       "Background"
     ]
@@ -18,7 +18,7 @@
       "variable",
       "identifier"
     ],
-    "hex": "#cbbade",
+    "oklch": "oklch(0.8146 0.0531 306.6)",
     "uses": [
       "Foreground",
       "Variables",
@@ -35,7 +35,7 @@
       "red500",
       "h6"
     ],
-    "hex": "#ff577e",
+    "oklch": "oklch(0.6923 0.2039 10.4)",
     "uses": [
       "Terminal Bright Red",
       "Git deleted",
@@ -54,7 +54,7 @@
       "h4",
       "conflict"
     ],
-    "hex": "#ff965c",
+    "oklch": "oklch(0.7466 0.1635 45.53)",
     "uses": [
       "Terminal Yellow",
       "Warnings",
@@ -70,7 +70,7 @@
       "character",
       "yellow500"
     ],
-    "hex": "#f5cb40",
+    "oklch": "oklch(0.8555 0.1555 91.4)",
     "uses": [
       "Terminal Bright Yellow",
       "Characters",
@@ -90,7 +90,7 @@
       "h5",
       "italic"
     ],
-    "hex": "#96e474",
+    "oklch": "oklch(0.8432 0.1652 137)",
     "uses": [
       "Terminal Bright Green",
       "Git added",
@@ -108,7 +108,7 @@
       "teal500",
       "inlinecode"
     ],
-    "hex": "#5df8a6",
+    "oklch": "oklch(0.8767 0.1747 156.5)",
     "uses": [
       "TODO comments",
       "Inline code"
@@ -124,7 +124,7 @@
       "cyan500",
       "linkhover"
     ],
-    "hex": "#54e7f8",
+    "oklch": "oklch(0.8569 0.1246 206.1)",
     "uses": [
       "Terminal Bright Cyan",
       "Find matches",
@@ -146,7 +146,7 @@
       "blue500",
       "h1"
     ],
-    "hex": "#44a3f5",
+    "oklch": "oklch(0.6963 0.1499 248)",
     "uses": [
       "Terminal Bright Blue",
       "Progress bars",
@@ -170,7 +170,7 @@
       "h2",
       "key"
     ],
-    "hex": "#9768f8",
+    "oklch": "oklch(0.636 0.2061 294.9)",
     "uses": [
       "Terminal Magenta",
       "Debug token keys",
@@ -194,7 +194,7 @@
       "value",
       "h3"
     ],
-    "hex": "#f76ef1",
+    "oklch": "oklch(0.7484 0.2246 329.3)",
     "uses": [
       "Terminal Bright Magenta",
       "Debug token values",
@@ -209,7 +209,10 @@
     "aliases": [
       "error2"
     ],
-    "hex": "#662332",
+    "shade": {
+      "color_id": "red",
+      "shade": 900
+    },
     "uses": [
       "Error background",
       "Git deleted background"
@@ -223,7 +226,10 @@
       "invalid",
       "tag"
     ],
-    "hex": "#cc4665",
+    "shade": {
+      "color_id": "red",
+      "shade": 700
+    },
     "uses": [
       "Terminal Red",
       "Error",
@@ -235,7 +241,10 @@
     "name": "red300",
     "aliases": [
     ],
-    "hex": "#ff7998",
+    "shade": {
+      "color_id": "red",
+      "shade": 300
+    },
     "uses": [
     ]
   },
@@ -243,7 +252,10 @@
     "name": "red100",
     "aliases": [
     ],
-    "hex": "#ffbccb",
+    "shade": {
+      "color_id": "red",
+      "shade": 100
+    },
     "uses": [
     ]
   },
@@ -251,7 +263,10 @@
     "name": "orange900",
     "aliases": [
     ],
-    "hex": "#663c25",
+    "shade": {
+      "color_id": "orange",
+      "shade": 900
+    },
     "uses": [
       "Git conflic background"
     ]
@@ -260,7 +275,10 @@
     "name": "orange700",
     "aliases": [
     ],
-    "hex": "#cc784a",
+    "shade": {
+      "color_id": "orange",
+      "shade": 700
+    },
     "uses": [
     ]
   },
@@ -269,7 +287,10 @@
     "aliases": [
       "parameter"
     ],
-    "hex": "#ffab7d",
+    "shade": {
+      "color_id": "orange",
+      "shade": 300
+    },
     "uses": [
       "Parameters"
     ]
@@ -278,7 +299,10 @@
     "name": "orange100",
     "aliases": [
     ],
-    "hex": "#ffd5be",
+    "shade": {
+      "color_id": "orange",
+      "shade": 100
+    },
     "uses": [
     ]
   },
@@ -286,7 +310,10 @@
     "name": "yellow900",
     "aliases": [
     ],
-    "hex": "#62511a",
+    "shade": {
+      "color_id": "yellow",
+      "shade": 900
+    },
     "uses": [
     ]
   },
@@ -295,7 +322,10 @@
     "aliases": [
       "verbose"
     ],
-    "hex": "#c4a233",
+    "shade": {
+      "color_id": "yellow",
+      "shade": 700
+    },
     "uses": [
       "Verbose"
     ]
@@ -304,7 +334,10 @@
     "name": "yellow300",
     "aliases": [
     ],
-    "hex": "#f7d566",
+    "shade": {
+      "color_id": "yellow",
+      "shade": 300
+    },
     "uses": [
     ]
   },
@@ -312,7 +345,10 @@
     "name": "yellow100",
     "aliases": [
     ],
-    "hex": "#fbeab3",
+    "shade": {
+      "color_id": "yellow",
+      "shade": 100
+    },
     "uses": [
     ]
   },
@@ -320,7 +356,10 @@
     "name": "green900",
     "aliases": [
     ],
-    "hex": "#3c5b2e",
+    "shade": {
+      "color_id": "green",
+      "shade": 900
+    },
     "uses": [
       "Git added background"
     ]
@@ -331,7 +370,10 @@
       "darkgreen",
       "info"
     ],
-    "hex": "#78b65d",
+    "shade": {
+      "color_id": "green",
+      "shade": 700
+    },
     "uses": [
       "Terminal Green",
       "Info",
@@ -342,7 +384,10 @@
     "name": "green300",
     "aliases": [
     ],
-    "hex": "#abe990",
+    "shade": {
+      "color_id": "green",
+      "shade": 300
+    },
     "uses": [
     ]
   },
@@ -350,7 +395,10 @@
     "name": "green100",
     "aliases": [
     ],
-    "hex": "#d5f4c7",
+    "shade": {
+      "color_id": "green",
+      "shade": 100
+    },
     "uses": [
     ]
   },
@@ -358,7 +406,10 @@
     "name": "teal900",
     "aliases": [
     ],
-    "hex": "#256342",
+    "shade": {
+      "color_id": "teal",
+      "shade": 900
+    },
     "uses": [
     ]
   },
@@ -366,7 +417,10 @@
     "name": "teal700",
     "aliases": [
     ],
-    "hex": "#4ac685",
+    "shade": {
+      "color_id": "teal",
+      "shade": 700
+    },
     "uses": [
     ]
   },
@@ -375,7 +429,10 @@
     "aliases": [
       "instance"
     ],
-    "hex": "#7df9b8",
+    "shade": {
+      "color_id": "teal",
+      "shade": 300
+    },
     "uses": [
       "Instance fields"
     ]
@@ -384,7 +441,10 @@
     "name": "teal100",
     "aliases": [
     ],
-    "hex": "#befcdb",
+    "shade": {
+      "color_id": "teal",
+      "shade": 100
+    },
     "uses": [
     ]
   },
@@ -392,7 +452,10 @@
     "name": "cyan900",
     "aliases": [
     ],
-    "hex": "#225c63",
+    "shade": {
+      "color_id": "cyan",
+      "shade": 900
+    },
     "uses": [
     ]
   },
@@ -402,7 +465,10 @@
       "darkcyan",
       "class"
     ],
-    "hex": "#43b9c6",
+    "shade": {
+      "color_id": "cyan",
+      "shade": 700
+    },
     "uses": [
       "Terminal Cyan",
       "Classes"
@@ -413,7 +479,10 @@
     "aliases": [
       "static"
     ],
-    "hex": "#76ecf9",
+    "shade": {
+      "color_id": "cyan",
+      "shade": 300
+    },
     "uses": [
       "Static fields"
     ]
@@ -422,7 +491,10 @@
     "name": "cyan100",
     "aliases": [
     ],
-    "hex": "#bbf5fc",
+    "shade": {
+      "color_id": "cyan",
+      "shade": 100
+    },
     "uses": [
     ]
   },
@@ -430,7 +502,10 @@
     "name": "blue900",
     "aliases": [
     ],
-    "hex": "#1b4162",
+    "shade": {
+      "color_id": "blue",
+      "shade": 900
+    },
     "uses": [
       "Git modified background"
     ]
@@ -443,7 +518,10 @@
       "bookmark",
       "blue2"
     ],
-    "hex": "#3682c4",
+    "shade": {
+      "color_id": "blue",
+      "shade": 700
+    },
     "uses": [
       "Terminal Blue",
       "Bookmarks",
@@ -454,7 +532,10 @@
     "name": "blue300",
     "aliases": [
     ],
-    "hex": "#69b5f7",
+    "shade": {
+      "color_id": "blue",
+      "shade": 300
+    },
     "uses": [
     ]
   },
@@ -462,7 +543,10 @@
     "name": "blue100",
     "aliases": [
     ],
-    "hex": "#b4dafb",
+    "shade": {
+      "color_id": "blue",
+      "shade": 100
+    },
     "uses": [
     ]
   },
@@ -471,7 +555,10 @@
     "aliases": [
       "activeitem"
     ],
-    "hex": "#3c2a63",
+    "shade": {
+      "color_id": "purple",
+      "shade": 900
+    },
     "uses": [
       "Active item"
     ]
@@ -480,7 +567,10 @@
     "name": "purple700",
     "aliases": [
     ],
-    "hex": "#7953c6",
+    "shade": {
+      "color_id": "purple",
+      "shade": 700
+    },
     "uses": [
     ]
   },
@@ -489,7 +579,10 @@
     "aliases": [
       "activeitemtext"
     ],
-    "hex": "#ac86f9",
+    "shade": {
+      "color_id": "purple",
+      "shade": 300
+    },
     "uses": [
       "Active item text",
       "Named argument"
@@ -499,7 +592,10 @@
     "name": "purple100",
     "aliases": [
     ],
-    "hex": "#d5c3fc",
+    "shade": {
+      "color_id": "purple",
+      "shade": 100
+    },
     "uses": [
     ]
   },
@@ -508,7 +604,10 @@
     "aliases": [
       "pink900"
     ],
-    "hex": "#632c60",
+    "shade": {
+      "color_id": "magenta",
+      "shade": 900
+    },
     "uses": [
     ]
   },
@@ -517,7 +616,10 @@
     "aliases": [
       "pink700"
     ],
-    "hex": "#c658c1",
+    "shade": {
+      "color_id": "magenta",
+      "shade": 700
+    },
     "uses": [
     ]
   },
@@ -528,7 +630,10 @@
       "annotation",
       "metadata"
     ],
-    "hex": "#f98bf4",
+    "shade": {
+      "color_id": "magenta",
+      "shade": 300
+    },
     "uses": [
       "Annotations",
       "Metadata"
@@ -540,7 +645,10 @@
       "pink100",
       "reassigned"
     ],
-    "hex": "#fcc5f9",
+    "shade": {
+      "color_id": "magenta",
+      "shade": 100
+    },
     "uses": [
       "Reassigned local variable"
     ]
@@ -552,7 +660,7 @@
       "blockquote",
       "border2"
     ],
-    "hex": "#1a1528",
+    "oklch": "oklch(0.2118 0.0373 295.1)",
     "uses": [
       "Markdown block quotes",
       "Header Row",
@@ -568,7 +676,7 @@
       "checkbox",
       "input"
     ],
-    "hex": "#221c35",
+    "oklch": "oklch(0.2465 0.047 293.7)",
     "uses": [
       "Modal background",
       "Checkbox background",
@@ -581,7 +689,7 @@
       "subheader",
       "altrow"
     ],
-    "hex": "#2b2343",
+    "oklch": "oklch(0.2818 0.058 293.8)",
     "uses": [
       "Subheader background",
       "Alternate row background",
@@ -598,7 +706,7 @@
       "rule",
       "button"
     ],
-    "hex": "#342950",
+    "oklch": "oklch(0.3132 0.0688 295.1)",
     "uses": [
       "Terminal Black",
       "Line highlight",
@@ -612,7 +720,7 @@
     "name": "bg650",
     "aliases": [
     ],
-    "hex": "#3c305d",
+    "oklch": "oklch(0.3449 0.0774 294.3)",
     "uses": [
     ]
   },
@@ -620,7 +728,7 @@
     "name": "bg600",
     "aliases": [
     ],
-    "hex": "#45376a",
+    "oklch": "oklch(0.377 0.0857 294.6)",
     "uses": [
     ]
   },
@@ -628,7 +736,7 @@
     "name": "bg550",
     "aliases": [
     ],
-    "hex": "#4d3e78",
+    "oklch": "oklch(0.408 0.0953 293.6)",
     "uses": [
     ]
   },
@@ -640,7 +748,7 @@
       "folded",
       "darkgray"
     ],
-    "hex": "#564585",
+    "oklch": "oklch(0.4388 0.1033 294)",
     "uses": [
       "Terminal Bright Black",
       "Line numbers",
@@ -652,7 +760,7 @@
     "aliases": [
       "comment"
     ],
-    "hex": "#675891",
+    "oklch": "oklch(0.4996 0.0902 295)",
     "uses": [
       "Comments"
     ]
@@ -661,7 +769,7 @@
     "name": "bg400",
     "aliases": [
     ],
-    "hex": "#786a9d",
+    "oklch": "oklch(0.5576 0.0791 296.4)",
     "uses": [
     ]
   },
@@ -669,7 +777,7 @@
     "name": "bg350",
     "aliases": [
     ],
-    "hex": "#897daa",
+    "oklch": "oklch(0.6171 0.0683 296.6)",
     "uses": [
     ]
   },
@@ -677,7 +785,7 @@
     "name": "bg300",
     "aliases": [
     ],
-    "hex": "#9a8fb6",
+    "oklch": "oklch(0.6732 0.0581 297.7)",
     "uses": [
     ]
   },
@@ -685,7 +793,7 @@
     "name": "bg250",
     "aliases": [
     ],
-    "hex": "#aba2c2",
+    "oklch": "oklch(0.7304 0.0467 298.1)",
     "uses": [
     ]
   },
@@ -693,7 +801,7 @@
     "name": "bg200",
     "aliases": [
     ],
-    "hex": "#bbb5ce",
+    "oklch": "oklch(0.7859 0.0356 296.6)",
     "uses": [
     ]
   },
@@ -701,7 +809,7 @@
     "name": "bg150",
     "aliases": [
     ],
-    "hex": "#ccc7da",
+    "oklch": "oklch(0.8395 0.0267 297.9)",
     "uses": [
     ]
   },
@@ -709,7 +817,7 @@
     "name": "bg100",
     "aliases": [
     ],
-    "hex": "#dddae7",
+    "oklch": "oklch(0.8946 0.0179 296.6)",
     "uses": [
     ]
   },
@@ -717,7 +825,7 @@
     "name": "fg900",
     "aliases": [
     ],
-    "hex": "#191023",
+    "oklch": "oklch(0.1951 0.0391 304.9)",
     "uses": [
     ]
   },
@@ -725,7 +833,7 @@
     "name": "fg850",
     "aliases": [
     ],
-    "hex": "#251934",
+    "oklch": "oklch(0.2425 0.0521 303.2)",
     "uses": [
     ]
   },
@@ -737,7 +845,7 @@
       "modalhighlight",
       "highlight2"
     ],
-    "hex": "#322145",
+    "oklch": "oklch(0.2869 0.0666 304.3)",
     "uses": [
       "Highlight and focus border",
       "Highlights in UI and modals"
@@ -747,7 +855,7 @@
     "name": "fg750",
     "aliases": [
     ],
-    "hex": "#3e2957",
+    "oklch": "oklch(0.3291 0.0816 303.3)",
     "uses": [
     ]
   },
@@ -756,7 +864,7 @@
     "aliases": [
       "selection"
     ],
-    "hex": "#4a3168",
+    "oklch": "oklch(0.3695 0.0944 303.1)",
     "uses": [
       "Selection background"
     ]
@@ -765,7 +873,7 @@
     "name": "fg650",
     "aliases": [
     ],
-    "hex": "#573979",
+    "oklch": "oklch(0.4099 0.1071 303.7)",
     "uses": [
     ]
   },
@@ -773,7 +881,7 @@
     "name": "fg600",
     "aliases": [
     ],
-    "hex": "#63428a",
+    "oklch": "oklch(0.45 0.1175 303.2)",
     "uses": [
     ]
   },
@@ -781,7 +889,7 @@
     "name": "fg550",
     "aliases": [
     ],
-    "hex": "#704a9c",
+    "oklch": "oklch(0.4892 0.1309 303.3)",
     "uses": [
     ]
   },
@@ -790,7 +898,7 @@
     "aliases": [
       "underline"
     ],
-    "hex": "#7c52ad",
+    "oklch": "oklch(0.526 0.1424 303.2)",
     "uses": [
       "Markdown underline"
     ]
@@ -799,7 +907,7 @@
     "name": "fg450",
     "aliases": [
     ],
-    "hex": "#8963b5",
+    "oklch": "oklch(0.5732 0.1278 304)",
     "uses": [
     ]
   },
@@ -810,7 +918,7 @@
       "activeborder",
       "active"
     ],
-    "hex": "#9675bd",
+    "oklch": "oklch(0.6225 0.1112 304.5)",
     "uses": [
       "Cursor",
       "Active border",
@@ -825,7 +933,7 @@
     "name": "fg350",
     "aliases": [
     ],
-    "hex": "#a386c6",
+    "oklch": "oklch(0.6706 0.0976 304.7)",
     "uses": [
     ]
   },
@@ -834,7 +942,7 @@
     "aliases": [
       "blockquotetext"
     ],
-    "hex": "#b097ce",
+    "oklch": "oklch(0.7179 0.0829 305.1)",
     "uses": [
       "Blockquote text"
     ]
@@ -843,7 +951,7 @@
     "name": "fg250",
     "aliases": [
     ],
-    "hex": "#bea9d6",
+    "oklch": "oklch(0.7678 0.0671 306)",
     "uses": [
     ]
   },
@@ -851,7 +959,7 @@
     "name": "fg150",
     "aliases": [
     ],
-    "hex": "#d8cbe6",
+    "oklch": "oklch(0.8609 0.0394 307.2)",
     "uses": [
     ]
   },
@@ -861,7 +969,7 @@
       "white",
       "object"
     ],
-    "hex": "#e5dcef",
+    "oklch": "oklch(0.9072 0.0273 307)",
     "uses": [
       "Terminal Bright White",
       "Objects"
@@ -871,7 +979,7 @@
     "name": "bracket",
     "aliases": [
     ],
-    "hex": "#6c8db3",
+    "oklch": "oklch(0.6331 0.0686 252.4)",
     "uses": [
       "Parentheses",
       "Brackets",
@@ -887,7 +995,7 @@
       "punctuation",
       "terminator"
     ],
-    "hex": "#8a7d9b",
+    "oklch": "oklch(0.6119 0.047 304.7)",
     "uses": [
       "Terminal White",
       "Muted text",
@@ -899,7 +1007,7 @@
     "name": "foreground2",
     "aliases": [
     ],
-    "hex": "#bbbbbb",
+    "oklch": "oklch(0.7921 0 0)",
     "uses": [
       "Alternate foreground"
     ]
@@ -908,7 +1016,7 @@
     "name": "purewhite",
     "aliases": [
     ],
-    "hex": "#ffffff",
+    "oklch": "oklch(1 0 0)",
     "uses": [
       "Extra white for lighter backgrounds",
       "Badge foreground"
@@ -918,7 +1026,7 @@
     "name": "header",
     "aliases": [
     ],
-    "hex": "#0b0911",
+    "oklch": "oklch(0.1467 0.0174 295.8)",
     "uses": [
       "Modal header background"
     ]

@@ -23,7 +23,6 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 
 ## Color Palette
 
-![](bin/image/ayame-palette-graphic.png)
 ![](bin/image/ayame-palette.png)
 
 | Hex ____________ | ID | Uses |

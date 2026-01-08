@@ -13,7 +13,7 @@ param(
     [switch] $Export
 )
 
-. '.\src\script\util\Logger.ps1'
+. .\src\script\util\Logger.ps1
 
 if ($Clean) {
     LogFatal 'Not implemented'
@@ -32,7 +32,8 @@ if (!$All -and !($Template -or
 $LastDir = Get-Location
 Set-Location $PSScriptRoot
 
-. '.\src\script\util\ColorConversion.ps1'
+. .\src\script\util\ColorConversion.ps1
+. .\src\script\util\Oklab.ps1
 
 $AyameColors  = Get-Content '.\src\ayame-colors.json' -Raw | ConvertFrom-Json
 $AyameRefPath = '.\bin\ayame.json'
@@ -47,7 +48,22 @@ $AyameRef = [ordered]@{
 $AyameRef.version = (Get-Content '.\package.json' -Raw | ConvertFrom-Json).version
 
 foreach ($Color in $AyameColors) {
-    $ColorDef      = Convert-HexToRgbHsl $Color.hex
+    [int] $shade = 500
+    if ($Color.shade) {
+        $shade = [int] $Color.shade.shade
+        $oklch_def = $(
+            foreach($clr in $AyameColors) {
+                if ($clr.name -eq $Color.shade.color_id) {
+                    $clr.oklch
+                    break
+                }
+            }
+        )
+    }
+    else {
+        $oklch_def = $Color.oklch
+    }
+    $ColorDef      = Convert-OklchToColorDefinition -OklchDef $oklch_def -Shade $shade
     $ColorDef.uses = $Color.uses
 
     $AyameRef.colors[$Color.name] = $ColorDef
@@ -64,12 +80,12 @@ $AyameRef | ConvertTo-Json -Depth 3 > $AyameRefPath
 if ($All -or $OfficeTheme) { & '.\src\script\export\OfficePrior.ps1' }
 if ($All -or $Template -or
              $OfficeTheme) { & '.\src\script\export\Template.ps1'                           -Force:$Force }
-if ($All -or $OfficeTheme) { & '.\src\script\export\OfficeAfter.ps1' }
-if ($All -or $Neovim)      { & '.\src\script\export\Neovim.ps1'    -Colors $AyameRef.colors -Force:$Force }
-if ($All -or $Stylus)      { & '.\src\script\export\Stylus.ps1'    -Colors $AyameRef.colors -Force:$Force }
-if ($All -or $DotIcon)     { & '.\src\script\export\DotIcon.ps1'   -Colors $AyameRef.colors -Force:$Force }
-if ($All -or $Espanso)     { & '.\src\script\export\Espanso.ps1'   -Colors $AyameRef.colors -Force:$Force }
-if ($All -or $SVG)         { & '.\src\script\export\SVG.ps1'                                -Force:$Force }
-if ($All -or $Export)      { & '.\src\script\export\Export.ps1'                             -Force:$Force }
+if ($All -or $OfficeTheme) { & '.\src\script\export\OfficeAfter.ps1'                                      }
+if ($All -or $Neovim     ) { & '.\src\script\export\Neovim.ps1'    -Colors $AyameRef.colors -Force:$Force }
+if ($All -or $Stylus     ) { & '.\src\script\export\Stylus.ps1'    -Colors $AyameRef.colors -Force:$Force }
+if ($All -or $DotIcon    ) { & '.\src\script\export\DotIcon.ps1'   -Colors $AyameRef.colors -Force:$Force }
+if ($All -or $Espanso    ) { & '.\src\script\export\Espanso.ps1'   -Colors $AyameRef.colors -Force:$Force }
+if ($All -or $SVG        ) { & '.\src\script\export\SVG.ps1'                                -Force:$Force }
+if ($All -or $Export     ) { & '.\src\script\export\Export.ps1'                             -Force:$Force }
 
 Set-Location $LastDir

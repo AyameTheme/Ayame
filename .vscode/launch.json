@@ -8,7 +8,7 @@
             "name": "PowerShell: Build",
             "type": "PowerShell",
             "request": "launch",
-            "script": ". .\\build.ps1 -Debug -Force -Espanso",
+            "script": ". .\\build.ps1 -Debug -Force -All",
             "args": []
         }
     ]

@@ -1,7 +1,7 @@
 {
     "background": "#130f1e",
     "black": "#342950",
-    "blue": "#3682c4",
+    "blue": "#2b7bbd",
     "brightBlack": "#564585",
     "brightBlue": "#44a3f5",
     "brightCyan": "#54e7f8",
@@ -11,13 +11,13 @@
     "brightWhite": "#e5dcef",
     "brightYellow": "#f5cb40",
     "cursorColor": "#9675bd",
-    "cyan": "#43b9c6",
+    "cyan": "#41bac8",
     "foreground": "#cbbade",
-    "green": "#78b65d",
+    "green": "#76b65b",
     "name": "Ayame",
     "purple": "#9768f8",
-    "red": "#cc4665",
+    "red": "#c53b5d",
     "selectionBackground": "#4a3168",
     "white": "#8a7d9b",
-    "yellow": "#ff965c"
+    "yellow": "#ff874b"
 }

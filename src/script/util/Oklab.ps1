@@ -1,3 +1,4 @@
+. .\src\script\util\Logger.ps1
 class Oklab {
     hidden [double] $ok_l
     hidden [double] $ok_a
@@ -51,6 +52,83 @@ class Oklab {
         }
 
         return [Oklab]::RgbaToOklab($red, $green, $blue, $alpha)
+    }
+    
+    static [Oklab] FromOklchString([string] $str) {
+        if ([string]::IsNullOrWhiteSpace($str)) {
+            throw [System.ArgumentException]::new(
+                "String cannot be null or whitespace.",
+                'str'
+            )
+        }
+        if (-not ($str -match 'oklch\s*\(\s*(?<lightness>\d+(?:\.\d+)?)(?<lightness_percent>%)?\s+(?<chroma>\d+(?:\.\d+)?)\s+(?<hue>-?\d+(?:\.\d+)?)(?:\s*/\s*(?<alpha>\d+(?:\.\d+)?(?<alpha_percent>%)?))?\s*\)')) {
+            throw [System.ArgumentException]::new(
+                "The Oklch definition format is invalid.",
+                'OklchDef'
+            )
+        }
+
+        $l = $null
+        [double] $l = [double] $Matches.lightness
+        if ($l -eq $null) {
+            throw "Oklch lightness is invalid: $l$(if ($Matches.lightness_percent) { '%' })"
+        }
+        if ($Matches.lightness_percent) { $l = $l / 100.0 }
+        $l = [Math]::Clamp($l, 0.0, 1.0)
+        
+        $c = $null
+        [double] $c = [double] $Matches.chroma
+        if ($c -eq $null) { throw "Oklch chroma is invalid: $c" }
+        
+        $h = $null
+        [double] $h = [double] $Matches.hue
+        if ($h -eq $null) { throw "Oklch hue is invalid: $h" }
+        $h = (($h % 360) + 360) % 360
+        
+        [double] $a = 1.0
+        if ($Matches.alpha) {
+            try { $a = $Matches.alpha }
+            catch { throw "Oklch alpha is invalid: $a$(if ($Matches.alpha_percent) { '%' })" }
+            
+            if ($Matches.alpha_percent) { $a = $a / 100.0 }
+        }
+        
+        if ($l -eq 0 -or $l -eq 1) { $c = 0 }
+        
+        # [bool] $in_gamut = [Oklab]::OklchIsInRgb($l, $c, $h)
+        # if (-not $in_gamut) {
+        #     LogWarn("Oklch's chroma is out of range for converting to sRGB. Finding the closest color...")
+        #     $c = [Oklab]::MaxInGamutChroma($l, $c, $h)
+        # }
+        
+        $oklch = [Oklch]::new($l, $c, $h, $a)
+        return [Oklab]::OklchToOklab($oklch)
+    }
+    
+    hidden static [bool] OklchIsInRgb([double] $l, [double] $c, [double] $h) {
+        [double[]] $rgb      = [Oklab]::ToRgbLinear($l, $c, $h)
+        [double]   $r        = $rgb[0]
+        [double]   $g        = $rgb[1]
+        [double]   $b        = $rgb[2]
+
+        return $r -ge 0 -and $r -le 1 -and
+               $g -ge 0 -and $g -le 1 -and
+               $b -ge 0 -and $b -le 1
+    }
+
+    hidden static [double] MaxInGamutChroma([double] $l, [double] $c, [double] $h) {
+        [double] $low = 0;
+        [double] $high = $c
+
+        for ($i = 0; $i -lt 20; $i++) {
+            [double] $mid      = ($low + $high) / 2
+            [bool]   $in_gamut = [Oklab]::OklchIsInRgb($l, $mid, $h)
+                
+            if ($in_gamut) { $low = $mid }
+            else { $high = $mid }
+        }
+        
+        return $low
     }
 
     static [Oklab] RgbaToOklab([double] $r, [double] $g, [double] $b, [double] $alpha) {
@@ -143,7 +221,21 @@ class Oklab {
         $m = [Math]::Pow($m, 3)
         $s = [Math]::Pow($s, 3)
 
-        # Step 2: LMS → linear RGB
+        $r =  4.0767416621 * $l - 3.3077115913 * $m + 0.2309699292 * $s
+        $g = -1.2684380046 * $l + 2.6097574011 * $m - 0.3413193965 * $s
+        $b = -0.0041960863 * $l - 0.7034186147 * $m + 1.7076147010 * $s
+
+        return @($r, $g, $b)
+    }
+    hidden static [double[]] ToRgbLinear([double] $ok_l, [double] $ok_a, [double] $ok_b) {
+        $l = $ok_l + 0.3963377774 * $ok_a + 0.2158037573 * $ok_b
+        $m = $ok_l - 0.1055613458 * $ok_a - 0.0638541728 * $ok_b
+        $s = $ok_l - 0.0894841775 * $ok_a - 1.2914855480 * $ok_b
+
+        $l = [Math]::Pow($l, 3)
+        $m = [Math]::Pow($m, 3)
+        $s = [Math]::Pow($s, 3)
+
         $r =  4.0767416621 * $l - 3.3077115913 * $m + 0.2309699292 * $s
         $g = -1.2684380046 * $l + 2.6097574011 * $m - 0.3413193965 * $s
         $b = -0.0041960863 * $l - 0.7034186147 * $m + 1.7076147010 * $s
@@ -165,6 +257,60 @@ class Oklab {
         $rgb = $this.ToRgbLinear()
         $s_b = [Oklab]::ToSrgb([Math]::Clamp($rgb[2], 0.0, 1.0))
         return [Math]::Clamp([Math]::Round($s_b * 255), 0, 255)
+    }
+    [double] Alpha() {
+        return $this.ok_alpha
+    }
+    
+    [double[]] ToHsl() {
+        [double] $r = $this.Red()   / 255.0
+        [double] $g = $this.Green() / 255.0
+        [double] $b = $this.Blue()  / 255.0
+
+        [double] $max = [Math]::Max($r, [Math]::Max($g, $b))
+        [double] $min = [Math]::Min($r, [Math]::Min($g, $b))
+        [double] $delta = $max - $min
+
+        [double] $h = 0
+        [double] $s = 0
+        [double] $l = ($max + $min) / 2.0
+
+        if ($delta -ne 0) {
+            if ($max -eq $r) {
+                $h = (($g - $b) / $delta)
+                if ($h -lt 0) { $h += 6 }
+            }
+            elseif ($max -eq $g) {
+                $h = (($b - $r) / $delta) + 2
+            }
+            else {
+                $h = (($r - $g) / $delta) + 4
+            }
+
+            $h *= 60
+
+            $s = $delta / (1.0 - [Math]::Abs(2.0 * $l - 1.0))
+        }
+
+        # Normalize hue
+        if ($h -lt 0)   { $h += 360 }
+        if ($h -ge 360) { $h -= 360 }
+
+        return @($h, $s, $l)
+    }
+    [double] HslHue() {
+        $hsl = $this.ToHsl()
+        return $hsl[0]
+    }
+
+    [double] HslSaturation() {
+        $hsl = $this.ToHsl()
+        return $hsl[1]
+    }
+
+    [double] HslLightness() {
+        $hsl = $this.ToHsl()
+        return $hsl[2]
     }
     
     [string] ToHex6() {
@@ -198,6 +344,42 @@ class Oklab {
     }
     [string] ToHex8BareLower() {
         return $this.ToHex8Bare().ToLower()
+    }
+    
+    [string] ToString() {
+        return "Oklab(lightness = $($this.ok_l); a = $($this.ok_a); b = $($this.ok_b); alpha = $($this.ok_alpha))"
+    }
+    [string] ToString([string] $format) {
+        if ([string]::IsNullOrWhiteSpace($format)) { return $this.ToString() }
+
+        switch ($format.Trim().ToLower()) {
+            'rgb' { 
+                return "rgb($($this.Red()) $($this.Green()) $($this.Blue()))"
+            }
+
+            'rgba' {
+                return "rgba($($this.Red()) $($this.Green()) $($this.Blue()) / $([Math]::Round($this.Alpha(), 2)))"
+            }
+
+            'hsl' {
+                $h = [Math]::Round($this.HslHue(), 2)
+                $s = [Math]::Round($this.HslSaturation() * 100, 2)
+                $l = [Math]::Round($this.HslLightness()  * 100, 2)
+                return "hsl($h $s% $l%)"
+            }
+
+            'hsla' {
+                $h = [Math]::Round($this.HslHue(), 2)
+                $s = [Math]::Round($this.HslSaturation() * 100, 2)
+                $l = [Math]::Round($this.HslLightness()  * 100, 2)
+                $a = [Math]::Round($this.Alpha(), 2)
+                return "hsla($h $s% $l% / $a)"
+            }
+
+            Default { }
+        }
+        
+        return $this.ToString()
     }
 }
 
