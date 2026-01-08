@@ -19,13 +19,13 @@
     --ayame-fg200: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-variable: #cbbade; /* Foreground, Variables, Identifiers */
     --ayame-identifier: #cbbade; /* Foreground, Variables, Identifiers */
-    --ayame-red: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
-    --ayame-deleted: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
-    --ayame-breakpoint: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
-    --ayame-stop: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
-    --ayame-this: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
-    --ayame-red500: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
-    --ayame-h6: #ff577e; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
+    --ayame-red: #ff4b73; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
+    --ayame-deleted: #ff4b73; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
+    --ayame-breakpoint: #ff4b73; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
+    --ayame-stop: #ff4b73; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
+    --ayame-this: #ff4b73; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
+    --ayame-red500: #ff4b73; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
+    --ayame-h6: #ff4b73; /* Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 */
     --ayame-orange: #ff874b; /* Terminal Yellow, Warnings, Constants, Header 4, Predefined symbols, Git conflict */
     --ayame-warning: #ff874b; /* Terminal Yellow, Warnings, Constants, Header 4, Predefined symbols, Git conflict */
     --ayame-constant: #ff874b; /* Terminal Yellow, Warnings, Constants, Header 4, Predefined symbols, Git conflict */
@@ -82,15 +82,15 @@
     --ayame-bold: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
     --ayame-value: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
     --ayame-h3: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
-    --ayame-red900: #712a39; /* Error background, Git deleted background */
-    --ayame-error2: #712a39; /* Error background, Git deleted background */
-    --ayame-red700: #c53b5d; /* Terminal Red, Error, Invalid, Tags */
-    --ayame-darkred: #c53b5d; /* Terminal Red, Error, Invalid, Tags */
-    --ayame-error: #c53b5d; /* Terminal Red, Error, Invalid, Tags */
-    --ayame-invalid: #c53b5d; /* Terminal Red, Error, Invalid, Tags */
-    --ayame-tag: #c53b5d; /* Terminal Red, Error, Invalid, Tags */
-    --ayame-red300: #ff86a1;
-    --ayame-red100: #ffb9c5;
+    --ayame-red900: #6f2332; /* Error background, Git deleted background */
+    --ayame-error2: #6f2332; /* Error background, Git deleted background */
+    --ayame-red700: #c43053; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-darkred: #c43053; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-error: #c43053; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-invalid: #c43053; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-tag: #c43053; /* Terminal Red, Error, Invalid, Tags */
+    --ayame-red300: #ff7e97;
+    --ayame-red100: #ffb3bd;
     --ayame-orange900: #79452c; /* Git conflic background */
     --ayame-orange700: #c86634;
     --ayame-orange300: #ffae7d; /* Parameters */

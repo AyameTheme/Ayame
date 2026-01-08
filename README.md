@@ -29,7 +29,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | --- | --- | --- |
 | ![](bin/icon/background.svg) `#130f1e` | `background`, `bg`, `bg900` | Background |
 | ![](bin/icon/foreground.svg) `#cbbade` | `foreground`, `fg`, `fg200`, `variable`, `identifier` | Foreground, Variables, Identifiers |
-| ![](bin/icon/red.svg) `#ff577e` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `red500`, `h6` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 |
+| ![](bin/icon/red.svg) `#ff4b73` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `red500`, `h6` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 |
 | ![](bin/icon/orange.svg) `#ff874b` | `orange`, `warning`, `constant`, `orange500`, `h4`, `conflict` | Terminal Yellow, Warnings, Constants, Header 4, Predefined symbols, Git conflict |
 | ![](bin/icon/yellow.svg) `#f5cb40` | `yellow`, `character`, `yellow500` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
 | ![](bin/icon/green.svg) `#96e474` | `green`, `added`, `debug`, `string`, `green500`, `h5`, `italic` | Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values |
@@ -38,10 +38,10 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](bin/icon/blue.svg) `#44a3f5` | `blue`, `primary`, `progress`, `modified`, `hyperlink`, `keyword`, `type`, `blue500`, `h1` | Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 |
 | ![](bin/icon/purple.svg) `#9768f8` | `purple`, `darkmagenta`, `secondary`, `function`, `fun`, `attribute`, `code`, `purple500`, `h2`, `key` | Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 |
 | ![](bin/icon/magenta.svg) `#f76ef1` | `magenta`, `pink`, `tertiary`, `focus`, `operator`, `magenta500`, `pink500`, `bold`, `value`, `h3` | Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 |
-| ![](bin/icon/red900.svg) `#712a39` | `red900`, `error2` | Error background, Git deleted background |
-| ![](bin/icon/red700.svg) `#c53b5d` | `red700`, `darkred`, `error`, `invalid`, `tag` | Terminal Red, Error, Invalid, Tags |
-| ![](bin/icon/red300.svg) `#ff86a1` | `red300` |  |
-| ![](bin/icon/red100.svg) `#ffb9c5` | `red100` |  |
+| ![](bin/icon/red900.svg) `#6f2332` | `red900`, `error2` | Error background, Git deleted background |
+| ![](bin/icon/red700.svg) `#c43053` | `red700`, `darkred`, `error`, `invalid`, `tag` | Terminal Red, Error, Invalid, Tags |
+| ![](bin/icon/red300.svg) `#ff7e97` | `red300` |  |
+| ![](bin/icon/red100.svg) `#ffb3bd` | `red100` |  |
 | ![](bin/icon/orange900.svg) `#79452c` | `orange900` | Git conflic background |
 | ![](bin/icon/orange700.svg) `#c86634` | `orange700` |  |
 | ![](bin/icon/orange300.svg) `#ffae7d` | `orange300`, `parameter` | Parameters |
@@ -152,7 +152,7 @@ Color definitions are contained in `src/ayame-colors.json`. This file is the mai
 
 There are multiple benefits to this model. Firstly, templates referencing colors can use contextual IDs so the template reads less confusing and IDs themselves can be changed to different colors easily. For example:
 
-1. One template contains `#ff577e`, which will be replaced with `#ff6394` by the build script. The developer used this variable to style some bold text.
+1. One template contains `#ff4b73`, which will be replaced with `#ff6394` by the build script. The developer used this variable to style some bold text.
 2. The developer decides to be more specific and uses `#f76ef1` instead.
 3. The developer wishes to change the bold color, so he changes the hex code in `ayame-colors.json` for ID `bold` to `#76b5c5`. Not only will this change affect all instances when the ID `bold` is referenced, but IDs (`red`, `deleted`, `this`, etc.) previously grouped with ID `bold` are not affected, and will remain red.
 

@@ -63,7 +63,7 @@
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#224a6d{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#79452c{{ end }}",
-            "{{ if gt .Ahead 0 }}#712a39{{ end }}",
+            "{{ if gt .Ahead 0 }}#6f2332{{ end }}",
             "{{ if gt .Behind 0 }}#587b4a{{ end }}"
           ],
           "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} ",
@@ -79,7 +79,7 @@
           "foreground": "#437e86",
           "background": "#93ffff",
           "background_templates": [
-            "{{ if gt .Code 0 }}#ff577e{{ end }}"
+            "{{ if gt .Code 0 }}#ff4b73{{ end }}"
           ],
           "trailing_diamond": "",
           "template": "  ",
@@ -129,8 +129,8 @@
           "type": "root",
           "style": "powerline",
           "powerline_symbol": "",
-          "foreground": "#712a39",
-          "background": "#ff86a1",
+          "foreground": "#6f2332",
+          "background": "#ff7e97",
           "template": ""
         },
         {

@@ -1,8 +1,8 @@
 <svg viewBox="0 0 2880 1080"
     xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
     <path style="fill:#130f1e" d="M0 0h3840v2160H0z"/>
-    <path style="fill:#ff577e" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 -217.498)"/>
-    <path style="fill:#712a39" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 -217.498)"/>
+    <path style="fill:#ff4b73" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -998.224 -217.498)"/>
+    <path style="fill:#6f2332" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 -217.498)"/>
     <path style="fill:#79452c" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 -97.498)"/>
     <path style="fill:#84723a" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 22.502)"/>
     <path style="fill:#587b4a" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 142.502)"/>
@@ -11,7 +11,7 @@
     <path style="fill:#224a6d" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 502.502)"/>
     <path style="fill:#3c2865" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 622.502)"/>
     <path style="fill:#763b73" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 201.776 742.502)"/>
-    <path style="fill:#c53b5d" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 -217.498)"/>
+    <path style="fill:#c43053" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 -217.498)"/>
     <path style="fill:#c86634" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 -97.498)"/>
     <path style="fill:#c5a330" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 22.502)"/>
     <path style="fill:#76b65b" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 142.502)"/>
@@ -20,7 +20,7 @@
     <path style="fill:#2b7bbd" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 502.502)"/>
     <path style="fill:#6f47bd" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 622.502)"/>
     <path style="fill:#c151bc" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 441.776 742.502)"/>
-    <path style="fill:#ff577e" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 -217.498)"/>
+    <path style="fill:#ff4b73" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 -217.498)"/>
     <path style="fill:#ff874b" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 -97.498)"/>
     <path style="fill:#f5cb40" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 22.502)"/>
     <path style="fill:#96e474" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 142.502)"/>
@@ -29,7 +29,7 @@
     <path style="fill:#44a3f5" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 502.502)"/>
     <path style="fill:#9768f8" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 622.502)"/>
     <path style="fill:#f76ef1" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 681.776 742.502)"/>
-    <path style="fill:#ff86a1" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 -217.498)"/>
+    <path style="fill:#ff7e97" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 -217.498)"/>
     <path style="fill:#ffae7d" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 -97.498)"/>
     <path style="fill:#ffed82" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 22.502)"/>
     <path style="fill:#bfffa3" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 142.502)"/>
@@ -38,7 +38,7 @@
     <path style="fill:#76c3ff" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 502.502)"/>
     <path style="fill:#b38fff" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 622.502)"/>
     <path style="fill:#ff9bff" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 921.776 742.502)"/>
-    <path style="fill:#ffb9c5" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 -217.498)"/>
+    <path style="fill:#ffb3bd" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 -217.498)"/>
     <path style="fill:#ffd6ba" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 -97.498)"/>
     <path style="fill:#ffffcf" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 22.502)"/>
     <path style="fill:#edffde" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 1161.78 142.502)"/>
@@ -110,8 +110,8 @@
     <path style="fill:#130f1e" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 622.502)"/>
     <path style="fill:#130f1e" d="M515.883 199.195h124.032v109.902H515.883z" transform="matrix(1.93498 0 0 1.09188 -38.224 742.502)"/>
     <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#130f1e" transform="translate(-464.76 -34.946)">red</text>
-    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff86a1" transform="translate(736.467 -48.823)">#712a39</text>
-    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#ff86a1" transform="translate(736.467 -48.823)">red900</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff7e97" transform="translate(736.467 -48.823)">#6f2332</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#ff7e97" transform="translate(736.467 -48.823)">red900</text>
     <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#130f1e" transform="translate(-464.4 79.326)">orange</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ffae7d" transform="translate(736.337 69.192)">#79452c</text>
     <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#ffae7d" transform="translate(736.337 69.192)">orange900</text>
@@ -172,9 +172,9 @@
     <text x="551.443" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#cbbade" transform="translate(2176.34 -50.808)">bg100</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff9bff" transform="translate(736.418 909.192)">#763b73</text>
     <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#ff9bff" transform="translate(736.418 909.192)">magenta900</text>
-    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff577e" transform="translate(-224.76 -34.946)">red</text>
-    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff86a1" transform="translate(976.337 -48.823)">#c53b5d</text>
-    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#ff86a1" transform="translate(976.337 -48.823)">red700</text>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff4b73" transform="translate(-224.76 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff7e97" transform="translate(976.337 -48.823)">#c43053</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#ff7e97" transform="translate(976.337 -48.823)">red700</text>
     <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff874b" transform="translate(-224.4 79.326)">orange</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ffae7d" transform="translate(975.813 69.192)">#c86634</text>
     <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#ffae7d" transform="translate(975.813 69.192)">orange700</text>
@@ -199,9 +199,9 @@
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#f76ef1" transform="translate(-224.613 922.075)">magenta</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff9bff" transform="translate(977.498 909.192)">#c151bc</text>
     <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#ff9bff" transform="translate(977.498 909.192)">magenta700</text>
-    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff577e" transform="translate(15.24 -34.946)">red</text>
-    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#712a39" transform="translate(1216.48 -48.823)">#ff577e</text>
-    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#712a39" transform="translate(1216.48 -48.823)">red500</text>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff4b73" transform="translate(15.24 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#6f2332" transform="translate(1216.48 -48.823)">#ff4b73</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#6f2332" transform="translate(1216.48 -48.823)">red500</text>
     <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff874b" transform="translate(15.6 79.326)">orange</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#79452c" transform="translate(1216.58 69.192)">#ff874b</text>
     <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#79452c" transform="translate(1216.58 69.192)">orange500</text>
@@ -226,9 +226,9 @@
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#f76ef1" transform="translate(15.387 922.075)">magenta</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#763b73" transform="translate(1217.5 909.192)">#f76ef1</text>
     <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#763b73" transform="translate(1217.5 909.192)">magenta500</text>
-    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff577e" transform="translate(255.24 -34.946)">red</text>
-    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#c53b5d" transform="translate(1456.4 -48.823)">#ff86a1</text>
-    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#c53b5d" transform="translate(1456.4 -48.823)">red300</text>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff4b73" transform="translate(255.24 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#c43053" transform="translate(1456.4 -48.823)">#ff7e97</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#c43053" transform="translate(1456.4 -48.823)">red300</text>
     <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff874b" transform="translate(255.6 79.326)">orange</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#c86634" transform="translate(1456.78 69.192)">#ffae7d</text>
     <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#c86634" transform="translate(1456.78 69.192)">orange300</text>
@@ -253,9 +253,9 @@
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#f76ef1" transform="translate(255.387 922.075)">magenta</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#c151bc" transform="translate(1456.42 909.192)">#ff9bff</text>
     <text x="518.716" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#c151bc" transform="translate(1456.42 909.192)">magenta300</text>
-    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff577e" transform="translate(495.24 -34.946)">red</text>
-    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#c53b5d" transform="translate(1696.63 -48.823)">#ffb9c5</text>
-    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#c53b5d" transform="translate(1696.63 -48.823)">red100</text>
+    <text x="554.716" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff4b73" transform="translate(495.24 -34.946)">red</text>
+    <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#c43053" transform="translate(1696.63 -48.823)">#ffb3bd</text>
+    <text x="544.898" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#c43053" transform="translate(1696.63 -48.823)">red100</text>
     <text x="525.262" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#ff874b" transform="translate(495.6 79.326)">orange</text>
     <text x="515.443" y="107.808" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:36px;fill:#c86634" transform="translate(1696.48 69.192)">#ffd6ba</text>
     <text x="525.262" y="136.172" style="font-family:'VictorMono-Medium','Victor Mono';font-weight:500;font-size:24px;fill:#c86634" transform="translate(1696.48 69.192)">orange100</text>
