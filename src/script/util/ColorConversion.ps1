@@ -131,3 +131,55 @@ function Convert-OklchToColorDefinition {
         hsla           = $oklab.ToString('hsla')
     }
 }
+
+function Convert-RgbToExcelColor {
+    param([int]$R, [int]$G, [int]$B)
+    $R = [Math]::Clamp($R, 0, 255)
+    $G = [Math]::Clamp($G, 0, 255)
+    $B = [Math]::Clamp($B, 0, 255)
+    return ($B -shl 16) -bor ($G -shl 8) -bor $R
+}
+
+enum ReadableTextColor {
+    Black
+    White
+}
+
+function Get-ReadableTextColor {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [ValidateRange(0,255)]
+        [int] $Red,
+
+        [Parameter(Mandatory)]
+        [ValidateRange(0,255)]
+        [int] $Green,
+
+        [Parameter(Mandatory)]
+        [ValidateRange(0,255)]
+        [int] $Blue
+    )
+
+    function ConvertTo-Linear {
+        param([double]$c)
+        if ($c -le 0.04045) {
+            return $c / 12.92
+        }
+        return [math]::Pow(($c + 0.055) / 1.055, 2.4)
+    }
+
+    $r = ConvertTo-Linear ($Red   / 255)
+    $g = ConvertTo-Linear ($Green / 255)
+    $b = ConvertTo-Linear ($Blue  / 255)
+
+    $L = 0.2126 * $r + 0.7152 * $g + 0.0722 * $b
+
+    $contrast_white = (1.0 + 0.05) / ($L + 0.05)
+    $contrast_black = ($L + 0.05) / (0.0 + 0.05)
+
+    if ($contrast_white -gt $contrast_black) {
+        return [ReadableTextColor]::White
+    }
+    return [ReadableTextColor]::Black
+}

@@ -17,6 +17,7 @@ $i     = 0
 foreach ($Color in $Colors) {
     $Name    = $Color.name
     $Hex     = $AyameRef.colors.$($Color.name).hex
+    $Rgb     = $AyameRef.colors.$($Color.name).rgb
     $Uses    = $Color.uses -join ', '
     $Aliases = $(
         if ($Color.aliases.Count -gt 0) {
@@ -24,7 +25,7 @@ foreach ($Color in $Colors) {
         }
         else { '' }
     )
-    $Lines[$i] = "| ![]($IconURL/$Name.svg) $T$Hex$T | $T$Name$T$Aliases | $Uses |"
+    $Lines[$i] = "| ![]($IconURL/$Name.svg) $T$Hex$T<br>$T$Rgb$T | $T$Name$T$Aliases | $Uses |"
 
     $i++
 }
