@@ -26,33 +26,15 @@ EnsureParent($EspansoPath)
 
 LogInfo "$($Colors.Count) colors loaded."
 
-$EntryCount = $(
-    $Result = 0
-    foreach ($ColorKey in $Colors.Keys) {
-        $Color = $Colors.$ColorKey
-        foreach ($Property in $Color.Keys) {
-            $Value = $Color.$Property
-            if (!($Value.GetType().IsArray -or $Value.GetType().IsObject)) {
-                $Result++
-            }
-        }
-    }
-    $Result
-)
-[string[]] $Lines = @('') * $EntryCount
+[string[]] $Lines = @('') * $Colors.Count
 [int]      $i     = 0
 foreach ($ColorKey in $Colors.Keys) {
     $Color = $Colors.$ColorKey
-    foreach ($Property in $Color.Keys) {
-        $Value = $Color.$Property
-        if (!($Value.GetType().IsArray -or $Value.GetType().IsObject)) {
-            $Lines[$i] = @"
-- trigger: "@@ayame.$ColorKey.$Property@"
-  replace: "$Value"
+    $Lines[$i] = @"
+- trigger: ";aya-$ColorKey"
+  replace: "$($Color.hex)"
 "@
-            $i++
-        }
-    }
+    $i++
 }
 
 Set-Content -Path $EspansoPath -Force:$Force -Value @"
