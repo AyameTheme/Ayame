@@ -81,7 +81,7 @@ function M.get()
         tag             = "#c43053", -- Terminal Red, Error, Invalid, Tags
         red300          = "#ff7e97",
         red100          = "#ffb3bd",
-        orange900       = "#79452c", -- Git conflic background
+        orange900       = "#79452c", -- Git conflict background
         orange700       = "#c86634",
         orange300       = "#ffae7d", -- Parameters
         parameter       = "#ffae7d", -- Parameters
