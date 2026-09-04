@@ -21,7 +21,9 @@ param (
 
 LogInfo "Starting task: Espanso Export"
 
-[string] $EspansoPath = '.\bin\espanso\ayame.yml'
+[string] $EspansoPath     = '.\bin\espanso\ayame.yml'
+[string] $RootVarStylPath = '.\src\stylus\ayame-root.styl'
+[string] $RootVarCssPath  = '.\bin\usercss\ayame-root.css'
 EnsureParent($EspansoPath)
 
 LogInfo "$($Colors.Count) colors loaded."
@@ -31,7 +33,7 @@ LogInfo "$($Colors.Count) colors loaded."
 foreach ($ColorKey in $Colors.Keys) {
     $Color = $Colors.$ColorKey
     $Lines[$i] = @"
-- trigger: ";aya-$ColorKey"
+- trigger: ";a-$ColorKey;"
   replace: "$($Color.hex)"
 "@
     $i++
@@ -40,6 +42,18 @@ foreach ($ColorKey in $Colors.Keys) {
 Set-Content -Path $EspansoPath -Force:$Force -Value @"
 matches:
 $($Lines -join "`n")
+"@
+
+[string] $StylContent = [regex]::Replace((Get-Content -Path $RootVarStylPath -Raw), '(?m)^', '    ').TrimEnd()
+[string] $CssContent  = [regex]::Replace((Get-Content -Path $RootVarCssPath  -Raw), '(?m)^', '    ').TrimEnd()
+
+Add-Content -Path $EspansoPath -Force:$Force -Value @"
+- trigger: ";a-rootstyl"
+  replace: |
+$StylContent
+- trigger: ";a-rootcss"
+  replace: |
+$CssContent
 "@
 
 LogInfo "Completed task: Espanso Export"

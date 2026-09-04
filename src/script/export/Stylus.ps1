@@ -24,12 +24,13 @@ LogInfo "$($Colors.Count) colors loaded."
 [int] $LengthIDMax = 0
 foreach ($ColorKey in $Colors.Keys) { $LengthIDMax = [Math]::Max($LengthIDMax, $ColorKey.Length) }
 
-$StylusPath    = ".\src\stylus"
+$StylusPath     = ".\src\stylus"
 Ensure $StylusPath
-$StylusPathVar = "$StylusPath\ayame-variables.styl"
-$StylusPathHex = "$StylusPath\ayame-hex.styl"
-$StylusPathRGB = "$StylusPath\ayame-rgb.styl"
-$StylusPathHSL = "$StylusPath\ayame-hsl.styl"
+$StylusPathVar  = "$StylusPath\ayame-variables.styl"
+$StylusPathHex  = "$StylusPath\ayame-hex.styl"
+$StylusPathRGB  = "$StylusPath\ayame-rgb.styl"
+$StylusPathHSL  = "$StylusPath\ayame-hsl.styl"
+$StylusPathRoot = "$StylusPath\ayame-root.styl"
 
 $LinesVar = [AssignmentLineBatch]::new($Colors)
 $LinesVar.LeftPrefix    = 'aya-'
@@ -80,11 +81,16 @@ $($LinesVar.ToString())
 :root
 $($LinesVarRoot.ToString())
 "@
+Set-Content -Path $StylusPathRoot -Value @"
+:root
+$($LinesVarRoot.ToString())
+"@
 Set-Content -Path $StylusPathHex -Value ($LinesHex.ToString())
 Set-Content -Path $StylusPathRGB -Value ($LinesRGB.ToString())
 Set-Content -Path $StylusPathHSL -Value ($LinesHSL.ToString())
 
 LogInfo "Converting 'src/usercss/*.styl' -> CSS."
 npx stylus src/usercss --out bin/usercss
+npx stylus src/stylus/ayame-root.styl --out bin/usercss
 
 LogInfo "Completed task: Stylus Export"
