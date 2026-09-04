@@ -34,6 +34,7 @@
     --ayame-yellow: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-character: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-yellow500: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
+    --ayame-cssclass: #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-green: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values */
     --ayame-added: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values */
     --ayame-debug: #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values */
@@ -61,16 +62,17 @@
     --ayame-type: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
     --ayame-blue500: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
     --ayame-h1: #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
-    --ayame-purple: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-darkmagenta: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-secondary: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-function: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-fun: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-attribute: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-code: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-purple500: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-h2: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-key: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-purple: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-darkmagenta: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-secondary: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-function: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-fun: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-attribute: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-code: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-purple500: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-h2: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-key: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-cssid: #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
     --ayame-magenta: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
     --ayame-pink: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
     --ayame-tertiary: #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
@@ -112,9 +114,10 @@
     --ayame-instance: #9bffce; /* Instance fields */
     --ayame-teal100: #e2fffa;
     --ayame-cyan900: #437e86;
-    --ayame-cyan700: #41bac8; /* Terminal Cyan, Classes */
-    --ayame-darkcyan: #41bac8; /* Terminal Cyan, Classes */
-    --ayame-class: #41bac8; /* Terminal Cyan, Classes */
+    --ayame-cyan700: #41bac8; /* Terminal Cyan, Classes, Text markup heading, config section */
+    --ayame-darkcyan: #41bac8; /* Terminal Cyan, Classes, Text markup heading, config section */
+    --ayame-class: #41bac8; /* Terminal Cyan, Classes, Text markup heading, config section */
+    --ayame-section: #41bac8; /* Terminal Cyan, Classes, Text markup heading, config section */
     --ayame-cyan300: #93ffff; /* Static fields */
     --ayame-static: #93ffff; /* Static fields */
     --ayame-cyan100: #daffff;
@@ -128,7 +131,8 @@
     --ayame-blue100: #b0dbff;
     --ayame-purple900: #3c2865; /* Active item */
     --ayame-activeitem: #3c2865; /* Active item */
-    --ayame-purple700: #6f47bd;
+    --ayame-purple700: #6f47bd; /* Invoked functions */
+    --ayame-invoke: #6f47bd; /* Invoked functions */
     --ayame-purple300: #b38fff; /* Active item text, Named argument */
     --ayame-activeitemtext: #b38fff; /* Active item text, Named argument */
     --ayame-purple100: #c7b6ff;

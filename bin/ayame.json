@@ -763,6 +763,39 @@
         "Markdown link anchors"
       ]
     },
+    "cssclass": {
+      "hex": "#f5cb40",
+      "hex_upper": "#F5CB40",
+      "hex_bare": "f5cb40",
+      "hex_bare_upper": "F5CB40",
+      "r": 245,
+      "red": 245,
+      "red_percent": 0.9607843137254902,
+      "g": 203,
+      "green": 203,
+      "green_percent": 0.796078431372549,
+      "b": 64,
+      "blue": 64,
+      "blue_percent": 0.25098039215686274,
+      "rgb": "rgb(245 203 64)",
+      "rgba": "rgba(245 203 64 / 1)",
+      "h": 46.07734806629834,
+      "hue": 46.07734806629834,
+      "s": 0.9004975124378112,
+      "saturation": 0.9004975124378112,
+      "l": 0.6058823529411765,
+      "lightness": 0.6058823529411765,
+      "hsl": "hsl(46.08 90.05% 60.59%)",
+      "hsla": "hsla(46.08 90.05% 60.59% / 1)",
+      "uses": [
+        "Terminal Bright Yellow",
+        "Characters",
+        "HTML attributes",
+        "CSS classes",
+        "Markdown alt text",
+        "Markdown link anchors"
+      ]
+    },
     "green": {
       "hex": "#96e474",
       "hex_upper": "#96E474",
@@ -1685,7 +1718,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "darkmagenta": {
@@ -1719,7 +1753,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "secondary": {
@@ -1753,7 +1788,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "function": {
@@ -1787,7 +1823,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "fun": {
@@ -1821,7 +1858,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "attribute": {
@@ -1855,7 +1893,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "code": {
@@ -1889,7 +1928,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "purple500": {
@@ -1923,7 +1963,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "h2": {
@@ -1957,7 +1998,8 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
       ]
     },
     "key": {
@@ -1991,7 +2033,43 @@
         "Functions",
         "Attributes",
         "Markdown plain code blocks",
-        "Header 2"
+        "Header 2",
+        "CSS ID"
+      ]
+    },
+    "cssid": {
+      "hex": "#9768f8",
+      "hex_upper": "#9768F8",
+      "hex_bare": "9768f8",
+      "hex_bare_upper": "9768F8",
+      "r": 151,
+      "red": 151,
+      "red_percent": 0.592156862745098,
+      "g": 104,
+      "green": 104,
+      "green_percent": 0.40784313725490196,
+      "b": 248,
+      "blue": 248,
+      "blue_percent": 0.9725490196078431,
+      "rgb": "rgb(151 104 248)",
+      "rgba": "rgba(151 104 248 / 1)",
+      "h": 259.58333333333337,
+      "hue": 259.58333333333337,
+      "s": 0.9113924050632911,
+      "saturation": 0.9113924050632911,
+      "l": 0.6901960784313725,
+      "lightness": 0.6901960784313725,
+      "hsl": "hsl(259.58 91.14% 69.02%)",
+      "hsla": "hsla(259.58 91.14% 69.02% / 1)",
+      "uses": [
+        "Terminal Magenta",
+        "Debug token keys",
+        "Property keys",
+        "Functions",
+        "Attributes",
+        "Markdown plain code blocks",
+        "Header 2",
+        "CSS ID"
       ]
     },
     "magenta": {
@@ -3215,7 +3293,8 @@
       "hsla": "hsla(186.22 55.1% 51.96% / 1)",
       "uses": [
         "Terminal Cyan",
-        "Classes"
+        "Classes",
+        "Text markup heading, config section"
       ]
     },
     "darkcyan": {
@@ -3244,7 +3323,8 @@
       "hsla": "hsla(186.22 55.1% 51.96% / 1)",
       "uses": [
         "Terminal Cyan",
-        "Classes"
+        "Classes",
+        "Text markup heading, config section"
       ]
     },
     "class": {
@@ -3273,7 +3353,38 @@
       "hsla": "hsla(186.22 55.1% 51.96% / 1)",
       "uses": [
         "Terminal Cyan",
-        "Classes"
+        "Classes",
+        "Text markup heading, config section"
+      ]
+    },
+    "section": {
+      "hex": "#41bac8",
+      "hex_upper": "#41BAC8",
+      "hex_bare": "41bac8",
+      "hex_bare_upper": "41BAC8",
+      "r": 65,
+      "red": 65,
+      "red_percent": 0.2549019607843137,
+      "g": 186,
+      "green": 186,
+      "green_percent": 0.7294117647058823,
+      "b": 200,
+      "blue": 200,
+      "blue_percent": 0.7843137254901961,
+      "rgb": "rgb(65 186 200)",
+      "rgba": "rgba(65 186 200 / 1)",
+      "h": 186.22222222222223,
+      "hue": 186.22222222222223,
+      "s": 0.5510204081632653,
+      "saturation": 0.5510204081632653,
+      "l": 0.5196078431372548,
+      "lightness": 0.5196078431372548,
+      "hsl": "hsl(186.22 55.1% 51.96%)",
+      "hsla": "hsla(186.22 55.1% 51.96% / 1)",
+      "uses": [
+        "Terminal Cyan",
+        "Classes",
+        "Text markup heading, config section"
       ]
     },
     "cyan300": {
@@ -3668,7 +3779,37 @@
       "lightness": 0.5098039215686274,
       "hsl": "hsl(260.34 47.2% 50.98%)",
       "hsla": "hsla(260.34 47.2% 50.98% / 1)",
-      "uses": []
+      "uses": [
+        "Invoked functions"
+      ]
+    },
+    "invoke": {
+      "hex": "#6f47bd",
+      "hex_upper": "#6F47BD",
+      "hex_bare": "6f47bd",
+      "hex_bare_upper": "6F47BD",
+      "r": 111,
+      "red": 111,
+      "red_percent": 0.43529411764705883,
+      "g": 71,
+      "green": 71,
+      "green_percent": 0.2784313725490196,
+      "b": 189,
+      "blue": 189,
+      "blue_percent": 0.7411764705882353,
+      "rgb": "rgb(111 71 189)",
+      "rgba": "rgba(111 71 189 / 1)",
+      "h": 260.33898305084745,
+      "hue": 260.33898305084745,
+      "s": 0.472,
+      "saturation": 0.472,
+      "l": 0.5098039215686274,
+      "lightness": 0.5098039215686274,
+      "hsl": "hsl(260.34 47.2% 50.98%)",
+      "hsla": "hsla(260.34 47.2% 50.98% / 1)",
+      "uses": [
+        "Invoked functions"
+      ]
     },
     "purple300": {
       "hex": "#b38fff",

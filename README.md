@@ -31,12 +31,12 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](bin/icon/foreground.svg) `#cbbade`<br>`rgb(203 186 222)` | `foreground`, `fg`, `fg200`, `variable`, `identifier` | Foreground, Variables, Identifiers |
 | ![](bin/icon/red.svg) `#ff4b73`<br>`rgb(255 75 115)` | `red`, `deleted`, `breakpoint`, `stop`, `this`, `red500`, `h6` | Terminal Bright Red, Git deleted, Breakpoints, Stop, Language variables, Header 6 |
 | ![](bin/icon/orange.svg) `#ff874b`<br>`rgb(255 135 75)` | `orange`, `warning`, `constant`, `orange500`, `h4`, `conflict` | Terminal Yellow, Warnings, Constants, Header 4, Predefined symbols, Git conflict |
-| ![](bin/icon/yellow.svg) `#f5cb40`<br>`rgb(245 203 64)` | `yellow`, `character`, `yellow500` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
+| ![](bin/icon/yellow.svg) `#f5cb40`<br>`rgb(245 203 64)` | `yellow`, `character`, `yellow500`, `cssclass` | Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors |
 | ![](bin/icon/green.svg) `#96e474`<br>`rgb(150 228 116)` | `green`, `added`, `debug`, `string`, `green500`, `h5`, `italic` | Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values |
 | ![](bin/icon/teal.svg) `#5df8a6`<br>`rgb(93 248 166)` | `teal`, `todo`, `teal500`, `inlinecode` | TODO comments, Inline code |
 | ![](bin/icon/cyan.svg) `#54e7f8`<br>`rgb(84 231 248)` | `cyan`, `match`, `control`, `regex`, `escape`, `cyan500`, `linkhover` | Terminal Bright Cyan, Find matches, Hyperlink hover, Control keywords, RegEx literals, Escape characters |
 | ![](bin/icon/blue.svg) `#44a3f5`<br>`rgb(68 163 245)` | `blue`, `primary`, `progress`, `modified`, `hyperlink`, `keyword`, `type`, `blue500`, `h1` | Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 |
-| ![](bin/icon/purple.svg) `#9768f8`<br>`rgb(151 104 248)` | `purple`, `darkmagenta`, `secondary`, `function`, `fun`, `attribute`, `code`, `purple500`, `h2`, `key` | Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 |
+| ![](bin/icon/purple.svg) `#9768f8`<br>`rgb(151 104 248)` | `purple`, `darkmagenta`, `secondary`, `function`, `fun`, `attribute`, `code`, `purple500`, `h2`, `key`, `cssid` | Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID |
 | ![](bin/icon/magenta.svg) `#f76ef1`<br>`rgb(247 110 241)` | `magenta`, `pink`, `tertiary`, `focus`, `operator`, `magenta500`, `pink500`, `bold`, `value`, `h3` | Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 |
 | ![](bin/icon/red900.svg) `#6f2332`<br>`rgb(111 35 50)` | `red900`, `error2` | Error background, Git deleted background |
 | ![](bin/icon/red700.svg) `#c43053`<br>`rgb(196 48 83)` | `red700`, `darkred`, `error`, `invalid`, `tag` | Terminal Red, Error, Invalid, Tags |
@@ -59,7 +59,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](bin/icon/teal300.svg) `#9bffce`<br>`rgb(155 255 206)` | `teal300`, `instance` | Instance fields |
 | ![](bin/icon/teal100.svg) `#e2fffa`<br>`rgb(226 255 250)` | `teal100` |  |
 | ![](bin/icon/cyan900.svg) `#437e86`<br>`rgb(67 126 134)` | `cyan900` |  |
-| ![](bin/icon/cyan700.svg) `#41bac8`<br>`rgb(65 186 200)` | `cyan700`, `darkcyan`, `class` | Terminal Cyan, Classes |
+| ![](bin/icon/cyan700.svg) `#41bac8`<br>`rgb(65 186 200)` | `cyan700`, `darkcyan`, `class`, `section` | Terminal Cyan, Classes, Text markup heading, config section |
 | ![](bin/icon/cyan300.svg) `#93ffff`<br>`rgb(147 255 255)` | `cyan300`, `static` | Static fields |
 | ![](bin/icon/cyan100.svg) `#daffff`<br>`rgb(218 255 255)` | `cyan100` |  |
 | ![](bin/icon/blue900.svg) `#224a6d`<br>`rgb(34 74 109)` | `blue900` | Git modified background |
@@ -67,7 +67,7 @@ A dark theme inspired by the nightly bright colors of cyber-neon anime. [Get it 
 | ![](bin/icon/blue300.svg) `#76c3ff`<br>`rgb(118 195 255)` | `blue300` |  |
 | ![](bin/icon/blue100.svg) `#b0dbff`<br>`rgb(176 219 255)` | `blue100` |  |
 | ![](bin/icon/purple900.svg) `#3c2865`<br>`rgb(60 40 101)` | `purple900`, `activeitem` | Active item |
-| ![](bin/icon/purple700.svg) `#6f47bd`<br>`rgb(111 71 189)` | `purple700` |  |
+| ![](bin/icon/purple700.svg) `#6f47bd`<br>`rgb(111 71 189)` | `purple700`, `invoke` | Invoked functions |
 | ![](bin/icon/purple300.svg) `#b38fff`<br>`rgb(179 143 255)` | `purple300`, `activeitemtext` | Active item text, Named argument |
 | ![](bin/icon/purple100.svg) `#c7b6ff`<br>`rgb(199 182 255)` | `purple100` |  |
 | ![](bin/icon/magenta900.svg) `#763b73`<br>`rgb(118 59 115)` | `magenta900`, `pink900` |  |

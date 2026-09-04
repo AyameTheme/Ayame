@@ -68,7 +68,8 @@
     "name": "yellow",
     "aliases": [
       "character",
-      "yellow500"
+      "yellow500",
+      "cssclass"
     ],
     "oklch": "oklch(0.8555 0.1555 91.4)",
     "uses": [
@@ -168,7 +169,8 @@
       "code",
       "purple500",
       "h2",
-      "key"
+      "key",
+      "cssid"
     ],
     "oklch": "oklch(0.636 0.2061 294.9)",
     "uses": [
@@ -178,7 +180,8 @@
       "Functions",
       "Attributes",
       "Markdown plain code blocks",
-      "Header 2"
+      "Header 2",
+      "CSS ID"
     ]
   },
   {
@@ -463,7 +466,8 @@
     "name": "cyan700",
     "aliases": [
       "darkcyan",
-      "class"
+      "class",
+      "section"
     ],
     "shade": {
       "color_id": "cyan",
@@ -471,7 +475,8 @@
     },
     "uses": [
       "Terminal Cyan",
-      "Classes"
+      "Classes",
+      "Text markup heading, config section"
     ]
   },
   {
@@ -566,12 +571,14 @@
   {
     "name": "purple700",
     "aliases": [
+      "invoke"
     ],
     "shade": {
       "color_id": "purple",
       "shade": 700
     },
     "uses": [
+      "Invoked functions"
     ]
   },
   {

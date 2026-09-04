@@ -22,6 +22,7 @@ aya-conflict        = var(--ayame-conflict)        // Terminal Yellow, Warnings,
 aya-yellow          = var(--ayame-yellow)          // Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors
 aya-character       = var(--ayame-character)       // Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors
 aya-yellow500       = var(--ayame-yellow500)       // Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors
+aya-cssclass        = var(--ayame-cssclass)        // Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors
 aya-green           = var(--ayame-green)           // Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values
 aya-added           = var(--ayame-added)           // Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values
 aya-debug           = var(--ayame-debug)           // Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values
@@ -49,16 +50,17 @@ aya-keyword         = var(--ayame-keyword)         // Terminal Bright Blue, Prog
 aya-type            = var(--ayame-type)            // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1
 aya-blue500         = var(--ayame-blue500)         // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1
 aya-h1              = var(--ayame-h1)              // Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1
-aya-purple          = var(--ayame-purple)          // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-darkmagenta     = var(--ayame-darkmagenta)     // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-secondary       = var(--ayame-secondary)       // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-function        = var(--ayame-function)        // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-fun             = var(--ayame-fun)             // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-attribute       = var(--ayame-attribute)       // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-code            = var(--ayame-code)            // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-purple500       = var(--ayame-purple500)       // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-h2              = var(--ayame-h2)              // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
-aya-key             = var(--ayame-key)             // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2
+aya-purple          = var(--ayame-purple)          // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-darkmagenta     = var(--ayame-darkmagenta)     // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-secondary       = var(--ayame-secondary)       // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-function        = var(--ayame-function)        // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-fun             = var(--ayame-fun)             // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-attribute       = var(--ayame-attribute)       // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-code            = var(--ayame-code)            // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-purple500       = var(--ayame-purple500)       // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-h2              = var(--ayame-h2)              // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-key             = var(--ayame-key)             // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
+aya-cssid           = var(--ayame-cssid)           // Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID
 aya-magenta         = var(--ayame-magenta)         // Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3
 aya-pink            = var(--ayame-pink)            // Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3
 aya-tertiary        = var(--ayame-tertiary)        // Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3
@@ -100,9 +102,10 @@ aya-teal300         = var(--ayame-teal300)         // Instance fields
 aya-instance        = var(--ayame-instance)        // Instance fields
 aya-teal100         = var(--ayame-teal100)        
 aya-cyan900         = var(--ayame-cyan900)        
-aya-cyan700         = var(--ayame-cyan700)         // Terminal Cyan, Classes
-aya-darkcyan        = var(--ayame-darkcyan)        // Terminal Cyan, Classes
-aya-class           = var(--ayame-class)           // Terminal Cyan, Classes
+aya-cyan700         = var(--ayame-cyan700)         // Terminal Cyan, Classes, Text markup heading, config section
+aya-darkcyan        = var(--ayame-darkcyan)        // Terminal Cyan, Classes, Text markup heading, config section
+aya-class           = var(--ayame-class)           // Terminal Cyan, Classes, Text markup heading, config section
+aya-section         = var(--ayame-section)         // Terminal Cyan, Classes, Text markup heading, config section
 aya-cyan300         = var(--ayame-cyan300)         // Static fields
 aya-static          = var(--ayame-static)          // Static fields
 aya-cyan100         = var(--ayame-cyan100)        
@@ -116,7 +119,8 @@ aya-blue300         = var(--ayame-blue300)
 aya-blue100         = var(--ayame-blue100)        
 aya-purple900       = var(--ayame-purple900)       // Active item
 aya-activeitem      = var(--ayame-activeitem)      // Active item
-aya-purple700       = var(--ayame-purple700)      
+aya-purple700       = var(--ayame-purple700)       // Invoked functions
+aya-invoke          = var(--ayame-invoke)          // Invoked functions
 aya-purple300       = var(--ayame-purple300)       // Active item text, Named argument
 aya-activeitemtext  = var(--ayame-activeitemtext)  // Active item text, Named argument
 aya-purple100       = var(--ayame-purple100)      
@@ -231,6 +235,7 @@ aya-header          = var(--ayame-header)          // Modal header background
     --ayame-yellow          #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-character       #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-yellow500       #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
+    --ayame-cssclass        #f5cb40; /* Terminal Bright Yellow, Characters, HTML attributes, CSS classes, Markdown alt text, Markdown link anchors */
     --ayame-green           #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values */
     --ayame-added           #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values */
     --ayame-debug           #96e474; /* Terminal Bright Green, Git added, Debug, Strings, Header 5, Markdown italics, Property values */
@@ -258,16 +263,17 @@ aya-header          = var(--ayame-header)          // Modal header background
     --ayame-type            #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
     --ayame-blue500         #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
     --ayame-h1              #44a3f5; /* Terminal Bright Blue, Progress bars, Git modified, Hyperlinks, Keywords, Type, Header 1 */
-    --ayame-purple          #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-darkmagenta     #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-secondary       #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-function        #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-fun             #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-attribute       #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-code            #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-purple500       #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-h2              #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
-    --ayame-key             #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2 */
+    --ayame-purple          #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-darkmagenta     #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-secondary       #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-function        #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-fun             #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-attribute       #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-code            #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-purple500       #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-h2              #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-key             #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
+    --ayame-cssid           #9768f8; /* Terminal Magenta, Debug token keys, Property keys, Functions, Attributes, Markdown plain code blocks, Header 2, CSS ID */
     --ayame-magenta         #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
     --ayame-pink            #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
     --ayame-tertiary        #f76ef1; /* Terminal Bright Magenta, Debug token values, Focus accents, Operator keywords, Markdown bold, Header 3 */
@@ -309,9 +315,10 @@ aya-header          = var(--ayame-header)          // Modal header background
     --ayame-instance        #9bffce; /* Instance fields */
     --ayame-teal100         #e2fffa;
     --ayame-cyan900         #437e86;
-    --ayame-cyan700         #41bac8; /* Terminal Cyan, Classes */
-    --ayame-darkcyan        #41bac8; /* Terminal Cyan, Classes */
-    --ayame-class           #41bac8; /* Terminal Cyan, Classes */
+    --ayame-cyan700         #41bac8; /* Terminal Cyan, Classes, Text markup heading, config section */
+    --ayame-darkcyan        #41bac8; /* Terminal Cyan, Classes, Text markup heading, config section */
+    --ayame-class           #41bac8; /* Terminal Cyan, Classes, Text markup heading, config section */
+    --ayame-section         #41bac8; /* Terminal Cyan, Classes, Text markup heading, config section */
     --ayame-cyan300         #93ffff; /* Static fields */
     --ayame-static          #93ffff; /* Static fields */
     --ayame-cyan100         #daffff;
@@ -325,7 +332,8 @@ aya-header          = var(--ayame-header)          // Modal header background
     --ayame-blue100         #b0dbff;
     --ayame-purple900       #3c2865; /* Active item */
     --ayame-activeitem      #3c2865; /* Active item */
-    --ayame-purple700       #6f47bd;
+    --ayame-purple700       #6f47bd; /* Invoked functions */
+    --ayame-invoke          #6f47bd; /* Invoked functions */
     --ayame-purple300       #b38fff; /* Active item text, Named argument */
     --ayame-activeitemtext  #b38fff; /* Active item text, Named argument */
     --ayame-purple100       #c7b6ff;
